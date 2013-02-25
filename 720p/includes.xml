@@ -1927,7 +1927,7 @@
 	</include>
 	<include name="ButtonInfoDialogsCommonValuesInfo">
 		<height>40</height>
-		<width>103</width>
+		<width>135</width>
 		<textoffsetx>20</textoffsetx>
 		<font>Simplicity_18</font>
 		<textcolor>black</textcolor>

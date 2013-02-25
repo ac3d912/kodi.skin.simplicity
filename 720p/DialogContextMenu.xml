@@ -15,10 +15,10 @@
 			<posx>30</posx>
 			<posy>-3</posy>
 			<width>297</width>
-			<texture border="40">simplicity/infoscreen-popup.png</texture>
-<!-- 			<texture border="45,0,45,0">simplicity/dialog-context-bg.png</texture> -->
+<!-- 			<texture border="40">simplicity/infoscreen-popup.png</texture> -->
+			<texture border="45,0,45,0">simplicity/dialog-context-bg.png</texture>
 		</control>
-		<!--<control type="image" id="997">
+		<control type="image" id="997">
 			<description>background top image</description>
 			<posy>-3</posy>
 			<posx>30</posx>
@@ -32,12 +32,12 @@
 			<width>297</width>
 			<height>3</height>
 			<texture border="45,0,45,49">simplicity/dialog-context-bottom.png</texture>
-		</control>-->
+		</control>
 		<control type="button" id="1000">
 			<description>button template</description>
 			<posx>31.5</posx>
 			<posy>-</posy>
-			<width>294</width>
+			<width>297</width>
 			<height>40</height>
 			<font>Simplicity_24</font>
 			<align>center</align>

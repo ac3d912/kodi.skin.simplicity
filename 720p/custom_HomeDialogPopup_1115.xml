@@ -135,7 +135,7 @@
 					</focusedlayout>
 					<content>
 						<item id="1">
-							<label>TV GUIDE</label>
+							<label>$LOCALIZE[31141]</label>
 							<label2>-</label2>
 							<onclick>XBMC.ActivateWindow(1116)</onclick>
 							<onclick>Dialog.Close(1115)</onclick>
@@ -143,7 +143,7 @@
 							<thumb>-</thumb>
 						</item>
 						<item id="2">
-							<label>NEW ITEMS</label>
+							<label>$LOCALIZE[31140]</label>
 							<label2>-]</label2>
 							<onclick>XBMC.ActivateWindow(1112)</onclick>
 							<onclick>Dialog.Close(1115)</onclick>
@@ -151,7 +151,7 @@
 							<thumb>-</thumb>
 						</item>
 						<item id="3">
-							<label>FAVORITES</label>
+							<label>$LOCALIZE[31139]</label>
 							<label2>-]</label2>
 							<onclick>ActivateWindow(Favourites)</onclick>
 							<onclick>Dialog.Close(1115)</onclick>
@@ -159,7 +159,7 @@
 							<thumb>-</thumb>
 						</item>
 						<item id="4">
-							<label>APPS</label>
+							<label>$LOCALIZE[31137]</label>
 							<label2>-]</label2>
 							<onclick>ActivateWindow(AddonBrowser)</onclick>
 							<onclick>Dialog.Close(1115)</onclick>
@@ -167,15 +167,15 @@
 							<thumb>-</thumb>
 						</item>
 						<item id="5">
-							<label>SKIN SETTINGS</label>
+							<label>$LOCALIZE[31136]</label>
 							<label2>-]</label2>
-							<onclick>ActivateWindow(1111)</onclick>
+							<onclick>ActivateWindow(SkinSettings)</onclick>
 							<onclick>Dialog.Close(1115)</onclick>
 							<icon>-</icon>
 							<thumb>-</thumb>
 						</item>
 						<item id="6">
-							<label>SEARCH</label>
+							<label>$LOCALIZE[31138]</label>
 							<label2>-]</label2>
 							<onclick>Dialog.Close(1115)</onclick>
 							<onclick>ActivateWindow(1118)</onclick>
@@ -183,7 +183,7 @@
 							<thumb>-</thumb>
 						</item>
 						<item id="7">
-							<label>UPDATE VIDEO LIBRARY</label>
+							<label>$LOCALIZE[31142]</label>
 							<label2>-]</label2>
 							<onclick>Dialog.Close(1115)</onclick>
 							<onclick>XBMC.UpdateLibrary(video)</onclick>
@@ -191,7 +191,7 @@
 							<thumb>-</thumb>
 						</item>
 						<item id="8">
-							<label>UPDATE MUSIC LIBRARY</label>
+							<label>$LOCALIZE[31143]</label>
 							<label2>-]</label2>
 							<onclick>Dialog.Close(1115)</onclick>
 							<onclick>XBMC.UpdateLibrary(music)</onclick>

@@ -108,6 +108,15 @@
   <string id="31133">PATH TO ADDON</string>
   <string id="31134">Enable Custom Menu Item</string>
   <string id="31135">Enable Custom PICTURE Addon Button</string>
+  <string id="31136">SKIN SETTINGS</string>
+  <string id="31137">APPS</string>
+  <string id="31138">SEARCH</string>
+  <string id="31139">FAVORITES</string>
+  <string id="31140">NEW ITEMS</string>
+  <string id="31141">TV GUIDE</string>
+  <string id="31142">UPDATE VIDEO LIBRARY</string>
+  <string id="31143">UPDATE MUSIC LIBRARY</string>
+  <string id="31144">UPDATE VIDEO LIBRARY</string>
 
   <!-- Script labels -->
   <string id="31200">Shortcuts</string>
@@ -158,6 +167,18 @@
   <string id="31424">More Info</string>
   <string id="31425">Logos</string>
   <string id="31426">Live TV</string>
+  
+  
+  <string id="31427">Latest Albums</string>
+  <string id="31428">Random Song</string>
+  <string id="31429">Featured Movie</string>
+  <string id="31430">New Movies</string>
+  <string id="31431">Latest Movie</string>
+  <string id="31432">Latest Episode</string>
+  <string id="31433">Featured Episode</string>
+  <string id="31434">New Episodes</string>
+  
+  
   
 
   <!-- Description Labels  -->
