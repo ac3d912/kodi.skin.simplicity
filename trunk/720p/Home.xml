@@ -920,12 +920,13 @@
 				</item>
 				<item id="19">
 					<description>Search</description>
-					<label>SEARCH</label>
+					<label>$LOCALIZE[31138]</label>
 					<label2>$INFO[Control.GetLabel(675)]</label2>
 					<icon>special://skin/backgrounds/search.jpg</icon>
 					<thumb>icons/searchicon.png</thumb>
 					<visible>!Skin.HasSetting(HomeMenuNoSearchButton)</visible>
-					<onclick>XBMC.ActivateWindow(1118)</onclick>
+					<onclick>RunScript(script.globalsearch)</onclick>
+<!-- 					<onclick>XBMC.ActivateWindow(1118)</onclick> -->
 				</item>		
 				<item id="10">
 					<description>Settings</description>
@@ -1332,7 +1333,7 @@
 						<include>ButtonHomeSubCommonValuesHome</include>
 						<align>center</align>
 						<label>Add Shortcut</label>
-						<onclick>ActivateWindow(1111)</onclick>
+						<onclick>ActivateWindow(SkinSettings)</onclick>
 						<onclick>Control.SetFocus(9000,5) </onclick>
 					</control>	
 					<control type="button" id="90154">
@@ -1692,7 +1693,7 @@
 						<include>ButtonHomeSubCommonValuesHome</include>
 						<align>center</align>
 						<label>Add Shortcut</label>
-						<onclick>ActivateWindow(1111)</onclick>
+						<onclick>ActivateWindow(SkinSettings)</onclick>
 						<onclick>Control.SetFocus(9000,4) </onclick>
 					</control>	
 					<control type="button" id="90192">
