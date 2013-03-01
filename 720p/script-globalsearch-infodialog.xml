@@ -44,77 +44,166 @@
 				<aspectratio>scale</aspectratio>
 				<visible>IsEmpty(Control.GetLabel(199))</visible>
 			</control>
-			<control type="label">
-				<posx>40</posx>
-				<posy>58</posy>
-				<width>1200</width>
+			<control type = "label">
+				<description>header label</description>
+				<posx>510</posx>
+				<posy>20</posy>
+				<width>700</width>
 				<height>30</height>
-				<font>font24_title</font>
-				<label>-</label>
-				<align>center</align>
+				<font>Simplicity_40</font>
+				<label>[B]$INFO[Container(100).Listitem.Label][/B]</label>
+				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>FFFFFFFF</textcolor>
-				<shadowcolor>FF000000</shadowcolor>
-				<label>$INFO[Container(100).ListItem.Label]</label>
-			</control>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>			
 			<control type="image">
-				<posx>40</posx>
-				<posy>93</posy>
-				<width>1200</width>
-				<height>4</height>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>480</width>
+				<height>720</height>
 				<aspectratio>stretch</aspectratio>
-				<texture>separator.png</texture>
-			</control>
-			<control type="image">
-				<posx>50</posx>
-				<posy>108</posy>
-				<width>360</width>
-				<height>360</height>
-				<aspectratio>keep</aspectratio>
 				<texture>$INFO[Container(100).ListItem.Icon]</texture>
 				<bordertexture border="3">simplicity/folder-focus.png</bordertexture>
 				<bordersize>3</bordersize>
+				<visible>Control.IsVisible(110)</visible>
+			</control>
+			<control type="image">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>480</width>
+				<height>720</height>
+				<aspectratio>stretch</aspectratio>
+				<texture>$INFO[Container(100).ListItem.Icon]</texture>
+				<bordertexture border="3">simplicity/folder-focus.png</bordertexture>
+				<bordersize>3</bordersize>
+				<visible>Control.IsVisible(140)</visible>
+			</control>
+			<control type="image">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>480</width>
+				<height>720</height>
+				<aspectratio>stretch</aspectratio>
+				<texture>$INFO[Container(100).ListItem.Icon]</texture>
+				<bordertexture border="3">simplicity/folder-focus.png</bordertexture>
+				<bordersize>3</bordersize>
+				<visible>Control.IsVisible(150)</visible>
+			</control>
+			<control type="image">
+				<description>Star</description>
+				<posx>510</posx>
+				<posy>60</posy>
+				<width>150</width>
+				<height>30</height>
+				<texture>$INFO[Container(100).ListItem.Property(Rating),flags/stars/,.png]</texture>
+			</control>
+			<control type = "fadelabel">
+				<posx>880</posx>
+				<posy>65</posy>
+				<width>101</width>
+				<height>30</height>
+				<font>Simplicity_20</font>
+				<textcolor>white</textcolor>
+				<scroll>false</scroll>
+				<scrollspeed>0</scrollspeed>
+				<align>left</align>
+				<aligny>center</aligny>
+				<label>$INFO[Container(100).ListItem.Property(Duration)] mins</label>
+				<visible>!Skin.HasSetting(NoMinutes)</visible>
+				<visible>Control.IsVisible(110) | Control.IsVisible(140) | Control.IsVisible(150) |  Control.IsVisible(180)</visible>
+			</control>
+			<control type = "grouplist">
+				<visible>Control.IsVisible(110)</visible>
+				<description>MPAA Flagging Conditions Images</description>
+				<posx>685</posx>
+				<posy>28</posy>
+				<width>190</width>
+				<align>left</align>
+				<itemgap>0</itemgap>
+				<colordiffuse>80FFFFFF</colordiffuse>
+				<orientation>horizontal</orientation>
+				  <control type="image">
+				    <description>Rated G</description>
+				    <width>190</width>
+				    <height>103</height>
+				    <aspectratio>keep</aspectratio>
+				    <texture>studios/mpaa_general.png</texture>
+				    <visible>substring(Container(100).Listitem.Property(mpaa),Rated G)</visible>
+				  </control>
+				  <control type="image">
+					  <description>Rated PG</description>
+					  <width>190</width>
+					  <height>103</height>
+					  <aspectratio>keep</aspectratio>
+					  <texture>studios/mpaa_pg.png</texture>
+					  <visible>substring(Container(100).Listitem.Property(mpaa),Rated PG f)</visible>
+				  </control>
+				  <control type="image">
+					  <description>Rated PG-13</description>
+					  <width>190</width>
+					  <height>103</height>
+					  <aspectratio>keep</aspectratio>
+					  <texture>studios/mpaa_pg13.png</texture>
+					  <visible>substring(Container(100).Listitem.Property(mpaa),Rated PG-13)</visible>
+				  </control>
+				  <control type="image">
+					  <description>Rated R</description>
+					  <width>190</width>
+					  <height>103</height>
+					  <aspectratio>keep</aspectratio>
+					  <texture>studios/mpaa_restricted.png</texture>
+					  <visible>substring(Container(100).Listitem.Property(mpaa),Rated R)</visible>
+				  </control>
+				  <control type="image">
+					  <description>Rated NC-17</description>
+					  <width>190</width>
+					  <height>103</height>
+					  <aspectratio>keep</aspectratio>
+					  <texture>studios/mpaa_nc17.png</texture>
+					  <visible>substring(Container(100).Listitem.Property(mpaa),Rated NC)</visible>
+				  </control>
 			</control>
 			<control type="group">
-				<posx>450</posx>
+				<posx>630</posx>
 				<visible>Control.IsVisible(110) | Control.IsVisible(140) | Control.IsVisible(150)</visible>
 				<control type="image">
-					<posx>80</posx>
-					<posy>425</posy>
-					<width>48</width>
-					<height>36</height>
+					<posx>0</posx>
+					<posy>109</posy>
+					<width>76</width>
+					<height>50</height>
 					<aspectratio>keep</aspectratio>
 					<texture>flags/video/$INFO[Container(100).ListItem.Property(VideoResolution),,.png]</texture>
 				</control>
 				<control type="image">
-					<posx>130</posx>
-					<posy>425</posy>
-					<width>75</width>
-					<height>36</height>
+					<posx>85</posx>
+					<posy>109</posy>
+					<width>76</width>
+					<height>50</height>
 					<aspectratio>keep</aspectratio>
 					<texture>flags/video/$INFO[Container(100).ListItem.Property(VideoCodec),,.png]</texture>
 				</control>
 				<control type="image">
-					<posx>207</posx>
-					<posy>425</posy>
-					<width>48</width>
-					<height>36</height>
+					<posx>170</posx>
+					<posy>109</posy>
+					<width>76</width>
+					<height>50</height>
 					<aspectratio>keep</aspectratio>
 					<texture>flags/aspectratio/$INFO[Container(100).ListItem.Property(VideoAspect),,.png]</texture>
 				</control>
 				<control type="image">
-					<posx>257</posx>
-					<posy>425</posy>
-					<width>75</width>
-					<height>36</height>
+					<posx>255</posx>
+					<posy>109</posy>
+					<width>76</width>
+					<height>50</height>
 					<aspectratio>keep</aspectratio>
 					<texture>flags/audio/$INFO[Container(100).ListItem.Property(AudioCodec),,.png]</texture>
 				</control>
 				<control type="image">
-					<posx>334</posx>
-					<posy>425</posy>
-					<width>48</width>
-					<height>36</height>
+					<posx>340</posx>
+					<posy>109</posy>
+					<width>76</width>
+					<height>50</height>
 					<aspectratio>keep</aspectratio>
 					<texture>flags/audio/$INFO[Container(100).ListItem.Property(AudioChannels),,.png]</texture>
 				</control>
@@ -1159,7 +1248,21 @@
 				<aspectratio>stretch</aspectratio>
 				<texture>separator.png</texture>
 			</control>
-			<control type="textbox">
+			<control type = "textbox" id = "400">
+				<description>Description Value for Movies</description>
+				<posx>510</posx>
+				<posy>170</posy>
+				<width>700</width>
+				<height>167</height>
+				<font>Simplicity_20</font>
+				<align>justify</align>
+				<textcolor>white</textcolor>
+				<pagecontrol>195</pagecontrol>
+				<label>$INFO[Container(100).ListItem.Property(Plot)]</label>
+				<autoscroll time = "3000" delay = "4000" repeat = "5000">Skin.HasSetting(AutoScroll)</autoscroll>
+				<visible>Control.IsVisible(110) | Control.IsVisible(120) | Control.IsVisible(140) | Control.IsVisible(150)</visible>
+			</control>
+			<!--<control type="textbox">
 				<posx>60</posx>
 				<posy>488</posy>
 				<width>1160</width>
@@ -1171,7 +1274,7 @@
 				<label>$INFO[Container(100).ListItem.Property(Plot)]</label>
 				<autoscroll time="3000" delay="20000" repeat="5000">true</autoscroll>
 				<visible>Control.IsVisible(110) | Control.IsVisible(120) | Control.IsVisible(140) | Control.IsVisible(150)</visible>
-			</control>
+			</control>-->
 			<control type="textbox">
 				<posx>60</posx>
 				<posy>488</posy>
