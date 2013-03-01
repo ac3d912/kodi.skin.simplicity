@@ -163,43 +163,44 @@
 						<texturefocus>osdnexttrackfo.png</texturefocus>
 						<texturenofocus>osdnexttracknf.png</texturenofocus>
 						<onleft>604</onleft>
-						<onright>703</onright>
+						<onright>704</onright>
 						<onup>605</onup>
 						<ondown>605</ondown>
 						<onclick>PlayerControl(Next)</onclick>
 					</control>
 				</control>
-				<control type="button" id="703">
-					<posx>550</posx>
-					<posy>2</posy>
-					<width>45</width>
-					<height>45</height>
-					<label>-</label>
-					<texturefocus>osddvdfo.png</texturefocus>
-					<texturenofocus>osddvdnf.png</texturenofocus>
-					<onleft>605</onleft>
-					<onright>704</onright>
-					<onup>703</onup>
-					<ondown>703</ondown>
-					<onclick>PlayerControl(ShowVideoMenu)</onclick>
-					<enable>VideoPlayer.HasMenu</enable>
-					<animation effect="fade" start="100" end="30" time="100" condition="!VideoPlayer.HasMenu">Conditional</animation>
-				</control>
+				
 				<control type="button" id="704">
-					<posx>600</posx>
+					<posx>550</posx>
 					<posy>2</posy>
 					<width>45</width>
 					<height>45</height>
 					<label>-</label>
 					<texturefocus>osdrecordfo.png</texturefocus>
 					<texturenofocus>osdrecordnf.png</texturenofocus>
-					<onleft>703</onleft>
-					<onright>700</onright>
+					<onleft>605</onleft>
+					<onright>705</onright>
 					<onup>704</onup>
 					<ondown>704</ondown>
 					<onclick>XBMC.PlayerControl(record)</onclick>
-					<enable>Player.CanRecord</enable>
+<!-- 					<enable>Player.CanRecord</enable> -->
 					<animation effect="fade" start="100" end="30" time="100" condition="!Player.CanRecord">Conditional</animation>
+				</control>
+				<control type="button" id="705">
+					<posx>600</posx>
+					<posy>2</posy>
+					<width>45</width>
+					<height>45</height>
+					<label>-</label>
+					<texturefocus>osddvdfo.png</texturefocus>
+					<texturenofocus>osddvdnf.png</texturenofocus>
+					<onleft>704</onleft>
+					<onright>700</onright>
+					<onup>705</onup>
+					<ondown>705</ondown>
+					<onclick>PlayerControl(ShowVideoMenu)</onclick>
+					<enable>VideoPlayer.HasMenu</enable>
+					<animation effect="fade" start="100" end="30" time="100" condition="!VideoPlayer.HasMenu">Conditional</animation>
 				</control>
 			</control>
 		</control>
