@@ -72,12 +72,23 @@
 				<posx>0</posx>
 				<posy>0</posy>
 				<width>480</width>
-				<height>720</height>
+				<height>270</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>$INFO[Container(100).ListItem.Icon]</texture>
 				<bordertexture border="3">simplicity/folder-focus.png</bordertexture>
 				<bordersize>3</bordersize>
 				<visible>Control.IsVisible(140)</visible>
+			</control>
+			<control type="image">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>480</width>
+				<height>480</height>
+				<aspectratio>stretch</aspectratio>
+				<texture>$INFO[Container(100).ListItem.Icon]</texture>
+				<bordertexture border="2">simplicity/thumbborder.png</bordertexture>
+				<bordersize>2</bordersize>
+				<visible>Control.IsVisible(160)|Control.IsVisible(180)</visible>
 			</control>
 			<control type="image">
 				<posx>0</posx>
@@ -117,52 +128,52 @@
 				<visible>Control.IsVisible(110)</visible>
 				<description>MPAA Flagging Conditions Images</description>
 				<posx>685</posx>
-				<posy>28</posy>
-				<width>190</width>
+				<posy>55</posy>
+				<width>130</width>
 				<align>left</align>
 				<itemgap>0</itemgap>
 				<colordiffuse>80FFFFFF</colordiffuse>
 				<orientation>horizontal</orientation>
-				  <control type="image">
-				    <description>Rated G</description>
-				    <width>190</width>
-				    <height>103</height>
-				    <aspectratio>keep</aspectratio>
-				    <texture>studios/mpaa_general.png</texture>
-				    <visible>substring(Container(100).Listitem.Property(mpaa),Rated G)</visible>
-				  </control>
-				  <control type="image">
-					  <description>Rated PG</description>
-					  <width>190</width>
-					  <height>103</height>
-					  <aspectratio>keep</aspectratio>
-					  <texture>studios/mpaa_pg.png</texture>
-					  <visible>substring(Container(100).Listitem.Property(mpaa),Rated PG f)</visible>
-				  </control>
-				  <control type="image">
-					  <description>Rated PG-13</description>
-					  <width>190</width>
-					  <height>103</height>
-					  <aspectratio>keep</aspectratio>
-					  <texture>studios/mpaa_pg13.png</texture>
-					  <visible>substring(Container(100).Listitem.Property(mpaa),Rated PG-13)</visible>
-				  </control>
-				  <control type="image">
-					  <description>Rated R</description>
-					  <width>190</width>
-					  <height>103</height>
-					  <aspectratio>keep</aspectratio>
-					  <texture>studios/mpaa_restricted.png</texture>
-					  <visible>substring(Container(100).Listitem.Property(mpaa),Rated R)</visible>
-				  </control>
-				  <control type="image">
-					  <description>Rated NC-17</description>
-					  <width>190</width>
-					  <height>103</height>
-					  <aspectratio>keep</aspectratio>
-					  <texture>studios/mpaa_nc17.png</texture>
-					  <visible>substring(Container(100).Listitem.Property(mpaa),Rated NC)</visible>
-				  </control>
+				      <control type="image">
+					      <description>Rated G</description>
+					      <width>130</width>
+					      <height>45</height>
+					      <aspectratio>keep</aspectratio>
+					      <texture>studios/mpaa_general.png</texture>
+					      <visible>substring(Container(100).Listitem.Property(mpaa),Rated G)</visible>
+				      </control>
+				      <control type="image">
+					      <description>Rated PG</description>
+					      <width>130</width>
+					      <height>45</height>
+					      <aspectratio>keep</aspectratio>
+					      <texture>studios/mpaa_pg.png</texture>
+					      <visible>substring(Container(100).Listitem.Property(mpaa),Rated PG f)</visible>
+				      </control>
+				      <control type="image">
+					      <description>Rated PG-13</description>
+					      <width>130</width>
+					      <height>45</height>
+					      <aspectratio>keep</aspectratio>
+					      <texture>studios/mpaa_pg13.png</texture>
+					      <visible>substring(Container(100).Listitem.Property(mpaa),Rated PG-13)</visible>
+				      </control>
+				      <control type="image">
+					      <description>Rated R</description>
+					      <width>130</width>
+					      <height>45</height>
+					      <aspectratio>keep</aspectratio>
+					      <texture>studios/mpaa_restricted.png</texture>
+					      <visible>substring(Container(100).Listitem.Property(mpaa),Rated R)</visible>
+				      </control>
+				      <control type="image">
+					      <description>Rated NC-17</description>
+					      <width>130</width>
+					      <height>45</height>
+					      <aspectratio>keep</aspectratio>
+					      <texture>studios/mpaa_nc17.png</texture>
+					      <visible>substring(Container(100).Listitem.Property(mpaa),Rated NC)</visible>
+				      </control>
 			</control>
 			<control type="group">
 				<posx>630</posx>
@@ -211,9 +222,9 @@
 			<control type="group" id="101">
 				<control type="list" id="110">
 					<posx>430</posx>
-					<posy>118</posy>
+					<posy>400</posy>
 					<width>800</width>
-					<height>330</height>
+					<height>230</height>
 					<onleft>110</onleft>
 					<onright>110</onright>
 					<onup>190</onup>
@@ -305,37 +316,37 @@
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Year))</visible>
 						</item>
-						<item>
+						<!--<item>
 							<label>$LOCALIZE[2050]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Duration),, $LOCALIZE[12391]]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Duration)) + !SubString(Container(100).ListItem.Property(Duration),min)</visible>
-						</item>
-						<item>
+						</item>-->
+						<!--<item>
 							<label>$LOCALIZE[2050]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Duration)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Duration)) + SubString(Container(100).ListItem.Property(Duration),min)</visible>
-						</item>
-						<item>
+						</item>-->
+						<!--<item>
 							<label>$LOCALIZE[563]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Rating)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Rating))</visible>
-						</item>
+						</item>-->
 						<item>
 							<label>$LOCALIZE[202]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(TagLine)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(TagLine))</visible>
 						</item>
-						<item>
+						<!--<item>
 							<label>$LOCALIZE[203]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(PlotOutline)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(PlotOutline))</visible>
-						</item>
-						<item>
+						</item>-->
+						<!--<item>
 							<label>$LOCALIZE[20074]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Mpaa)]</label2>
 							<onclick>-</onclick>
@@ -346,13 +357,13 @@
 							<label2>$INFO[Container(100).ListItem.Property(Playcount)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Playcount))</visible>
-						</item>
-						<item>
+						</item>-->
+						<!--<item>
 							<label>$LOCALIZE[15311]</label>
 							<label2>$INFO[Container(100).ListItem.Property(Path)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Path))</visible>
-						</item>
+						</item>-->
 					</content>
 				</control>
 				<control type="list" id="120">
@@ -873,7 +884,7 @@
 							<width>625</width>
 							<height>30</height>
 							<font>font13</font>
-							<align>left</align>
+							<align>justify</align>
 							<aligny>center</aligny>
 							<textcolor>FFFFFFFF</textcolor>
 							<selectedcolor>FFFFFFFF</selectedcolor>
@@ -907,7 +918,7 @@
 							<width>625</width>
 							<height>30</height>
 							<font>font13</font>
-							<align>left</align>
+							<align>justify</align>
 							<aligny>center</aligny>
 							<textcolor>FFFFFFFF</textcolor>
 							<selectedcolor>FFFFFFFF</selectedcolor>
@@ -1240,14 +1251,14 @@
 					</content>
 				</control>
 			</control>
-			<control type="image">
+			<!--<control type="image">
 				<posx>40</posx>
 				<posy>478</posy>
 				<width>1200</width>
 				<height>4</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>separator.png</texture>
-			</control>
+			</control>-->
 			<control type = "textbox" id = "400">
 				<description>Description Value for Movies</description>
 				<posx>510</posx>
@@ -1276,13 +1287,13 @@
 				<visible>Control.IsVisible(110) | Control.IsVisible(120) | Control.IsVisible(140) | Control.IsVisible(150)</visible>
 			</control>-->
 			<control type="textbox">
-				<posx>60</posx>
-				<posy>488</posy>
-				<width>1160</width>
-				<height>100</height>
-				<font>font12</font>
+				<posx>510</posx>
+				<posy>170</posy>
+				<width>700</width>
+				<height>167</height>
+				<font>Simplicity_20</font>
 				<align>justify</align>
-				<textcolor>FFFFFFFF</textcolor>
+				<textcolor>white</textcolor>
 				<pagecontrol>195</pagecontrol>
 				<label>$INFO[Container(100).ListItem.Property(Artist_Description)]</label>
 				<autoscroll time="3000" delay="20000" repeat="5000">true</autoscroll>
@@ -1333,8 +1344,8 @@
 				<textcolor>-</textcolor>
 			</control>
 			<control type="grouplist" id="190">
-				<posx>40</posx>
-				<posy>618</posy>
+				<posx>180</posx>
+				<posy>658</posy>
 				<width>1200</width>
 				<height>40</height>
 				<itemgap>2</itemgap>
