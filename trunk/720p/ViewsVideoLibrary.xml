@@ -757,15 +757,7 @@
 								<visible>![!Skin.HasSetting(EnableWatchedIconMovies) + Container.Content(Movies)]</visible>
 								<aspectratio>stretch</aspectratio>
 							</control>
-							
-							<!--<control type="image">
-								<posx>720</posx>
-								<posy>400</posy>
-								<width>400</width>
-								<height>155</height>
-								<aspectratio>keep</aspectratio>
-								<texture background="true">$INFO[ListItem.Path]logo.png</texture> 
-							</control>-->
+					
 						</focusedlayout>						     
 					</control>	
 					<control type="group">
@@ -924,7 +916,7 @@
 								<width>400</width>
 								<height>155</height>
 								<aspectratio>keep</aspectratio>
-								<texture background="true">$INFO[ListItem.Path,,logo.png]</texture>
+								<texture background="true">$INFO[ListItem.Art(clearlogo)]</texture>
 								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 								<visible>Container.Content(Movies)|Container.Content(TVShows)</visible>
 							</control>
@@ -1181,7 +1173,7 @@
 								<width>400</width>
 								<height>155</height>
 								<aspectratio>keep</aspectratio>
-								<texture background="true">$INFO[ListItem.Path,,logo.png]</texture>
+								<texture background="true">$INFO[ListItem.Art(clearlogo)]</texture>
 								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 								<visible>Container.Content(Movies)|Container.Content(TVShows)</visible>
 							</control>
@@ -2486,7 +2478,7 @@
 							<width>310</width>
 							<height>145</height>
 							<aligny>center</aligny>
-							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,logo.png]</texture>
+							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
 							<aspectratio>keep</aspectratio>
 							<animation effect="fade" start="100" end="40" time="0" condition="Control.HasFocus(536)">conditional</animation>
 							<animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(536)">conditional</animation>
@@ -2512,7 +2504,7 @@
 							<width>310</width>
 							<height>145</height>
 							<aligny>center</aligny>
-							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,logo.png]</texture>
+							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
 							<animation effect="zoom" end="140" center="auto" time="200">Focus</animation> 
 							<aspectratio>keep</aspectratio>
 							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
@@ -2672,7 +2664,7 @@
 						<aligny>center</aligny>
 						<aspectratio>stretch</aspectratio>
 						<fadetime>200</fadetime>
-						<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,logo.png]</texture>
+						<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
 						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>			
 					<control type="image">
@@ -3291,7 +3283,7 @@
 					<posy>140</posy>
 					<width>384</width>
 					<height>216</height>
-					<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,clearart.png]</texture>
+					<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearart)]</texture>
 					<animation effect="fade" start="0" end="100" time="400" delay="200" reversible="false">Focus</animation>
 					<fadetime>IconCrossfadeTime</fadetime>
 				</control>
@@ -6279,7 +6271,7 @@
 						<posy>140</posy>
 						<width>384</width>
 						<height>216</height>
-						<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,clearart.png]</texture>
+						<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearart)]</texture>
 						<fadetime>IconCrossfadeTime</fadetime>								
 						<visible>Skin.HasSetting(UseClearart558)</visible>
 					</control>
@@ -6572,7 +6564,7 @@
 					<width>400</width>
 					<height>155</height>
 					<aligny>bottom</aligny>
-					<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,logo.png]</texture>
+					<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
 					<aspectratio>keep</aspectratio>
 					<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					<fadetime>IconCrossfadeTime</fadetime>
@@ -6664,7 +6656,7 @@
 								<posy>116</posy> 
 								<width>214</width>
 								<height>83</height>
-								<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,logo.png]</texture>
+								<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
 								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 							</control>
 							<control type="image">
@@ -6842,7 +6834,7 @@
 								<posy>116</posy> 
 								<width>214</width>
 								<height>83</height>
-								<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,logo.png]</texture>
+								<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
 								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 								<animation type="Focus" reversible="false">
 									<effect type="fade" start="100" end="0"  time="300" delay="1050"/>
@@ -6854,7 +6846,7 @@
 								<posy>116</posy> 
 								<width>214</width>
 								<height>83</height>
-								<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,logo.png]</texture>
+								<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
 								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 								<visible>Skin.HasSetting(NoGridFade)</visible>
 							</control>
@@ -7665,7 +7657,7 @@
 							<width>400</width>
 							<height>155</height>
 							<aligny>center</aligny>
-							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,logo.png]</texture>
+							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
 							<aspectratio>keep</aspectratio>
 				<fadetime>IconCrossfadeTime</fadetime>
 						</control>
@@ -9275,7 +9267,7 @@
 							<width>400</width>
 							<height>155</height>
 							<aligny>center</aligny>
-							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,logo.png]</texture>
+							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
 							<aspectratio>keep</aspectratio>
 				<fadetime>IconCrossfadeTime</fadetime>
 						</control>
@@ -9317,7 +9309,7 @@
 							<width>400</width>
 							<height>155</height>
 							<aligny>center</aligny>
-							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,logo.png]</texture>
+							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
 							<aspectratio>keep</aspectratio>
 						</control>
 					<control type="label">
@@ -11351,7 +11343,7 @@
 							<posy>110</posy> 
 							<width>240</width>
 							<height>240</height>
-							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,logo.png]</texture>
+							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
 							<aspectratio>keep</aspectratio>
 							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						</control>
@@ -11600,7 +11592,7 @@
 							<width>267</width>
 							<height>125</height>
 							<aligny>center</aligny>
-							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,logo.png]</texture>
+							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
 							<aspectratio>keep</aspectratio>
 							<animation effect="fade" start="100" end="40" time="0" condition="Control.HasFocus(570)">conditional</animation>
 							<animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(570)">conditional</animation>
@@ -11637,7 +11629,7 @@
 							<width>267</width>
 							<height>125</height>
 							<aligny>center</aligny>
-							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,logo.png]</texture>
+							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
 							<animation reversible="false" effect="zoom" end="160" center="auto" time="200">Focus</animation> 
 							<aspectratio>keep</aspectratio>
 							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>

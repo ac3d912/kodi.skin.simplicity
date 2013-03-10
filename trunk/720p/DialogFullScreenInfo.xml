@@ -848,21 +848,10 @@
 					    <width>240</width>
 					    <height>139</height>
 					    <aspect>keep</aspect>
-					    <texture fallback="blank.png">$INFO[Player.FolderPath]../clearart.png</texture>
-    <!-- 					<texture>$INFO[VideoPlayer.Cover]</texture> -->
+					    <texture fallback="blank.png">$INFO[Player.Art(tvshow.clearart)]</texture>
 					    <bordertexture border="3">simplicity/folder-focus.png</bordertexture>
 					    <bordersize>3</bordersize>
 				    </control>
-				    <control type="image" id="991">
-					<posx>-150</posx>
-					<posy>23</posy>
-					<width>240</width>
-					<height>139</height>	
-					<aspect>keep</aspect>
-					<texture fallback="blank.png">$INFO[Player.FolderPath]/clearart.png</texture>				
-					<bordertexture border="3">simplicity/folder-focus.png</bordertexture>
-					    <bordersize>3</bordersize>
-				</control>
 				<control type="image">				  
 					<posx>-150</posx>
 					<posy>23</posy>
@@ -872,8 +861,7 @@
 					<texture>$INFO[VideoPlayer.Cover]</texture>
 					<bordertexture border="3">simplicity/folder-focus.png</bordertexture>
 					<bordersize>3</bordersize>
-					<visible>StringCompare(Control.GetLabel(990),blank.png)
-                 + StringCompare(Control.GetLabel(991),blank.png)</visible>					
+					<visible>StringCompare(Control.GetLabel(990),blank.png)</visible>					
 				</control>
 			      </control>
 				<control type="textbox">
@@ -960,16 +948,7 @@
 						<lefttexture border="6,0,0,0">simplicity/progress-left.png</lefttexture>
 						<midtexture border="6,0,6,0">simplicity/osd-front.png</midtexture>
 					</control>	
-				<!--<control type="largeimage">
-					<posx>220</posx>
-					<posy>100</posy> 
-					<width>226</width>
-					<height>127</height>
-					<align>center</align>
-					<aligny>bottom</aligny>
-					<texture background="true">$INFO[Player.FolderPath]../clearart.png</texture> 
-					<visible>Skin.HasSetting(ClearartOnInfoScreen)</visible>
-				</control>-->
+
 				<control type="grouplist">
 					<description>Media Codec Flagging Images</description>
 					<posx>1000</posx>
