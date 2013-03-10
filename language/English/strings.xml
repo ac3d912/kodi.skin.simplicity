@@ -67,6 +67,13 @@
 <string id="31071">Premiered</string>
 <string id="31072">Status</string>
 <string id="31073">Runtime</string>
+<string id="31074">Get Images</string>
+<string id="31075">Download media for Movies and TV Shows</string>
+<string id="31076">TV Theme Song Downloader</string>
+<string id="31077">Get Tunes</string>
+<string id="31078">*EXPERT Option</string>
+<string id="31079">Important Information</string>
+<string id="31080">This feature will add an *EXPERT button to the Video Info Screen for TV Shows.  It will give you the ability to create a custom list of shows that will automatically prompt you to delete them after you have watched an episode.</string>
 
 
   

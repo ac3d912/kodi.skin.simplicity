@@ -1,4 +1,4 @@
-<window id="1111">
+<window>
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<controls>
 
@@ -5521,7 +5521,7 @@
 							<width>750</width>
 							<height>45</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>TV Show Image Downloader</label>
+							<label>$LOCALIZE[31075]</label>
 							<textcolor>yellow</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
@@ -5541,14 +5541,15 @@
 							<height>40</height>
 							<align>center</align>
 							<aligny>center</aligny>
-							<label>Get Images</label>
+							<label>$LOCALIZE[31074]</label>
 							<textcolor>black</textcolor>
 							<focusedcolor>black</focusedcolor>
 							<shadowcolor>grey2</shadowcolor>
 							<texturenofocus border="5">simplicity/button-nofocus.png</texturenofocus>
 							<texturefocus border="5">simplicity/button-focus-white.png</texturefocus>
 							<font>Simplicity_20_Bold_title</font>
-							<onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, mediatype=tvshow, characterart, clearlogo, tvthumb, poster, banner, clearart)</onclick>
+							<onclick>XBMC.RunScript(script.artwork.downloader)</onclick>
+<!-- 							<onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, mediatype=tvshow, characterart, clearlogo, tvthumb, poster, banner, clearart)</onclick> -->
 						</control>
 						<control type="textbox" id="2014">
 							<width>900</width>
@@ -5563,7 +5564,7 @@
 							<width>750</width>
 							<height>45</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>TV Theme Song Downloader</label>
+							<label>$LOCALIZE[31076]</label>
 							<textcolor>yellow</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
@@ -5583,7 +5584,7 @@
 							<height>40</height>
 							<align>center</align>
 							<aligny>center</aligny>
-							<label>Get Tunes</label>
+							<label>$LOCALIZE[31077]</label>
 							<textcolor>black</textcolor>
 							<focusedcolor>black</focusedcolor>
 							<shadowcolor>grey2</shadowcolor>
@@ -5605,7 +5606,7 @@
 							<width>750</width>
 							<height>55</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>*EXPERT Option</label>
+							<label>$LOCALIZE[31078]</label>
 							<textcolor>yellow</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
@@ -5615,7 +5616,7 @@
 							<width>900</width>
 							<height>45</height>
 							<font>Simplicity_20</font>
-							<label>Important Information</label>
+							<label>$LOCALIZE[31079]</label>
 							<textcolor>red</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
@@ -5625,7 +5626,7 @@
 							<width>900</width>
 							<height>80</height>
 							<font>Simplicity_20</font>
-							<label>This feature will add an *EXPERT button to the Video Info Screen for TV Shows.  It will give you the ability to create a custom list of shows that will automatically prompt you to delete them after you have watched an episode.</label>
+							<label>$LOCALIZE[31080]</label>
 							<textcolor>grey2</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>

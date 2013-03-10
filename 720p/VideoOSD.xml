@@ -183,7 +183,7 @@
 					<onup>704</onup>
 					<ondown>704</ondown>
 					<onclick>XBMC.PlayerControl(record)</onclick>
-<!-- 					<enable>Player.CanRecord</enable> -->
+					<enable>Player.CanRecord</enable>
 					<animation effect="fade" start="100" end="30" time="100" condition="!Player.CanRecord">Conditional</animation>
 				</control>
 				<control type="button" id="705">
