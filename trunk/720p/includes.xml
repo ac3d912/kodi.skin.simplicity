@@ -159,6 +159,15 @@
 			<texture>simplicity/background-overlay.png</texture>
 		</control>
 	</include>
+	<include name="Overlay_Solid">
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1290</width>
+			<height>730</height>
+			<texture>simplicity/background-solid.png</texture>
+		</control>
+	</include>
 
 	<include name="SideBladeLeft">
 		<control type="image">
@@ -701,36 +710,6 @@
 		</control>
 	</include>
 
-	<include name="NetflixCrumbs">
-		<control type="label">
-			<description>Title label</description>
-			<posx>490</posx>
-			<posy>40</posy>
-			<height>20</height>
-			<width>275</width>
-			<label>Files</label>
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>Simplicity_50</font>
-			<textcolor>white</textcolor>
-			<shadowcolor>black</shadowcolor>
-			<include>TopSlide</include>
-		</control>	
-		<control type="label">
-			<description>Title label</description>
-			<posx>600</posx>
-			<posy>49</posy>
-			<height>20</height>
-			<width>275</width>
-			<label>by $INFO[Container().ViewMode], $INFO[ListItem.TrackNumber] | $INFO[Container().NumItems]</label>
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>Simplicity_20</font>
-			<textcolor>grey2</textcolor>
-			<include>TopSlide</include>
-		</control>	
-	</include>
-
 	<include name="MusicVideoCrumbs">
 		<control type="group">
 			<visible>!Skin.HasSetting(DisableBreadCrumbs)</visible>
@@ -740,7 +719,7 @@
 				<posy>40</posy>
 				<height>20</height>
 				<width>315</width>
-				<label>Music Videos</label>
+				<label>$LOCALIZE[31081]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_50</font>
@@ -848,7 +827,7 @@
 				<posy>40</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Files</label>
+				<label>$LOCALIZE[31082]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_50</font>
@@ -880,7 +859,7 @@
 				<posy>40</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Trailers</label>
+				<label>$LOCALIZE[31083]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_50</font>
@@ -912,7 +891,7 @@
 				<posy>40</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Addons</label>
+				<label>$LOCALIZE[31084]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_50</font>
@@ -944,7 +923,7 @@
 				<posy>40</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Genres</label>
+				<label>$LOCALIZE[31085]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_50</font>
@@ -976,7 +955,7 @@
 				<posy>40</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Pictures</label>
+				<label>$LOCALIZE[31086]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_50</font>
@@ -1022,7 +1001,7 @@
 				<posy>40</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Movies</label>
+				<label>$LOCALIZE[31087]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_50</font>
@@ -1056,7 +1035,7 @@
 				<posy>40</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>TV Shows</label>
+				<label>$LOCALIZE[31088]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_50</font>
@@ -1190,7 +1169,7 @@
 				<posy>40</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Albums</label>
+				<label>$LOCALIZE[31089]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_50</font>
@@ -1224,7 +1203,7 @@
 				<posy>40</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Songs</label>
+				<label>$LOCALIZE[31090]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_50</font>
@@ -1258,7 +1237,7 @@
 				<posy>40</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Artists</label>
+				<label>$LOCALIZE[31091]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_50</font>
@@ -1293,7 +1272,7 @@
 				<posy>40</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Actors</label>
+				<label>$LOCALIZE[31092]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_50</font>
@@ -1337,7 +1316,7 @@
 				<posy>675</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>View Options</label>
+				<label>$LOCALIZE[31050]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_20</font>
@@ -1363,7 +1342,7 @@
 				<posy>675</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>View Options</label>
+				<label>$LOCALIZE[31050]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_20</font>
@@ -1389,7 +1368,7 @@
 				<posy>675</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>TV Guide</label>
+				<label>$LOCALIZE[31093]</label>
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>Simplicity_20</font>
@@ -1430,7 +1409,7 @@
 				<posy>675</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Scroll</label>
+				<label>$LOCALIZE[31094]</label>
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>Simplicity_20</font>
@@ -1457,7 +1436,7 @@
 				<posy>675</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>TV Guide</label>
+				<label>$LOCALIZE[31093]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_20</font>
@@ -1483,7 +1462,7 @@
 				<posy>675</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Shortcuts</label>
+				<label>$LOCALIZE[31200]</label>
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>Simplicity_20</font>
@@ -1510,7 +1489,7 @@
 				<posy>675</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Recent Items</label>
+				<label>$LOCALIZE[31095]</label>
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>Simplicity_20</font>
@@ -1536,7 +1515,7 @@
 				<posy>675</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Recent Items</label>
+				<label>$LOCALIZE[31095]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_20</font>
@@ -1562,7 +1541,7 @@
 				<posy>675</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Shortcuts</label>
+				<label>$LOCALIZE[31200]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_20</font>
@@ -2399,7 +2378,7 @@
 				<posy>-35</posy>
 				<height>20</height>
 				<width>1260</width>
-				<label>Now Playing</label>
+				<label>$LOCALIZE[31040]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_35_UltraThin</font>
@@ -2469,7 +2448,7 @@
 				<posy>-35</posy>
 				<height>20</height>
 				<width>1260</width>
-				<label>Now Playing</label>
+				<label>$LOCALIZE[31040]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_35_UltraThin</font>
@@ -2569,7 +2548,7 @@
 				<posy>-30</posy>
 				<height>20</height>
 				<width>1260</width>
-				<label>Now Playing</label>
+				<label>$LOCALIZE[31040]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_26</font>
@@ -3496,7 +3475,7 @@
 			<scroll>false</scroll>
 			<align>left</align>
 			<aligny>center</aligny>
-			<label>Director: [COLOR=white]$INFO[ListItem.Director][/COLOR]</label>
+			<label>$LOCALIZE[31096]: [COLOR=white]$INFO[ListItem.Director][/COLOR]</label>
 			<visible>!Container.Content(TVShows)</visible>
 		</control>
 	</control>
@@ -3554,7 +3533,7 @@
 			<scroll>false</scroll>
 			<scrollspeed>0</scrollspeed>
 			<align>left</align>
-			<label>Created by: [COLOR=grey2]$INFO[ListItem.Property(Addon.Creator)][/COLOR]</label>
+			<label>$LOCALIZE[31097]: [COLOR=grey2]$INFO[ListItem.Property(Addon.Creator)][/COLOR]</label>
 							<visible>!StringCompare(ListItem.label,Get More...)</visible>
 		</control>
 		<control type="label">
@@ -3568,7 +3547,7 @@
 			<scroll>false</scroll>
 			<scrollspeed>0</scrollspeed>
 			<align>left</align>
-			<label>Version: [COLOR=grey2]$INFO[ListItem.Property(Addon.Version)][/COLOR]  Type: [COLOR=grey2]$INFO[ListItem.Property(Addon.Type)][/COLOR]</label>
+			<label>$LOCALIZE[31098]: [COLOR=grey2]$INFO[ListItem.Property(Addon.Version)][/COLOR]  $LOCALIZE[31099]: [COLOR=grey2]$INFO[ListItem.Property(Addon.Type)][/COLOR]</label>
 							<visible>!StringCompare(ListItem.label,Get More...)</visible>
 		</control>
 		<control type="textbox">
@@ -3590,7 +3569,7 @@
 			<font>Simplicity_20</font>
 			<textcolor>white</textcolor>
 			<align>left</align>
-			<label>Download more addons from an XBMC repo.</label>
+			<label>$LOCALIZE[31145]</label>
 							<visible>StringCompare(ListItem.label,Get More...)</visible>
 		</control>
 	</control>
@@ -3720,7 +3699,7 @@
 			<textcolor>white</textcolor>
 			<shadowcolor>black</shadowcolor>
 			<align>left</align>
-			<label>$INFO[ListItem.Property(TotalEpisodes)] episodes - $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
+			<label>$INFO[ListItem.Property(TotalEpisodes)] $LOCALIZE[31146] - $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 			<visible>Container.Content(Seasons)</visible>
 		</control>		
 		<control type="grouplist">
@@ -3756,7 +3735,7 @@
 			<shadowcolor>black</shadowcolor>
 			<scroll>false</scroll>
 			<align>left</align>
-			<label>[COLOR=yellow]Year:[/COLOR]  $INFO[ListItem.Year]   [COLOR=yellow]Runtime:[/COLOR]  $INFO[ListItem.Duration] Minutes</label>
+			<label>[COLOR=yellow]$LOCALIZE[31148]:[/COLOR]  $INFO[ListItem.Year]   [COLOR=yellow]$LOCALIZE[31073]:[/COLOR]  $INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 			<visible>Container.Content(Movies) + !Skin.HasSetting(NoMinutes)</visible>
 		</control>
 		<control type="label">
@@ -3769,7 +3748,7 @@
 			<shadowcolor>black</shadowcolor>
 			<scroll>false</scroll>
 			<align>left</align>
-			<label>[COLOR=yellow]Year:[/COLOR]  $INFO[ListItem.Year]   [COLOR=yellow]Runtime:[/COLOR]  $INFO[ListItem.Duration] Minutes</label>
+			<label>[COLOR=yellow]$LOCALIZE[31148]:[/COLOR]  $INFO[ListItem.Year]   [COLOR=yellow]$LOCALIZE[31073]:[/COLOR]  $INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 			<visible>Container.Content(Movies) + Skin.HasSetting(NoMinutes)</visible>
 		</control>
 		<control type="label">
@@ -3782,7 +3761,7 @@
 			<shadowcolor>black</shadowcolor>
 			<scroll>false</scroll>
 			<align>left</align>
-			<label>[COLOR=yellow]Year:[/COLOR]  $INFO[ListItem.Year]   [COLOR=yellow]Genre:[/COLOR] $INFO[ListItem.Genre]</label>
+			<label>[COLOR=yellow]$LOCALIZE[31148]:[/COLOR]  $INFO[ListItem.Year]   [COLOR=yellow]$LOCALIZE[31070]:[/COLOR] $INFO[ListItem.Genre]</label>
 			<visible>Container.Content(TVShows)</visible>
 		</control>
 		<control type="label">
@@ -3795,7 +3774,7 @@
 			<shadowcolor>black</shadowcolor>
 			<scroll>false</scroll>
 			<align>left</align>
-			<label>[COLOR=yellow]Originally Aired:[/COLOR]  $INFO[ListItem.Premiered]</label>
+			<label>[COLOR=yellow]$LOCALIZE[31150]:[/COLOR]  $INFO[ListItem.Premiered]</label>
 			<visible>Container.Content(Episodes)</visible>
 		</control>
 		<control type="label">
@@ -3808,7 +3787,7 @@
 			<shadowcolor>black</shadowcolor>
 			<scroll>false</scroll>
 			<align>left</align>
-			<label>[COLOR=yellow]Genre:[/COLOR] $INFO[ListItem.Genre]</label>
+			<label>[COLOR=yellow]$LOCALIZE[31070]:[/COLOR] $INFO[ListItem.Genre]</label>
 			<visible>Container.Content(Seasons)</visible>
 		</control>
 		<control type="textbox">
