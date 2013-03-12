@@ -14,6 +14,7 @@
 		<effect type="fade" start="100" end="0" time="300" />
 	</animation>
 	<controls>
+	  <include>Overlay_Solid</include>
 		<control type="group" id="100">
 			<!--<control type="image">
 				<posx>12</posx>

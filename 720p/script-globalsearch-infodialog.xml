@@ -72,12 +72,23 @@
 				<posx>0</posx>
 				<posy>0</posy>
 				<width>480</width>
-				<height>270</height>
+				<height>720</height>
 				<aspectratio>stretch</aspectratio>
-				<texture>$INFO[Container(100).ListItem.Icon]</texture>
+				<texture>$INFO[Container(100).ListItem.Property(Art(poster))]</texture>
 				<bordertexture border="3">simplicity/folder-focus.png</bordertexture>
 				<bordersize>3</bordersize>
-				<visible>Control.IsVisible(140)</visible>
+				<visible>Control.IsVisible(120)+Skin.HasSetting(TvShowsUsePosters)</visible>
+			</control>
+			<control type="image">
+				<posx>50</posx>
+				<posy>50</posy>
+				<width>300</width>
+				<height>60</height>
+				<aspectratio>stretch</aspectratio>
+				<texture background="true" diffuse="banner-diffuse.png">$INFO[Container(100).ListItem.Property(Art(banner))]</texture>
+				<bordertexture border="3">simplicity/folder-focus.png</bordertexture>
+				<bordersize>3</bordersize>
+				<visible>Control.IsVisible(120)+!Skin.HasSetting(TvShowsUsePosters)</visible>
 			</control>
 			<control type="image">
 				<posx>0</posx>
@@ -110,7 +121,7 @@
 				<texture>$INFO[Container(100).ListItem.Property(Rating),flags/stars/,.png]</texture>
 			</control>
 			<control type = "fadelabel">
-				<posx>880</posx>
+				<posx>830</posx>
 				<posy>65</posy>
 				<width>101</width>
 				<height>30</height>
@@ -173,6 +184,57 @@
 					      <aspectratio>keep</aspectratio>
 					      <texture>studios/mpaa_nc17.png</texture>
 					      <visible>substring(Container(100).Listitem.Property(mpaa),Rated NC)</visible>
+				      </control>
+			</control>
+			<control type = "grouplist">
+				<visible>Control.IsVisible(120)</visible>
+				<description>TV MPAA Flagging Conditions Images</description>
+				<posx>685</posx>
+				<posy>55</posy>
+				<width>130</width>
+				<align>left</align>
+				<itemgap>0</itemgap>
+				<colordiffuse>80FFFFFF</colordiffuse>
+				<orientation>horizontal</orientation>
+				      <control type="image">
+					      <description>Rated G</description>
+					      <width>130</width>
+					      <height>45</height>
+					      <aspectratio>keep</aspectratio>
+					      <texture>tvrating/tv-g.png</texture>
+					      <visible>substring(Container(100).Listitem.Property(mpaa),TV-G)</visible>
+				      </control>
+				      <control type="image">
+					      <description>Rated PG</description>
+					      <width>130</width>
+					      <height>45</height>
+					      <aspectratio>keep</aspectratio>
+					      <texture>tvrating/tv-pg.png</texture>
+					      <visible>substring(Container(100).Listitem.Property(mpaa),TV-PG)</visible>
+				      </control>
+				      <control type="image">
+					      <description>Rated Y</description>
+					      <width>130</width>
+					      <height>45</height>
+					      <aspectratio>keep</aspectratio>
+					      <texture>tvrating/tv-y.png</texture>
+					      <visible>substring(Container(100).Listitem.Property(mpaa),TV-Y)</visible>
+				      </control>
+				      <control type="image">
+					      <description>Rated MA</description>
+					      <width>130</width>
+					      <height>45</height>
+					      <aspectratio>keep</aspectratio>
+					      <texture>tvrating/tv-ma.png</texture>
+					      <visible>substring(Container(100).Listitem.Property(mpaa),TV-MA)</visible>
+				      </control>
+				      <control type="image">
+					      <description>Rated TV14</description>
+					      <width>130</width>
+					      <height>45</height>
+					      <aspectratio>keep</aspectratio>
+					      <texture>tvrating/tv-14.png</texture>
+					      <visible>substring(Container(100).Listitem.Property(mpaa),TV-14)</visible>
 				      </control>
 			</control>
 			<control type="group">

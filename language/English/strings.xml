@@ -74,6 +74,26 @@
 <string id="31078">*EXPERT Option</string>
 <string id="31079">Important Information</string>
 <string id="31080">This feature will add an *EXPERT button to the Video Info Screen for TV Shows.  It will give you the ability to create a custom list of shows that will automatically prompt you to delete them after you have watched an episode.</string>
+<string id="31081">Music Videos</string>
+<string id="31082">Files</string>
+<string id="31083">Trailers</string>
+<string id="31084">Addons</string>
+<string id="31085">Genres</string>
+<string id="31086">Pictures</string>
+<string id="31087">Movies</string>
+<string id="31088">TV Shows</string>
+<string id="31089">Albums</string>
+<string id="31090">Songs</string>
+<string id="31091">Artists</string>
+<string id="31092">Actors</string>
+<string id="31093">TV Guide</string>
+<string id="31094">Scroll</string>
+<string id="31095">Recent Items</string>
+<string id="31096">Director</string>
+<string id="31097">Created by</string>
+<string id="31098">Version</string>
+<string id="31099">Type</string>
+
 
 
   
@@ -124,6 +144,12 @@
   <string id="31142">UPDATE VIDEO LIBRARY</string>
   <string id="31143">UPDATE MUSIC LIBRARY</string>
   <string id="31144">UPDATE VIDEO LIBRARY</string>
+  <string id="31145">Download more addons from an XBMC repo.</string>
+  <string id="31146">episodes</string>
+  <string id="31147">unwatched</string>
+  <string id="31148">year</string>
+  <string id="31149">Minutes</string>
+  <string id="31150">Originally Aired</string>
 
   <!-- Script labels -->
   <string id="31200">Shortcuts</string>
