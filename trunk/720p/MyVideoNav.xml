@@ -625,7 +625,7 @@
 					<animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(29)">Conditional</animation>			
 					<animation effect="zoom" end="106" center="auto">Focus</animation>
 					<onclick>Container.SetViewMode(561)</onclick>
-					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TvShowsUsePosters)] | [Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TvShowsUsePosters)]</visible>
 				</control>
 				<control type="button" id="30">
 					<description>Fanart List</description>
@@ -651,7 +651,7 @@
 					<animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(31)">Conditional</animation>			
 					<animation effect="zoom" end="106" center="auto">Focus</animation>
 					<onclick>Container.SetViewMode(504)</onclick>
-					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TvShowsUsePosters)] | [Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TvShowsUsePosters)]</visible>
 				</control>
 				<control type="button" id="32">
 					<description>Landscape Grid</description>
@@ -747,7 +747,7 @@
 					<animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(38)">Conditional</animation>			
 					<animation effect="zoom" end="106" center="auto">Focus</animation>
 					<onclick>Container.SetViewMode(540)</onclick>
-					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters) | Container.Content(Seasons)] | [Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters) | Container.Content(Seasons)]</visible>
 				</control>
 				<control type="button" id="39">
 					<description>Poster Slide</description>
@@ -760,7 +760,7 @@
 					<animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(39)">Conditional</animation>			
 					<animation effect="zoom" end="106" center="auto">Focus</animation>
 					<onclick>Container.SetViewMode(506)</onclick>
-					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters) | Container.Content(Seasons)] | [Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters) | Container.Content(Seasons)]</visible>
 				</control>
 
 				<control type="button" id="40">
@@ -923,7 +923,7 @@
 					<animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(52)">Conditional</animation>	
 					<animation effect="zoom" end="106" center="auto">Focus</animation>		
 					<onclick>Container.SetViewMode(555)</onclick>		
-					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TvShowsUsePosters)] | [Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>					
+					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TvShowsUsePosters)]</visible>					
 				</control>
 				<control type="button" id="53">
 					<description>Rows</description>
@@ -936,7 +936,7 @@
 					<animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(53)">Conditional</animation>	
 					<animation effect="zoom" end="106" center="auto">Focus</animation>		
 					<onclick>Container.SetViewMode(556)</onclick>		
-					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TvShowsUsePosters)] | [Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>			
+					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TvShowsUsePosters)]</visible>			
 				</control>
 
 			</control>

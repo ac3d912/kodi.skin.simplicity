@@ -67,7 +67,7 @@
 <string id="31071">Premiered</string>
 <string id="31072">Status</string>
 <string id="31073">Runtime</string>
-<string id="31074">Get Images</string>
+<string id="31074">Get Images (Movies)</string>
 <string id="31075">Download media for Movies and TV Shows</string>
 <string id="31076">TV Theme Song Downloader</string>
 <string id="31077">Get Tunes</string>
@@ -121,7 +121,7 @@
   <string id="31120">BUTTON LABEL</string>
   <string id="31121">PATH TO PROGRAM</string>
   <string id="31122">Weather Page</string>
-  <string id="31123">Use "Posters" instead of "Banners" for TV Shows</string>
+  <string id="31123">Prefer "Posters" for TV Shows in Video Info screen</string>
   <string id="31124">Show Background "Now Playing" Video</string>
   <string id="31125">Show Background "Now Playing" Visualization</string>
 
@@ -150,6 +150,16 @@
   <string id="31148">year</string>
   <string id="31149">Minutes</string>
   <string id="31150">Originally Aired</string>
+  <string id="31151">Episodes</string>
+  <string id="31152">Writer</string>
+  <string id="31153">By</string>
+  <string id="31154">Duration</string>
+  <string id="31155">Get Images (TV Shows)</string>
+  <string id="31156">Use TV Theme Songs</string>
+  <string id="31157">The Artwork Downloader Addon is Required</string>
+  <string id="31158">The TV Tunes Addon is Required</string>
+  <string id="31159">by</string>
+  
 
   <!-- Script labels -->
   <string id="31200">Shortcuts</string>

@@ -1,4 +1,12 @@
 <window>
+  
+<!--  INFORMATION
+  LIST 110 : MOVIES
+  LIST 120 : TV SHOWS
+  LIST 140 : EPISODES
+  LIST 160 : ARTISTS
+  LIST 170 : ALBUMS
+  LIST 180 : SONGS-->
 	<defaultcontrol>-</defaultcontrol>
 	<coordinates>
 		<system>1</system>
@@ -34,7 +42,7 @@
 				<aspectratio>scale</aspectratio>
 				<texture>$INFO[Container(100).ListItem.Property(Fanart_Image)]</texture>
 			</control>-->
-			<control type="image">
+			<!--<control type="image">
 				<posx>20</posx>
 				<posy>48</posy>
 				<width>1240</width>
@@ -43,7 +51,7 @@
 				<colordiffuse>4FFFFFFF</colordiffuse>
 				<aspectratio>scale</aspectratio>
 				<visible>IsEmpty(Control.GetLabel(199))</visible>
-			</control>
+			</control>-->
 			<control type = "label">
 				<description>header label</description>
 				<posx>510</posx>
@@ -55,8 +63,53 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>	
+				<visible>!Control.IsVisible(110)</visible>
+			</control>
+			<control type = "label">
+				<description>header label</description>
+				<posx>510</posx>
+				<posy>20</posy>
+				<width>700</width>
+				<height>30</height>
+				<font>Simplicity_40</font>
+				<label>[B]$INFO[Container(100).Listitem.Label], $INFO[Container(100).Listitem..Property(Year)][/B]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>	
+				<visible>Control.IsVisible(110)</visible>
+			</control>
+			<control type = "label">
+				<description>header label</description>
+				<posx>510</posx>
+				<posy>60</posy>
+				<width>700</width>
+				<height>30</height>
+				<font>Simplicity_40</font>
+				<label>$INFO[Container(100).ListItem.Property(TVShowTitle)]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>white</textcolor>
 				<shadowcolor>black</shadowcolor>
-			</control>			
+				<visible>Control.IsVisible(140)</visible>
+			</control>
+			
+			<control type = "label">
+				<description>header label</description>
+				<posx>510</posx>
+				<posy>60</posy>
+				<width>700</width>
+				<height>30</height>
+				<font>Simplicity_40</font>
+				<label>[B]$LOCALIZE[31159] $INFO[Container(100).ListItem.Property(Artist)][/B]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<visible>Control.IsVisible(170)|Control.IsVisible(180)</visible>
+			</control>
+			
 			<control type="image">
 				<posx>0</posx>
 				<posy>0</posy>
@@ -79,50 +132,68 @@
 				<bordersize>3</bordersize>
 				<visible>Control.IsVisible(120)+Skin.HasSetting(TvShowsUsePosters)</visible>
 			</control>
-			<control type="image">
-				<posx>50</posx>
-				<posy>50</posy>
-				<width>300</width>
-				<height>60</height>
+			
+			<control type = "image">
+				<posx>8</posx>
+				<posy>57</posy>
+				<width>474</width>
+				<height>104</height>
 				<aspectratio>stretch</aspectratio>
-				<texture background="true" diffuse="banner-diffuse.png">$INFO[Container(100).ListItem.Property(Art(banner))]</texture>
+				<texture background = "true" diffuse = "simplicity/bannerdiffuse.png">simplicity/banner-shadow7.png</texture>
+				<visible>Control.IsVisible(120)+!Skin.HasSetting(TvShowsUsePosters)</visible>
+			</control>
+			<control type = "image">
+				<posx>10</posx>
+				<posy>55</posy>
+				<width>470</width>
+				<height>100</height>
+				<aspectratio>stretch</aspectratio>
+				<texture background = "true" diffuse = "simplicity/bannerdiffuse.png">$INFO[Container(100).ListItem.Property(Art(banner))]</texture>
+				<visible>Control.IsVisible(120)+!Skin.HasSetting(TvShowsUsePosters)</visible>
+			</control>
+			<control type = "image">
+				<posx>10</posx>
+				<posy>55</posy>
+				<width>470</width>
+				<height>100</height>
+				<aspectratio>stretch</aspectratio>
+				<texture background = "true" diffuse = "simplicity/bannerdiffuse.png">simplicity/banner-gloss.png</texture>				
+				<visible>Control.IsVisible(120)+!Skin.HasSetting(TvShowsUsePosters)</visible>
+			</control>		
+			
+			<control type="image">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>480</width>
+				<height>270</height>
+				<aspectratio>keep</aspectratio>
+				<texture>$INFO[Container(100).ListItem.Icon]</texture>
 				<bordertexture border="3">simplicity/folder-focus.png</bordertexture>
 				<bordersize>3</bordersize>
-				<visible>Control.IsVisible(120)+!Skin.HasSetting(TvShowsUsePosters)</visible>
+				<visible>Control.IsVisible(140)</visible>
 			</control>
 			<control type="image">
 				<posx>0</posx>
 				<posy>0</posy>
 				<width>480</width>
 				<height>480</height>
-				<aspectratio>stretch</aspectratio>
-				<texture>$INFO[Container(100).ListItem.Icon]</texture>
-				<bordertexture border="2">simplicity/thumbborder.png</bordertexture>
-				<bordersize>2</bordersize>
-				<visible>Control.IsVisible(160)|Control.IsVisible(180)</visible>
-			</control>
-			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
-				<width>480</width>
-				<height>720</height>
-				<aspectratio>stretch</aspectratio>
+				<aspectratio>keep</aspectratio>
 				<texture>$INFO[Container(100).ListItem.Icon]</texture>
 				<bordertexture border="3">simplicity/folder-focus.png</bordertexture>
 				<bordersize>3</bordersize>
-				<visible>Control.IsVisible(150)</visible>
+				<visible>Control.IsVisible(150)|Control.IsVisible(160)|Control.IsVisible(170)|Control.IsVisible(180)</visible>
 			</control>
 			<control type="image">
 				<description>Star</description>
 				<posx>510</posx>
-				<posy>60</posy>
+				<posy>105</posy>
 				<width>150</width>
 				<height>30</height>
 				<texture>$INFO[Container(100).ListItem.Property(Rating),flags/stars/,.png]</texture>
 			</control>
 			<control type = "fadelabel">
 				<posx>830</posx>
-				<posy>65</posy>
+				<posy>105</posy>
 				<width>101</width>
 				<height>30</height>
 				<font>Simplicity_20</font>
@@ -133,7 +204,7 @@
 				<aligny>center</aligny>
 				<label>$INFO[Container(100).ListItem.Property(Duration)] mins</label>
 				<visible>!Skin.HasSetting(NoMinutes)</visible>
-				<visible>Control.IsVisible(110) | Control.IsVisible(140) | Control.IsVisible(150) |  Control.IsVisible(180)</visible>
+				<visible>Control.IsVisible(110) | Control.IsVisible(140) | Control.IsVisible(150)</visible>
 			</control>
 			<control type = "grouplist">
 				<visible>Control.IsVisible(110)</visible>
@@ -151,7 +222,7 @@
 					      <height>45</height>
 					      <aspectratio>keep</aspectratio>
 					      <texture>studios/mpaa_general.png</texture>
-					      <visible>substring(Container(100).Listitem.Property(mpaa),Rated G)</visible>
+					      <visible>substring(Container(100).Listitem.Property(Mpaa),Rated G)</visible>
 				      </control>
 				      <control type="image">
 					      <description>Rated PG</description>
@@ -159,7 +230,7 @@
 					      <height>45</height>
 					      <aspectratio>keep</aspectratio>
 					      <texture>studios/mpaa_pg.png</texture>
-					      <visible>substring(Container(100).Listitem.Property(mpaa),Rated PG f)</visible>
+					      <visible>substring(Container(100).Listitem.Property(Mpaa),Rated PG f)</visible>
 				      </control>
 				      <control type="image">
 					      <description>Rated PG-13</description>
@@ -167,7 +238,7 @@
 					      <height>45</height>
 					      <aspectratio>keep</aspectratio>
 					      <texture>studios/mpaa_pg13.png</texture>
-					      <visible>substring(Container(100).Listitem.Property(mpaa),Rated PG-13)</visible>
+					      <visible>substring(Container(100).Listitem.Property(Mpaa),Rated PG-13)</visible>
 				      </control>
 				      <control type="image">
 					      <description>Rated R</description>
@@ -175,7 +246,7 @@
 					      <height>45</height>
 					      <aspectratio>keep</aspectratio>
 					      <texture>studios/mpaa_restricted.png</texture>
-					      <visible>substring(Container(100).Listitem.Property(mpaa),Rated R)</visible>
+					      <visible>substring(Container(100).Listitem.Property(Mpaa),Rated R)</visible>
 				      </control>
 				      <control type="image">
 					      <description>Rated NC-17</description>
@@ -183,14 +254,14 @@
 					      <height>45</height>
 					      <aspectratio>keep</aspectratio>
 					      <texture>studios/mpaa_nc17.png</texture>
-					      <visible>substring(Container(100).Listitem.Property(mpaa),Rated NC)</visible>
+					      <visible>substring(Container(100).Listitem.Property(Mpaa),Rated NC)</visible>
 				      </control>
 			</control>
 			<control type = "grouplist">
-				<visible>Control.IsVisible(120)</visible>
+				<visible>Control.IsVisible(120)|Control.IsVisible(140)</visible>
 				<description>TV MPAA Flagging Conditions Images</description>
 				<posx>685</posx>
-				<posy>55</posy>
+				<posy>85</posy>
 				<width>130</width>
 				<align>left</align>
 				<itemgap>0</itemgap>
@@ -202,7 +273,7 @@
 					      <height>45</height>
 					      <aspectratio>keep</aspectratio>
 					      <texture>tvrating/tv-g.png</texture>
-					      <visible>substring(Container(100).Listitem.Property(mpaa),TV-G)</visible>
+					      <visible>substring(Container(100).Listitem.Property(Mpaa),TV-G)</visible>
 				      </control>
 				      <control type="image">
 					      <description>Rated PG</description>
@@ -210,7 +281,7 @@
 					      <height>45</height>
 					      <aspectratio>keep</aspectratio>
 					      <texture>tvrating/tv-pg.png</texture>
-					      <visible>substring(Container(100).Listitem.Property(mpaa),TV-PG)</visible>
+					      <visible>substring(Container(100).Listitem.Property(Mpaa),TV-PG)</visible>
 				      </control>
 				      <control type="image">
 					      <description>Rated Y</description>
@@ -218,7 +289,7 @@
 					      <height>45</height>
 					      <aspectratio>keep</aspectratio>
 					      <texture>tvrating/tv-y.png</texture>
-					      <visible>substring(Container(100).Listitem.Property(mpaa),TV-Y)</visible>
+					      <visible>substring(Container(100).Listitem.Property(Mpaa),TV-Y)</visible>
 				      </control>
 				      <control type="image">
 					      <description>Rated MA</description>
@@ -226,7 +297,7 @@
 					      <height>45</height>
 					      <aspectratio>keep</aspectratio>
 					      <texture>tvrating/tv-ma.png</texture>
-					      <visible>substring(Container(100).Listitem.Property(mpaa),TV-MA)</visible>
+					      <visible>substring(Container(100).Listitem.Property(Mpaa),TV-MA)</visible>
 				      </control>
 				      <control type="image">
 					      <description>Rated TV14</description>
@@ -234,15 +305,16 @@
 					      <height>45</height>
 					      <aspectratio>keep</aspectratio>
 					      <texture>tvrating/tv-14.png</texture>
-					      <visible>substring(Container(100).Listitem.Property(mpaa),TV-14)</visible>
+					      <visible>substring(Container(100).Listitem.Property(Mpaa),TV-14)</visible>
 				      </control>
 			</control>
 			<control type="group">
 				<posx>630</posx>
+				<posy>150</posy>
 				<visible>Control.IsVisible(110) | Control.IsVisible(140) | Control.IsVisible(150)</visible>
 				<control type="image">
 					<posx>0</posx>
-					<posy>109</posy>
+<!-- 					<posy>109</posy> -->
 					<width>76</width>
 					<height>50</height>
 					<aspectratio>keep</aspectratio>
@@ -250,7 +322,7 @@
 				</control>
 				<control type="image">
 					<posx>85</posx>
-					<posy>109</posy>
+<!-- 					<posy>109</posy> -->
 					<width>76</width>
 					<height>50</height>
 					<aspectratio>keep</aspectratio>
@@ -258,7 +330,7 @@
 				</control>
 				<control type="image">
 					<posx>170</posx>
-					<posy>109</posy>
+<!-- 					<posy>109</posy> -->
 					<width>76</width>
 					<height>50</height>
 					<aspectratio>keep</aspectratio>
@@ -266,7 +338,7 @@
 				</control>
 				<control type="image">
 					<posx>255</posx>
-					<posy>109</posy>
+<!-- 					<posy>109</posy> -->
 					<width>76</width>
 					<height>50</height>
 					<aspectratio>keep</aspectratio>
@@ -274,16 +346,92 @@
 				</control>
 				<control type="image">
 					<posx>340</posx>
-					<posy>109</posy>
+<!-- 					<posy>109</posy> -->
 					<width>76</width>
 					<height>50</height>
 					<aspectratio>keep</aspectratio>
 					<texture>flags/audio/$INFO[Container(100).ListItem.Property(AudioChannels),,.png]</texture>
 				</control>
 			</control>
+			<control type="group">
+			  
+				<control type = "label">
+						<posx>510</posx>
+						<posy>375</posy>
+						<width>400</width>
+						<height>50</height>
+						<font>Simplicity_24_Bold</font>
+						<textcolor>yellow</textcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$LOCALIZE[31096]</label>
+						<visible>Control.IsVisible(110)|Control.IsVisible(140)</visible>
+					</control>
+					<control type = "label">
+						<posx>510</posx>
+						<posy>425</posy>
+						<width>280</width>
+						<height>30</height>
+						<font>Simplicity_20</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<textcolor>white</textcolor>
+						<info>Container(100).ListItem.Property(Director)</info>
+						<visible>Control.IsVisible(110)|Control.IsVisible(140)</visible>
+					</control>
+					<control type = "label">
+						<posx>510</posx>
+						<posy>475</posy>
+						<width>400</width>
+						<height>50</height>
+						<font>Simplicity_24_Bold</font>
+						<textcolor>yellow</textcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$LOCALIZE[31152]</label>
+						<visible>Control.IsVisible(110)</visible>
+					</control>
+					<control type = "label">
+						<posx>510</posx>
+						<posy>525</posy>
+						<width>280</width>
+						<height>30</height>
+						<font>Simplicity_20</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<textcolor>white</textcolor>
+						<info>Container(100).ListItem.Property(Writer)</info>
+						<visible>Control.IsVisible(110)</visible>
+					</control>
+					<control type = "label">
+						<posx>510</posx>
+						<posy>475</posy>
+						<width>400</width>
+						<height>50</height>
+						<font>Simplicity_24_Bold</font>
+						<textcolor>yellow</textcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$LOCALIZE[20416]</label>
+						<visible>Control.IsVisible(140)</visible>
+					</control>
+					<control type = "label">
+						<posx>510</posx>
+						<posy>525</posy>
+						<width>280</width>
+						<height>30</height>
+						<font>Simplicity_20</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<textcolor>white</textcolor>
+						<info>Container(100).ListItem.Property(Premiered)</info>
+						<visible>Control.IsVisible(140)</visible>
+					</control>
+				</control>
+			
 			<control type="group" id="101">
 				<control type="list" id="110">
-					<posx>430</posx>
+					<posx>445</posx>
 					<posy>400</posy>
 					<width>800</width>
 					<height>230</height>
@@ -354,7 +502,7 @@
 						</control>
 					</focusedlayout>
 					<content>
-						<item>
+						<!--<item>
 							<label>$LOCALIZE[20339]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Director)]</label2>
 							<onclick>-</onclick>
@@ -377,7 +525,7 @@
 							<label2>$INFO[Container(100).ListItem.Property(Year)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Year))</visible>
-						</item>
+						</item>-->
 						<!--<item>
 							<label>$LOCALIZE[2050]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Duration),, $LOCALIZE[12391]]</label2>
@@ -396,12 +544,12 @@
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Rating))</visible>
 						</item>-->
-						<item>
+						<!--<item>
 							<label>$LOCALIZE[202]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(TagLine)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(TagLine))</visible>
-						</item>
+						</item>-->
 						<!--<item>
 							<label>$LOCALIZE[203]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(PlotOutline)]</label2>
@@ -429,8 +577,8 @@
 					</content>
 				</control>
 				<control type="list" id="120">
-					<posx>430</posx>
-					<posy>118</posy>
+					<posx>445</posx>
+					<posy>400</posy>
 					<width>800</width>
 					<height>330</height>
 					<onleft>120</onleft>
@@ -506,12 +654,12 @@
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Episode))</visible>
 						</item>
-						<item>
+						<!--<item>
 							<label>$LOCALIZE[20416]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Premiered)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Premiered))</visible>
-						</item>
+						</item>-->
 						<item>
 							<label>$LOCALIZE[572]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Studio)]</label2>
@@ -530,19 +678,19 @@
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Year))</visible>
 						</item>
-						<item>
+						<!--<item>
 							<label>$LOCALIZE[563]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Rating)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Rating))</visible>
-						</item>
-						<item>
+						</item>-->
+						<!--<item>
 							<label>$LOCALIZE[20074]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Mpaa)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Mpaa))</visible>
-						</item>
-						<item>
+						</item>-->
+						<!--<item>
 							<label>$LOCALIZE[567]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Playcount)]</label2>
 							<onclick>-</onclick>
@@ -553,12 +701,12 @@
 							<label2>$INFO[Container(100).ListItem.Property(Path)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Path))</visible>
-						</item>
+						</item>-->
 					</content>
 				</control>
 				<control type="list" id="130">
-					<posx>430</posx>
-					<posy>118</posy>
+					<posx>445</posx>
+					<posy>408</posy>
 					<width>800</width>
 					<height>330</height>
 					<onleft>130</onleft>
@@ -634,7 +782,7 @@
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(TVShowTitle))</visible>
 						</item>
-						<item>
+						<!--<item>
 							<label>$LOCALIZE[20360]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Episode)]</label2>
 							<onclick>-</onclick>
@@ -651,12 +799,12 @@
 							<label2>$INFO[Container(100).ListItem.Property(Path)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Path))</visible>
-						</item>
+						</item>-->
 					</content>
 				</control>
 				<control type="list" id="140">
-					<posx>430</posx>
-					<posy>118</posy>
+					<posx>445</posx>
+					<posy>400</posy>
 					<width>800</width>
 					<height>330</height>
 					<onleft>140</onleft>
@@ -726,12 +874,12 @@
 						</control>
 					</focusedlayout>
 					<content>
-						<item>
+						<!--<item>
 							<label>$LOCALIZE[20364]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(TVShowTitle)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(TVShowTitle))</visible>
-						</item>
+						</item>-->
 						<item>
 							<label>$LOCALIZE[20373]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Season)]</label2>
@@ -744,7 +892,7 @@
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Episode))</visible>
 						</item>
-						<item>
+						<!--<item>
 							<label>$LOCALIZE[20339]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Director)]</label2>
 							<onclick>-</onclick>
@@ -755,14 +903,20 @@
 							<label2>$INFO[Container(100).ListItem.Property(Premiered)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Premiered))</visible>
-						</item>
-						<item>
+						</item>-->
+						<!--<item>
+							<label>$LOCALIZE[20074]:</label>
+							<label2>$INFO[Container(100).ListItem.Property(Mpaa)]</label2>
+							<onclick>-</onclick>
+							<visible>!IsEmpty(Container(100).ListItem.Property(Mpaa))</visible>
+						</item>-->
+						<!--<item>
 							<label>$LOCALIZE[2050]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Duration),, $LOCALIZE[12391]]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Duration)) + !SubString(Container(100).ListItem.Property(Duration),min)</visible>
-						</item>
-						<item>
+						</item>-->
+						<!--<item>
 							<label>$LOCALIZE[2050]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Duration)]</label2>
 							<onclick>-</onclick>
@@ -785,12 +939,12 @@
 							<label2>$INFO[Container(100).ListItem.Property(Path)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Path))</visible>
-						</item>
+						</item>-->
 					</content>
 				</control>
 				<control type="list" id="150">
-					<posx>430</posx>
-					<posy>118</posy>
+					<posx>445</posx>
+					<posy>400</posy>
 					<width>800</width>
 					<height>330</height>
 					<onleft>150</onleft>
@@ -917,8 +1071,8 @@
 					</content>
 				</control>
 				<control type="list" id="160">
-					<posx>430</posx>
-					<posy>118</posy>
+					<posx>445</posx>
+					<posy>400</posy>
 					<width>800</width>
 					<height>330</height>
 					<onleft>160</onleft>
@@ -1036,17 +1190,17 @@
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Genre))</visible>
 						</item>
-						<item>
+						<!--<item>
 							<label>$LOCALIZE[15311]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Path)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Path))</visible>
-						</item>
+						</item>-->
 					</content>
 				</control>
 				<control type="list" id="170">
-					<posx>430</posx>
-					<posy>118</posy>
+					<posx>445</posx>
+					<posy>400</posy>
 					<width>800</width>
 					<height>330</height>
 					<onleft>170</onleft>
@@ -1116,12 +1270,12 @@
 						</control>
 					</focusedlayout>
 					<content>
-						<item>
+						<!--<item>
 							<label>$LOCALIZE[557]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Artist)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Artist))</visible>
-						</item>
+						</item>-->
 						<item>
 							<label>$LOCALIZE[515]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Genre)]</label2>
@@ -1170,16 +1324,16 @@
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Year))</visible>
 						</item>
-						<item>
+						<!--<item>
 							<label>$LOCALIZE[15311]</label>
 							<label2>$INFO[Container(100).ListItem.Property(Path)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Path))</visible>
-						</item>
+						</item>-->
 					</content>
 				</control>
 				<control type="list" id="180">
-					<posx>430</posx>
+					<posx>445</posx>
 					<posy>118</posy>
 					<width>800</width>
 					<height>330</height>
@@ -1324,7 +1478,7 @@
 			<control type = "textbox" id = "400">
 				<description>Description Value for Movies</description>
 				<posx>510</posx>
-				<posy>170</posy>
+				<posy>230</posy>
 				<width>700</width>
 				<height>167</height>
 				<font>Simplicity_20</font>
@@ -1335,19 +1489,6 @@
 				<autoscroll time = "3000" delay = "4000" repeat = "5000">Skin.HasSetting(AutoScroll)</autoscroll>
 				<visible>Control.IsVisible(110) | Control.IsVisible(120) | Control.IsVisible(140) | Control.IsVisible(150)</visible>
 			</control>
-			<!--<control type="textbox">
-				<posx>60</posx>
-				<posy>488</posy>
-				<width>1160</width>
-				<height>100</height>
-				<font>font12</font>
-				<align>justify</align>
-				<textcolor>FFFFFFFF</textcolor>
-				<pagecontrol>195</pagecontrol>
-				<label>$INFO[Container(100).ListItem.Property(Plot)]</label>
-				<autoscroll time="3000" delay="20000" repeat="5000">true</autoscroll>
-				<visible>Control.IsVisible(110) | Control.IsVisible(120) | Control.IsVisible(140) | Control.IsVisible(150)</visible>
-			</control>-->
 			<control type="textbox">
 				<posx>510</posx>
 				<posy>170</posy>
@@ -1362,11 +1503,11 @@
 				<visible>Control.IsVisible(160)</visible>
 			</control>
 			<control type="textbox">
-				<posx>60</posx>
-				<posy>488</posy>
-				<width>1160</width>
-				<height>100</height>
-				<font>font12</font>
+				<posx>510</posx>
+				<posy>170</posy>
+				<width>700</width>
+				<height>167</height>
+				<font>Simplicity_20</font>
 				<align>justify</align>
 				<textcolor>FFFFFFFF</textcolor>
 				<pagecontrol>195</pagecontrol>

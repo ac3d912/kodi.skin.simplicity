@@ -59,7 +59,7 @@
 					<width>700</width>
 					<height>30</height>
 					<font>Simplicity_30_UltraThin</font>
-					<label>[COLOR=white]By:[/COLOR] $INFO[Listitem.Artist]</label>
+					<label>[COLOR=white]$LOCALIZE[31153]:[/COLOR] $INFO[Listitem.Artist]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<textcolor>grey2</textcolor>
@@ -215,7 +215,7 @@
 						<textcolor>yellow</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Director</label>
+						<label>$LOCALIZE[31096]</label>
 						<visible>!Skin.HasSetting(UseThumbsOnInfo) + !Control.HasFocus(50)</visible>
 					</control>
 					<control type = "label">
@@ -239,7 +239,7 @@
 						<textcolor>yellow</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Writer</label>
+						<label>$LOCALIZE[31152]</label>
 						<visible>!Skin.HasSetting(UseThumbsOnInfo) + !Control.HasFocus(50)</visible>
 					</control>
 					<control type = "label">
@@ -280,11 +280,11 @@
 				</control>
 				<!--TVshows with banners-->
 				<control type = "group">
-					<visible>!Container.Content(Seasons) + ![Container.Content(TVShows) + !StringCompare(Container.FolderPath,videodb://2/2/)]</visible>
-					<visible>!Container.Content(Episodes)</visible>
-					<visible>![Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters)]</visible>
+<!-- 					<visible>!Container.Content(Seasons) + ![Container.Content(TVShows) + !StringCompare(Container.FolderPath,videodb://2/2/)]</visible> -->
+<!-- 					<visible>!Container.Content(Episodes)</visible> -->
+					<visible>[Container.Content(TVShows) + !Skin.HasSetting(TVShowsUsePosters)]</visible>
 					<visible>!Container.Content(Movies)</visible>
-					<visible>![Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+<!-- 					<visible>![Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible> -->
 					<posy>-45</posy>
 					<posx>25</posx>
 					<include>VisibleFadeEffect</include>
@@ -303,7 +303,7 @@
 						<width>470</width>
 						<height>100</height>
 						<aspectratio>stretch</aspectratio>
-						<texture background = "true" diffuse = "simplicity/bannerdiffuse.png">$INFO[ListItem.Art(poster)]</texture>
+						<texture background = "true" diffuse = "simplicity/bannerdiffuse.png">$INFO[ListItem.Art(banner)]</texture>
 						<visible>!Container.Content(Seasons) + ![Container.Content(TVShows) + !StringCompare(Container.FolderPath,videodb://2/2/)] + !Container.Content(MusicVideos)</visible>
 					</control>
 					<control type = "image">
@@ -316,12 +316,12 @@
 						<visible>!Container.Content(Seasons) + ![Container.Content(TVShows) + !StringCompare(Container.FolderPath,videodb://2/2/)] + !Container.Content(MusicVideos)</visible>
 					</control>
 					<control type = "image">
-						<posx>20</posx>
-						<posy>250</posy>
+						<posx>30</posx>
+						<posy>300</posy>
 						<width>400</width>
 						<height>155</height>
 						<aligny>center</aligny>
-						<texture background = "true" fallback = "logo-fallback.png">$INFO[ListItem.FileNameAndPath]logo.png</texture>
+						<texture background = "true" fallback = "logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
 						<aspectratio>keep</aspectratio>
 						<visible>Skin.HasSetting(EnableClearartViews)</visible>
 					</control>
@@ -370,10 +370,7 @@
 						<textcolor>white</textcolor>
 						<pagecontrol>61</pagecontrol>
 						<label>$INFO[ListItem.Plot]</label>
-						<autoscroll
-                            time = "3000"
-                            delay = "4000"
-                            repeat = "5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
+						<autoscroll time = "3000" delay = "4000" repeat = "5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
 					</control>
 					<control type = "label">
 						<posx>910</posx>
@@ -384,7 +381,7 @@
 						<textcolor>yellow</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Episodes</label>
+						<label>$LOCALIZE[31151]</label>
 						<visible>!Control.HasFocus(50)</visible>
 					</control>
 					<control type = "label">
@@ -408,7 +405,7 @@
 						<textcolor>yellow</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Airing</label>
+						<label>$LOCALIZE[31067]</label>
 						<visible>!Control.HasFocus(50)</visible>
 					</control>
 					<control type = "group">
@@ -432,6 +429,7 @@
 				</control>
 				<control type = "group">
 					<visible>Container.Content(TVShows) + !StringCompare(Container.FolderPath,videodb://2/2/)</visible>
+					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
 					<posy>15</posy>
 					<posx>20</posx>
 					<include>VisibleFadeEffect</include>
@@ -450,23 +448,15 @@
 					<visible>Container.Content(TVShows) + !StringCompare(Container.FolderPath,videodb://2/2/)</visible>
 					<posy>15</posy>
 					<posx>0</posx>
-					<include>VisibleFadeEffect</include>
-					<!--<control type = "image">
-						<description>Rating value</description>
+					<include>VisibleFadeEffect</include>					
+					<control type="image">
+						<description>Star</description>
 						<posx>510</posx>
 						<posy>50</posy>
 						<width>150</width>
 						<height>30</height>
-						<texture>$INFO[Listitem.StarRating]</texture>
-					</control>-->
-					<control type="image">
-							<description>Star</description>
-							<posx>510</posx>
-							<posy>50</posy>
-							<width>150</width>
-							<height>30</height>
-							<texture>$INFO[ListItem.Rating,flags/stars/,.png]</texture>
-						</control>
+						<texture>$INFO[ListItem.Rating,flags/stars/,.png]</texture>
+					</control>
 					<control type = "grouplist">
 						<description>MPAA Flagging Conditions Images</description>
 						<posx>695</posx>
@@ -489,10 +479,7 @@
 						<textcolor>white</textcolor>
 						<pagecontrol>61</pagecontrol>
 						<label>$INFO[ListItem.Plot]</label>
-						<autoscroll
-                            time = "3000"
-                            delay = "4000"
-                            repeat = "5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
+						<autoscroll time = "3000" delay = "4000" repeat = "5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
 					</control>
 					<control type = "label">
 						<posx>910</posx>
@@ -503,8 +490,8 @@
 						<textcolor>yellow</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Episodes</label>
-					<visible>!Control.HasFocus(50)</visible>
+						<label>$LOCALIZE[31151]</label>
+						<visible>!Control.HasFocus(50)</visible>
 					</control>
 					<control type = "label">
 						<posx>910</posx>
@@ -516,7 +503,7 @@
 						<aligny>center</aligny>
 						<textcolor>white</textcolor>
 						<info>ListItem.Episode</info>
-					<visible>!Control.HasFocus(50)</visible>
+						<visible>!Control.HasFocus(50)</visible>
 					</control>
 					<control type = "label">
 						<posx>910</posx>
@@ -527,32 +514,32 @@
 						<textcolor>yellow</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Airing</label>
-					<visible>!Control.HasFocus(50)</visible>
+						<label>$LOCALIZE[31067]</label>
+						<visible>!Control.HasFocus(50)</visible>
 					</control>
 					<control type = "group">
 						<posx>910</posx>
 						<posy>525</posy>
 						<include>EpisodeNextAiredStatusInfoScreen</include>
-					<visible>!Control.HasFocus(50)</visible>
+						<visible>!Control.HasFocus(50)</visible>
 					</control>
 					<control type = "group">
 						<posx>910</posx>
 						<posy>555</posy>
 						<include>EpisodeNextAiredDateInfoScreen</include>
-					<visible>!Control.HasFocus(50)</visible>
+						<visible>!Control.HasFocus(50)</visible>
 					</control>
 					<control type = "group">
 						<posx>910</posx>
 						<posy>585</posy>
 						<include>EpisodeNextAiredTimeInfoScreen</include>
-					<visible>!Control.HasFocus(50)</visible>
+						<visible>!Control.HasFocus(50)</visible>
 					</control>
 				</control>
 
 				<!--Poster.JPG support-->
 				<control type = "group">
-					<visible>Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)</visible>
+					<visible>Container.Content(TVShows)+Skin.HasSetting(TVShowsUsePosters)</visible>
 					<posy>15</posy>
 					<posx>20</posx>
 					<include>VisibleFadeEffect</include>
@@ -611,10 +598,7 @@
 						<textcolor>white</textcolor>
 						<pagecontrol>61</pagecontrol>
 						<label>$INFO[ListItem.Plot]</label>
-						<autoscroll
-                            time = "3000"
-                            delay = "4000"
-                            repeat = "5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
+						<autoscroll time = "3000" delay = "4000" repeat = "5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
 					</control>
 					<control type = "label">
 						<posx>910</posx>
@@ -625,7 +609,7 @@
 						<textcolor>yellow</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Episodes</label>
+						<label>$LOCALIZE[31151]</label>
 					<visible>!Control.HasFocus(50)</visible>
 					</control>
 					<control type = "label">
@@ -649,7 +633,7 @@
 						<textcolor>yellow</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Airing</label>
+						<label>$LOCALIZE[31067]</label>
 					<visible>!Control.HasFocus(50)</visible>
 					</control>
 					<control type = "group">
@@ -730,10 +714,7 @@
 						<textcolor>white</textcolor>
 						<pagecontrol>61</pagecontrol>
 						<label>$INFO[ListItem.Plot]</label>
-						<autoscroll
-                            time = "3000"
-                            delay = "4000"
-                            repeat = "5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
+						<autoscroll time = "3000" delay = "4000" repeat = "5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
 					</control>
 					<control type = "label">
 						<posx>910</posx>
@@ -744,7 +725,7 @@
 						<textcolor>yellow</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Episodes</label>
+						<label>$LOCALIZE[31151]</label>
 					<visible>!Control.HasFocus(50)</visible>
 					</control>
 					<control type = "label">
@@ -768,7 +749,7 @@
 						<textcolor>yellow</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Airing</label>
+						<label>$LOCALIZE[31067]</label>
 					<visible>!Control.HasFocus(50)</visible>
 					</control>
 					<control type = "group">
@@ -803,7 +784,7 @@
 						<width>480</width>
 						<height>720</height>
 						<aspectratio>stretch</aspectratio>
-						<texture>$INFO[ListItem.Art(poster)]</texture>
+						<texture>$INFO[ListItem.Art(tvshow.poster)]</texture>
 						<bordertexture border = "2">simplicity/folder-focus.png</bordertexture>
 						<bordersize>2</bordersize>
 					</control>
@@ -851,59 +832,9 @@
 						<textcolor>white</textcolor>
 						<pagecontrol>61</pagecontrol>
 						<label>$INFO[ListItem.Plot]</label>
-						<autoscroll
-                            time = "3000"
-                            delay = "4000"
-                            repeat = "5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
+						<autoscroll time = "3000" delay = "4000" repeat = "5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
 					</control>
-					<control type = "label">
-						<posx>910</posx>
-						<posy>375</posy>
-						<width>400</width>
-						<height>50</height>
-						<font>Simplicity_24_Bold</font>
-						<textcolor>yellow</textcolor>
-						<align>left</align>
-						<aligny>center</aligny>
-						<label>Director</label>
-					<visible>!Control.HasFocus(50)</visible>
-					</control>
-					<control type = "label">
-						<posx>910</posx>
-						<posy>425</posy>
-						<width>280</width>
-						<height>30</height>
-						<font>Simplicity_20</font>
-						<align>left</align>
-						<aligny>center</aligny>
-						<textcolor>white</textcolor>
-						<info>ListItem.Director</info>
-					<visible>!Control.HasFocus(50)</visible>
-					</control>
-					<control type = "label">
-						<posx>910</posx>
-						<posy>475</posy>
-						<width>400</width>
-						<height>50</height>
-						<font>Simplicity_24_Bold</font>
-						<textcolor>yellow</textcolor>
-						<align>left</align>
-						<aligny>center</aligny>
-						<label>Writer</label>
-					<visible>!Control.HasFocus(50)</visible>
-					</control>
-					<control type = "label">
-						<posx>910</posx>
-						<posy>525</posy>
-						<width>280</width>
-						<height>30</height>
-						<font>Simplicity_20</font>
-						<align>left</align>
-						<aligny>center</aligny>
-						<textcolor>white</textcolor>
-						<info>ListItem.Writer</info>
-					<visible>!Control.HasFocus(50)</visible>
-					</control>
+					
 				</control>
 				<!--Episodes-->
 				<control type = "group">
@@ -917,7 +848,8 @@
 						<width>480</width>
 						<height>720</height>
 						<aspectratio>stretch</aspectratio>
-						<texture>$INFO[Container.SeasonThumb]</texture>
+<!-- 						<texture>$INFO[Container.SeasonThumb]</texture> -->
+						<texture>$INFO[ListItem.Art(season.poster)]</texture>
 						<bordertexture border = "2">simplicity/folder-focus.png</bordertexture>
 						<bordersize>2</bordersize>
 					</control>
@@ -1013,10 +945,55 @@
 						<textcolor>white</textcolor>
 						<pagecontrol>61</pagecontrol>
 						<label>$INFO[ListItem.Plot]</label>
-						<autoscroll
-                            time = "3000"
-                            delay = "4000"
-                            repeat = "5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
+						<autoscroll time = "3000" delay = "4000" repeat = "5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
+					</control>
+					<control type = "label">
+						<posx>910</posx>
+						<posy>375</posy>
+						<width>400</width>
+						<height>50</height>
+						<font>Simplicity_24_Bold</font>
+						<textcolor>yellow</textcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$LOCALIZE[31096]</label>
+						<visible>!Control.HasFocus(50)</visible>
+					</control>
+					<control type = "label">
+						<posx>910</posx>
+						<posy>425</posy>
+						<width>280</width>
+						<height>30</height>
+						<font>Simplicity_20</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<textcolor>white</textcolor>
+						<info>ListItem.Director</info>
+						<visible>!Control.HasFocus(50)</visible>
+					</control>
+					<control type = "label">
+						<posx>910</posx>
+						<posy>475</posy>
+						<width>400</width>
+						<height>50</height>
+						<font>Simplicity_24_Bold</font>
+						<textcolor>yellow</textcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$LOCALIZE[31152]</label>
+						<visible>!Control.HasFocus(50)</visible>
+					</control>
+					<control type = "label">
+						<posx>910</posx>
+						<posy>525</posy>
+						<width>280</width>
+						<height>30</height>
+						<font>Simplicity_20</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<textcolor>white</textcolor>
+						<info>ListItem.Writer</info>
+					<visible>!Control.HasFocus(50)</visible>
 					</control>
 				</control>
 				<!--Musicvideos-->
@@ -1109,8 +1086,8 @@
 						</focusedlayout>
 						<content>
 							<item>
-								<label>Duration</label>
-								<label2>$INFO[ListItem.Duration] Minutes</label2>
+								<label>$LOCALIZE[31154]</label>
+								<label2>$INFO[ListItem.Duration] $LOCALIZE[31149]</label2>
 								<onclick>-</onclick>
 								<visible>!IsEmpty(ListItem.Duration)</visible>
 							</item>
