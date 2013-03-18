@@ -341,7 +341,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>31123</label>
+						<label>$LOCALIZE[31123]</label>
 						<onclick>Skin.ToggleSetting(TVShowsUsePosters)</onclick>
 						<selected>Skin.HasSetting(TVShowsUsePosters)</selected>
 					</control>
@@ -5468,13 +5468,13 @@
 							<width>750</width>
 							<height>45</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>31511</label>
+							<label>$LOCALIZE[31511]</label>
 							<textcolor>yellow</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 							<aligny>center</aligny>
 						</control>
-						<control type="radiobutton" id="2001">
+						<!--<control type="radiobutton" id="2001">
 							<posx>0</posx>
 							<posy>0</posy>
 							<width>900</width>
@@ -5491,12 +5491,12 @@
 							<label>Enable "Poster.jpg" Support</label>	
 							<onclick>Skin.ToggleSetting(UsePosterJPG)</onclick>
 							<selected>Skin.HasSetting(UsePosterJPG)</selected>
-						</control>
+						</control>-->
 						<control type="radiobutton" id="2002">
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Use TV Theme Songs</label>
+							<label>$LOCALIZE[31156]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -5537,7 +5537,7 @@
 							<align>left</align>
 						</control>
 						<control type="button" id="2013">
-							<width>180</width>
+							<width>250</width>
 							<height>40</height>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -5548,10 +5548,23 @@
 							<texturenofocus border="5">simplicity/button-nofocus.png</texturenofocus>
 							<texturefocus border="5">simplicity/button-focus-white.png</texturefocus>
 							<font>Simplicity_20_Bold_title</font>
-							<onclick>XBMC.RunScript(script.artwork.downloader)</onclick>
-<!-- 							<onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, mediatype=tvshow, characterart, clearlogo, tvthumb, poster, banner, clearart)</onclick> -->
+							<onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, mediatype=movie, characterart, clearlogo, tvthumb, poster, banner, clearart)</onclick>
 						</control>
-						<control type="textbox" id="2014">
+						<control type="button" id="2014">
+							<width>250</width>
+							<height>40</height>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$LOCALIZE[31155]</label>
+							<textcolor>black</textcolor>
+							<focusedcolor>black</focusedcolor>
+							<shadowcolor>grey2</shadowcolor>
+							<texturenofocus border="5">simplicity/button-nofocus.png</texturenofocus>
+							<texturefocus border="5">simplicity/button-focus-white.png</texturefocus>
+							<font>Simplicity_20_Bold_title</font>
+							<onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, mediatype=tvshow, characterart, clearlogo, tvthumb, poster, banner, clearart)</onclick>
+						</control>
+						<control type="textbox" id="2015">
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
@@ -5560,7 +5573,7 @@
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 						</control>
-						<control type="label" id="2015">
+						<control type="label" id="2016">
 							<width>750</width>
 							<height>45</height>
 							<font>Simplicity_20_Bold_title</font>
@@ -5570,7 +5583,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 						</control>
-						<control type="textbox" id="2016">
+						<control type="textbox" id="2017">
 							<width>900</width>
 							<height>30</height>
 							<font>Simplicity_20</font>
@@ -5579,8 +5592,8 @@
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 						</control>
-						<control type="button" id="2017">
-							<width>180</width>
+						<control type="button" id="2018">
+							<width>235</width>
 							<height>40</height>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -5593,7 +5606,7 @@
 							<font>Simplicity_20_Bold_title</font>
 							<onclick>XBMC.RunScript(script.tvtunes)</onclick>
 						</control>
-						<control type="textbox" id="2018">
+						<control type="textbox" id="2019">
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
@@ -5602,7 +5615,7 @@
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 						</control>
-						<control type="label" id="2019">
+						<control type="label" id="2020">
 							<width>750</width>
 							<height>55</height>
 							<font>Simplicity_20_Bold_title</font>
@@ -5612,7 +5625,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 						</control>
-						<control type="label" id="2020">
+						<control type="label" id="2021">
 							<width>900</width>
 							<height>45</height>
 							<font>Simplicity_20</font>
@@ -5622,7 +5635,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 						</control>
-						<control type="textbox" id="2021">
+						<control type="textbox" id="2022">
 							<width>900</width>
 							<height>80</height>
 							<font>Simplicity_20</font>
@@ -5631,7 +5644,7 @@
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 						</control>
-						<control type="radiobutton" id="2022">
+						<control type="radiobutton" id="2023">
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
@@ -5649,7 +5662,7 @@
 						</control>
 					</control>
 					<control type="image">
-						<posx>578</posx>
+						<posx>600</posx>
 						<posy>240</posy>
 						<width>100</width>
 						<height>100</height>	
@@ -5657,46 +5670,46 @@
 						<bordertexture border="2">simplicity/thumbborder-thin.png</bordertexture>
 						<bordersize>2</bordersize>
 						<visible>Container(9000).Hasfocus(20)</visible>
-						<animation effect="zoom" end="608,220,150,150" time="300" condition="Control.HasFocus(2013)">Conditional</animation> 
+						<animation effect="zoom" end="608,220,150,150" time="300" condition="Control.HasFocus(2013)|Control.HasFocus(2014)">Conditional</animation> 
 					</control>
 					<control type="label">
-						<posx>698</posx>
+						<posx>710</posx>
 						<posy>260</posy>
-						<width>400</width>
+						<width>430</width>
 						<height>400</height>	
 						<font>Simplicity_20_Bold</font>
-						<label>[COLOR =red]*[/COLOR] The Artwork Downloader Addon is Required</label>
+						<label>[COLOR =red]*[/COLOR] $LOCALIZE[31157]</label>
 						<textcolor>grey2</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<visible>Container(9000).Hasfocus(20)</visible>
-						<animation effect="zoom" end="105" time="300" condition="Control.HasFocus(2013)">Conditional</animation> 
-						<animation effect="slide" end="68,0" time="300" condition="Control.HasFocus(2013)">Conditional</animation> 
+						<animation effect="zoom" end="105" time="300" condition="Control.HasFocus(2013)|Control.HasFocus(2014)">Conditional</animation> 
+						<animation effect="slide" end="68,0" time="300" condition="Control.HasFocus(2013)|Control.HasFocus(2014)">Conditional</animation> 
 					</control>
 					<control type="image">
-						<posx>578</posx>
+						<posx>600</posx>
 						<posy>395</posy>
 						<width>100</width>
 						<height>100</height>	
 						<texture>addons/tunes.png</texture>
 						<bordertexture border="2">simplicity/thumbborder-thin.png</bordertexture>
 						<bordersize>2</bordersize>
-						<animation effect="zoom" end="608,375,150,150" time="300" condition="Control.HasFocus(2017)">Conditional</animation> 
+						<animation effect="zoom" end="608,375,150,150" time="300" condition="Control.HasFocus(2018)">Conditional</animation> 
 						<visible>Container(9000).Hasfocus(20)</visible>
 					</control>
 					<control type="label">
-						<posx>698</posx>
+						<posx>710</posx>
 						<posy>415</posy>
-						<width>400</width>
+						<width>430</width>
 						<height>400</height>	
 						<font>Simplicity_20_Bold</font>
-						<label>[COLOR =red]*[/COLOR] The TV Tunes Addon is Required</label>
+						<label>[COLOR =red]*[/COLOR] $LOCALIZE[31158]</label>
 						<textcolor>grey2</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<visible>Container(9000).Hasfocus(20)</visible>
-						<animation effect="zoom" end="105" time="300" condition="Control.HasFocus(2017)">Conditional</animation> 
-						<animation effect="slide" end="68,0" time="300" condition="Control.HasFocus(2017)">Conditional</animation> 
+						<animation effect="zoom" end="105" time="300" condition="Control.HasFocus(2018)">Conditional</animation> 
+						<animation effect="slide" end="68,0" time="300" condition="Control.HasFocus(2018)">Conditional</animation> 
 					</control>
 					<control type="grouplist" id="9021">
 						<visible>Container(9000).Hasfocus(21)</visible>

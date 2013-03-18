@@ -3593,7 +3593,7 @@
 			<fadetime>IconCrossfadeTime</fadetime>
 			<bordertexture border="4">thumbborder.png</bordertexture>
 			<bordersize>4</bordersize>
-			<visible>!Container.Content(Episodes) + ![Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+			<visible>!Container.Content(Episodes) + ![Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters)]</visible>
 			<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 		</control>
 		<control type="image">
@@ -3602,10 +3602,10 @@
 			<width>247</width>
 			<height>371</height>
 			<align>left</align>
-			<texture background="true">$INFO[ListItem.Path,,poster.jpg]</texture>
+			<texture background="true">$INFO[ListItem.Art(poster)]</texture>
 			<bordertexture border="4">thumbborder.png</bordertexture>
 			<bordersize>4</bordersize>
-			<visible>Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)</visible>
+			<visible>Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters)</visible>
 			<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 
 		</control>
