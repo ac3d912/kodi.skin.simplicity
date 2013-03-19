@@ -138,14 +138,7 @@
 					<posy>15</posy>
 					<posx>0</posx>
 					<include>VisibleFadeEffect</include>
-					<!--<control type = "image">
-						<description>Rating value</description>
-						<posx>510</posx>
-						<posy>50</posy>
-						<width>150</width>
-						<height>30</height>
-						<texture>$INFO[Listitem.StarRating]</texture>
-					</control>-->
+					
 					<control type="image">
 							<description>Star</description>
 							<posx>510</posx>
@@ -332,14 +325,7 @@
 					<posy>15</posy>
 					<posx>0</posx>
 					<include>VisibleFadeEffect</include>
-					<!--<control type = "image">
-						<description>Rating value</description>
-						<posx>510</posx>
-						<posy>50</posy>
-						<width>150</width>
-						<height>30</height>
-						<texture>$INFO[Listitem.StarRating]</texture>
-					</control>-->
+					
 					<control type="image">
 							<description>Star</description>
 							<posx>510</posx>
@@ -560,14 +546,7 @@
 					<posy>15</posy>
 					<posx>0</posx>
 					<include>VisibleFadeEffect</include>
-					<!--<control type = "image">
-						<description>Rating value</description>
-						<posx>510</posx>
-						<posy>50</posy>
-						<width>150</width>
-						<height>30</height>
-						<texture>$INFO[Listitem.StarRating]</texture>
-					</control>-->
+					
 					<control type="image">
 							<description>Star</description>
 							<posx>510</posx>
@@ -676,14 +655,7 @@
 					<posy>15</posy>
 					<posx>0</posx>
 					<include>VisibleFadeEffect</include>
-					<!--<control type = "image">
-						<description>Rating value</description>
-						<posx>510</posx>
-						<posy>50</posy>
-						<width>150</width>
-						<height>30</height>
-						<texture>$INFO[Listitem.StarRating]</texture>
-					</control>-->
+					
 					<control type="image">
 							<description>Star</description>
 							<posx>510</posx>
@@ -793,15 +765,7 @@
 					<visible>[Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters)]</visible>
 					<posy>15</posy>
 					<posx>0</posx>
-					<include>VisibleFadeEffect</include>
-					<!--<control type = "image">
-						<description>Rating value</description>
-						<posx>510</posx>
-						<posy>50</posy>
-						<width>150</width>
-						<height>30</height>
-						<texture>$INFO[Listitem.StarRating]</texture>
-					</control>-->
+					<include>VisibleFadeEffect</include>					
 					<control type="image">
 							<description>Star</description>
 							<posx>510</posx>
@@ -879,14 +843,7 @@
 						<bordersize>2</bordersize>
 					<visible>!Control.HasFocus(50)</visible>
 					</control>
-					<!--<control type = "image">
-						<description>Rating value</description>
-						<posx>510</posx>
-						<posy>50</posy>
-						<width>150</width>
-						<height>30</height>
-						<texture>$INFO[Listitem.StarRating]</texture>
-					</control>-->
+					
 					<control type="image">
 							<description>Star</description>
 							<posx>510</posx>
@@ -1124,23 +1081,23 @@
 						</content>
 					</control>
 				</control>			
-					<control type = "label">
-						<posx>510</posx>
-						<posy>385</posy>
-						<width>400</width>
-						<height>50</height>
-						<font>Simplicity_24_Bold</font>
-						<textcolor>yellow</textcolor>
-						<align>left</align>
-						<aligny>center</aligny>
-						<label>Cast</label>
-					</control>
-	<control type = "panel" id = "50">
-						<posx>510</posx>
-						<posy>435</posy>
-						<width>350</width>
-						<height>207</height>
-						<align>left</align>
+				<control type = "label">
+					<posx>510</posx>
+					<posy>385</posy>
+					<width>400</width>
+					<height>50</height>
+					<font>Simplicity_24_Bold</font>
+					<textcolor>yellow</textcolor>
+					<align>left</align>
+					<aligny>center</aligny>
+					<label>$LOCALIZE[31167]</label>
+				</control>
+				<control type = "panel" id = "50">
+					<posx>510</posx>
+					<posy>435</posy>
+					<width>350</width>
+					<height>207</height>
+					<align>left</align>
 					<onleft>9000</onleft>
 					<onright>61</onright>
 					<onup>61</onup>

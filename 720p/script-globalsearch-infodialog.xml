@@ -32,26 +32,7 @@
 				<width>1300</width>
 				<height>750</height>
 				<texture>simplicity/background-solid.png</texture>
-			</control>
-			<!--<control type="image" id="199">
-				<posx>20</posx>
-				<posy>48</posy>
-				<width>1240</width>
-				<height>623</height>
-				<colordiffuse>4FFFFFFF</colordiffuse>
-				<aspectratio>scale</aspectratio>
-				<texture>$INFO[Container(100).ListItem.Property(Fanart_Image)]</texture>
-			</control>-->
-			<!--<control type="image">
-				<posx>20</posx>
-				<posy>48</posy>
-				<width>1240</width>
-				<height>623</height>
-				<texture>background.jpg</texture>
-				<colordiffuse>4FFFFFFF</colordiffuse>
-				<aspectratio>scale</aspectratio>
-				<visible>IsEmpty(Control.GetLabel(199))</visible>
-			</control>-->
+			</control>			
 			<control type = "label">
 				<description>header label</description>
 				<posx>510</posx>
@@ -83,10 +64,24 @@
 			<control type = "label">
 				<description>header label</description>
 				<posx>510</posx>
-				<posy>60</posy>
+				<posy>63</posy>
 				<width>700</width>
 				<height>30</height>
-				<font>Simplicity_40</font>
+				<font>Simplicity_30</font>
+				<label>"$INFO[Container(100).ListItem.Property(Tagline)]"</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<visible>Control.IsVisible(110)</visible>
+			</control>
+			<control type = "label">
+				<description>header label</description>
+				<posx>510</posx>
+				<posy>63</posy>
+				<width>700</width>
+				<height>30</height>
+				<font>Simplicity_30</font>
 				<label>$INFO[Container(100).ListItem.Property(TVShowTitle)]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -101,14 +96,30 @@
 				<posy>60</posy>
 				<width>700</width>
 				<height>30</height>
-				<font>Simplicity_40</font>
-				<label>[B]$LOCALIZE[31159] $INFO[Container(100).ListItem.Property(Artist)][/B]</label>
+				<font>Simplicity_30</font>
+				<label>$LOCALIZE[31159] $INFO[Container(100).ListItem.Property(Artist)]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<textcolor>white</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<visible>Control.IsVisible(170)|Control.IsVisible(180)</visible>
 			</control>
+			
+			<control type = "label">
+				<description>header label</description>
+				<posx>510</posx>
+				<posy>100</posy>
+				<width>700</width>
+				<height>30</height>
+				<font>Simplicity_26</font>
+				<label>$INFO[Container(100).ListItem.Property(Year)], $INFO[Container(100).ListItem.Property(Genre)]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<visible>Control.IsVisible(170)</visible>
+			</control>
+			
 			
 			<control type="image">
 				<posx>0</posx>
@@ -193,7 +204,7 @@
 			</control>
 			<control type = "fadelabel">
 				<posx>830</posx>
-				<posy>105</posy>
+				<posy>108</posy>
 				<width>101</width>
 				<height>30</height>
 				<font>Simplicity_20</font>
@@ -210,7 +221,7 @@
 				<visible>Control.IsVisible(110)</visible>
 				<description>MPAA Flagging Conditions Images</description>
 				<posx>685</posx>
-				<posy>55</posy>
+				<posy>100</posy>
 				<width>130</width>
 				<align>left</align>
 				<itemgap>0</itemgap>
@@ -261,7 +272,7 @@
 				<visible>Control.IsVisible(120)|Control.IsVisible(140)</visible>
 				<description>TV MPAA Flagging Conditions Images</description>
 				<posx>685</posx>
-				<posy>85</posy>
+				<posy>100</posy>
 				<width>130</width>
 				<align>left</align>
 				<itemgap>0</itemgap>
@@ -355,84 +366,156 @@
 			</control>
 			<control type="group">
 			  
-				<control type = "label">
-						<posx>510</posx>
-						<posy>375</posy>
-						<width>400</width>
-						<height>50</height>
-						<font>Simplicity_24_Bold</font>
-						<textcolor>yellow</textcolor>
-						<align>left</align>
-						<aligny>center</aligny>
-						<label>$LOCALIZE[31096]</label>
-						<visible>Control.IsVisible(110)|Control.IsVisible(140)</visible>
-					</control>
-					<control type = "label">
-						<posx>510</posx>
-						<posy>425</posy>
-						<width>280</width>
-						<height>30</height>
-						<font>Simplicity_20</font>
-						<align>left</align>
-						<aligny>center</aligny>
-						<textcolor>white</textcolor>
-						<info>Container(100).ListItem.Property(Director)</info>
-						<visible>Control.IsVisible(110)|Control.IsVisible(140)</visible>
-					</control>
-					<control type = "label">
-						<posx>510</posx>
-						<posy>475</posy>
-						<width>400</width>
-						<height>50</height>
-						<font>Simplicity_24_Bold</font>
-						<textcolor>yellow</textcolor>
-						<align>left</align>
-						<aligny>center</aligny>
-						<label>$LOCALIZE[31152]</label>
-						<visible>Control.IsVisible(110)</visible>
-					</control>
-					<control type = "label">
-						<posx>510</posx>
-						<posy>525</posy>
-						<width>280</width>
-						<height>30</height>
-						<font>Simplicity_20</font>
-						<align>left</align>
-						<aligny>center</aligny>
-						<textcolor>white</textcolor>
-						<info>Container(100).ListItem.Property(Writer)</info>
-						<visible>Control.IsVisible(110)</visible>
-					</control>
-					<control type = "label">
-						<posx>510</posx>
-						<posy>475</posy>
-						<width>400</width>
-						<height>50</height>
-						<font>Simplicity_24_Bold</font>
-						<textcolor>yellow</textcolor>
-						<align>left</align>
-						<aligny>center</aligny>
-						<label>$LOCALIZE[20416]</label>
-						<visible>Control.IsVisible(140)</visible>
-					</control>
-					<control type = "label">
-						<posx>510</posx>
-						<posy>525</posy>
-						<width>280</width>
-						<height>30</height>
-						<font>Simplicity_20</font>
-						<align>left</align>
-						<aligny>center</aligny>
-						<textcolor>white</textcolor>
-						<info>Container(100).ListItem.Property(Premiered)</info>
-						<visible>Control.IsVisible(140)</visible>
-					</control>
+				  <control type = "label">
+					<posx>510</posx>
+					<posy>400</posy>
+					<width>400</width>
+					<height>50</height>
+					<font>Simplicity_24_Bold</font>
+					<textcolor>yellow</textcolor>
+					<align>left</align>
+					<aligny>center</aligny>
+					<label>$LOCALIZE[31096]</label>
+					<visible>Control.IsVisible(110)</visible>
 				</control>
+				<control type = "label">
+					<posx>510</posx>
+					<posy>435</posy>
+					<width>280</width>
+					<height>30</height>
+					<font>Simplicity_20</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>white</textcolor>
+					<info>Container(100).ListItem.Property(Director)</info>
+					<visible>Control.IsVisible(110)</visible>
+				</control>
+				<control type = "label">
+					<posx>810</posx>
+					<posy>400</posy>
+					<width>400</width>
+					<height>50</height>
+					<font>Simplicity_24_Bold</font>
+					<textcolor>yellow</textcolor>
+					<align>left</align>
+					<aligny>center</aligny>
+					<label>$LOCALIZE[31096]</label>
+					<visible>Control.IsVisible(140)</visible>
+				</control>
+				<control type = "label">
+					<posx>810</posx>
+					<posy>435</posy>
+					<width>280</width>
+					<height>30</height>
+					<font>Simplicity_20</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>white</textcolor>
+					<info>Container(100).ListItem.Property(Director)</info>
+					<visible>Control.IsVisible(140)</visible>
+				</control>
+				<control type = "label">
+					<posx>510</posx>
+					<posy>500</posy>
+					<width>400</width>
+					<height>50</height>
+					<font>Simplicity_24_Bold</font>
+					<textcolor>yellow</textcolor>
+					<align>left</align>
+					<aligny>center</aligny>
+					<label>$LOCALIZE[31152]</label>
+					<visible>Control.IsVisible(110)</visible>
+				</control>
+				<control type = "label">
+					<posx>510</posx>
+					<posy>535</posy>
+					<width>280</width>
+					<height>30</height>
+					<font>Simplicity_20</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>white</textcolor>
+					<info>Container(100).ListItem.Property(Writer)</info>
+					<visible>Control.IsVisible(110)</visible>
+				</control>
+				<control type = "label">
+					<posx>810</posx>
+					<posy>500</posy>
+					<width>400</width>
+					<height>50</height>
+					<font>Simplicity_24_Bold</font>
+					<textcolor>yellow</textcolor>
+					<align>left</align>
+					<aligny>center</aligny>
+					<label>$LOCALIZE[20416]</label>
+					<visible>Control.IsVisible(140)</visible>
+				</control>
+				<control type = "label">
+					<posx>810</posx>
+					<posy>535</posy>
+					<width>280</width>
+					<height>30</height>
+					<font>Simplicity_20</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>white</textcolor>
+					<info>Container(100).ListItem.Property(Premiered)</info>
+					<visible>Control.IsVisible(140)</visible>
+				</control>
+				<control type = "label">
+					<posx>510</posx>
+					<posy>400</posy>
+					<width>400</width>
+					<height>50</height>
+					<font>Simplicity_24_Bold</font>
+					<textcolor>yellow</textcolor>
+					<align>left</align>
+					<aligny>center</aligny>
+					<label>$LOCALIZE[20373]</label>
+					<visible>Control.IsVisible(140)</visible>
+				</control>
+				<control type = "label">
+					<posx>510</posx>
+					<posy>435</posy>
+					<width>280</width>
+					<height>30</height>
+					<font>Simplicity_20</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>white</textcolor>
+					<info>Container(100).ListItem.Property(Season)</info>
+					<visible>Control.IsVisible(140)</visible>
+				</control>
+				<control type = "label">
+					<posx>510</posx>
+					<posy>500</posy>
+					<width>400</width>
+					<height>50</height>
+					<font>Simplicity_24_Bold</font>
+					<textcolor>yellow</textcolor>
+					<align>left</align>
+					<aligny>center</aligny>
+					<label>$LOCALIZE[20360]</label>
+					<visible>Control.IsVisible(140)</visible>
+				</control>
+				<control type = "label">
+					<posx>510</posx>
+					<posy>535</posy>
+					<width>280</width>
+					<height>30</height>
+					<font>Simplicity_20</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>white</textcolor>
+					<info>Container(100).ListItem.Property(Episode)</info>
+					<visible>Control.IsVisible(140)</visible>
+				</control>					
+			</control>
 			
 			<control type="group" id="101">
 				<control type="list" id="110">
 					<posx>445</posx>
-					<posy>400</posy>
+					<posy>415</posy>
 					<width>800</width>
 					<height>230</height>
 					<onleft>110</onleft>
@@ -578,7 +661,7 @@
 				</control>
 				<control type="list" id="120">
 					<posx>445</posx>
-					<posy>400</posy>
+					<posy>415</posy>
 					<width>800</width>
 					<height>330</height>
 					<onleft>120</onleft>
@@ -706,7 +789,7 @@
 				</control>
 				<control type="list" id="130">
 					<posx>445</posx>
-					<posy>408</posy>
+					<posy>415</posy>
 					<width>800</width>
 					<height>330</height>
 					<onleft>130</onleft>
@@ -804,7 +887,7 @@
 				</control>
 				<control type="list" id="140">
 					<posx>445</posx>
-					<posy>400</posy>
+					<posy>415</posy>
 					<width>800</width>
 					<height>330</height>
 					<onleft>140</onleft>
@@ -880,7 +963,7 @@
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(TVShowTitle))</visible>
 						</item>-->
-						<item>
+						<!--<item>
 							<label>$LOCALIZE[20373]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Season)]</label2>
 							<onclick>-</onclick>
@@ -891,7 +974,7 @@
 							<label2>$INFO[Container(100).ListItem.Property(Episode)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Episode))</visible>
-						</item>
+						</item>-->
 						<!--<item>
 							<label>$LOCALIZE[20339]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Director)]</label2>
@@ -944,7 +1027,7 @@
 				</control>
 				<control type="list" id="150">
 					<posx>445</posx>
-					<posy>400</posy>
+					<posy>415</posy>
 					<width>800</width>
 					<height>330</height>
 					<onleft>150</onleft>
@@ -1071,133 +1154,125 @@
 					</content>
 				</control>
 				<control type="list" id="160">
-					<posx>445</posx>
-					<posy>400</posy>
-					<width>800</width>
-					<height>330</height>
-					<onleft>160</onleft>
-					<onright>160</onright>
-					<onup>190</onup>
-					<ondown>195</ondown>
-					<pagecontrol>-</pagecontrol>
-					<scrolltime>200</scrolltime>
-					<itemlayout width="800" height="30">
-						<control type="label">
-							<posx>165</posx>
-							<posy>0</posy>
-							<width>165</width>
-							<height>30</height>
-							<font>font13</font>
-							<align>right</align>
-							<aligny>center</aligny>
-							<textcolor>yellow</textcolor>
-							<selectedcolor>FFFFFFFF</selectedcolor>
-							<label>$INFO[ListItem.Label]</label>
-						</control>
-						<control type="label">
-							<posx>175</posx>
-							<posy>0</posy>
-							<width>625</width>
-							<height>30</height>
-							<font>font13</font>
-							<align>justify</align>
-							<aligny>center</aligny>
-							<textcolor>FFFFFFFF</textcolor>
-							<selectedcolor>FFFFFFFF</selectedcolor>
-							<label>$INFO[ListItem.Label2]</label>
-						</control>
-					</itemlayout>
-					<focusedlayout width="800" height="30">
-						<control type="image">
-							<posx>0</posx>
-							<posy>0</posy>
-							<width>800</width>
-							<height>30</height>
-							<texture>MenuItemFO.png</texture>
-							<visible>Control.HasFocus(160)</visible>
-						</control>
-						<control type="label">
-							<posx>165</posx>
-							<posy>0</posy>
-							<width>165</width>
-							<height>30</height>
-							<font>font13</font>
-							<align>right</align>
-							<aligny>center</aligny>
-							<textcolor>yellow</textcolor>
-							<selectedcolor>yellow</selectedcolor>
-							<label>$INFO[ListItem.Label]</label>
-						</control>
-						<control type="label">
-							<posx>175</posx>
-							<posy>0</posy>
-							<width>625</width>
-							<height>30</height>
-							<font>font13</font>
-							<align>justify</align>
-							<aligny>center</aligny>
-							<textcolor>FFFFFFFF</textcolor>
-							<selectedcolor>FFFFFFFF</selectedcolor>
-							<label>$INFO[ListItem.Label2]</label>
-						</control>
-					</focusedlayout>
-					<content>
-						<item>
-							<label>$LOCALIZE[21893]:</label>
-							<label2>$INFO[Container(100).ListItem.Property(Artist_Born)]</label2>
-							<onclick>-</onclick>
-							<visible>!IsEmpty(Container(100).ListItem.Property(Artist_Born))</visible>
-						</item>
-						<item>
-							<label>$LOCALIZE[21894]:</label>
-							<label2>$INFO[Container(100).ListItem.Property(Artist_Formed)]</label2>
-							<onclick>-</onclick>
-							<visible>!IsEmpty(Container(100).ListItem.Property(Artist_Formed))</visible>
-						</item>
-						<item>
-							<label>$LOCALIZE[21897]:</label>
-							<label2>$INFO[Container(100).ListItem.Property(Artist_Died)]</label2>
-							<onclick>-</onclick>
-							<visible>!IsEmpty(Container(100).ListItem.Property(Artist_Died))</visible>
-						</item>
-						<item>
-							<label>$LOCALIZE[21896]:</label>
-							<label2>$INFO[Container(100).ListItem.Property(Artist_Disbanded)]</label2>
-							<onclick>-</onclick>
-							<visible>!IsEmpty(Container(100).ListItem.Property(Artist_Disbanded))</visible>
-						</item>
-						<item>
-							<label>$LOCALIZE[21898]:</label>
-							<label2>$INFO[Container(100).ListItem.Property(Artist_YearsActive)]</label2>
-							<onclick>-</onclick>
-							<visible>!IsEmpty(Container(100).ListItem.Property(Artist_YearsActive))</visible>
-						</item>
-						<item>
-							<label>$LOCALIZE[175]:</label>
-							<label2>$INFO[Container(100).ListItem.Property(Artist_Mood)]</label2>
-							<onclick>-</onclick>
-							<visible>!IsEmpty(Container(100).ListItem.Property(Artist_Mood))</visible>
-						</item>
-						<item>
-							<label>$LOCALIZE[176]:</label>
-							<label2>$INFO[Container(100).ListItem.Property(Artist_Style)]</label2>
-							<onclick>-</onclick>
-							<visible>!IsEmpty(Container(100).ListItem.Property(Artist_Style))</visible>
-						</item>
-						<item>
-							<label>$LOCALIZE[515]:</label>
-							<label2>$INFO[Container(100).ListItem.Property(Genre)]</label2>
-							<onclick>-</onclick>
-							<visible>!IsEmpty(Container(100).ListItem.Property(Genre))</visible>
-						</item>
-						<!--<item>
-							<label>$LOCALIZE[15311]:</label>
-							<label2>$INFO[Container(100).ListItem.Property(Path)]</label2>
-							<onclick>-</onclick>
-							<visible>!IsEmpty(Container(100).ListItem.Property(Path))</visible>
-						</item>-->
-					</content>
-				</control>
+						<posx>510</posx>
+						<posy>350</posy>
+						<width>700</width>
+						<height>330</height>
+						<onleft>160</onleft>
+						<onright>160</onright>
+						<onup>190</onup>
+						<ondown>195</ondown>
+						<pagecontrol>-</pagecontrol>
+						<scrolltime>200</scrolltime>
+						<itemlayout height="30">
+							<control type="label">
+								<posx>0</posx>
+								<posy>0</posy>
+								<width>160</width>
+								<height>30</height>
+								<font>Simplicity_24_Bold</font>
+								<textcolor>yellow</textcolor>
+								<align>left</align>
+								<aligny>center</aligny>
+								<selectedcolor>selected</selectedcolor>
+								<info>ListItem.Label</info>
+							</control>
+							<control type="label">
+								<posx>155</posx>
+								<posy>0</posy>
+								<width>580</width>
+								<height>30</height>
+								<font>Simplicity_20</font>
+								<align>left</align>
+								<aligny>center</aligny>
+								<textcolor>white</textcolor>
+								<selectedcolor>white</selectedcolor>
+								<info>ListItem.Label2</info>
+							</control>
+						</itemlayout>
+						<focusedlayout height="30">
+							<control type="label">
+								<posx>0</posx>
+								<posy>0</posy>
+								<width>160</width>
+								<height>30</height>
+								<align>left</align>
+								<aligny>center</aligny>
+								<font>Simplicity_24_Bold</font>
+								<textcolor>yellow</textcolor>
+								<selectedcolor>selected</selectedcolor>
+								<info>ListItem.Label</info>
+							</control>
+							<control type="label">
+								<posx>155</posx>
+								<posy>0</posy>
+								<width>580</width>
+								<height>30</height>
+								<font>Simplicity_20</font>
+								<align>left</align>
+								<aligny>center</aligny>
+								<textcolor>white</textcolor>
+								<selectedcolor>white</selectedcolor>
+								<info>ListItem.Label2</info>
+							</control>
+						</focusedlayout>
+						<content>
+							<item>
+								<label>$LOCALIZE[21893]:</label>
+								<label2>$INFO[Container(100).ListItem.Property(Artist_Born)]</label2>
+								<onclick>-</onclick>
+								<visible>!IsEmpty(Container(100).ListItem.Property(Artist_Born))</visible>
+							</item>
+							<item>
+								<label>$LOCALIZE[21894]:</label>
+								<label2>$INFO[Container(100).ListItem.Property(Artist_Formed)]</label2>
+								<onclick>-</onclick>
+								<visible>!IsEmpty(Container(100).ListItem.Property(Artist_Formed))</visible>
+							</item>
+							<item>
+								<label>$LOCALIZE[515]:</label>
+								<label2>$INFO[Container(100).ListItem.Genre]</label2>
+								<onclick>-</onclick>
+								<visible>!IsEmpty(Container(100).ListItem.Genre)</visible>
+							</item>
+							<item>
+								<label>$LOCALIZE[175]:</label>
+								<label2>$INFO[Container(100).ListItem.Property(Artist_Mood)]</label2>
+								<onclick>-</onclick>
+								<visible>!IsEmpty(Container(100).ListItem.Property(Artist_Mood))</visible>
+							</item>
+							<item>
+								<label>$LOCALIZE[176]:</label>
+								<label2>$INFO[Container(100).ListItem.Property(Artist_Style)]</label2>
+								<onclick>-</onclick>
+								<visible>!IsEmpty(Container(100).ListItem.Property(Artist_Style))</visible>
+							</item>
+							<item>
+								<label>$LOCALIZE[21892]:</label>
+								<label2>$INFO[Container(100).ListItem.Property(Artist_Instrument)]</label2>
+								<onclick>-</onclick>
+								<visible>!IsEmpty(Container(100).ListItem.Property(Artist_Instrument))</visible>
+							</item>
+							<item>
+								<label>$LOCALIZE[21897]:</label>
+								<label2>$INFO[Container(100).ListItem.Property(Artist_Died)]</label2>
+								<onclick>-</onclick>
+								<visible>!IsEmpty(Container(100).ListItem.Property(Artist_Died))</visible>
+							</item>
+							<item>
+								<label>$LOCALIZE[21896]:</label>
+								<label2>$INFO[Container(100).ListItem.Property(Artist_Disbanded)]</label2>
+								<onclick>-</onclick>
+								<visible>!IsEmpty(Container(100).ListItem.Property(Artist_Disbanded))</visible>
+							</item>
+							<item>
+								<label>$LOCALIZE[21898]:</label>
+								<label2>$INFO[Container(100).ListItem.Property(Artist_YearsActive)]</label2>
+								<onclick>-</onclick>
+								<visible>!IsEmpty(Container(100).ListItem.Property(Artist_YearsActive))</visible>
+							</item>
+						</content>
+					</control>
 				<control type="list" id="170">
 					<posx>445</posx>
 					<posy>400</posy>
@@ -1276,12 +1351,12 @@
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Artist))</visible>
 						</item>-->
-						<item>
+						<!--<item>
 							<label>$LOCALIZE[515]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Genre)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Genre))</visible>
-						</item>
+						</item>-->
 						<item>
 							<label>$LOCALIZE[563]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Album_Rating)]</label2>
@@ -1318,12 +1393,12 @@
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Album_Label))</visible>
 						</item>
-						<item>
+						<!--<item>
 							<label>$LOCALIZE[562]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Year)]</label2>
 							<onclick>-</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Year))</visible>
-						</item>
+						</item>-->
 						<!--<item>
 							<label>$LOCALIZE[15311]</label>
 							<label2>$INFO[Container(100).ListItem.Property(Path)]</label2>
@@ -1486,12 +1561,12 @@
 				<textcolor>white</textcolor>
 				<pagecontrol>195</pagecontrol>
 				<label>$INFO[Container(100).ListItem.Property(Plot)]</label>
-				<autoscroll time = "3000" delay = "4000" repeat = "5000">Skin.HasSetting(AutoScroll)</autoscroll>
+				<autoscroll time = "3000" delay = "5000" repeat = "5000">Skin.HasSetting(AutoScroll)</autoscroll>
 				<visible>Control.IsVisible(110) | Control.IsVisible(120) | Control.IsVisible(140) | Control.IsVisible(150)</visible>
 			</control>
 			<control type="textbox">
 				<posx>510</posx>
-				<posy>170</posy>
+				<posy>100</posy>
 				<width>700</width>
 				<height>167</height>
 				<font>Simplicity_20</font>
@@ -1499,20 +1574,20 @@
 				<textcolor>white</textcolor>
 				<pagecontrol>195</pagecontrol>
 				<label>$INFO[Container(100).ListItem.Property(Artist_Description)]</label>
-				<autoscroll time="3000" delay="20000" repeat="5000">true</autoscroll>
+				<autoscroll time="3000" delay="10000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
 				<visible>Control.IsVisible(160)</visible>
 			</control>
 			<control type="textbox">
 				<posx>510</posx>
 				<posy>170</posy>
 				<width>700</width>
-				<height>167</height>
+				<height>267</height>
 				<font>Simplicity_20</font>
 				<align>justify</align>
 				<textcolor>FFFFFFFF</textcolor>
 				<pagecontrol>195</pagecontrol>
 				<label>$INFO[Container(100).ListItem.Property(Album_Description)]</label>
-				<autoscroll time="3000" delay="20000" repeat="5000">true</autoscroll>
+				<autoscroll time="3000" delay="10000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
 				<visible>Control.IsVisible(170)</visible>
 			</control>
 			<control type="textbox">
@@ -1525,7 +1600,7 @@
 				<textcolor>FFFFFFFF</textcolor>
 				<pagecontrol>195</pagecontrol>
 				<label>$INFO[Container(100).ListItem.Property(Comment)]</label>
-				<autoscroll time="3000" delay="20000" repeat="5000">true</autoscroll>
+				<autoscroll time="3000" delay="20000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
 				<visible>Control.IsVisible(180)</visible>
 			</control>
 			<control type="spincontrol" id="195">

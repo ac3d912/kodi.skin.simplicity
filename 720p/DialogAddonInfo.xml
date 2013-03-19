@@ -33,7 +33,7 @@
 				<width>580</width>
 				<height>30</height>
 				<font>Simplicity_40</font>
-				<label>[B]Addon Information[/B]</label>
+				<label>[B]$LOCALIZE[31160][/B]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<textcolor>white</textcolor>
@@ -367,7 +367,7 @@
 					<width>257</width>
 					<height>51</height>
 					<textoffsetx>20</textoffsetx>
-					<label>24022</label>
+					<label>$LOCALIZE[24022]</label>
 					<font>Simplicity_18_Bold</font>
 					<align>right</align>
 					<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
@@ -384,7 +384,7 @@
 					<width>257</width>
 					<height>51</height>
 					<textoffsetx>20</textoffsetx>
-					<label>24021</label>
+					<label>$LOCALIZE[24021]</label>
 					<font>Simplicity_18_Bold</font>
 					<align>right</align>
 					<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
@@ -401,7 +401,7 @@
 					<width>257</width>
 					<height>51</height>
 					<textoffsetx>20</textoffsetx>
-					<label>24020</label>
+					<label>$LOCALIZE[24020]</label>
 					<font>Simplicity_18_Bold</font>
 					<align>right</align>
 					<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
@@ -418,7 +418,7 @@
 					<width>257</width>
 					<height>51</height>
 					<textoffsetx>20</textoffsetx>
-					<label>24069</label>
+					<label>$LOCALIZE[24069]</label>
 					<font>Simplicity_18_Bold</font>
 					<align>right</align>
 					<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
@@ -435,7 +435,7 @@
 					<width>257</width>
 					<height>51</height>
 					<textoffsetx>20</textoffsetx>
-					<label>24036</label>
+					<label>$LOCALIZE[24036]</label>
 					<font>Simplicity_18_Bold</font>
 					<align>right</align>
 					<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>

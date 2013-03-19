@@ -82,8 +82,8 @@
 					<description>Master mode button</description>
 					<width>90</width>
 					<height>90</height>
-					<label>20046</label>
-					<altlabel>20045</altlabel>
+					<label>$LOCALIZE[20046]</label>
+					<altlabel>$LOCALIZE[20045]</altlabel>
 					<texturefocus>buttonmenumasterfo.png</texturefocus>
 					<texturenofocus>buttonmenumasternf.png</texturenofocus>
 					<usealttexture>!System.IsMaster</usealttexture>
@@ -133,7 +133,7 @@
 						<onclick>XBMC.CancelAlarm(shutdowntimer)</onclick>
 						<pulseonselect>no</pulseonselect>
 						<font>-</font>
-						<label>20151</label>
+						<label>$LOCALIZE[20151]</label>
 						<onleft>11</onleft>
 						<onright>12</onright>
 						<onup>15</onup>
@@ -151,7 +151,7 @@
 						<onclick>XBMC.AlarmClock(shutdowntimer,XBMC.Shutdown())</onclick>
 						<pulseonselect>no</pulseonselect>
 						<font>-</font>
-						<label>20150</label>
+						<label>$LOCALIZE[20150]</label>
 						<onleft>11</onleft>
 						<onright>12</onright>
 						<onup>17</onup>
@@ -168,7 +168,7 @@
 						<onclick>XBMC.Shutdown()</onclick>
 						<pulseonselect>no</pulseonselect>
 						<font>-</font>
-						<label>13005</label>
+						<label>$LOCALIZE[13005]</label>
 						<onleft>11</onleft>
 						<onright>12</onright>
 						<onup>16</onup>
@@ -204,7 +204,7 @@
 					<onclick>XBMC.Reset()</onclick>
 					<pulseonselect>no</pulseonselect>
 					<font>-</font>
-					<label>13013</label>
+					<label>$LOCALIZE[13013]</label>
 				</control>
 			</control>
 			<control type="group">

@@ -45,7 +45,7 @@
 				<posy>228</posy>
 				<width>527</width>
 				<height>25</height>
-				<label>Close</label>
+				<label>$LOCALIZE[31065]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_24</font>
@@ -64,7 +64,7 @@
 				<posy>228</posy>
 				<width>527</width>
 				<height>25</height>
-				<label>Move</label>
+				<label>$LOCALIZE[31064]</label>
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>Simplicity_24</font>
