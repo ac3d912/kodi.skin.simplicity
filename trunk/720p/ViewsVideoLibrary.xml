@@ -270,7 +270,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Director: [COLOR=white]$INFO[ListItem.Director][/COLOR]</label>
+					<label>$LOCALIZE[31096]: [COLOR=white]$INFO[ListItem.Director][/COLOR]</label>
 					<visible>!Container.Content(TVShows)</visible>
 				</control>
 				<control type="grouplist">
@@ -796,7 +796,7 @@
 							<font>Simplicity_20</font>
 							<textcolor>grey2</textcolor>
 							<align>left</align>
-							<label>$INFO[ListItem.Property(TotalEpisodes)] episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
+							<label>$INFO[ListItem.Property(TotalEpisodes)] $LOCALIZE[31146], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 							<visible>Container.Content(Seasons)</visible>
 						</control>		
 						<!--<control type="grouplist">
@@ -819,7 +819,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>$INFO[ListItem.Year], $INFO[ListItem.Duration] Minutes</label>
+							<label>$INFO[ListItem.Year], $INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 							<visible>Container.Content(Movies) + !Skin.HasSetting(NoMinutes)</visible>
 						</control>
 						<control type="label">
@@ -1131,7 +1131,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Property(TotalEpisodes)] episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
+					<label>$INFO[ListItem.Property(TotalEpisodes)] $LOCALIZE[31146], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 				</control>
 				<control type="grouplist">
 					<description>Media Codec Flagging Images</description>
@@ -1365,7 +1365,7 @@
 									<shadowcolor>black</shadowcolor>
 									<scroll>false</scroll>
 									<align>left</align>
-									<label>Year: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]   Runtime: [COLOR=grey2]$INFO[ListItem.Duration][/COLOR]</label>
+									<label>$LOCALIZE[31162]: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]   $LOCALIZE[31073]: [COLOR=grey2]$INFO[ListItem.Duration][/COLOR]</label>
 									<visible>Skin.HasSetting(NoMinutes)</visible>
 									<animation type="Focus" reversible="false">
 										<effect type="slide" start="-60,0" end="100,0" time="300" delay="800"/>
@@ -1382,7 +1382,7 @@
 									<shadowcolor>black</shadowcolor>
 									<scroll>false</scroll>
 									<align>left</align>
-									<label>Year: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]   Runtime: [COLOR=grey2]$INFO[ListItem.Duration] Minutes[/COLOR]</label>
+									<label>$LOCALIZE[31162]: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]   $LOCALIZE[31073]: [COLOR=grey2]$INFO[ListItem.Duration] $LOCALIZE[31149][/COLOR]</label>
 									<visible>!Skin.HasSetting(NoMinutes)</visible>
 									<animation type="Focus" reversible="false">
 										<effect type="slide" start="-60,0" end="100,0" time="300" delay="800"/>
@@ -1487,7 +1487,7 @@
 									<shadowcolor>black</shadowcolor>
 									<scroll>false</scroll>
 									<align>left</align>
-									<label>Year: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]   Runtime: [COLOR=grey2]$INFO[ListItem.Duration][/COLOR]</label>
+									<label>$LOCALIZE[31162]: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]   $LOCALIZE[31073]: [COLOR=grey2]$INFO[ListItem.Duration][/COLOR]</label>
 									<visible>Skin.HasSetting(NoMinutes)</visible>
 									<animation type="Focus" reversible="false">
 										<effect type="slide" start="60,0" end="-100,0" time="300" delay="800"/>
@@ -1504,7 +1504,7 @@
 									<shadowcolor>black</shadowcolor>
 									<scroll>false</scroll>
 									<align>left</align>
-									<label>Year: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]   Runtime: [COLOR=grey2]$INFO[ListItem.Duration] Minutes[/COLOR]</label>
+									<label>$LOCALIZE[31162]: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]   $LOCALIZE[31073]: [COLOR=grey2]$INFO[ListItem.Duration] $LOCALIZE[31149][/COLOR]</label>
 									<visible>!Skin.HasSetting(NoMinutes)</visible>
 									<animation type="Focus" reversible="false">
 										<effect type="slide" start="60,0" end="-100,0" time="300" delay="800"/>
@@ -1805,7 +1805,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Year], $INFO[ListItem.Duration] Minutes</label>
+					<label>$INFO[ListItem.Year], $INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 					<visible>!Skin.HasSetting(NoMinutes)</visible>
 				</control>
 				<control type="label">
@@ -1846,7 +1846,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Director: [COLOR=white]$INFO[ListItem.Director][/COLOR]</label>
+					<label>$LOCALIZE[31096]: [COLOR=white]$INFO[ListItem.Director][/COLOR]</label>
 				</control>
 				<control type="grouplist">
 					<description>Media Codec Flagging Images</description>
@@ -1945,7 +1945,7 @@
 							<font>Simplicity_20</font>
 							<textcolor>grey2</textcolor>
 							<align>left</align>
-							<label>Originally aired: $INFO[ListItem.Date]</label>
+							<label>$LOCALIZE[31150]: $INFO[ListItem.Date]</label>
 						</control>					
 					</control>	
 				</itemlayout>
@@ -1974,7 +1974,7 @@
 						<scroll>false</scroll>
 						<scrollspeed>0</scrollspeed>
 						<align>left</align>
-						<label>Originally aired: [COLOR=grey4]$INFO[ListItem.Date][/COLOR]</label>
+						<label>$LOCALIZE[31150]: [COLOR=grey4]$INFO[ListItem.Date][/COLOR]</label>
 						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>
 					<!--<control type="image">
@@ -10951,7 +10951,7 @@
 		<control type="group">
 			<posx>0</posx>
 			<posy>0</posy>
-			<visible>Control.IsVisible(567) + Container.Content(TVShows)</visible>
+			<visible>Control.IsVisible(567) + [Container.Content(TVShows)|Container.Content(movies)]</visible>
 			<control type="image">
 				<posx>0</posx>
 				<posy>0</posy>
@@ -10988,12 +10988,12 @@
 					<onleft>567</onleft>
 					<onright>567</onright>
 					<pagecontrol>70</pagecontrol>
-					<scrolltime>200</scrolltime>
+					<scrolltime>400</scrolltime>
 					<focusposition>2</focusposition>
 					<itemspacing>25</itemspacing>
 					<movement>3</movement>
 					<orientation>horizontal</orientation>
-					<preloaditems>14</preloaditems>
+					<preloaditems>2</preloaditems>
 					<itemlayout height="440" width="270">
 						<control type="image">
 							<posx>0</posx>
@@ -11001,7 +11001,7 @@
 							<width>240</width>
 							<height>240</height>
 							<aligny>center</aligny>
-							<texture background="true" fallback="no-character.png">$INFO[ListItem.Path,,character.png]</texture>
+							<texture background="true" fallback="no-character.png">$INFO[ListItem.Art(clearart)]</texture>
 							<animation effect="fade" start="100" end="50" time="0" condition="Control.HasFocus(567)">conditional</animation>
 							<animation effect="fade" start="100" end="50" time="0" condition="!Control.HasFocus(567)">conditional</animation>
 							<aspectratio>keep</aspectratio>
@@ -11024,8 +11024,8 @@
 							<width>240</width>
 							<height>240</height>
 							<aligny>center</aligny>
-							<texture background="true" fallback="no-character.png">$INFO[ListItem.Path,,character.png]</texture>
-							<animation effect="zoom" end="120" center="auto" time="200">Focus</animation>
+							<texture background="true" fallback="no-character.png">$INFO[ListItem.Art(clearart)]</texture>
+							<animation effect="zoom" end="125" center="auto" time="200">Focus</animation>
 							<aspectratio>keep</aspectratio>
 							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						</control>
@@ -11035,7 +11035,7 @@
 							<width>240</width>
 							<height>45</height>
 							<texture>gallery-shadow.png</texture>
-							<animation effect="zoom" end="120" center="auto" time="200">Focus</animation>
+							<animation effect="zoom" end="125" center="auto" time="200">Focus</animation>
 						</control>
 					</focusedlayout>
 				</control>	

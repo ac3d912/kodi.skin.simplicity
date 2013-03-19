@@ -14,191 +14,8 @@
 				<height>350</height>
 				<texture border="20,20,20,2">simplicity/fullscreen.png</texture>
 			</control>
-			<!-- Stuff to fill in for seekbar not being visible -->
-			<!--<control type="label">
-					<description>Playing Label</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>500</width>
-					<height>25</height>
-					<align>left</align>
-					<aligny>center</aligny>
-					<font>font13caps_title</font>
-					<textcolor>white</textcolor>
-					<label>31040</label>
-					<visible>Player.Playing + !Player.Seeking</visible>
-				</control>
-				<control type="label">
-					<description>Paused Label</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>500</width>
-					<height>25</height>
-					<align>left</align>
-					<aligny>center</aligny>
-					<font>font13caps_title</font>
-					<textcolor>white</textcolor>
-					<label>31043</label>
-					<visible>[Player.Paused + !Player.Caching] + !Player.Seeking</visible>
-				</control>
-				<control type="label">
-					<description>Cache Label</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>500</width>
-					<height>25</height>
-					<align>left</align>
-					<aligny>center</aligny>
-					<font>font13caps_title</font>
-					<textcolor>white</textcolor>
-					<label>$LOCALIZE[15107] $INFO[Player.CacheLevel]%</label>
-					<visible>[Player.Paused + Player.Caching] + !Player.Seeking</visible>
-				</control>
-				<control type="label">
-					<description>Seeking Label</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>500</width>
-					<height>25</height>
-					<align>left</align>
-					<aligny>center</aligny>
-					<font>font13caps_title</font>
-					<textcolor>white</textcolor>
-					<label>[UPPERCASE]$LOCALIZE[773][/UPPERCASE]</label>
-					<visible>Player.Seeking</visible>
-				</control>
-				<control type="label">
-					<description>FF Label</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>500</width>
-					<height>25</height>
-					<align>left</align>
-					<aligny>center</aligny>
-					<font>font13caps_title</font>
-					<textcolor>white</textcolor>
-					<label>$LOCALIZE[31044] x2</label>
-					<visible>Player.Forwarding2x</visible>
-				</control>
-				<control type="label">
-					<description>FF Label</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>500</width>
-					<height>25</height>
-					<align>left</align>
-					<aligny>center</aligny>
-					<font>font13caps_title</font>
-					<textcolor>white</textcolor>
-					<label>$LOCALIZE[31044] x4</label>
-					<visible>Player.Forwarding4x</visible>
-				</control>
-				<control type="label">
-					<description>FF Label</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>500</width>
-					<height>25</height>
-					<align>left</align>
-					<aligny>center</aligny>
-					<font>font13caps_title</font>
-					<textcolor>white</textcolor>
-					<label>$LOCALIZE[31044] x8</label>
-					<visible>Player.Forwarding8x</visible>
-				</control>
-				<control type="label">
-					<description>FF Label</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>500</width>
-					<height>25</height>
-					<align>left</align>
-					<aligny>center</aligny>
-					<font>font13caps_title</font>
-					<textcolor>white</textcolor>
-					<label>$LOCALIZE[31044] x16</label>
-					<visible>Player.Forwarding16x</visible>
-				</control>
-				<control type="label">
-					<description>FF Label</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>500</width>
-					<height>25</height>
-					<align>left</align>
-					<aligny>center</aligny>
-					<font>font13caps_title</font>
-					<textcolor>white</textcolor>
-					<label>$LOCALIZE[31044] x32</label>
-					<visible>Player.Forwarding32x</visible>
-				</control>
-				<control type="label">
-					<description>RW Label</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>500</width>
-					<height>25</height>
-					<align>left</align>
-					<aligny>center</aligny>
-					<font>font13caps_title</font>
-					<textcolor>white</textcolor>
-					<label>$LOCALIZE[31045] x2</label>
-					<visible>Player.Rewinding2x</visible>
-				</control>
-				<control type="label">
-					<description>RW Label</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>500</width>
-					<height>25</height>
-					<align>left</align>
-					<aligny>center</aligny>
-					<font>font13caps_title</font>
-					<textcolor>white</textcolor>
-					<label>$LOCALIZE[31045] x4</label>
-					<visible>Player.Rewinding4x</visible>
-				</control>
-				<control type="label">
-					<description>RW Label</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>500</width>
-					<height>25</height>
-					<align>left</align>
-					<aligny>center</aligny>
-					<font>font13caps_title</font>
-					<textcolor>white</textcolor>
-					<label>$LOCALIZE[31045] x8</label>
-					<visible>Player.Rewinding8x</visible>
-				</control>
-				<control type="label">
-					<description>RW Label</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>500</width>
-					<height>25</height>
-					<align>left</align>
-					<aligny>center</aligny>
-					<font>font13caps_title</font>
-					<textcolor>white</textcolor>
-					<label>$LOCALIZE[31045] x16</label>
-					<visible>Player.Rewinding16x</visible>
-				</control>
-				<control type="label">
-					<description>RW Label</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>500</width>
-					<height>25</height>
-					<align>left</align>
-					<aligny>center</aligny>
-					<font>font13caps_title</font>
-					<textcolor>white</textcolor>
-					<label>$LOCALIZE[31045] x32</label>
-					<visible>Player.Rewinding32x</visible>
-				</control>-->
-			<!-- End Stuff to fill in for seekbar not being visible -->
-
+			
+<!-- 			MOVIES -->
 			<control type="group">
 				<visible>VideoPlayer.Content(Movies)</visible>
 				<posx>0</posx>
@@ -257,7 +74,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>left</align>
-						<label>Year:</label>
+						<label>$LOCALIZE[31162]:</label>
 					</control>
 					<control type="label">
 						<posy>50</posy>
@@ -268,7 +85,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>left</align>
-						<label>Director:</label>
+						<label>$LOCALIZE[31096]:</label>
 					</control>		
 					<control type="label">
 						<posy>70</posy>
@@ -279,7 +96,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>left</align>
-						<label>Genre:</label>
+						<label>$LOCALIZE[31070]:</label>
 					</control>			
 					<control type="label">
 						<posy>90</posy>
@@ -350,7 +167,7 @@
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Elapsed:</label>
+						<label>$LOCALIZE[31163]:</label>
 					</control>
 					<control type="label">
 						<description>Popup Info</description>
@@ -375,7 +192,7 @@
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Finish:</label>
+						<label>$LOCALIZE[31164]:</label>
 					</control>
 					<control type="label">
 						<description>Popup Info</description>
@@ -437,7 +254,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>left</align>
-						<label>Artist:</label>
+						<label>$LOCALIZE[31165]:</label>
 					</control>
 					<control type="label">
 						<posy>60</posy>
@@ -448,7 +265,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>left</align>
-						<label>Album:</label>
+						<label>$LOCALIZE[31166]:</label>
 					</control>		
 					<control type="label">
 						<posy>90</posy>
@@ -459,7 +276,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>left</align>
-						<label>Genre:</label>
+						<label>$LOCALIZE[31070]:</label>
 					</control>			
 					<control type="label">
 						<posy>120</posy>
@@ -470,7 +287,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>left</align>
-						<label>Year:</label>
+						<label>$LOCALIZE[31162]:</label>
 					</control>
 					<control type="label">
 						<posx>200</posx>
