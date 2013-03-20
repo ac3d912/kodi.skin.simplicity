@@ -37,7 +37,7 @@
 						<posx>60</posx>
 						<posy>20</posy>
 						<height>20</height>
-						<width>200</width>
+						<width>250</width>
 						<label>$LOCALIZE[31429]</label>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -524,7 +524,7 @@
 						<posx>65</posx>
 						<posy>20</posy>
 						<height>20</height>
-						<width>200</width>
+						<width>250</width>
 						<label>$LOCALIZE[31433]</label>
 						<align>left</align>
 						<aligny>center</aligny>
