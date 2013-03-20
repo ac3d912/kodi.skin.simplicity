@@ -1,3 +1,13 @@
+[B]3.2.0[/B]
+- Added Global search script support
+- New available fonts
+
+[B]3.1.0[/B]
+- Added PVR support
+
+[B]3.0.0[/B]
+- Updated code for XBMC 12 ("Frodo")
+
 [B]2.0.4[/B]
 - Modified DialogFullScreenInfo views for Movies and Episodes
 - Added Half-star ratings
