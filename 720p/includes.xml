@@ -1395,7 +1395,7 @@
 				<posy>675</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>TV Guide</label>
+				<label>$LOCALIZE[31093]</label>
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>Simplicity_20</font>
