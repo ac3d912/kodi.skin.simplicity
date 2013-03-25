@@ -1,4 +1,12 @@
 <window>
+	<onload>ClearProperty(TVGuide.MondayList,Home)</onload>
+	<onload>ClearProperty(TVGuide.TuesdayList,Home)</onload>
+	<onload>ClearProperty(TVGuide.WednesdayList,Home)</onload>
+	<onload>ClearProperty(TVGuide.ThursdayList,Home)</onload>
+	<onload>ClearProperty(TVGuide.FridayList,Home)</onload>
+	<onload>ClearProperty(TVGuide.SaturdayList,Home)</onload>
+	<onload>ClearProperty(TVGuide.SundayList,Home)</onload>
+	<allowoverlay>no</allowoverlay>
 	<controls>
 		<control type="image">
 			<posx>0</posx>
@@ -18,7 +26,7 @@
 				<textcolor>white</textcolor>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>Upcoming TV Schedule</label>
+				<label>$LOCALIZE[31168]</label>
 			</control>
 			<control type="button" id="8">
 				<posx>140</posx>
@@ -28,7 +36,7 @@
 				<onup>299</onup>
 				<onright>513</onright>
 				<onleft>8</onleft>
-				<label>Settings</label>
+				<label>$LOCALIZE[31169]</label>
 				<textcolor>black</textcolor>
 				<focusedcolor>black</focusedcolor>
 				<shadowcolor>grey2</shadowcolor>
@@ -47,7 +55,7 @@
 				<onup>299</onup>
 				<onright>514</onright>
 				<onleft>8</onleft>
-				<label>Home</label>
+				<label>$LOCALIZE[31170]</label>
 				<textcolor>black</textcolor>
 				<focusedcolor>black</focusedcolor>
 				<shadowcolor>grey2</shadowcolor>
@@ -66,7 +74,7 @@
 				<onup>299</onup>
 				<onright>514</onright>
 				<onleft>513</onleft>
-				<label>Refresh</label>
+				<label>$LOCALIZE[31171]</label>
 				<font>Simplicity_20_Bold_title</font>
 				<textcolor>black</textcolor>
 				<focusedcolor>black</focusedcolor>
@@ -180,7 +188,7 @@
 								<width>119</width>
 								<height>46</height>
 								<aspectratio>keep</aspectratio>
-								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Path),,logo.png]</texture>
+								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							</control>
 							<control type="label">
 								<posx>90</posx>
@@ -219,7 +227,7 @@
 								<width>119</width>
 								<height>46</height>
 								<aspectratio>keep</aspectratio>
-								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Path),,logo.png]</texture>
+								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							</control>
 							<control type="label">
 								<posx>90</posx>
@@ -280,7 +288,7 @@
 								<width>119</width>
 								<height>46</height>
 								<aspectratio>keep</aspectratio>
-								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Path),,logo.png]</texture>
+								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							</control>
 							<control type="label">
 								<posx>90</posx>
@@ -319,7 +327,7 @@
 								<width>119</width>
 								<height>46</height>
 								<aspectratio>keep</aspectratio>
-								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Path),,logo.png]</texture>
+								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							</control>
 							<control type="label">
 								<posx>90</posx>
@@ -380,7 +388,7 @@
 								<width>119</width>
 								<height>46</height>
 								<aspectratio>keep</aspectratio>
-								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Path),,logo.png]</texture>
+								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							</control>
 							<control type="label">
 								<posx>90</posx>
@@ -419,7 +427,7 @@
 								<width>119</width>
 								<height>46</height>
 								<aspectratio>keep</aspectratio>
-								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Path),,logo.png]</texture>
+								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							</control>
 							<control type="label">
 								<posx>90</posx>
@@ -480,7 +488,7 @@
 								<width>119</width>
 								<height>46</height>
 								<aspectratio>keep</aspectratio>
-								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Path),,logo.png]</texture>
+								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							</control>
 							<control type="label">
 								<posx>90</posx>
@@ -519,7 +527,7 @@
 								<width>119</width>
 								<height>46</height>
 								<aspectratio>keep</aspectratio>
-								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Path),,logo.png]</texture>
+								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							</control>
 							<control type="label">
 								<posx>90</posx>
@@ -580,7 +588,7 @@
 								<width>119</width>
 								<height>46</height>
 								<aspectratio>keep</aspectratio>
-								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Path),,logo.png]</texture>
+								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							</control>
 							<control type="label">
 								<posx>90</posx>
@@ -619,7 +627,7 @@
 								<width>119</width>
 								<height>46</height>
 								<aspectratio>keep</aspectratio>
-								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Path),,logo.png]</texture>
+								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							</control>
 							<control type="label">
 								<posx>90</posx>
@@ -680,7 +688,7 @@
 								<width>119</width>
 								<height>46</height>
 								<aspectratio>keep</aspectratio>
-								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Path),,logo.png]</texture>
+								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							</control>
 							<control type="label">
 								<posx>90</posx>
@@ -719,7 +727,7 @@
 								<width>119</width>
 								<height>46</height>
 								<aspectratio>keep</aspectratio>
-								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Path),,logo.png]</texture>
+								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							</control>
 							<control type="label">
 								<posx>90</posx>
@@ -780,7 +788,7 @@
 								<width>119</width>
 								<height>46</height>
 								<aspectratio>keep</aspectratio>
-								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Path),,logo.png]</texture>
+								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							</control>
 							<control type="label">
 								<posx>90</posx>
@@ -819,7 +827,7 @@
 								<width>119</width>
 								<height>46</height>
 								<aspectratio>keep</aspectratio>
-								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Path),,logo.png]</texture>
+								<texture fallback="logo-fallback.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							</control>
 							<control type="label">
 								<posx>90</posx>

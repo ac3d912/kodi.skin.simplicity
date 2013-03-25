@@ -16,7 +16,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.1.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.1.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.1.airday),Sunday) + Container(11000).HasFocus(1)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -25,7 +25,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.2.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.2.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.2.airday),Sunday) + Container(11000).HasFocus(2)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -34,7 +34,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.3.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.3.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.3.airday),Sunday) + Container(11000).HasFocus(3)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -43,7 +43,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.4.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.4.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.4.airday),Sunday) + Container(11000).HasFocus(4)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -52,7 +52,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.5.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.5.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.5.airday),Sunday) + Container(11000).HasFocus(5)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -61,7 +61,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.6.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.6.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.6.airday),Sunday) + Container(11000).HasFocus(6)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -70,7 +70,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.7.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.7.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.7.airday),Sunday) + Container(11000).HasFocus(7)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -79,7 +79,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.8.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.8.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.8.airday),Sunday) + Container(11000).HasFocus(8)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -88,7 +88,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.9.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.9.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.9.airday),Sunday) + Container(11000).HasFocus(9)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -97,7 +97,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.10.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.10.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.10.airday),Sunday) + Container(11000).HasFocus(10)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -106,7 +106,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.11.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.11.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.11.airday),Sunday) + Container(11000).HasFocus(11)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -115,7 +115,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.12.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.12.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.12.airday),Sunday) + Container(11000).HasFocus(12)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -124,7 +124,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.13.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.13.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.13.airday),Sunday) + Container(11000).HasFocus(13)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -133,7 +133,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.14.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.14.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.14.airday),Sunday) + Container(11000).HasFocus(14)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -142,7 +142,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.15.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.15.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.15.airday),Sunday) + Container(11000).HasFocus(15)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -151,7 +151,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.16.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.16.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.16.airday),Sunday) + Container(11000).HasFocus(16)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -160,7 +160,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.17.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.17.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.17.airday),Sunday) + Container(11000).HasFocus(17)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -169,7 +169,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.18.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.18.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.18.airday),Sunday) + Container(11000).HasFocus(18)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -178,7 +178,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.19.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.19.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.19.airday),Sunday) + Container(11000).HasFocus(19)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -187,7 +187,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.20.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.20.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.20.airday),Sunday) + Container(11000).HasFocus(20)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -196,7 +196,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.21.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.21.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.21.airday),Sunday) + Container(11000).HasFocus(21)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -205,7 +205,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.22.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.22.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.22.airday),Sunday) + Container(11000).HasFocus(22)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -214,7 +214,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.23.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.23.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.23.airday),Sunday) + Container(11000).HasFocus(23)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -223,7 +223,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.24.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.24.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.24.airday),Sunday) + Container(11000).HasFocus(24)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -232,7 +232,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[Window(Home).Property(NextAired.25.Showpath),,fanart.jpg]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.25.Path),,fanart.jpg]</texture>
 				<visible>StringCompare(Window(Home).Property(NextAired.25.airday),Sunday) + Container(11000).HasFocus(25)</visible>
 				<include>VisibleFadeEffect</include>
 			</control>
@@ -530,7 +530,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.1.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.1.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.1.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.1.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.1.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.1.airday),Sunday) + Container(11000).HasFocus(1)</visible>
 							</item>
 							<item id="2">
@@ -551,7 +551,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.2.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.2.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.2.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.2.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.2.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.2.airday),Sunday) + Container(11000).HasFocus(2)</visible>
 							</item>
 							<item id="3">
@@ -572,7 +572,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.3.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.3.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.3.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.3.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.3.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.3.airday),Sunday) + Container(11000).HasFocus(3)</visible>
 							</item>
 							<item id="4">
@@ -593,7 +593,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.4.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.4.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.4.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.4.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.4.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.4.airday),Sunday) + Container(11000).HasFocus(4)</visible>
 							</item>
 							<item id="5">
@@ -614,7 +614,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.5.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.5.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.5.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.5.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.5.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.5.airday),Sunday) + Container(11000).HasFocus(5)</visible>
 							</item>
 							<item id="6">
@@ -635,7 +635,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.6.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.6.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.6.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.6.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.6.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.6.airday),Sunday) + Container(11000).HasFocus(6)</visible>
 							</item>
 							<item id="7">
@@ -656,7 +656,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.7.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.7.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.7.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.7.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.7.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.7.airday),Sunday) + Container(11000).HasFocus(7)</visible>
 							</item>
 							<item id="8">
@@ -677,7 +677,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.8.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.8.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.8.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.8.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.8.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.8.airday),Sunday) + Container(11000).HasFocus(8)</visible>
 							</item>
 							<item id="9">
@@ -698,7 +698,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.9.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.9.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.9.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.9.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.9.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.9.airday),Sunday) + Container(11000).HasFocus(9)</visible>
 							</item>
 							<item id="10">
@@ -719,7 +719,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.10.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.10.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.10.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.10.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.10.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.10.airday),Sunday) + Container(11000).HasFocus(10)</visible>
 							</item>
 							<item id="11">
@@ -740,7 +740,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.11.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.11.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.11.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.11.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.11.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.11.airday),Sunday) + Container(11000).HasFocus(11)</visible>
 							</item>
 							<item id="12">
@@ -761,7 +761,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.12.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.12.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.12.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.12.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.12.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.12.airday),Sunday) + Container(11000).HasFocus(12)</visible>
 							</item>
 							<item id="13">
@@ -782,7 +782,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.13.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.13.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.13.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.13.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.13.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.13.airday),Sunday) + Container(11000).HasFocus(13)</visible>
 							</item>
 							<item id="14">
@@ -803,7 +803,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.14.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.14.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.14.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.14.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.14.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.14.airday),Sunday) + Container(11000).HasFocus(14)</visible>
 							</item>
 							<item id="15">
@@ -824,7 +824,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.15.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.15.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.15.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.15.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.15.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.15.airday),Sunday) + Container(11000).HasFocus(15)</visible>
 							</item>
 							<item id="16">
@@ -845,7 +845,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.16.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.16.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.16.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.16.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.16.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.16.airday),Sunday) + Container(11000).HasFocus(16)</visible>
 							</item>
 							<item id="17">
@@ -866,7 +866,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.17.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.17.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.17.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.17.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.17.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.17.airday),Sunday) + Container(11000).HasFocus(17)</visible>
 							</item>
 							<item id="18">
@@ -887,7 +887,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.18.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.18.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.18.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.18.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.18.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.18.airday),Sunday) + Container(11000).HasFocus(18)</visible>
 							</item>
 							<item id="19">
@@ -908,7 +908,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.19.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.19.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.19.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.19.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.19.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.19.airday),Sunday) + Container(11000).HasFocus(19)</visible>
 							</item>
 							<item id="20">
@@ -929,7 +929,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.20.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.20.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.20.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.20.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.20.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.20.airday),Sunday) + Container(11000).HasFocus(20)</visible>
 							</item>
 							<item id="21">
@@ -950,7 +950,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.21.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.21.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.21.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.21.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.21.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.21.airday),Sunday) + Container(11000).HasFocus(21)</visible>
 							</item>
 							<item id="22">
@@ -971,7 +971,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.22.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.22.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.22.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.22.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.22.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.22.airday),Sunday) + Container(11000).HasFocus(22)</visible>
 							</item>
 							<item id="23">
@@ -992,7 +992,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.23.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.23.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.23.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.23.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.23.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.23.airday),Sunday) + Container(11000).HasFocus(23)</visible>
 							</item>
 							<item id="24">
@@ -1013,7 +1013,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.24.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.24.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.24.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.24.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.24.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.24.airday),Sunday) + Container(11000).HasFocus(24)</visible>
 							</item>
 							<item id="25">
@@ -1034,7 +1034,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.25.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.25.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.25.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.25.Showpath),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.25.Path),,poster.jpg]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.25.airday),Sunday) + Container(11000).HasFocus(25)</visible>
 							</item>
 						</content>
@@ -1104,201 +1104,201 @@
 						<item id="1">
 							<label>-</label>
 							<label2>-</label2>
-							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.1.Showpath)])</onclick>
+							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.1.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.1.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.1.Showpath),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.1.Path),,logo.png]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.1.airday),Sunday)</visible>
 						</item>
 						<item id="2">
 							<label>-</label>
 							<label2>-</label2>
-							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.2.Showpath)])</onclick>
+							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.2.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.2.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.2.Showpath),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.2.Path),,logo.png]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.2.airday),Sunday)</visible>
 						</item>
 						<item id="3">
 							<label>-</label>
 							<label2>-</label2>
-							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.3.Showpath)])</onclick>
+							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.3.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.3.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.3.Showpath),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.3.Path),,logo.png]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.3.airday),Sunday)</visible>
 						</item>
 						<item id="4">
 							<label>-</label>
 							<label2>-</label2>
-							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.4.Showpath)])</onclick>
+							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.4.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.4.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.4.Showpath),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.4.Path),,logo.png]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.4.airday),Sunday)</visible>
 						</item>
 						<item id="5">
 							<label>-</label>
 							<label2>-</label2>
-							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.5.Showpath)])</onclick>
+							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.5.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.5.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.5.Showpath),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.5.Path),,logo.png]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.5.airday),Sunday)</visible>
 						</item>
 						<item id="6">
 							<label>-</label>
 							<label2>-</label2>
-							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.6.Showpath)])</onclick>
+							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.6.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.6.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.6.Showpath),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.6.Path),,logo.png]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.6.airday),Sunday)</visible>
 						</item>
 						<item id="7">
 							<label>-</label>
 							<label2>-</label2>
-							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.7.Showpath)])</onclick>
+							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.7.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.7.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.7.Showpath),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.7.Path),,logo.png]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.7.airday),Sunday)</visible>
 						</item>
 						<item id="8">
 							<label>-</label>
 							<label2>-</label2>
-							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.8.Showpath)])</onclick>
+							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.8.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.8.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.8.Showpath),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.8.Path),,logo.png]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.8.airday),Sunday)</visible>
 						</item>
 						<item id="9">
 							<label>-</label>
 							<label2>-</label2>
-							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.9.Showpath)])</onclick>
+							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.9.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.9.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.9.Showpath),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.9.Path),,logo.png]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.9.airday),Sunday)</visible>
 						</item>
 						<item id="10">
 							<label>-</label>
 							<label2>-</label2>
-							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.10.Showpath)])</onclick>
+							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.10.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.10.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.10.Showpath),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.10.Path),,logo.png]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.10.airday),Sunday)</visible>
 						</item>
 						<item id="11">
 							<label>-</label>
 							<label2>-</label2>
-							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.11.Showpath)])</onclick>
+							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.11.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.11.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.11.Showpath),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.11.Path),,logo.png]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.11.airday),Sunday)</visible>
 						</item>
 						<item id="12">
 							<label>-</label>
 							<label2>-</label2>
-							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.12.Showpath)])</onclick>
+							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.12.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.12.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.12.Showpath),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.12.Path),,logo.png]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.12.airday),Sunday)</visible>
 						</item>
 						<item id="13">
 							<label>-</label>
 							<label2>-</label2>
-							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.13.Showpath)])</onclick>
+							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.13.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.13.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.13.Showpath),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.13.Path),,logo.png]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.13.airday),Sunday)</visible>
 						</item>
 						<item id="14">
 							<label>-</label>
 							<label2>-</label2>
-							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.14.Showpath)])</onclick>
+							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.14.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.14.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.14.Showpath),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.14.Path),,logo.png]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.14.airday),Sunday)</visible>
 						</item>
 						<item id="15">
 							<label>-</label>
 							<label2>-</label2>
-							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.15.Showpath)])</onclick>
+							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.15.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.15.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.15.Showpath),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.15.Path),,logo.png]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.15.airday),Sunday)</visible>
 						</item>
 						<item id="16">
 							<label>-</label>
 							<label2>-</label2>>
-						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.16.Showpath)])</onclick>
+						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.16.Path)])</onclick>
 						<icon>studios/$INFO[Window(Home).Property(NextAired.16.Network),,.png]</icon>
-						<thumb>$INFO[Window(Home).Property(NextAired.16.Showpath),,logo.png]</thumb>
+						<thumb>$INFO[Window(Home).Property(NextAired.16.Path),,logo.png]</thumb>
 						<visible>StringCompare(Window(Home).Property(NextAired.16.airday),Sunday)</visible>
 					</item>
 					<item id="17">
 						<label>-</label>
 						<label2>-</label2>
-						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.17.Showpath)])</onclick>
+						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.17.Path)])</onclick>
 						<icon>studios/$INFO[Window(Home).Property(NextAired.17.Network),,.png]</icon>
-						<thumb>$INFO[Window(Home).Property(NextAired.17.Showpath),,logo.png]</thumb>
+						<thumb>$INFO[Window(Home).Property(NextAired.17.Path),,logo.png]</thumb>
 						<visible>StringCompare(Window(Home).Property(NextAired.17.airday),Sunday)</visible>
 					</item>
 					<item id="18">
 						<label>-</label>
 						<label2>-</label2>
-						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.18.Showpath)])</onclick>
+						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.18.Path)])</onclick>
 						<icon>studios/$INFO[Window(Home).Property(NextAired.18.Network),,.png]</icon>
-						<thumb>$INFO[Window(Home).Property(NextAired.18.Showpath),,logo.png]</thumb>
+						<thumb>$INFO[Window(Home).Property(NextAired.18.Path),,logo.png]</thumb>
 						<visible>StringCompare(Window(Home).Property(NextAired.18.airday),Sunday)</visible>
 					</item>
 					<item id="19">
 						<label>-</label>
 						<label2>-</label2>
-						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.19.Showpath)])</onclick>
+						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.19.Path)])</onclick>
 						<icon>studios/$INFO[Window(Home).Property(NextAired.19.Network),,.png]</icon>
-						<thumb>$INFO[Window(Home).Property(NextAired.19.Showpath),,logo.png]</thumb>
+						<thumb>$INFO[Window(Home).Property(NextAired.19.Path),,logo.png]</thumb>
 						<visible>StringCompare(Window(Home).Property(NextAired.19.airday),Sunday)</visible>
 					</item>
 					<item id="20">
 						<label>-</label>
 						<label2>-</label2>
-						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.20.Showpath)])</onclick>
+						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.20.Path)])</onclick>
 						<icon>studios/$INFO[Window(Home).Property(NextAired.20.Network),,.png]</icon>
-						<thumb>$INFO[Window(Home).Property(NextAired.20.Showpath),,logo.png]</thumb>
+						<thumb>$INFO[Window(Home).Property(NextAired.20.Path),,logo.png]</thumb>
 						<visible>StringCompare(Window(Home).Property(NextAired.20.airday),Sunday)</visible>
 					</item>
 					<item id="21">
 						<label>-</label>
 						<label2>-</label2>
-						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.21.Showpath)])</onclick>
+						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.21.Path)])</onclick>
 						<icon>studios/$INFO[Window(Home).Property(NextAired.21.Network),,.png]</icon>
-						<thumb>$INFO[Window(Home).Property(NextAired.21.Showpath),,logo.png]</thumb>
+						<thumb>$INFO[Window(Home).Property(NextAired.21.Path),,logo.png]</thumb>
 						<visible>StringCompare(Window(Home).Property(NextAired.21.airday),Sunday)</visible>
 					</item>
 					<item id="22">
 						<label>-</label>
 						<label2>-</label2>
-						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.22.Showpath)])</onclick>
+						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.22.Path)])</onclick>
 						<icon>studios/$INFO[Window(Home).Property(NextAired.22.Network),,.png]</icon>
-						<thumb>$INFO[Window(Home).Property(NextAired.22.Showpath),,logo.png]</thumb>
+						<thumb>$INFO[Window(Home).Property(NextAired.22.Path),,logo.png]</thumb>
 						<visible>StringCompare(Window(Home).Property(NextAired.22.airday),Sunday)</visible>
 					</item>
 					<item id="23">
 						<label>-</label>
 						<label2>-</label2>
-						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.23.Showpath)])</onclick>
+						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.23.Path)])</onclick>
 						<icon>studios/$INFO[Window(Home).Property(NextAired.23.Network),,.png]</icon>
-						<thumb>$INFO[Window(Home).Property(NextAired.23.Showpath),,logo.png]</thumb>
+						<thumb>$INFO[Window(Home).Property(NextAired.23.Path),,logo.png]</thumb>
 						<visible>StringCompare(Window(Home).Property(NextAired.23.airday),Sunday)</visible>
 					</item>
 					<item id="24">
 						<label>-</label>
 						<label2>-</label2>
-						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.24.Showpath)])</onclick>
+						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.24.Path)])</onclick>
 						<icon>studios/$INFO[Window(Home).Property(NextAired.24.Network),,.png]</icon>
-						<thumb>$INFO[Window(Home).Property(NextAired.24.Showpath),,logo.png]</thumb>
+						<thumb>$INFO[Window(Home).Property(NextAired.24.Path),,logo.png]</thumb>
 						<visible>StringCompare(Window(Home).Property(NextAired.24.airday),Sunday)</visible>
 					</item>
 					<item id="25">
 						<label>-</label>
 						<label2>-</label2>
-						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.25.Showpath)])</onclick>
+						<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.25.Path)])</onclick>
 						<icon>studios/$INFO[Window(Home).Property(NextAired.25.Network),,.png]</icon>
-						<thumb>$INFO[Window(Home).Property(NextAired.25.Showpath),,logo.png]</thumb>
+						<thumb>$INFO[Window(Home).Property(NextAired.25.Path),,logo.png]</thumb>
 						<visible>StringCompare(Window(Home).Property(NextAired.25.airday),Sunday)</visible>
 					</item>
 				</content>
