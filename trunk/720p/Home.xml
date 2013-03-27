@@ -728,6 +728,7 @@
 					<icon>special://skin/backgrounds/tvguide.jpg</icon>
 					<thumb>icons/tvguideicon.png</thumb>
 					<onclick>XBMC.RunScript(script.tv.show.next.aired)</onclick>
+					<!-- <onclick>ActivateWindow(1116,TVShows,return)</onclick> -->
 					<visible>!Skin.HasSetting(HomeMenuNoTVGuideButton)</visible>
 				</item>
 				<item id="5">

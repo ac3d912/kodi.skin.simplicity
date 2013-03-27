@@ -46,8 +46,10 @@
 
 <!--Down-->
 
-	<include name="OpenGuideDown">
+	<include name="OpenGuideDown">	
 				<ondown>ActivateWindow(1116,TVShows,return)</ondown>
+				
+				
 	</include>
 
 	<include name="OpenRecentDown">
@@ -62,6 +64,7 @@
 
 	<include name="OpenGuideUp">
 				<onup>ActivateWindow(1116,TVShows,return)</onup>
+				
 	</include>
 
 	<include name="OpenRecentUp">
@@ -76,6 +79,7 @@
 
 	<include name="OpenGuideLeft">
 				<onleft>ActivateWindow(1116,TVShows,return)</onleft>
+				
 	</include>
 
 	<include name="OpenRecentLeft">
@@ -90,6 +94,7 @@
 
 	<include name="OpenGuideRight">
 				<onright>ActivateWindow(1116,TVShows,return)</onright>
+				
 	</include>
 
 	<include name="OpenRecentRight">

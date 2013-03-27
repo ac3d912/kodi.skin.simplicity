@@ -1106,7 +1106,7 @@
 							<label2>-</label2>
 							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.1.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.1.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.1.Path),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.1.Art(clearlogo)]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.1.airday),Tuesday)</visible>
 						</item>
 						<item id="2">
@@ -1114,7 +1114,7 @@
 							<label2>-</label2>
 							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.2.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.2.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.2.Path),,logo.png]</thumb>
+							<thumb>$INFO[Window(Home).Property(NextAired.2.Art(clearlogo)]</thumb>
 							<visible>StringCompare(Window(Home).Property(NextAired.2.airday),Tuesday)</visible>
 						</item>
 						<item id="3">
