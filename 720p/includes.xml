@@ -47,7 +47,8 @@
 <!--Down-->
 
 	<include name="OpenGuideDown">	
-				<ondown>ActivateWindow(1116,TVShows,return)</ondown>
+				<!-- <ondown>ActivateWindow(1116,TVShows,return)</ondown> -->
+				<ondown>XBMC.RunScript(script.tv.show.next.aired)</ondown>
 				
 				
 	</include>
@@ -63,8 +64,8 @@
 <!--Up-->
 
 	<include name="OpenGuideUp">
-				<onup>ActivateWindow(1116,TVShows,return)</onup>
-				
+				<!-- <onup>ActivateWindow(1116,TVShows,return)</onup> -->
+				<onup>XBMC.RunScript(script.tv.show.next.aired)</onup>
 	</include>
 
 	<include name="OpenRecentUp">
@@ -78,7 +79,8 @@
 <!--Left-->
 
 	<include name="OpenGuideLeft">
-				<onleft>ActivateWindow(1116,TVShows,return)</onleft>
+				<!-- <onleft>ActivateWindow(1116,TVShows,return)</onleft> -->
+				<onleft>XBMC.RunScript(script.tv.show.next.aired)</onleft>
 				
 	</include>
 
@@ -93,7 +95,8 @@
 <!--Right-->
 
 	<include name="OpenGuideRight">
-				<onright>ActivateWindow(1116,TVShows,return)</onright>
+				<!-- <onright>ActivateWindow(1116,TVShows,return)</onright> -->
+				<onright>XBMC.RunScript(script.tv.show.next.aired)</onright>
 				
 	</include>
 
