@@ -530,7 +530,8 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.1.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.1.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.1.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.1.Path),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.1.Thumb)]</thumb>
+<!-- 								<thumb>$INFO[Window(Home).Property(NextAired.1.Path),,poster.jpg]</thumb> -->
 								<visible>StringCompare(Window(Home).Property(NextAired.1.airday),Thursday) + Container(11000).HasFocus(1)</visible>
 							</item>
 							<item id="2">
@@ -551,7 +552,7 @@
 								<property name="Country">$INFO[Window(Home).Property(NextAired.2.Country)]</property>
 								<property name="Runtime">$INFO[Window(Home).Property(NextAired.2.Runtime)] Minutes</property>
 								<icon>studios/$INFO[Window(Home).Property(NextAired.2.Network),,.png]</icon>
-								<thumb>$INFO[Window(Home).Property(NextAired.2.Path),,poster.jpg]</thumb>
+								<thumb>$INFO[Window(Home).Property(NextAired.2.Thumb)]</thumb>
 								<visible>StringCompare(Window(Home).Property(NextAired.2.airday),Thursday) + Container(11000).HasFocus(2)</visible>
 							</item>
 							<item id="3">
@@ -1106,8 +1107,7 @@
 							<label2>-</label2>
 							<onclick>ActivateWindow(videolibrary,$INFO[Window(Home).Property(NextAired.1.Path)])</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.1.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.1.Path),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.1.airday),Thursday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.1.Path),,logo.png]</thumb>	<visible>StringCompare(Window(Home).Property(NextAired.1.airday),Thursday)</visible>
 						</item>
 						<item id="2">
 							<label>-</label>
