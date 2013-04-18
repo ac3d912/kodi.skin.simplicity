@@ -272,18 +272,31 @@
   <string id="31468"> Welcome Screen icon from the Home Screen?</string>
   <string id="31469">(This action can be undone in Skin Settings)</string>
   <string id="31470">Remaining</string>
-  <string id="31443"></string>
-  <string id="31443"></string>
-  <string id="31443"></string>
-  <string id="31443"></string>
-  <string id="31443"></string>
-  <string id="31443"></string>
-  <string id="31443"></string>
-  <string id="31443"></string>
-  <string id="31443"></string>
-  <string id="31443"></string>
-  <string id="31443"></string>
-  <string id="31443"></string>
+  <string id="31471">Length</string>
+  <string id="31472">mins</string>
+  <string id="31473">Cinema</string>
+  <string id="31474">Theme</string>
+  <string id="31475">Flip image</string>
+  <string id="31476">TV ALERT</string>
+  <string id="31477">Restart XBMC</string>
+  <string id="31478">Favorites</string>
+  <string id="31479">Credits</string>
+  <string id="31480">Video Addons</string>
+  <string id="31481">Music Addons</string>
+  <string id="31482">Add Shortcut</string>
+  <string id="31483">Kids</string>
+  <string id="31484">Unwatched</string>
+    <string id="31443"></string>
+    <string id="31443"></string>
+    <string id="31443"></string>
+    <string id="31443"></string>
+    <string id="31443"></string>
+    <string id="31443"></string>
+    <string id="31443"></string>
+    <string id="31443"></string>
+    <string id="31443"></string>
+    <string id="31443"></string>
+    <string id="31443"></string>
   
   
   
@@ -321,6 +334,8 @@
   <string id="31509">PICTURES</string>
   <string id="31510">SHUTDOWN</string>
   <string id="31511">Advanced Options</string>
+  <string id="31512">WELCOME</string>
+  <string id="31513">KIDS</string>
 
 
 
