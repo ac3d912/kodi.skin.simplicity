@@ -945,7 +945,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>$LOCALIZE[31111] - Shutdown</label>
+						<label>$LOCALIZE[31111] - $LOCALIZE[31206]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoShutdownButton)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoShutdownButton)</selected>
 					</control>
@@ -983,7 +983,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>$LOCALIZE[31111] - Kids</label>
+						<label>$LOCALIZE[31111] - $LOCALIZE[31483]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoKidsButton)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoKidsButton)</selected>
 					</control>
@@ -1017,7 +1017,7 @@
 						<width>750</width>
 						<height>45</height>
 						<font>Simplicity_20_Bold_title</font>
-						<label>31109</label>
+						<label>$LOCALIZE[31109]</label>
 						<textcolor>yellow</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
@@ -1141,85 +1141,85 @@
 						</focusedlayout>
 						<content>
 							<item id="1">
-								<label>Home</label>
+								<label>$LOCALIZE[31170]</label>
 								<onclick>-</onclick>
 								<icon>special://skin/backgrounds/Home.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Home_Folder)]</thumb>
 							</item>
 							<item id="2">
-								<label>Movies</label>
+								<label>$LOCALIZE[31087]</label>
 								<onclick>-</onclick>
 								<icon>special://skin/backgrounds/Movies.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Movies_Folder)]</thumb>
 							</item>
 							<item id="3">
-								<label>TV Shows</label>
+								<label>$LOCALIZE[31088]</label>
 								<onclick>-</onclick>
 								<icon>special://skin/backgrounds/tvshows.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_TVShows_Folder)]</thumb>
 							</item>
 							<item id="4">
-								<label>Videos</label>
+								<label>$LOCALIZE[31375]</label>
 								<onclick>-</onclick>
 								<icon>special://skin/backgrounds/videos.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Video_Folder)]</thumb>
 							</item>
 							<item id="5">
-								<label>Music</label>
+								<label>$LOCALIZE[31207]</label>
 								<onclick>-</onclick>
 								<icon>special://skin/backgrounds/Music.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Music_Folder)]</thumb>
 							</item>
 							<item id="6">
-								<label>Pictures</label>
+								<label>$LOCALIZE[31086]</label>
 								<onclick>-</onclick>
 								<icon>special://skin/backgrounds/pictures.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Pictures_Folder)]</thumb>
 							</item>
 							<item id="7">
-								<label>Weather</label>
+								<label>$LOCALIZE[31208]</label>
 								<onclick>-</onclick>
 								<icon>special://skin/backgrounds/weather.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Weather_Folder)]</thumb>
 							</item>
 							<item id="10">
-								<label>Addons</label>
+								<label>$LOCALIZE[31084]</label>
 								<onclick>-</onclick>
 								<icon>special://skin/backgrounds/addons.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Addons_Folder)]</thumb>
 							</item>
 							<item id="11">
-								<label>Programs</label>
+								<label>$LOCALIZE[31380]</label>
 								<onclick>-</onclick>
 								<icon>special://skin/backgrounds/programs.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Programs_Folder)]</thumb>
 							</item>
 							<item id="12">
-								<label>TV Guide</label>
+								<label>$LOCALIZE[31093]</label>
 								<onclick>-</onclick>
 								<icon>special://skin/backgrounds/tvguide.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_TVGuide_Folder)]</thumb>
 							</item>
 							<item id="13">
-								<label>Search</label>
+								<label>$LOCALIZE[31399]</label>
 								<onclick>-</onclick>
 								<icon>special://skin/backgrounds/search.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Search_Folder)]</thumb>
 							</item>
 							<item id="14">
-								<label>Settings</label>
+								<label>$LOCALIZE[31169]</label>
 								<onclick>-</onclick>
 								<icon>special://skin/backgrounds/settings.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Settings_Folder)]</thumb>
 							</item>
 							<item id="15">
-								<label>Shutdown</label>
+								<label>$LOCALIZE[31206]</label>
 								<onclick>-</onclick>
 								<icon>special://skin/backgrounds/shutdown.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Shutdown_Folder)]</thumb>
 							</item>
 							<item id="16">
-								<label>Kids</label>
+								<label>$LOCALIZE[31483]</label>
 								<onclick>-</onclick>
 								<icon>special://skin/backgrounds/kids.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Kids_Folder)]</thumb>
@@ -1293,7 +1293,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31114</label>
+								<label>$LOCALIZE[31114]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1313,7 +1313,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>571</label>
+								<label>$LOCALIZE[571]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
