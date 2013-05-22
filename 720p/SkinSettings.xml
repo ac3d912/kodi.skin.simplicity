@@ -385,7 +385,7 @@
 						<width>750</width>
 						<height>45</height>
 						<font>Simplicity_20_Bold_title</font>
-						<label>Startup Window</label>
+						<label>$LOCALIZE[31388]</label>
 						<textcolor>yellow</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
@@ -405,7 +405,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>21398</label>
+						<label>$LOCALIZE[21398]</label>
 						<onclick>Skin.ToggleSetting(Use_Startup_Playlist)</onclick>
 						<selected>Skin.HasSetting(Use_Startup_Playlist)</selected>
 					</control>
@@ -420,7 +420,7 @@
 						<focusedcolor>white</focusedcolor>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>15311</label>
+						<label>$LOCALIZE[15311]</label>
 						<label2>$INFO[Skin.String(Startup_Playlist_Path)]</label2>
 						<onclick>Skin.SetFile(Startup_Playlist_Path,.m3u,t:\playlists\music\)</onclick>
 						<enable>Skin.HasSetting(Use_Startup_Playlist)</enable>
@@ -429,7 +429,7 @@
 						<width>750</width>
 						<height>45</height>
 						<font>Simplicity_20_Bold_title</font>
-						<label>31102</label>
+						<label>$LOCALIZE[31102]</label>
 						<textcolor>yellow</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
@@ -449,7 +449,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>31124</label>
+						<label>$LOCALIZE[31124]</label>
 						<onclick>Skin.ToggleSetting(ShowBackgroundVideo)</onclick>
 						<selected>!Skin.HasSetting(ShowBackgroundVideo)</selected>
 					</control>
@@ -467,7 +467,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>31125</label>
+						<label>$LOCALIZE[31125]</label>
 						<onclick>Skin.ToggleSetting(ShowBackgroundVis)</onclick>
 						<selected>!Skin.HasSetting(ShowBackgroundVis)</selected>
 					</control>
@@ -504,7 +504,7 @@
 						<width>750</width>
 						<height>45</height>
 						<font>Simplicity_20_Bold_title</font>
-						<label>31101</label>
+						<label>$LOCALIZE[31101]</label>
 						<textcolor>yellow</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
@@ -525,7 +525,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>Use Alternate Home Layout (Icons)</label>
+						<label>$LOCALIZE[31389]</label>
 						<onclick>Skin.ToggleSetting(AlternateHome)</onclick>
 						<selected>Skin.HasSetting(AlternateHome)</selected>
 					</control>
@@ -544,7 +544,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>Disable Weather Beside Clock</label>
+						<label>$LOCALIZE[31390]</label>
 						<onclick>Skin.ToggleSetting(NoHomeWeather)</onclick>
 						<selected>Skin.HasSetting(NoHomeWeather)</selected>
 					</control>
@@ -563,7 +563,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>Use TV Alert Feed (Must disable RSS feed)</label>
+						<label>$LOCALIZE[31391]</label>
 						<onclick>Skin.ToggleSetting(UseTVShowRSSFeed)</onclick>
 						<selected>Skin.HasSetting(UseTVShowRSSFeed)</selected>
 					</control>
@@ -582,7 +582,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>Enable Random Items Functionality</label>
+						<label>$LOCALIZE[31392]</label>
 						<onclick>Skin.ToggleSetting(UseRandomItems)</onclick>
 						<selected>Skin.HasSetting(UseRandomItems)</selected>
 					</control>
@@ -600,7 +600,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>Remove Recently Added Fanart</label>
+						<label>$LOCALIZE[31393]</label>
 						<onclick>Skin.ToggleSetting(NoRecentArt)</onclick>
 						<selected>Skin.HasSetting(NoRecentArt)</selected>
 						<visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
@@ -619,7 +619,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>Hide Big Label on Home Screen</label>
+						<label>$LOCALIZE[31394]</label>
 						<onclick>Skin.ToggleSetting(HideBigHomeLabel)</onclick>
 						<selected>Skin.HasSetting(HideBigHomeLabel)</selected>
 					</control>
@@ -627,7 +627,7 @@
 						<width>750</width>
 						<height>45</height>
 						<font>Simplicity_20_Bold_title</font>
-						<label>Global Home Options</label>
+						<label>$LOCALIZE[31395]</label>
 						<textcolor>yellow</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
@@ -648,7 +648,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>Re-enable the Welcome Screen Button</label>
+						<label>$LOCALIZE[31396]</label>
 						<onclick>Skin.ToggleSetting(RemoveWelcome)</onclick>
 						<visible>Skin.HasSetting(RemoveWelcome)</visible>
 					</control>
@@ -667,7 +667,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>Show Weather Information</label>
+						<label>$LOCALIZE[31397]</label>
 						<onclick>Skin.ToggleSetting(homepageWeatherinfo)</onclick>
 						<selected>!Skin.HasSetting(homepageWeatherinfo)</selected>
 					</control>
@@ -686,7 +686,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>Show Extra Info Above Main Menu [COLOR=grey3](Recently Added)[/COLOR]</label>
+						<label>$LOCALIZE[31398]</label>
 						<onclick>Skin.ToggleSetting(homepageHideRecentlyAdded)</onclick>
 						<selected>Skin.HasSetting(homepageHideRecentlyAdded)</selected>
 					</control>
@@ -713,7 +713,7 @@
 						<width>750</width>
 						<height>45</height>
 						<font>Simplicity_20_Bold_title</font>
-						<label>31108</label>
+						<label>$LOCALIZE[31108]</label>
 						<textcolor>yellow</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
@@ -734,7 +734,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>$LOCALIZE[31111] - Home</label>
+						<label>$LOCALIZE[31111] - $LOCALIZE[31170]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoHomeButton)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoHomeButton)</selected>
 					</control>
@@ -753,7 +753,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>$LOCALIZE[31111] - TV Guide</label>
+						<label>$LOCALIZE[31111] - $LOCALIZE[31093]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoTVGuideButton)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoTVGuideButton)</selected>
 					</control>
@@ -888,7 +888,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>$LOCALIZE[31111] - Addons</label>
+						<label>$LOCALIZE[31111] - $LOCALIZE[31084]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoAddonsButton)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoAddonsButton)</selected>
 					</control>
@@ -926,7 +926,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>$LOCALIZE[31111] - Settings</label>
+						<label>$LOCALIZE[31111] - $LOCALIZE[31169]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoSettingsButton)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoSettingsButton)</selected>
 					</control>
@@ -964,7 +964,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>$LOCALIZE[31111] - Search</label>
+						<label>$LOCALIZE[31111] - $LOCALIZE[31399]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoSearchButton)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoSearchButton)</selected>
 					</control>
