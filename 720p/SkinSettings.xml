@@ -27,7 +27,7 @@
 				<width>260</width>
 				<height>80</height>
 				<font>Simplicity_40</font>
-				<label>Skin</label>
+				<label>$LOCALIZE[31377]</label>
 				<align>center</align>
 				<textcolor>white</textcolor>
 			</control>
@@ -89,18 +89,18 @@
 				</focusedlayout>
 				<content>
 					<item id="1">
-						<label>128</label>
-						<label2>5</label2>
+						<label>$LOCALIZE[128]</label>
+						<label2>$LOCALIZE[5]</label2>
 						<onclick>-</onclick>
 					</item>
 					<item id="2">
-						<label>Home Screen</label>
-						<label2>31112</label2>
+						<label>$LOCALIZE[31378]</label>
+						<label2>$LOCALIZE[31112]</label2>
 						<onclick>-</onclick>
 					</item>
 					<item id="3">
-						<label>31102</label>
-						<label2>31115</label2>
+						<label>$LOCALIZE[31102]</label>
+						<label2>$LOCALIZE[31115]</label2>
 						<onclick>-</onclick>
 					</item>
 					<!--<item id="4">
@@ -109,42 +109,42 @@
 						<onclick>-</onclick>
 					</item>-->
 					<item id="5">
-						<label>Misc.</label>
+						<label>$LOCALIZE[31379]</label>
 						<label2>-</label2>
 						<onclick>-</onclick>
 					</item>
 					<item id="6">
-						<label>Programs</label>
+						<label>$LOCALIZE[31380]</label>
 						<label2>-</label2>
 						<onclick>-</onclick>
 					</item>
 					<item id="7">
-						<label>Addons</label>
+						<label>$LOCALIZE[31084]</label>
 						<label2>-</label2>
 						<onclick>-</onclick>
 					</item>
 					<item id="8">
-						<label>Genres</label>
+						<label>$LOCALIZE[31085]</label>
 						<label2>-</label2>
 						<onclick>-</onclick>
 					</item>
 					<item id="9">
-						<label>Shortcuts</label>
+						<label>$LOCALIZE[31200]</label>
 						<label2>-</label2>
 						<onclick>-</onclick>
 					</item>
 					<item id="11">
-						<label>Pictures</label>
+						<label>$LOCALIZE[31086]</label>
 						<label2>-</label2>
 						<onclick>-</onclick>
 					</item>
 					<item id="20">
-						<label>Advanced</label>
+						<label>$LOCALIZE[31381]</label>
 						<label2>-</label2>
 						<onclick>-</onclick>
 					</item>
 					<item id="21">
-						<label>Now Playing</label>
+						<label>$LOCALIZE[31040]</label>
 						<label2>-</label2>
 						<onclick>-</onclick>
 					</item>
@@ -180,7 +180,7 @@
 						<width>750</width>
 						<height>45</height>
 						<font>Simplicity_20_Bold_title</font>
-						<label>31106</label>
+						<label>$LOCALIZE[31106]</label>
 						<textcolor>yellow</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
@@ -200,7 +200,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>Autoscroll Plot</label>	
+						<label>$LOCALIZE[31382]</label>	
 						<onclick>Skin.ToggleSetting(AutoScroll)</onclick>
 						<selected>Skin.HasSetting(AutoScroll)</selected>
 					</control>
@@ -218,7 +218,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>31103</label>						
+						<label>$LOCALIZE[31103]</label>						
 						<onclick>Skin.ToggleSetting(Show_SlideShow_Paused)</onclick>
 						<selected>!Skin.HasSetting(Show_SlideShow_Paused)</selected>
 					</control>
@@ -236,7 +236,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>31105</label>
+						<label>$LOCALIZE[31105]</label>
 						<onclick>Skin.ToggleSetting(No_Media_Titles_In_Scanner)</onclick>
 						<selected>!Skin.HasSetting(No_Media_Titles_In_Scanner)</selected>
 					</control>
@@ -244,7 +244,7 @@
 						<width>900</width>
 						<height>40</height>
 						<font>Simplicity_20</font>
-						<label>Enable Kiosk Mode</label>
+						<label>$LOCALIZE[31383]</label>
 						<textcolor>white</textcolor>
 						<focusedcolor>white</focusedcolor>
 						<radiowidth>83</radiowidth>
@@ -260,7 +260,7 @@
 						<width>900</width>
 						<height>40</height>
 						<font>Simplicity_20</font>
-						<label>Disable View Preview Images</label>
+						<label>$LOCALIZE[31384]</label>
 						<textcolor>white</textcolor>
 						<focusedcolor>white</focusedcolor>
 						<radiowidth>83</radiowidth>
@@ -276,7 +276,7 @@
 						<width>900</width>
 						<height>40</height>
 						<font>Simplicity_20</font>
-						<label>Enable Smoke Effect From AEON</label>
+						<label>$LOCALIZE[31385]</label>
 						<textcolor>white</textcolor>
 						<focusedcolor>white</focusedcolor>
 						<radiowidth>83</radiowidth>
@@ -321,7 +321,7 @@
 						<width>750</width>
 						<height>45</height>
 						<font>Simplicity_20_Bold_title</font>
-						<label>20343</label>
+						<label>$LOCALIZE[20343]</label>
 						<textcolor>yellow</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
@@ -359,7 +359,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>Use Landscapes</label>
+						<label>$LOCALIZE[31386]</label>
 						<onclick>Skin.ToggleSetting(UseLandscapes)</onclick>
 						<selected>Skin.HasSetting(UseLandscapes)</selected>
 					</control>
@@ -377,7 +377,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>Enable TV Show Logo Support</label>
+						<label>$LOCALIZE[31387]</label>
 						<onclick>Skin.ToggleSetting(EnableClearartViews)</onclick>
 						<selected>Skin.HasSetting(EnableClearartViews)</selected>
 					</control>
