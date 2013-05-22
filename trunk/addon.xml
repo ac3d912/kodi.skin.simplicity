@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="skin.simplicity.dev"
+  id="skin.simplicity"
   version="3.2.8"
-  name="Simplicity-dev"
+  name="Simplicity"
   provider-name="igotdvds|Balinus">
   <requires>
 	<import addon="xbmc.gui" version="4.0.0"/>
