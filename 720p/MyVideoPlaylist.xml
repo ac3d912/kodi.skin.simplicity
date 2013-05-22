@@ -123,7 +123,7 @@
 					<posx>0</posx>
 					<posy>40</posy>
 					<include>ButtonCommonValues</include>
-					<label>191</label>
+					<label>$LOCALIZE[191]</label>
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>2</onup>
@@ -144,7 +144,7 @@
 					<description>Save button</description>
 					<posx>0</posx>
 					<posy>120</posy>
-					<label>190</label>
+					<label>$LOCALIZE[190]</label>
 					<include>ButtonCommonValues</include>
 					<onleft>50</onleft>
 					<onright>50</onright>
@@ -155,7 +155,7 @@
 					<description>Clear button</description>
 					<posx>0</posx>
 					<posy>160</posy>
-					<label>192</label>
+					<label>$LOCALIZE[192]</label>
 					<onclick>ReplaceWindow(video)</onclick>
 					<include>ButtonCommonValues</include>
 					<onleft>50</onleft>

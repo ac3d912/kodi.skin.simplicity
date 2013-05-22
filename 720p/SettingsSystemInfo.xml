@@ -20,7 +20,7 @@
 				<width>260</width>
 				<height>80</height>
 				<font>Simplicity_40</font>
-				<label>System Info</label>
+				<label>$LOCALIZE[31376]</label>
 				<align>center</align>
 				<textcolor>white</textcolor>
 			</control>
@@ -49,7 +49,7 @@
 					<texturefocus border="5">simplicity/list-selector.png</texturefocus>
 					<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
-					<label>31315</label>
+					<label>$LOCALIZE[31315]</label>
 				</control>
 				<control type="button" id="94">
 					<description>Button Storage</description>
@@ -64,7 +64,7 @@
 					<texturefocus border="5">simplicity/list-selector.png</texturefocus>
 					<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
-					<label>13277</label>
+					<label>$LOCALIZE[13277]</label>
 				</control>
 				<control type="button" id="92">
 					<description>Button HDD</description>
@@ -79,7 +79,7 @@
 					<texturefocus border="5">simplicity/list-selector.png</texturefocus>
 					<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
-					<label>13275</label>
+					<label>$LOCALIZE[13275]</label>
 					<visible>System.Platform.Xbox</visible>
 				</control>
 				<control type="button" id="93">
@@ -95,7 +95,7 @@
 					<texturefocus border="5">simplicity/list-selector.png</texturefocus>
 					<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
-					<label>13276</label>
+					<label>$LOCALIZE[13276]</label>
 					<visible>System.Platform.Xbox</visible>
 				</control>
 				<control type="button" id="96">
@@ -111,7 +111,7 @@
 					<texturefocus border="5">simplicity/list-selector.png</texturefocus>
 					<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
-					<label>13279</label>
+					<label>$LOCALIZE[13279]</label>
 				</control>
 				<control type="button" id="97">
 					<description>Button Video</description>
@@ -126,7 +126,7 @@
 					<texturefocus border="5">simplicity/list-selector.png</texturefocus>
 					<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
-					<label>13280</label>
+					<label>$LOCALIZE[13280]</label>
 				</control>
 				<control type="button" id="98">
 					<description>Button Hardware</description>
@@ -141,7 +141,7 @@
 					<texturefocus border="5">simplicity/list-selector.png</texturefocus>
 					<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
-					<label>13281</label>
+					<label>$LOCALIZE[13281]</label>
 				</control>
 			</control>
 			<control type="label">
@@ -249,7 +249,7 @@
 					<posx>0</posx>
 					<posy>400</posy>
 					<width>700</width>
-					<label>144</label>
+					<label>$LOCALIZE[144]</label>
 					<align>left</align>
 					<shadowcolor>black</shadowcolor>
 					<font>Simplicity_20_Bold_title</font>

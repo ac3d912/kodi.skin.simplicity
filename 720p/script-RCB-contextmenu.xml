@@ -59,7 +59,7 @@
 			<focusedcolor>0xFFFFFFFF</focusedcolor>
 			<texturefocus border="5">rcb-button-focus.png</texturefocus>
 			<texturenofocus border="5">rcb-button-nofocus.png</texturenofocus>
-			<label>Import Games</label>
+			<label>$LOCALIZE[31348]</label>
 			<onup>5101</onup>
 			<ondown>5111</ondown>
 		</control>
@@ -75,7 +75,7 @@
 			<focusedcolor>0xFFFFFFFF</focusedcolor>
 			<texturefocus border="5">rcb-button-focus.png</texturefocus>
 			<texturenofocus border="5">rcb-button-nofocus.png</texturenofocus>
-			<label>Add Rom Collection</label>
+			<label>$LOCALIZE[31349]</label>
 			<onup>5110</onup>
 			<ondown>5112</ondown>
 		</control>
@@ -91,7 +91,7 @@
 			<focusedcolor>0xFFFFFFFF</focusedcolor>
 			<texturefocus border="5">rcb-button-focus.png</texturefocus>
 			<texturenofocus border="5">rcb-button-nofocus.png</texturenofocus>
-			<label>Edit Rom Collection</label>
+			<label>$LOCALIZE[31350]</label>
 			<onup>5111</onup>
 			<ondown>5117</ondown>
 		</control>
@@ -107,7 +107,7 @@
 			<focusedcolor>0xFFFFFFFF</focusedcolor>
 			<texturefocus border="5">rcb-button-focus.png</texturefocus>
 			<texturenofocus border="5">rcb-button-nofocus.png</texturenofocus>
-			<label>Edit Offline Scrapers</label>
+			<label>$LOCALIZE[31351]</label>
 			<onup>5112</onup>
 			<ondown>5113</ondown>
 		</control>
@@ -124,7 +124,7 @@
 			<texturefocus border="5">rcb-button-focus.png</texturefocus>
 			<texturenofocus border="5">rcb-button-nofocus.png</texturenofocus>
 
-			<label>Edit Game Command</label>
+			<label>$LOCALIZE[31352]</label>
 			<onup>5117</onup>
 
 			<ondown>5114</ondown>
@@ -141,9 +141,7 @@
 			<focusedcolor>0xFFFFFFFF</focusedcolor>
 			<texturefocus border="5">rcb-button-focus.png</texturefocus>
 			<texturenofocus border="5">rcb-button-nofocus.png</texturenofocus>
-			<label>Delete Game</label>
-
-
+			<label>$LOCALIZE[31353]</label>
 			<onup>5113</onup>
 			<ondown>5115</ondown>
 		</control>
@@ -159,9 +157,7 @@
 			<focusedcolor>0xFFFFFFFF</focusedcolor>
 			<texturefocus border="5">rcb-button-focus.png</texturefocus>
 			<texturenofocus border="5">rcb-button-nofocus.png</texturenofocus>
-
-
-			<label>Delete Rom Collection</label>
+			<label>$LOCALIZE[31354]</label>
 			<onup>5114</onup>
 			<ondown>5116</ondown>
 		</control>
@@ -177,7 +173,7 @@
 			<focusedcolor>0xFFFFFFFF</focusedcolor>
 			<texturefocus border="5">rcb-button-focus.png</texturefocus>
 			<texturenofocus border="5">rcb-button-nofocus.png</texturenofocus>
-			<label>Clean Database</label>
+			<label>$LOCALIZE[31355]</label>
 			<onup>5115</onup>
 			<ondown>5101</ondown>
 		</control>

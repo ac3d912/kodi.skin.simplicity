@@ -145,7 +145,7 @@
 			<textcolor>black</textcolor>
 			<focusedcolor>black</focusedcolor>
 			<shadowcolor>grey2</shadowcolor>
-			<label>186</label>
+			<label>$LOCALIZE[186]</label>
 			<onleft>29</onleft>
 			<onright>29</onright>
 			<onup>5</onup>
@@ -165,7 +165,7 @@
 			<textcolor>black</textcolor>
 			<focusedcolor>black</focusedcolor>
 			<shadowcolor>grey2</shadowcolor>
-			<label>222</label>
+			<label>$LOCALIZE[222]</label>
 			<onleft>28</onleft>
 			<onright>28</onright>
 			<onup>5</onup>
