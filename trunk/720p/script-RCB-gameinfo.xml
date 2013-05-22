@@ -85,7 +85,7 @@
 				<posx>0</posx>
 				<posy>0</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Genre:</label>
+				<label>$LOCALIZE[31070]:</label>
 			</control>
 			<control type="label" id="6100">
 				<description>Genre value</description>
@@ -98,7 +98,7 @@
 				<posx>0</posx>
 				<posy>20</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Year:</label>
+				<label>$LOCALIZE[31162]:</label>
 			</control>
 			<control type="label" id="6200">
 				<description>Year value</description>
@@ -111,7 +111,7 @@
 				<posx>0</posx>
 				<posy>40</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Publisher:</label>
+				<label>$LOCALIZE[31356]:</label>
 			</control>
 			<control type="label" id="6300">
 				<description>Publisher value</description>
@@ -124,7 +124,7 @@
 				<posx>0</posx>
 				<posy>60</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Developer:</label>
+				<label>$LOCALIZE[31357]:</label>
 			</control>
 			<control type="label" id="6400">
 				<description>Developer value</description>
@@ -137,7 +137,7 @@
 				<posx>0</posx>
 				<posy>80</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Region:</label>
+				<label>$LOCALIZE[31358]:</label>
 			</control>
 			<control type="label" id="6500">
 				<description>Region value</description>
@@ -150,7 +150,7 @@
 				<posx>0</posx>
 				<posy>100</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Media:</label>
+				<label>$LOCALIZE[31359]:</label>
 			</control>
 			<control type="label" id="6600">
 				<description>Media value</description>
@@ -163,7 +163,7 @@
 				<posx>0</posx>
 				<posy>120</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Controller:</label>
+				<label>$LOCALIZE[31360]:</label>
 			</control>
 			<control type="label" id="6700">
 				<description>Controller value</description>
@@ -176,7 +176,7 @@
 				<posx>0</posx>
 				<posy>140</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Rating:</label>
+				<label>$LOCALIZE[31361]:</label>
 			</control>
 			<control type="label" id="6800">
 				<description>Rating value</description>
@@ -189,7 +189,7 @@
 				<posx>0</posx>
 				<posy>160</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Votes:</label>
+				<label>$LOCALIZE[31362]:</label>
 			</control>
 			<control type="label" id="6900">
 				<description>Votes value</description>
@@ -202,7 +202,7 @@
 				<posx>0</posx>
 				<posy>180</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Max. Players:</label>
+				<label>$LOCALIZE[31363]:</label>
 			</control>
 			<control type="label" id="7000">
 				<description>Players value</description>
@@ -215,7 +215,7 @@
 				<posx>0</posx>
 				<posy>200</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Perspective:</label>
+				<label>$LOCALIZE[31364]:</label>
 			</control>
 			<control type="label" id="7100">
 				<description>Perspective value</description>
@@ -228,7 +228,7 @@
 				<posx>00</posx>
 				<posy>220</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Reviewer:</label>
+				<label>$LOCALIZE[31365]:</label>
 			</control>
 			<control type="label" id="7200">
 				<description>Reviewer value</description>
@@ -241,7 +241,7 @@
 				<posx>0</posx>
 				<posy>240</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Translated by:</label>
+				<label>$LOCALIZE[31366]:</label>
 			</control>
 			<control type="label" id="7500">
 				<description>Translated by value</description>
@@ -255,7 +255,7 @@
 				<posx>0</posx>
 				<posy>260</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Original Title:</label>
+				<label>$LOCALIZE[31367]:</label>
 			</control>
 			<control type="label" id="7600">
 				<description>Original Title value</description>
@@ -268,7 +268,7 @@
 				<posx>0</posx>
 				<posy>280</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Alternate Title:</label>
+				<label>$LOCALIZE[31368]:</label>
 			</control>
 			<control type="label" id="7700">
 				<description>Alternate Title value</description>
@@ -281,7 +281,7 @@
 				<posx>0</posx>
 				<posy>300</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Version:</label>
+				<label>$LOCALIZE[31098]:</label>
 			</control>
 			<control type="label" id="7800">
 				<description>Version value</description>
@@ -294,7 +294,7 @@
 				<posx>0</posx>
 				<posy>320</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Launch count:</label>
+				<label>$LOCALIZE[31369]:</label>
 			</control>
 			<control type="label" id="7400">
 				<description>Launch count value</description>
@@ -402,7 +402,7 @@
 			<colordiffuse>DDFFFFFF</colordiffuse>
 			<texturefocus>btnFocus.png</texturefocus>
 			<texturenofocus>btn.png</texturenofocus>
-			<label>Play Game</label>
+			<label>$LOCALIZE[31370]</label>
 			<!--font12-->
 			<textcolor>DDFFFFFF</textcolor>
 			<disabledcolor>80FFFFFF</disabledcolor>

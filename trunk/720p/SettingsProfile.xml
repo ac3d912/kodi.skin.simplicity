@@ -29,7 +29,7 @@
 				<width>250</width>
 				<height>80</height>
 				<textoffsety>13</textoffsety>
-				<label>20096</label>
+				<label>$LOCALIZE[20096]</label>
 				<font>Simplicity_24_Bold</font>
 				<align>right</align>
 				<aligny>top</aligny>
@@ -50,7 +50,7 @@
 				<textcolor>grey2</textcolor>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>305</label>
+				<label>$LOCALIZE[305]</label>
 				<visible>System.HasLoginScreen</visible>
 			</control>
 			<control type="label">
@@ -62,7 +62,7 @@
 				<textcolor>grey2</textcolor>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>1223</label>
+				<label>$LOCALIZE[1223]</label>
 				<visible>!System.HasLoginScreen</visible>
 			</control>
 			<control type="group">

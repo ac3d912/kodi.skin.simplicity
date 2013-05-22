@@ -200,7 +200,7 @@
 						<colordiffuse>DDFFFFFF</colordiffuse>
 						<texturefocus>rcb-button-focus.png</texturefocus>
 						<texturenofocus>rcb-button-nofocus.png</texturenofocus>
-						<label>Play Video Fullscreen</label>
+						<label>$LOCALIZE[31371]</label>
 						<font>font12</font>						
 						<textcolor>DDFFFFFF</textcolor>
 						<disabledcolor>80FFFFFF</disabledcolor>
@@ -360,7 +360,7 @@
 						<aligny>center</aligny>
 					<textcolor>white</textcolor>
 					<selectedcolor>FFe2ff43</selectedcolor>
-					<label>Console: [COLOR=grey2]$INFO[ListItem.Property(console)][/COLOR]</label>
+					<label>$LOCALIZE[31372]: [COLOR=grey2]$INFO[ListItem.Property(console)][/COLOR]</label>
 					<visible>Control.IsVisible(50)</visible>
 					<!--<visible>IsEmpty(ListItem.Property(mainview2)) + Control.IsVisible(50)</visible>-->
 				</control>	
@@ -373,7 +373,7 @@
 						<posy>80</posy>
 						<width>180</width>
 						<height>25</height>
-						<label>Year: [COLOR=grey2]$INFO[ListItem.Property(year)][/COLOR]</label>
+						<label>$LOCALIZE[31162]: [COLOR=grey2]$INFO[ListItem.Property(year)][/COLOR]</label>
 						<align>left</align>
 						<aligny>center</aligny>
 					<font>Simplicity_20</font>
@@ -580,7 +580,7 @@
 						<colordiffuse>DDFFFFFF</colordiffuse>
 						<texturefocus>rcb-button-focus.png</texturefocus>
 						<texturenofocus>rcb-button-nofocus.png</texturenofocus>
-						<label>Play Video Fullscreen</label>
+						<label>$LOCALIZE[31371]</label>
 						<font>font12</font>						
 						<textcolor>DDFFFFFF</textcolor>
 						<disabledcolor>80FFFFFF</disabledcolor>
@@ -715,7 +715,7 @@
 							<posy>15</posy>
 							<width>80</width>
 							<height>25</height>
-							<label>Year:</label>
+							<label>$LOCALIZE[31162]:</label>
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>Simplicity_20</font>
@@ -889,7 +889,7 @@
 							<textcolor>grey2</textcolor>
 							<align>left</align>
 					<align>center</align>
-					<label>[COLOR=white]Console:[/COLOR]  $INFO[ListItem.Property(console)]</label>
+					<label>[COLOR=white]$LOCALIZE[31372]:[/COLOR]  $INFO[ListItem.Property(console)]</label>
 					<visible>Control.IsVisible(58)</visible>
 				</control>
 				<!-- Year -->
@@ -975,7 +975,7 @@
 				<posx>70</posx>
 				<posy>20</posy>
 				<textcolor>DDFFFFFF</textcolor>
-				<label>Consoles</label>
+				<label>$LOCALIZE[31373]</label>
 			</control>		
 			<control type="wraplist" id="500">
 				<posx>50</posx>
@@ -1046,8 +1046,8 @@
 				<description>Genre</description>
 				<posx>230</posx>
 				<posy>20</posy>
-					<textcolor>DDFFFFFF</textcolor>
-					<label>Genre</label>
+				<textcolor>DDFFFFFF</textcolor>
+				<label>$LOCALIZE[31070]</label>
 			</control>
 			<control type="wraplist" id="600">
 				<posx>200</posx>
@@ -1118,8 +1118,8 @@
 				<description>Year</description>
 				<posx>390</posx>
 				<posy>20</posy>
-					<textcolor>DDFFFFFF</textcolor>
-					<label>Year</label>
+				<textcolor>DDFFFFFF</textcolor>
+				<label>$LOCALIZE[31162]</label>
 			</control>		
 			<control type="wraplist" id="700">
 				<posx>350</posx>
@@ -1357,7 +1357,7 @@
 				<colordiffuse>DDFFFFFF</colordiffuse>
 				<texturefocus>rcb-button-focus.png</texturefocus>
 				<texturenofocus>rcb-button-nofocus.png</texturenofocus>
-				<label>Change View</label>			
+				<label>$LOCALIZE[31374]</label>			
 				<textcolor>DDFFFFFF</textcolor>
 				<disabledcolor>80FFFFFF</disabledcolor>
 				<align>center</align>
