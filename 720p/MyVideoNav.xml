@@ -274,30 +274,30 @@
 					<description>Watched Toggle</description>
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
-					<label>20367</label>
+					<label>$LOCALIZE[20367]</label>
 				</control>
 				<control type="button" id="8">
 					<description>Search</description>
 					<include>ButtonCommonValuesSub</include>
-					<label>137</label>
+					<label>$LOCALIZE[137]</label>
 				</control>
 				<control type="radiobutton" id="19">
 					<description>Filter</description>
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
-					<label>587</label>
+					<label>$LOCALIZE[587]</label>
 				</control>
 				<control type="radiobutton" id="17">
 					<description>Flatten</description>
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
-					<label>20411</label>
+					<label>$LOCALIZE[20411]</label>
 				</control>
 				<control type="radiobutton" id="11">
 					<description>Unlock Shares</description>
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
-					<label>20336</label>
+					<label>$LOCALIZE[20336]</label>
 					<onclick>xbmc.mastermode</onclick>
 					<selected>system.ismaster</selected>
 					<visible>system.haslocks</visible>
@@ -306,7 +306,7 @@
 					<width>220</width>
 					<height>45</height>
 					<font>font12caps</font>
-					<label>14018</label>
+					<label>$LOCALIZE[14018]</label>
 					<textcolor>dialogheader</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -316,7 +316,7 @@
 					<description>Toggle MoviesFanart</description>
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
-					<label>31307</label>
+					<label>$LOCALIZE[31307]</label>
 					<onclick>Skin.ToggleSetting(VideoLibraryMovieFanart)</onclick>
 					<selected>Skin.HasSetting(VideoLibraryMovieFanart)</selected>
 					<visible>Container.Content(Movies) + !Control.IsVisible(508)</visible>
@@ -325,7 +325,7 @@
 					<description>Toggle TVShow Fanart</description>
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
-					<label>31307</label>
+					<label>$LOCALIZE[31307]</label>
 					<onclick>Skin.ToggleSetting(VideoLibraryTVFanart)</onclick>
 					<selected>Skin.HasSetting(VideoLibraryTVFanart)</selected>
 					<visible>Container.Content(TVShows) | Container.Content(Seasons) | Container.Content(Episodes)</visible>
@@ -334,7 +334,7 @@
 					<description>Toggle MusicVideo Fanart</description>
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
-					<label>31307</label>
+					<label>$LOCALIZE[31307]</label>
 					<onclick>Skin.ToggleSetting(VideoLibraryMusicVideoFanart)</onclick>
 					<selected>Skin.HasSetting(VideoLibraryMusicVideoFanart)</selected>
 					<visible>Container.Content(MusicVideos) | Container.Content(Artists) | Container.Content(Albums)</visible>
@@ -343,7 +343,7 @@
 					<textwidth>170</textwidth>
 					<description>Toggle Flags Instead of Plot</description>
 					<include>ButtonCommonValuesSub</include>
-					<label>Use Logo</label>
+					<label>$LOCALIZE[31342]</label>
 					<onclick>Skin.ToggleSetting(Scroll_Logo)</onclick>
 					<selected>Skin.HasSetting(Scroll_Logo)</selected>
 					<visible>Control.IsVisible(563)</visible>
@@ -352,7 +352,7 @@
 					<textwidth>170</textwidth>
 					<description>Toggle Fanart View Media Info</description>
 					<include>ButtonCommonValuesSub</include>
-					<label>31005</label>
+					<label>$LOCALIZE[31005]</label>
 					<onclick>Skin.ToggleSetting(View508HideInfo)</onclick>
 					<selected>Skin.HasSetting(View508HideInfo)</selected>
 					<visible>Control.IsVisible(508)</visible>
@@ -361,7 +361,7 @@
 					<textwidth>170</textwidth>
 					<description>Toggle Flags Instead of Plot</description>
 					<include>ButtonCommonValuesSub</include>
-					<label>Use Flags</label>
+					<label>$LOCALIZE[31343]</label>
 					<onclick>Skin.ToggleSetting(UseFlags)</onclick>
 					<selected>Skin.HasSetting(UseFlags)</selected>
 					<visible>Control.IsVisible(532)</visible>
@@ -370,7 +370,7 @@
 					<textwidth>170</textwidth>
 					<description>Toggle Flags Instead of Plot</description>
 					<include>ButtonCommonValuesSub</include>
-					<label>More Info</label>
+					<label>$LOCALIZE[31424]</label>
 					<onclick>Skin.ToggleSetting(Fanart_More_Info)</onclick>
 					<selected>Skin.HasSetting(Fanart_More_Info)</selected>
 					<visible>Control.IsVisible(555)</visible>
@@ -379,7 +379,7 @@
 					<textwidth>170</textwidth>
 					<description>Toggle Flags Instead of Plot</description>
 					<include>ButtonCommonValuesSub</include>
-					<label>Use Clearart</label>
+					<label>$LOCALIZE[31344]</label>
 					<onclick>Skin.ToggleSetting(UseClearart558)</onclick>
 					<selected>Skin.HasSetting(UseClearart558)</selected>
 					<visible>Control.IsVisible(558)</visible>
@@ -388,7 +388,7 @@
 					<textwidth>170</textwidth>
 					<description>Toggle Flags Instead of Plot</description>
 					<include>ButtonCommonValuesSub</include>
-					<label>Use Fanart Layout</label>
+					<label>$LOCALIZE[31345]</label>
 					<onclick>Skin.ToggleSetting(TVInfoLeftFanart)</onclick>
 					<selected>Skin.HasSetting(TVInfoLeftFanart)</selected>
 					<visible>Control.IsVisible(532) | Control.IsVisible(534)</visible>
@@ -396,7 +396,7 @@
 				<control type="radiobutton" id="210">
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
-					<label>Disable Info Fade</label>
+					<label>$LOCALIZE[31346]</label>
 					<onclick>Skin.ToggleSetting(NoGridFade)</onclick>
 					<selected>Skin.HasSetting(NoGridFade)</selected>
 					<visible>Control.IsVisible(560)</visible>
@@ -404,7 +404,7 @@
 				<control type="radiobutton" id="211">
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
-					<label>Use "Recent" Shortcut</label>
+					<label>$LOCALIZE[31336]</label>
 					<onclick>Skin.ToggleSetting(VideoUseRecent)</onclick>
 					<onclick>Skin.Reset(VideoUseGuide)</onclick>
 					<onclick>Skin.Reset(VideoUseCustom)</onclick>
@@ -414,7 +414,7 @@
 				<control type="radiobutton" id="212">
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
-					<label>Use "Guide" Shortcut</label>
+					<label>$LOCALIZE[31337]</label>
 					<onclick>Skin.ToggleSetting(VideoUseGuide)</onclick>
 					<onclick>Skin.Reset(VideoUseRecent)</onclick>
 					<onclick>Skin.Reset(VideoUseCustom)</onclick>
@@ -424,7 +424,7 @@
 				<control type="radiobutton" id="213">
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
-					<label>Use "Custom" Shortcut</label>
+					<label>$LOCALIZE[31338]</label>
 					<onclick>Skin.ToggleSetting(VideoUseCustom)</onclick>
 					<onclick>Skin.Reset(VideoUseGuide)</onclick>
 					<onclick>Skin.Reset(VideoUseRecent)</onclick>
@@ -985,7 +985,7 @@
 				<width>260</width>
 				<height>545</height>
 				<font>Simplicity_24</font>
-				<label>Exit Menu</label>
+				<label>$LOCALIZE[31061]</label>
 				<textcolor>white</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<align>left</align>
@@ -1018,7 +1018,7 @@
 				<posx>0</posx>
 				<posy>40</posy>
 				<include>ButtonCommonValuesSub</include>
-				<label>103</label>
+				<label>$LOCALIZE[103]</label>
 				<onleft>50</onleft>
 				<onright>4</onright>
 				<onup>2</onup>
@@ -1057,7 +1057,7 @@
 				<description>PartyMode</description>
 				<posx>0</posx>
 				<posy>120</posy>
-				<label>589</label>
+				<label>$LOCALIZE[589]</label>
 				<include>ButtonCommonValuesSub</include>
 				<onleft>50</onleft>
 				<onright>50</onright>
@@ -1074,7 +1074,7 @@
 				<radioheight>18</radioheight>
 				<textureradiofocus>HomeHasSub.png</textureradiofocus>
 				<textureradionofocus>HomeHasSub.png</textureradionofocus>
-				<label>31026</label>
+				<label>$LOCALIZE[31026]</label>
 				<onleft>50</onleft>
 				<onright>9010</onright>
 				<onup>16</onup>
@@ -1086,7 +1086,7 @@
 				<width>260</width>
 				<height>545</height>
 				<font>Simplicity_18</font>
-				<label>Current View Mode</label>
+				<label>$LOCALIZE[31062]</label>
 				<textcolor>white</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<align>center</align>

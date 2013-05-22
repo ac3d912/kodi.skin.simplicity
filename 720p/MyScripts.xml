@@ -80,7 +80,7 @@
 					<posx>400</posx>
 					<posy>90</posy>
 					<include>ButtonCommonValues</include>
-					<label>103</label>
+					<label>$LOCALIZE[103]</label>
 					<onleft>2</onleft>
 					<onright>4</onright>
 					<onup>50</onup>
@@ -136,7 +136,7 @@
 				<posy>1186</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Close</label>
+				<label>$LOCALIZE[31065]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_30_UltraThin</font>
@@ -165,7 +165,7 @@
 				<posy>1186</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Navigate Menu</label>
+				<label>$LOCALIZE[31341]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_30_UltraThin</font>
@@ -178,7 +178,7 @@
 				<posy>1045</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>View Options</label>
+				<label>$LOCALIZE[31050]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_30_UltraThin</font>
