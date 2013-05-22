@@ -141,7 +141,7 @@
 					<width>250</width>
 					<height>35</height>
 					<font>font12caps</font>
-					<label>31050</label>
+					<label>$LOCALIZE[31050]</label>
 					<textcolor>yellow</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -152,7 +152,7 @@
 					<posy>0</posy>
 					<textwidth>235</textwidth>
 					<include>ButtonCommonValues_PVR</include>
-					<label>19023</label>
+					<label>$LOCALIZE[19023]</label>
 				</control>
 				<control type="button" id="33">
 					<description>Radio Channels</description>
@@ -160,7 +160,7 @@
 					<posy>40</posy>
 					<textwidth>235</textwidth>
 					<include>ButtonCommonValues_PVR</include>
-					<label>19024</label>
+					<label>$LOCALIZE[19024]</label>
 					<onleft>12</onleft>
 					<onright>12</onright>
 				</control>
@@ -178,7 +178,7 @@
 					<posy>120</posy>
 					<textwidth>235</textwidth>
 					<include>ButtonCommonValues_PVR</include>
-					<label>19163</label>
+					<label>$LOCALIZE[19163]</label>
 				</control>
 				<control type="button" id="35">
 					<description>Timers</description>
@@ -186,7 +186,7 @@
 					<posy>160</posy>
 					<textwidth>235</textwidth>
 					<include>ButtonCommonValues_PVR</include>
-					<label>19040</label>
+					<label>$LOCALIZE[19040]</label>
 				</control>
 				<control type="button" id="36">
 					<description>Search</description>
@@ -194,7 +194,7 @@
 					<posy>200</posy>
 					<textwidth>235</textwidth>
 					<include>ButtonCommonValues_PVR</include>
-					<label>137</label>
+					<label>$LOCALIZE[137]</label>
 				</control>
 				<include condition="[Player.HasAudio | Player.HasVideo]">CommonNowPlaying_Controls</include>
 			</control>
