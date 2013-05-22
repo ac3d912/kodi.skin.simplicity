@@ -43,7 +43,7 @@
 							<aligny>center</aligny>
 							<font>Simplicity_40_Bold</font>
 							<textcolor>yellow</textcolor>
-							<label>31043</label>
+							<label>$LOCALIZE[31043]</label>
 							<visible>[Player.Paused + !Player.Caching] + !Player.Seeking</visible>
 						</control>
 						<control type="label">
@@ -258,7 +258,7 @@
 							<posy>155</posy>
 							<width>600</width>
 							<height>20</height>
-							<label>Next Track :</label>
+							<label>$LOCALIZE[31333] :</label>
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>Simplicity_20</font>
@@ -633,7 +633,7 @@
 							<aligny>center</aligny>
 							<font>Simplicity_20_Bold</font>
 							<textcolor>white</textcolor>
-							<label>31043</label>
+							<label>$LOCALIZE[31043]</label>
 							<visible>[Player.Paused + !Player.Caching] + !Player.Seeking</visible>
 						</control>
 						<control type="label">
@@ -1247,7 +1247,7 @@
 					<aligny>center</aligny>
 					<font>Simplicity_20_Bold</font>
 					<textcolor>white</textcolor>
-					<label>Upcoming Tracks</label>
+					<label>$LOCALIZE[31334]</label>
 					<visible>!IsEmpty(Control.GetLabel(7983))</visible>
 				</control>
 				<control type="image">

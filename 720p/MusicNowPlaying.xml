@@ -287,7 +287,7 @@
 						<posy>15</posy>
 						<width>470</width>
 						<scroll>true</scroll>
-						<label>[COLOR white]$INFO[MusicPlayer.offset(1).tracknumber]:[/COLOR] $INFO[MusicPlayer.offset(1).Artist]: $INFO[MusicPlayer.offset(1).Title]</label>
+						<label>[COLOR=white]$INFO[MusicPlayer.offset(1).tracknumber]:[/COLOR] $INFO[MusicPlayer.offset(1).Artist]: $INFO[MusicPlayer.offset(1).Title]</label>
 						<font>Simplicity_24</font>
 						<textcolor>white</textcolor>
 						<shadowcolor>black</shadowcolor>
@@ -299,7 +299,7 @@
 						<posy>45</posy>
 						<width>470</width>
 						<scroll>true</scroll>
-						<label>[COLOR white]$INFO[MusicPlayer.offset(2).tracknumber]:[/COLOR] $INFO[MusicPlayer.offset(2).Artist]: $INFO[MusicPlayer.offset(2).Title]</label>
+						<label>[COLOR=white]$INFO[MusicPlayer.offset(2).tracknumber]:[/COLOR] $INFO[MusicPlayer.offset(2).Artist]: $INFO[MusicPlayer.offset(2).Title]</label>
 						<font>Simplicity_24</font>
 						<textcolor>white</textcolor>
 						<shadowcolor>black</shadowcolor>
@@ -311,7 +311,7 @@
 						<posy>75</posy>
 						<width>470</width>
 						<scroll>true</scroll>		
-						<label>[COLOR white]$INFO[MusicPlayer.offset(3).tracknumber]:[/COLOR] $INFO[MusicPlayer.offset(3).Artist]: $INFO[MusicPlayer.offset(3).Title]</label>
+						<label>[COLOR=white]$INFO[MusicPlayer.offset(3).tracknumber]:[/COLOR] $INFO[MusicPlayer.offset(3).Artist]: $INFO[MusicPlayer.offset(3).Title]</label>
 						<font>Simplicity_24</font>
 						<textcolor>white</textcolor>
 						<shadowcolor>black</shadowcolor>
@@ -323,7 +323,7 @@
 						<posy>105</posy>
 						<width>470</width>
 						<scroll>true</scroll>
-						<label>[COLOR white]$INFO[MusicPlayer.offset(4).tracknumber]:[/COLOR] $INFO[MusicPlayer.offset(4).Artist]: $INFO[MusicPlayer.offset(4).Title]</label>
+						<label>[COLOR=white]$INFO[MusicPlayer.offset(4).tracknumber]:[/COLOR] $INFO[MusicPlayer.offset(4).Artist]: $INFO[MusicPlayer.offset(4).Title]</label>
 						<font>Simplicity_24</font>
 						<textcolor>white</textcolor>
 						<shadowcolor>black</shadowcolor>						
@@ -334,7 +334,7 @@
 						<posy>135</posy>
 						<width>470</width>
 						<scroll>true</scroll>
-						<label>[COLOR white]$INFO[MusicPlayer.offset(5).tracknumber]:[/COLOR] $INFO[MusicPlayer.offset(5).Artist]: $INFO[MusicPlayer.offset(5).Title]</label>
+						<label>[COLOR=white]$INFO[MusicPlayer.offset(5).tracknumber]:[/COLOR] $INFO[MusicPlayer.offset(5).Artist]: $INFO[MusicPlayer.offset(5).Title]</label>
 						<font>Simplicity_24</font>
 						<textcolor>white</textcolor>
 						<shadowcolor>black</shadowcolor>
@@ -346,7 +346,7 @@
 						<posy>165</posy>
 						<width>470</width>
 						<scroll>true</scroll>
-						<label>[COLOR white]$INFO[MusicPlayer.offset(6).tracknumber]:[/COLOR] $INFO[MusicPlayer.offset(6).Artist]: $INFO[MusicPlayer.offset(6).Title]</label>
+						<label>[COLOR=white]$INFO[MusicPlayer.offset(6).tracknumber]:[/COLOR] $INFO[MusicPlayer.offset(6).Artist]: $INFO[MusicPlayer.offset(6).Title]</label>
 						<font>Simplicity_24</font>
 						<textcolor>white</textcolor>
 						<shadowcolor>black</shadowcolor>
