@@ -1273,7 +1273,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31113</label>
+								<label>$LOCALIZE[31113]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1333,7 +1333,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>Use Fanart</label>
+								<label>$LOCALIZE[31209]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1353,7 +1353,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>None</label>
+								<label>$LOCALIZE[31210]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1376,7 +1376,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31113</label>
+								<label>$LOCALIZE[31113]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1396,7 +1396,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31114</label>
+								<label>$LOCALIZE[31114]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1416,7 +1416,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>571</label>
+								<label>$LOCALIZE[571]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1436,7 +1436,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>Use Fanart</label>
+								<label>$LOCALIZE[31209]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1456,7 +1456,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>None</label>
+								<label>$LOCALIZE[31210]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1479,7 +1479,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31113</label>
+								<label>$LOCALIZE[31113]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1499,7 +1499,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31114</label>
+								<label>$LOCALIZE[31114]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1519,7 +1519,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>571</label>
+								<label>$LOCALIZE[571]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1539,7 +1539,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>Use Fanart</label>
+								<label>$LOCALIZE[31209]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1559,7 +1559,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>None</label>
+								<label>$LOCALIZE[31210]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1582,7 +1582,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31113</label>
+								<label>$LOCALIZE[31113]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1602,7 +1602,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31114</label>
+								<label>$LOCALIZE[31114]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1622,7 +1622,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>571</label>
+								<label>$LOCALIZE[571]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1642,7 +1642,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>Use Fanart</label>
+								<label>$LOCALIZE[31209]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1705,7 +1705,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31114</label>
+								<label>$LOCALIZE[31114]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1725,7 +1725,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>571</label>
+								<label>$LOCALIZE[571]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1745,7 +1745,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>Use Fanart</label>
+								<label>$LOCALIZE[31209]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1765,7 +1765,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>None</label>
+								<label>$LOCALIZE[31210]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1788,7 +1788,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31113</label>
+								<label>$LOCALIZE[31113]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1808,7 +1808,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31114</label>
+								<label>$LOCALIZE[31114]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1828,7 +1828,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>571</label>
+								<label>$LOCALIZE[571]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1848,7 +1848,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>Use Fanart</label>
+								<label>$LOCALIZE[31209]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1868,7 +1868,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>None</label>
+								<label>$LOCALIZE[31210]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1891,7 +1891,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31113</label>
+								<label>$LOCALIZE[31113]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1911,7 +1911,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31114</label>
+								<label>$LOCALIZE[31114]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1931,7 +1931,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>571</label>
+								<label>$LOCALIZE[571]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1951,7 +1951,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>Use Fanart</label>
+								<label>$LOCALIZE[31209]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1971,7 +1971,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>None</label>
+								<label>$LOCALIZE[31210]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -1994,7 +1994,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31113</label>
+								<label>$LOCALIZE[31113]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2014,7 +2014,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31114</label>
+								<label>$LOCALIZE[31114]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2034,7 +2034,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>571</label>
+								<label>$LOCALIZE[571]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2054,7 +2054,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>Use Fanart</label>
+								<label>$LOCALIZE[31209]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2074,7 +2074,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>None</label>
+								<label>$LOCALIZE[31210]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2097,7 +2097,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31113</label>
+								<label>$LOCALIZE[31113]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2117,7 +2117,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31114</label>
+								<label>$LOCALIZE[31114]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2137,7 +2137,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>571</label>
+								<label>$LOCALIZE[571]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2157,7 +2157,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>Use Fanart</label>
+								<label>$LOCALIZE[31209]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2177,7 +2177,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>None</label>
+								<label>$LOCALIZE[31210]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2200,7 +2200,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31113</label>
+								<label>$LOCALIZE[31113]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2220,7 +2220,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31114</label>
+								<label>$LOCALIZE[31114]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2240,7 +2240,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>571</label>
+								<label>$LOCALIZE[571]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2260,7 +2260,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>Use Fanart</label>
+								<label>$LOCALIZE[31209]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2280,7 +2280,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>None</label>
+								<label>$LOCALIZE[31210]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2303,7 +2303,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31113</label>
+								<label>$LOCALIZE[31113]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2323,7 +2323,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31114</label>
+								<label>$LOCALIZE[31114]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2343,7 +2343,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>571</label>
+								<label>$LOCALIZE[571]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2363,7 +2363,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>Use Fanart</label>
+								<label>$LOCALIZE[31209]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2383,7 +2383,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>None</label>
+								<label>$LOCALIZE[31210]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2406,7 +2406,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31113</label>
+								<label>$LOCALIZE[31113]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2426,7 +2426,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31114</label>
+								<label>$LOCALIZE[31114]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2446,7 +2446,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>571</label>
+								<label>$LOCALIZE[571]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2466,7 +2466,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>Use Fanart</label>
+								<label>$LOCALIZE[31209]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2486,7 +2486,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>None</label>
+								<label>$LOCALIZE[31210]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2509,7 +2509,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31113</label>
+								<label>$LOCALIZE[31113]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2529,7 +2529,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31114</label>
+								<label>$LOCALIZE[31114]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2549,7 +2549,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>571</label>
+								<label>$LOCALIZE[571]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2569,7 +2569,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>Use Fanart</label>
+								<label>$LOCALIZE[31209]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2589,7 +2589,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>None</label>
+								<label>$LOCALIZE[31210]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2612,7 +2612,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31113</label>
+								<label>$LOCALIZE[31113]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2632,7 +2632,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>31114</label>
+								<label>$LOCALIZE[31114]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2652,7 +2652,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>571</label>
+								<label>$LOCALIZE[571]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2672,7 +2672,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>Use Fanart</label>
+								<label>$LOCALIZE[31209]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -2692,7 +2692,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>None</label>
+								<label>$LOCALIZE[31210]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -3163,7 +3163,7 @@
 							<width>750</width>
 							<height>45</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Global View Options</label>
+							<label>$LOCALIZE[31211]</label>
 							<textcolor>yellow</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
@@ -3173,7 +3173,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Remove "Minutes" from Duration Labels</label>
+							<label>$LOCALIZE[31212]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3189,7 +3189,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Disable Clock</label>
+							<label>$LOCALIZE[31213]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3205,7 +3205,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Disable Bread Crumbs</label>
+							<label>$LOCALIZE[31214]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3221,7 +3221,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Enable Turntable on Music Visualization</label>
+							<label>$LOCALIZE[31215]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3238,7 +3238,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Enable Colored Studio Flags [COLOR=grey3] (Requires Separate Download Pack)[/COLOR]</label>
+							<label>$LOCALIZE[31216] [COLOR=grey3] ($LOCALIZE[31217])[/COLOR]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3254,7 +3254,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Remove CD Art From Music Visualization</label>
+							<label>$LOCALIZE[31218]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3271,7 +3271,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Remove Upcoming Tracks From Music Visualization</label>
+							<label>$LOCALIZE[31219]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3288,7 +3288,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Remove Clock From Music Visualization</label>
+							<label>$LOCALIZE[31220]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3304,7 +3304,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Enable Clock On Info Screen While Playing Video</label>
+							<label>$LOCALIZE[31221]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3320,7 +3320,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Enable "Extra Thumbs" On Info Screen</label>
+							<label>$LOCALIZE[31222]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3336,7 +3336,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Enable "Cinema Experience" Button</label>
+							<label>$LOCALIZE[31223]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3352,7 +3352,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Enable Watched Icon for Movie Views</label>
+							<label>$LOCALIZE[31224]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3368,7 +3368,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Remove Library Totals From Home Screen</label>
+							<label>$LOCALIZE[31225]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3384,7 +3384,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Use Clean Music Visualization Screen</label>
+							<label>$LOCALIZE[31226]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3400,7 +3400,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Set Music Folder For CD Art [COLOR=grey3] (Your Root Music Folder)[/COLOR]</label>
+							<label>$LOCALIZE[31227] [COLOR=grey3] ($LOCALIZE[31228])[/COLOR]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Music_Folder_Path)][/COLOR]</label2>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
@@ -3412,7 +3412,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Disable New Episode Stars</label>
+							<label>$LOCALIZE[31229]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3521,7 +3521,7 @@
 							<width>750</width>
 							<height>45</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Custom Program Shortcuts on Home Screen</label>
+							<label>$LOCALIZE[31230]</label>
 							<textcolor>yellow</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
@@ -3531,7 +3531,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Use Random Addons Instead Of Custom</label>
+							<label>$LOCALIZE[31231]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -3863,7 +3863,7 @@
 							<width>750</width>
 							<height>45</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Custom Addon Shortcuts on Home Screen</label>
+							<label>$LOCALIZE[31232]</label>
 							<textcolor>yellow</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
@@ -3873,7 +3873,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Use Random Addons Instead Of Custom</label>
+							<label>$LOCALIZE[31233]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4211,7 +4211,7 @@
 							<width>750</width>
 							<height>45</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Movie Genre Shortcuts on Home Screen</label>
+							<label>$LOCALIZE[31234]</label>
 							<textcolor>yellow</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
@@ -4221,7 +4221,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>font13</font>
-							<label>Enable</label>
+							<label>$LOCALIZE[31235]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4930,7 +4930,7 @@
 							<width>750</width>
 							<height>45</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Custom Menu Shortcuts on Home Screen</label>
+							<label>$LOC»LIZE[31236]</label>
 							<textcolor>yellow</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
@@ -5167,7 +5167,7 @@
 								<width>750</width>
 								<height>45</height>
 								<font>Simplicity_20_Bold_title</font>
-								<label>Custom Picture Addon Shortcuts on Home Screen</label>
+								<label>$LOCALIZE[31237]</label>
 								<textcolor>yellow</textcolor>
 								<shadowcolor>black</shadowcolor>
 								<align>left</align>
@@ -5667,7 +5667,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label>Enable "Delete" Prompt After Watching TV Episodes</label>
+							<label>$LOCALIZE[31238]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -5746,7 +5746,7 @@
 							<width>750</width>
 							<height>45</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Now Playing Options</label>
+							<label>$LOCALIZE[31040] $LOCALIZE[31112]</label>
 							<textcolor>yellow</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
@@ -5765,7 +5765,7 @@
 							<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 							<texturefocus>simplicity/button-focus.png</texturefocus>
 							<texturenofocus>simplicity/menuitemnf.png</texturenofocus>
-							<label>Enable Now Playing Screen</label>
+							<label>$LOCALIZE[31239]</label>
 							<onclick>Skin.ToggleSetting(MusicNowPLaying)</onclick>
 							<selected>Skin.HasSetting(MusicNowPLaying)</selected>
 						</control>
@@ -5782,7 +5782,7 @@
 							<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 							<texturefocus>simplicity/button-focus.png</texturefocus>
 							<texturenofocus>simplicity/menuitemnf.png</texturenofocus>
-							<label>- Use Alternate Fallback Image</label>
+							<label>- $LOCALIZE[31240]</label>
 							<onclick>Skin.ToggleSetting(UseAlternateFallback)</onclick>
 							<selected>Skin.HasSetting(UseAlternateFallback)</selected>
 							<visible>Skin.HasSetting(MusicNowPLaying)</visible>
@@ -5800,7 +5800,7 @@
 							<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 							<texturefocus>simplicity/button-focus.png</texturefocus>
 							<texturenofocus>simplicity/menuitemnf.png</texturenofocus>
-							<label>- Remove Clock</label>
+							<label>- $LOCALIZE[31241]</label>
 							<onclick>Skin.ToggleSetting(NowPlayingNoClock)</onclick>
 							<selected>Skin.HasSetting(NowPlayingNoClock)</selected>
 							<visible>Skin.HasSetting(MusicNowPLaying)</visible>
@@ -5817,7 +5817,7 @@
 							<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 							<texturefocus>simplicity/button-focus.png</texturefocus>
 							<texturenofocus>simplicity/menuitemnf.png</texturenofocus>
-							<label>- Use CDArt</label>
+							<label>- $LOCALIZE[31242]</label>
 							<onclick>Skin.ToggleSetting(VisualisationCDart)</onclick>
 							<selected>Skin.HasSetting(VisualisationCDart)</selected>
 							<visible>Skin.HasSetting(MusicNowPLaying)</visible>
@@ -5834,7 +5834,7 @@
 							<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 							<texturefocus>simplicity/button-focus.png</texturefocus>
 							<texturenofocus>simplicity/menuitemnf.png</texturenofocus>
-							<label>- Use Alternate Layout</label>
+							<label>- $LOCALIZE[31243]</label>
 							<onclick>Skin.ToggleSetting(NowPlayingAlternate)</onclick>
 							<selected>Skin.HasSetting(NowPlayingAlternate)</selected>
 							<visible>Skin.HasSetting(MusicNowPLaying)</visible>

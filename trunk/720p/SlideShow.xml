@@ -24,7 +24,7 @@
 				<aligny>center</aligny>
 				<font>font10</font>
 				<textcolor>white</textcolor>
-				<label>31043</label>
+				<label>$LOCALIZE[31043]</label>
 			</control>
 		</control>
 		<!-- media infos -->

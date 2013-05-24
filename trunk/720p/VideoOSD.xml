@@ -64,7 +64,7 @@
 					<posy>2</posy>
 					<width>45</width>
 					<height>45</height>
-					<label>31356</label>
+					<label>$LOCALIZE[31356]</label>
 					<font>-</font>
 					<texturefocus>osdsubtitlesfo.png</texturefocus>
 					<texturenofocus>osdsubtitlesnf.png</texturenofocus>

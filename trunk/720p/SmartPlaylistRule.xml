@@ -40,7 +40,7 @@
 			<font>Simplicity_20_Bold_title</font>
 			<textcolor>yellow</textcolor>
 			<shadowcolor>black</shadowcolor>
-			<label>21422</label>
+			<label>$LOCALIZE[21422]</label>
 		</control>
 		<control type="group" id="9001">
 			<control type="spincontrolex" id="15">
@@ -128,7 +128,7 @@
 			<texturenofocus border="5">simplicity/button-nofocus.png</texturenofocus>
 			<texturefocus border="5">simplicity/button-focus-white.png</texturefocus>
 			<font>Simplicity_20_Bold_title</font>
-			<label>1024</label>
+			<label>$LOCALIZE[1024]</label>
 			<onup>9001</onup>
 			<onleft>17</onleft>
 			<onright>17</onright>
@@ -149,7 +149,7 @@
 				<texturenofocus border="5">simplicity/button-nofocus.png</texturenofocus>
 				<texturefocus border="5">simplicity/button-focus-white.png</texturefocus>
 				<font>Simplicity_20_Bold_title</font>
-				<label>186</label>
+				<label>$LOCALIZE[186]</label>
 				<onup>17</onup>
 				<onleft>19</onleft>
 				<onright>19</onright>
@@ -169,7 +169,7 @@
 				<texturenofocus border="5">simplicity/button-nofocus.png</texturenofocus>
 				<texturefocus border="5">simplicity/button-focus-white.png</texturefocus>
 				<font>Simplicity_20_Bold_title</font>
-				<label>222</label>
+				<label>$LOCALIZE[222]</label>
 				<onup>17</onup>
 				<onleft>18</onleft>
 				<onright>19</onright>
