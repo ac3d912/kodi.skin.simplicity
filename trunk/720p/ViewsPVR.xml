@@ -1066,7 +1066,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>19029</label>
+					<label>$LOCALIZE[19029]</label>
 				</control>
 				<control type="label">
 					<description>Title header label</description>
@@ -1079,7 +1079,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>369</label>
+					<label>$LOCALIZE[369]</label>
 				</control>
 				<control type="label">
 					<description>Schedule Time header label</description>
@@ -1092,7 +1092,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>31501</label>
+					<label>$LOCALIZE[31501]</label>
 				</control>
 				<control type="label">
 					<description>Status header label</description>
@@ -1105,7 +1105,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>126</label>
+					<label>$LOCALIZE[126]</label>
 				</control>
 				<control type="image">
 					<description>separator image</description>
@@ -1378,7 +1378,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>19148</label>
+					<label>$LOCALIZE[19148]</label>
 				</control>
 				<control type="label">
 					<description>Title</description>
@@ -1391,7 +1391,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>369</label>
+					<label>$LOCALIZE[369]</label>
 				</control>
 				<control type="label">
 					<description>Time label</description>
@@ -1404,7 +1404,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>21820</label>
+					<label>$LOCALIZE[21820]</label>
 				</control>
 				<control type="label">
 					<description>Status header label</description>
@@ -1417,7 +1417,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>126</label>
+					<label>$LOCALIZE[126]</label>
 				</control>
 				<control type="image">
 					<description>separator image</description>
@@ -1524,7 +1524,7 @@
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
-							<label>19043</label>
+							<label>$LOCALIZE[19043]</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
 						<control type="image">
@@ -1545,7 +1545,7 @@
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
-							<label>31510</label>
+							<label>$LOCALIZE[31510]</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
 					</itemlayout>
@@ -1654,7 +1654,7 @@
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
-							<label>19043</label>
+							<label>$LOCALIZE[19043]</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
 						<control type="image">
@@ -1675,7 +1675,7 @@
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
-							<label>31510</label>
+							<label>$LOCALIZE[31510]</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
 					</focusedlayout>
@@ -1732,7 +1732,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>21820</label>
+					<label>$LOCALIZE[21820]</label>
 				</control>
 				<control type="label">
 					<description>Title</description>
@@ -1745,7 +1745,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>369</label>
+					<label>$LOCALIZE[369]</label>
 				</control>
 				<control type="label">
 					<description>Status header label</description>
@@ -1758,7 +1758,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>126</label>
+					<label>$LOCALIZE[126]</label>
 				</control>
 				<control type="image">
 					<description>separator image</description>
@@ -1846,7 +1846,7 @@
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
-							<label>19043</label>
+							<label>$LOCALIZE[19043]</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
 						<control type="image">
@@ -1867,7 +1867,7 @@
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
-							<label>31510</label>
+							<label>$LOCALIZE[31510]</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
 					</itemlayout>
@@ -1978,7 +1978,7 @@
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
-							<label>19043</label>
+							<label>$LOCALIZE[19043]</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
 						<control type="image">
@@ -1999,7 +1999,7 @@
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
-							<label>31510</label>
+							<label>$LOCALIZE[31510]</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
 					</focusedlayout>
@@ -2056,7 +2056,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>555</label>
+					<label>$LOCALIZE[555]</label>
 				</control>
 				<control type="label">
 					<description>Channel label</description>
@@ -2069,7 +2069,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>19148</label>
+					<label>$LOCALIZE[19148]</label>
 				</control>
 				<control type="label">
 					<description>Title</description>
@@ -2082,7 +2082,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>369</label>
+					<label>$LOCALIZE[369]</label>
 				</control>
 				<control type="label">
 					<description>Status header label</description>
@@ -2095,7 +2095,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>126</label>
+					<label>$LOCALIZE[126]</label>
 				</control>
 				<control type="image">
 					<description>separator image</description>
@@ -2202,7 +2202,7 @@
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
-							<label>19043</label>
+							<label>$LOCALIZE[19043]</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
 						<control type="image">
@@ -2223,7 +2223,7 @@
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
-							<label>31510</label>
+							<label>$LOCALIZE[31510]</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
 					</itemlayout>
@@ -2353,7 +2353,7 @@
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
-							<label>19043</label>
+							<label>$LOCALIZE[19043]</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
 						<control type="image">
@@ -2374,7 +2374,7 @@
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>selected</selectedcolor>
-							<label>31510</label>
+							<label>$LOCALIZE[31510]</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
 					</focusedlayout>

@@ -280,7 +280,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>&amp; More...</label>
+							<label>&amp; $LOCALIZE[31248]</label>
 							<visible>IntegerGreaterThan(Container.NumItems,5) </visible>
 							<visible>StringCompare(ListItem.label,* All albums)</visible>
 						</control>
@@ -441,7 +441,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Year], $INFO[ListItem.Duration] Minutes</label>
+					<label>$INFO[ListItem.Year], $INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 				</control>
 				<control type="label">
 					<posx>165</posx>
@@ -533,7 +533,7 @@
 							<font>Simplicity_20</font>
 							<textcolor>grey2</textcolor>
 							<align>left</align>
-							<label>Released: $INFO[ListItem.Year]</label>
+							<label>$LOCALIZE[31249]: $INFO[ListItem.Year]</label>
 						</control>					
 					</control>	
 				</itemlayout>
@@ -562,7 +562,7 @@
 						<scroll>false</scroll>
 						<scrollspeed>0</scrollspeed>
 						<align>left</align>
-						<label>Released: [COLOR=grey4]$INFO[ListItem.Year][/COLOR]</label>
+						<label>$LOCALIZE[31249]: [COLOR=grey4]$INFO[ListItem.Year][/COLOR]</label>
 						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>
 					<control type="image">
@@ -639,7 +639,7 @@
 					<scroll>false</scroll>
 					<scrollspeed>0</scrollspeed>
 					<align>left</align>
-					<label>Released: [COLOR=grey4]$INFO[ListItem.Year][/COLOR]</label>
+					<label>$LOCALIZE[31249]: [COLOR=grey4]$INFO[ListItem.Year][/COLOR]</label>
 				</control>		
 				<control type="label">
 					<posx>90</posx>
@@ -652,7 +652,7 @@
 					<scroll>false</scroll>
 					<scrollspeed>0</scrollspeed>
 					<align>left</align>
-					<label>Genre: [COLOR=grey4]$INFO[ListItem.Genre][/COLOR]</label>
+					<label>$LOCALIZE[31070]: [COLOR=grey4]$INFO[ListItem.Genre][/COLOR]</label>
 				</control>
 				<control type="label">
 					<posx>90</posx>
@@ -665,7 +665,7 @@
 					<scroll>false</scroll>
 					<scrollspeed>0</scrollspeed>
 					<align>left</align>
-					<label>Length: [COLOR=grey4]$INFO[ListItem.Duration][/COLOR]</label>
+					<label>$LOCALIZE[31471]: [COLOR=grey4]$INFO[ListItem.Duration][/COLOR]</label>
 				</control>				
 				<control type="textbox">
 					<posx>90</posx>
@@ -961,7 +961,7 @@
 					<scroll>false</scroll>
 					<scrollspeed>0</scrollspeed>
 					<align>left</align>
-					<label>&amp; more...</label>
+					<label>&amp; $LOCALIZE[31248]</label>
 					<visible>IntegerGreaterThan(Container.NumItems,6)</visible>
 					<visible>StringCompare(ListItem.label,* All albums)</visible>
 				</control>						
@@ -1004,7 +1004,7 @@
 					<scroll>false</scroll>
 					<scrollspeed>0</scrollspeed>
 					<align>left</align>
-					<label>Released: [COLOR=grey4]$INFO[ListItem.Year][/COLOR]</label>
+					<label>$LOCALIZE[31249]: [COLOR=grey4]$INFO[ListItem.Year][/COLOR]</label>
 					<visible>!StringCompare(ListItem.label,* All albums)</visible>
 				</control>		
 				<control type="label">
@@ -1018,7 +1018,7 @@
 					<scroll>false</scroll>
 					<scrollspeed>0</scrollspeed>
 					<align>left</align>
-					<label>Label: [COLOR=grey4]$INFO[ListItem.Property(Album_Label)][/COLOR]</label>
+					<label>$LOCALIZE[31253]: [COLOR=grey4]$INFO[ListItem.Property(Album_Label)][/COLOR]</label>
 					<visible>!StringCompare(ListItem.label,* All albums)</visible>
 				</control>
 				<control type="label">
@@ -1032,7 +1032,7 @@
 					<scroll>false</scroll>
 					<scrollspeed>0</scrollspeed>
 					<align>left</align>
-					<label>Style: [COLOR=grey4]$INFO[ListItem.Property(Album_Style)][/COLOR]</label>
+					<label>$LOCALIZE[31254]: [COLOR=grey4]$INFO[ListItem.Property(Album_Style)][/COLOR]</label>
 					<visible>!StringCompare(ListItem.label,* All albums)</visible>
 				</control>				
 				<control type="textbox">
@@ -1211,7 +1211,7 @@
 					<scroll>false</scroll>
 					<scrollspeed>0</scrollspeed>
 					<align>left</align>
-					<label>Genre: [COLOR=grey4]$INFO[ListItem.Property(Artist_Genre)][/COLOR]</label>
+					<label>$LOCALIZE[31070]: [COLOR=grey4]$INFO[ListItem.Property(Artist_Genre)][/COLOR]</label>
 				</control>		
 				<control type="label">
 					<posx>90</posx>
@@ -1224,7 +1224,7 @@
 					<scroll>false</scroll>
 					<scrollspeed>0</scrollspeed>
 					<align>left</align>
-					<label>Style: [COLOR=grey4]$INFO[ListItem.Property(Artist_Style)][/COLOR]</label>
+					<label>$LOCALIZE[31254]: [COLOR=grey4]$INFO[ListItem.Property(Artist_Style)][/COLOR]</label>
 				</control>
 				<control type="label">
 					<posx>90</posx>
@@ -1237,7 +1237,7 @@
 					<scroll>false</scroll>
 					<scrollspeed>0</scrollspeed>
 					<align>left</align>
-					<label>Years Active: [COLOR=grey4]$INFO[ListItem.Property(Artist_YearsActive)][/COLOR]</label>
+					<label>$LOCALIZE[31255]: [COLOR=grey4]$INFO[ListItem.Property(Artist_YearsActive)][/COLOR]</label>
 				</control>				
 				<control type="textbox">
 					<posx>90</posx>
@@ -1437,7 +1437,7 @@
 						<scroll>false</scroll>
 						<scrollspeed>0</scrollspeed>
 						<align>left</align>
-						<label>Genre: [COLOR=grey4]$INFO[ListItem.Property(Artist_Genre)][/COLOR]</label>
+						<label>$LOCALIZE[31070]: [COLOR=grey4]$INFO[ListItem.Property(Artist_Genre)][/COLOR]</label>
 					</control>		
 					<control type="label">
 						<posx>90</posx>
@@ -1450,7 +1450,7 @@
 						<scroll>false</scroll>
 						<scrollspeed>0</scrollspeed>
 						<align>left</align>
-						<label>Style: [COLOR=grey4]$INFO[ListItem.Property(Artist_Style)][/COLOR]</label>
+						<label>$LOCALIZE[31254]: [COLOR=grey4]$INFO[ListItem.Property(Artist_Style)][/COLOR]</label>
 					</control>
 					<control type="label">
 						<posx>90</posx>
@@ -1463,7 +1463,7 @@
 						<scroll>false</scroll>
 						<scrollspeed>0</scrollspeed>
 						<align>left</align>
-						<label>Years Active: [COLOR=grey4]$INFO[ListItem.Property(Artist_YearsActive)][/COLOR]</label>
+						<label>$LOCALIZE[31255]: [COLOR=grey4]$INFO[ListItem.Property(Artist_YearsActive)][/COLOR]</label>
 					</control>				
 			<control type="textbox">
 				<posx>90</posx>
@@ -1666,7 +1666,7 @@
 						<scroll>false</scroll>
 						<scrollspeed>0</scrollspeed>
 						<align>left</align>
-						<label>Genre: [COLOR=grey4]$INFO[ListItem.Property(Artist_Genre)][/COLOR]</label>
+						<label>$LOCALIZE[31070]: [COLOR=grey4]$INFO[ListItem.Property(Artist_Genre)][/COLOR]</label>
 					</control>		
 					<control type="label">
 						<posx>90</posx>
@@ -1679,7 +1679,7 @@
 						<scroll>false</scroll>
 						<scrollspeed>0</scrollspeed>
 						<align>left</align>
-						<label>Style: [COLOR=grey4]$INFO[ListItem.Property(Artist_Style)][/COLOR]</label>
+						<label>$LOCALIZE[31254]: [COLOR=grey4]$INFO[ListItem.Property(Artist_Style)][/COLOR]</label>
 					</control>
 					<control type="label">
 						<posx>90</posx>
@@ -1692,7 +1692,7 @@
 						<scroll>false</scroll>
 						<scrollspeed>0</scrollspeed>
 						<align>left</align>
-						<label>Years Active: [COLOR=grey4]$INFO[ListItem.Property(Artist_YearsActive)][/COLOR]</label>
+						<label>$LOCALIZE[31255]: [COLOR=grey4]$INFO[ListItem.Property(Artist_YearsActive)][/COLOR]</label>
 					</control>				
 			<control type="textbox">
 				<posx>90</posx>
@@ -2197,7 +2197,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>By: [COLOR=white]$INFO[ListItem.Artist][/COLOR]</label>
+					<label>$LOCALIZE[31153]: [COLOR=white]$INFO[ListItem.Artist][/COLOR]</label>
 				</control>
 				<control type="label">
 					<posx>408</posx>
@@ -2236,7 +2236,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Album: [COLOR=white]$INFO[ListItem.Album][/COLOR]</label>
+					<label>$LOCALIZE[31166]: [COLOR=white]$INFO[ListItem.Album][/COLOR]</label>
 				</control>
 				<control type="grouplist">
 					<description>Media Codec Flagging Images</description>

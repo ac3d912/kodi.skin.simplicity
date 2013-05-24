@@ -1037,7 +1037,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<fadetime>200</fadetime>
-					<label>[B]$INFO[ListItem.Duration] minutes [/B]</label>
+					<label>[B]$INFO[ListItem.Duration] $LOCALIZE[31247] [/B]</label>
 				</control>
 				<control type="label">
 					<posx>120</posx>
@@ -1063,7 +1063,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<fadetime>200</fadetime>
-					<label>Director:  [B]$INFO[ListItem.Director][/B]</label>
+					<label>$LOCALIZE[31096]:  [B]$INFO[ListItem.Director][/B]</label>
 				</control>
 				<control type="textbox">
 					<description>Description Value The Movie</description>
@@ -1681,7 +1681,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Duration] Minutes</label>
+					<label>$INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 				</control>
 			</control>
 
@@ -1713,7 +1713,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Duration] Minutes</label>
+					<label>$INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 				</control>
 			</control>
 
@@ -1801,7 +1801,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Duration: $INFO[ListItem.Duration]</label>
+					<label>$LOCALIZE[31154]: $INFO[ListItem.Duration]</label>
 					<include>NoYouTubeIcons</include>	
 				</control>
 			</control>
@@ -1842,7 +1842,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Duration] Minutes</label>
+					<label>$INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 				</control>
 				<control type="label">
 					<posx>165</posx>
@@ -1947,7 +1947,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Duration] Minutes</label>
+					<label>$INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 				</control>
 				<control type="label">
 					<posx>165</posx>
@@ -2001,7 +2001,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Duration] Minutes</label>
+					<label>$INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 				</control>
 				<control type="label">
 					<posx>165</posx>
@@ -2067,7 +2067,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Duration] Minutes</label>
+					<label>$INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 				</control>
 				<control type="label">
 					<posx>165</posx>
@@ -2132,7 +2132,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Duration] Minutes</label>
+					<label>$INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 				</control>
 				<control type="label">
 					<posx>165</posx>

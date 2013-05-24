@@ -229,7 +229,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Year], $INFO[ListItem.Duration] Minutes</label>
+					<label>$INFO[ListItem.Year], $INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 					<visible>!Container.Content(TVShows) + !Skin.HasSetting(NoMinutes)</visible>
 				</control>
 				<control type="label">
@@ -556,7 +556,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Year], $INFO[ListItem.Duration] Minutes</label>
+					<label>$INFO[ListItem.Year], $INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 					<visible>!Skin.HasSetting(NoMinutes)</visible>
 				</control>
 				<control type="textbox">
@@ -2131,7 +2131,7 @@
 							<font>Simplicity_18</font>
 							<textcolor>grey2</textcolor>
 							<align>left</align>
-							<label>$INFO[ListItem.Property(TotalEpisodes)] episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
+							<label>$INFO[ListItem.Property(TotalEpisodes)] $LOCALIZE[31146], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						</control>					
 					</control>	
@@ -2157,7 +2157,7 @@
 						<font>Simplicity_18</font>
 						<textcolor>grey2</textcolor>
 						<align>left</align>
-						<label>$INFO[ListItem.Property(TotalEpisodes)] episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
+						<label>$INFO[ListItem.Property(TotalEpisodes)] $LOCALIZE[31146], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>	
 					<control type="image">
@@ -2283,7 +2283,7 @@
 						<posy>40</posy>
 						<width>345</width>
 						<height>25</height>
-						<label>$INFO[ListItem.Property(NumEpisodes)] episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
+						<label>$INFO[ListItem.Property(NumEpisodes)] $LOCALIZE[31146], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>Simplicity_20</font>
@@ -2418,7 +2418,7 @@
 						<posy>435</posy>
 						<width>345</width>
 						<height>25</height>
-						<label>$INFO[ListItem.Property(NumEpisodes)] episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
+						<label>$INFO[ListItem.Property(NumEpisodes)] $LOCALIZE[31146], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 						<align>left</align>
 						<font>Simplicity_20</font>
 						<textcolor>white</textcolor>
@@ -2557,7 +2557,7 @@
 						<textcolor>white</textcolor>
 						<scroll>false</scroll>
 						<align>left</align>
-						<label>$INFO[ListItem.Episode] Episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
+						<label>$INFO[ListItem.Episode] $LOCALIZE[31151], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 						<visible>container.content(TVShows)</visible>
 					</control>
 					<control type="grouplist">
@@ -2715,7 +2715,7 @@
 					<textcolor>white</textcolor>
 					<scroll>false</scroll>
 					<align>right</align>
-					<label>$INFO[ListItem.Episode] Episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
+					<label>$INFO[ListItem.Episode] $LOCALIZE[31151], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 					<visible>container.content(TVShows)</visible>
 				</control>
 				<control type="grouplist">
@@ -2884,7 +2884,7 @@
 						<textcolor>white</textcolor>
 						<scroll>false</scroll>
 						<align>left</align>
-						<label>$INFO[ListItem.Episode] Episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
+						<label>$INFO[ListItem.Episode] $LOCALIZE[31151], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 						<visible>container.content(TVShows)</visible>
 					</control>
 					<control type="grouplist">
@@ -3209,7 +3209,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Year], $INFO[ListItem.Duration] Minutes</label>
+					<label>$INFO[ListItem.Year], $INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 					<visible>!Container.Content(TVShows) + !Skin.HasSetting(NoMinutes)</visible>
 				</control>
 				<control type="label">
@@ -3223,7 +3223,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Director: [COLOR=white]$INFO[ListItem.Director][/COLOR]</label>
+					<label>$LOCALIZE[31096]: [COLOR=white]$INFO[ListItem.Director][/COLOR]</label>
 					<visible>!Container.Content(TVShows)</visible>
 				</control>
 				<control type="textbox">
@@ -3306,7 +3306,7 @@
 					<font>Simplicity_20</font>
 					<textcolor>grey2</textcolor>
 					<align>left</align>
-					<label>$INFO[ListItem.Property(TotalEpisodes)] episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
+					<label>$INFO[ListItem.Property(TotalEpisodes)] $LOCALIZE[31146], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 				</control>		
 				<control type="textbox">
 					<posx>90</posx>
@@ -3559,7 +3559,7 @@
 							<font>Simplicity_20</font>
 							<textcolor>grey2</textcolor>
 							<align>left</align>
-							<label>$INFO[ListItem.Property(TotalEpisodes)] episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
+							<label>$INFO[ListItem.Property(TotalEpisodes)] $LOCALIZE[31146], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 							<visible>Container.Content(Seasons)</visible>
 						</control>		
 						<!--<control type="grouplist">
@@ -3658,7 +3658,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>[B]Movie Details[/B]</label>
+							<label>[B]$LOCALIZE[31308][/B]</label>
 						</control>
 						<control type="label">
 							<posy>30</posy>
@@ -3669,7 +3669,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>Year:</label>
+							<label>$LOCALIZE[31162]:</label>
 						</control>
 						<control type="label">
 							<posy>50</posy>
@@ -3680,7 +3680,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>Director:</label>
+							<label>$LOCALIZE[31096]:</label>
 						</control>		
 						<control type="label">
 							<posy>70</posy>
@@ -3691,7 +3691,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>Genre:</label>
+							<label>$LOCALIZE[31070]:</label>
 						</control>			
 						<control type="label">
 							<posy>90</posy>
@@ -3702,7 +3702,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>Writer:</label>
+							<label>$LOCALIZE[31152]:</label>
 						</control>
 						<control type="label">
 							<posy>110</posy>
@@ -3713,7 +3713,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>Duration:</label>
+							<label>$LOCALIZE[31154]:</label>
 						</control>
 						<control type="label">
 							<posx>180</posx>
@@ -3773,7 +3773,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>$INFO[ListItem.Duration] Minutes</label>
+							<label>$INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 							<visible>!Skin.HasSetting(NoMinutes)</visible>
 						</control>			
 						<control type="label">
@@ -3804,7 +3804,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>[B]Show Details[/B]</label>
+							<label>[B]$LOCALIZE[31257][/B]</label>
 						</control>
 						<control type="label">
 							<posy>30</posy>
@@ -3815,7 +3815,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>Year:</label>
+							<label>$LOCALIZE[31162]:</label>
 						</control>
 						<control type="label">
 							<posy>50</posy>
@@ -3826,7 +3826,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>Writer:</label>
+							<label>$LOCALIZE[31152]:</label>
 						</control>		
 						<control type="label">
 							<posy>70</posy>
@@ -3837,7 +3837,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>Genre:</label>
+							<label>$LOCALIZE[31070]:</label>
 						</control>			
 						<control type="label">
 							<posy>90</posy>
@@ -3848,7 +3848,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>Unwatched:</label>
+							<label>$LOCALIZE[31484]:</label>
 						</control>
 						<control type="label">
 							<posy>110</posy>
@@ -3859,7 +3859,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>Premiered:</label>
+							<label>$LOCALIZE[31071]:</label>
 						</control>
 						<control type="label">
 							<posx>180</posx>
@@ -3936,7 +3936,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>[B]Season Details[/B]</label>
+							<label>[B]$LOCALIZE[31258][/B]</label>
 						</control>
 						<control type="label">
 							<posy>30</posy>
@@ -3947,7 +3947,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>Genre:</label>
+							<label>$LOCALIZE[31070]:</label>
 						</control>
 						<control type="label">
 							<posy>50</posy>
@@ -3958,7 +3958,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>Watched:</label>
+							<label>$LOCALIZE[31488]:</label>
 						</control>		
 						<control type="label">
 							<posy>70</posy>
@@ -3969,7 +3969,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>Unwatched:</label>
+							<label>$LOCALIZE[31484]:</label>
 						</control>			
 						<control type="label">
 							<posx>180</posx>
@@ -4064,7 +4064,7 @@
 				<posy>100</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Watched</label>
+				<label>$LOCALIZE[31488]</label>
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>Simplicity_18</font>
@@ -4194,7 +4194,7 @@
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>$INFO[ListItem.Property(TotalEpisodes)] episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
+						<label>$INFO[ListItem.Property(TotalEpisodes)] $LOCALIZE[31146], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 						<label>Outline: [COLOR=white]$INFO[ListItem.PlotOutline][/COLOR]</label>
 						<visible>Container.Content(TVShows)</visible>
 					</control>
@@ -4211,7 +4211,7 @@
 						<scrollspeed>0</scrollspeed>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Released: [COLOR=white]$INFO[ListItem.Year][/COLOR] | Runtime:  [COLOR=white]$INFO[ListItem.Duration] Minutes[/COLOR]</label>
+						<label>Released: [COLOR=white]$INFO[ListItem.Year][/COLOR] | Runtime:  [COLOR=white]$INFO[ListItem.Duration] $LOCALIZE[31149][/COLOR]</label>
 						<visible>Container.Content(Movies) + !Skin.HasSetting(NoMinutes)</visible>
 					</control>
 					<control type="label">
@@ -4243,7 +4243,7 @@
 						<scrollspeed>0</scrollspeed>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Premiered: [COLOR=white]$INFO[ListItem.Year][/COLOR] | Genre:  [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
+						<label>$LOCALIZE[31071]: [COLOR=white]$INFO[ListItem.Year][/COLOR] | $LOCALIZE[31070]:  [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
 						<visible>Container.Content(TVShows)</visible>
 					</control>
 					<control type="image">
@@ -4302,7 +4302,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Genre: [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
+					<label>$LOCALIZE[31070]: [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
 				</control>
 				<control type="group">
 					<posx>408</posx>
@@ -4329,7 +4329,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Director: [COLOR=white]$INFO[ListItem.Director][/COLOR]</label>
+					<label>$LOCALIZE[31096]: [COLOR=white]$INFO[ListItem.Director][/COLOR]</label>
 					<visible>Container.Content(Movies)</visible>
 				</control>
 				<control type="label">
@@ -4343,7 +4343,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Writer: [COLOR=white]$INFO[ListItem.Writer][/COLOR]</label>
+					<label>$LOCALIZE[31152]: [COLOR=white]$INFO[ListItem.Writer][/COLOR]</label>
 					<visible>Container.Content(Movies)</visible>
 				</control>
 				<control type="grouplist">
@@ -5537,7 +5537,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>center</align>
-						<label>Year: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    Length: [COLOR=grey2]$INFO[ListItem.Duration][/COLOR]</label>
+						<label>$LOCALIZE[31162]: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    Length: [COLOR=grey2]$INFO[ListItem.Duration][/COLOR]</label>
 						<visible>Skin.HasSetting(NoMinutes)</visible>
 					</control>
 					<control type="label">
@@ -5550,7 +5550,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>center</align>
-						<label>Year: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    Length: [COLOR=grey2]$INFO[ListItem.Duration] Minutes[/COLOR]</label>
+						<label>$LOCALIZE[31162]: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    Length: [COLOR=grey2]$INFO[ListItem.Duration] $LOCALIZE[31149][/COLOR]</label>
 						<visible>!Skin.HasSetting(NoMinutes)</visible>
 					</control>
 				</control>
@@ -5598,7 +5598,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>center</align>
-						<label>Year: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    Unwatched: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
+						<label>$LOCALIZE[31162]: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    $LOCALIZE[31484]: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
 					</control>
 				</control>
 			</control>
@@ -6342,7 +6342,7 @@
 						<font>Simplicity_20</font>
 						<textcolor>grey2</textcolor>
 						<align>left</align>
-						<label>$INFO[ListItem.Property(TotalEpisodes)] episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
+						<label>$INFO[ListItem.Property(TotalEpisodes)] $LOCALIZE[31146], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 					</control>		
 					<control type="textbox">
 						<posx>90</posx>
@@ -6470,7 +6470,7 @@
 							<textcolor>grey4</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
-							<label>Go To Root...</label>
+							<label>$LOCALIZE[31244]</label>
 							<visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						</control>	
 						<control type="label">
@@ -6868,7 +6868,7 @@
 								<textcolor>white</textcolor>
 								<shadowcolor>black</shadowcolor>
 								<align>left</align>
-								<label>$INFO[ListItem.Property(TotalEpisodes)] [COLOR=grey4]episodes[/COLOR], $INFO[ListItem.Property(UnWatchedEpisodes)] [COLOR=grey4]unwatched[/COLOR]</label>
+								<label>$INFO[ListItem.Property(TotalEpisodes)] [COLOR=grey4]$LOCALIZE[31146][/COLOR], $INFO[ListItem.Property(UnWatchedEpisodes)] [COLOR=grey4]$LOCALIZE[31147][/COLOR]</label>
 								<animation type="Focus" reversible="false">
 									<effect type="fade" start="0" end="100"  time="300" delay="1050"/>
 								</animation>
@@ -6902,7 +6902,7 @@
 								<textcolor>white</textcolor>
 								<shadowcolor>black</shadowcolor>
 								<align>left</align>
-								<label>Plot:</label>
+								<label>$LOCALIZE[31259]:</label>
 								<animation type="Focus" reversible="false">
 									<effect type="fade" start="0" end="100"  time="300" delay="1050"/>
 								</animation>
@@ -6977,7 +6977,7 @@
 							<font>Simplicity_20</font>
 							<textcolor>grey2</textcolor>
 							<align>left</align>
-							<label>$INFO[ListItem.Property(TotalEpisodes)] episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
+							<label>$INFO[ListItem.Property(TotalEpisodes)] $LOCALIZE[31146], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 							<visible>Container.Content(Seasons)</visible>
 						</control>		
 						<control type="label">
@@ -6990,7 +6990,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>$INFO[ListItem.Year], $INFO[ListItem.Duration] Minutes</label>
+							<label>$INFO[ListItem.Year], $INFO[ListItem.Duration] $LOCALIZE[31149]</label>
 							<visible>Container.Content(Movies) + !Skin.HasSetting(NoMinutes)</visible>
 						</control>
 						<control type="label">
@@ -7282,7 +7282,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Year: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]  Runtime: [COLOR=grey2]$INFO[ListItem.Duration][/COLOR]</label>
+					<label>$LOCALIZE[31162]: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]  $LOCALIZE[31073]: [COLOR=grey2]$INFO[ListItem.Duration][/COLOR]</label>
 					<visible>!Container.Content(TVShows) + Skin.HasSetting(NoMinutes)</visible>
 				</control>
 				<control type="label">
@@ -7296,7 +7296,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Year: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]  Runtime: [COLOR=grey2]$INFO[ListItem.Duration] minutes [/COLOR]</label>
+					<label>$LOCALIZE[31162]: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]  $LOCALIZE[31073]: [COLOR=grey2]$INFO[ListItem.Duration] minutes [/COLOR]</label>
 					<visible>!Container.Content(TVShows) + !Skin.HasSetting(NoMinutes)</visible>
 				</control>
 				<control type="label">
@@ -7628,7 +7628,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>center</align>
-						<label>Year: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    Unwatched: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
+						<label>$LOCALIZE[31162]: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    $LOCALIZE[31484]: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
 					</control>
 				</control>
 				<control type="group">
@@ -7653,7 +7653,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>center</align>
-						<label>Watched: [COLOR=grey2]$INFO[ListItem.Property(WatchedEpisodes)][/COLOR]    Unwatched: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
+						<label>$LOCALIZE[31488]: [COLOR=grey2]$INFO[ListItem.Property(WatchedEpisodes)][/COLOR]    $LOCALIZE[31484]: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
 					</control>
 					</control>
 				</control>
@@ -9162,7 +9162,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>center</align>
-						<label>Year: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    Length: [COLOR=grey2]$INFO[ListItem.Duration][/COLOR]</label>
+						<label>$LOCALIZE[31162]: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    $LOCALIZE[31471]: [COLOR=grey2]$INFO[ListItem.Duration][/COLOR]</label>
 						<visible>Skin.HasSetting(NoMinutes)</visible>
 					</control>
 					<control type="label">
@@ -9175,7 +9175,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>center</align>
-						<label>Year: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    Length: [COLOR=grey2]$INFO[ListItem.Duration] Minutes[/COLOR]</label>
+						<label>$LOCALIZE[31162]: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    $LOCALIZE[31471]: [COLOR=grey2]$INFO[ListItem.Duration] $LOCALIZE[31149][/COLOR]</label>
 						<visible>!Skin.HasSetting(NoMinutes)</visible>
 					</control>
 				</control>
@@ -9226,7 +9226,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>center</align>
-						<label>Year: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    Unwatched: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
+						<label>$LOCALIZE[31162]: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    $LOCALIZE[31484]: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
 					</control>
 				</control>
 				<control type="group">
@@ -9263,7 +9263,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>center</align>
-						<label>Watched: [COLOR=grey2]$INFO[ListItem.Property(WatchedEpisodes)][/COLOR]    Unwatched: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
+						<label>$LOCALIZE[31488]: [COLOR=grey2]$INFO[ListItem.Property(WatchedEpisodes)][/COLOR]    $LOCALIZE[31484]: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
 					</control>
 					</control>
 				</control>
@@ -9304,7 +9304,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>center</align>
-						<label>Watched: [COLOR=grey2]$INFO[ListItem.Property(WatchedEpisodes)][/COLOR]    Unwatched: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
+						<label>$LOCALIZE[31488]: [COLOR=grey2]$INFO[ListItem.Property(WatchedEpisodes)][/COLOR]    $LOCALIZE[31484]: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
 					</control>
 				</control>
 			</control>
@@ -11091,7 +11091,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>center</align>
-						<label>Year: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    Unwatched: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
+						<label>$LOCALIZE[31162]: [COLOR=grey2]$INFO[ListItem.Year][/COLOR]    $LOCALIZE[31484]: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
 					</control>
 				</control>
 			</control>
@@ -11302,7 +11302,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>center</align>
-						<label>Watched: [COLOR=grey2]$INFO[ListItem.Property(WatchedEpisodes)][/COLOR]    Unwatched: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
+						<label>$LOCALIZE[31488]: [COLOR=grey2]$INFO[ListItem.Property(WatchedEpisodes)][/COLOR]    $LOCALIZE[31484]: [COLOR=grey2]$INFO[ListItem.Property(UnWatchedEpisodes)][/COLOR]</label>
 					</control>
 						<control type="image">
 							<posx>85</posx>
