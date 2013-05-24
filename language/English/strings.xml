@@ -223,12 +223,24 @@
   <string id="31244">Go To Root...</string>
   <string id="31245">System</string>
   <string id="31246">Studio</string>
-  <string id="31206"></string>
+  <string id="31247">minutes</string>
+  <string id="31248">More...</string>
+  <string id="31249">Released</string>
+
 
   <!-- The Weather Channel Script labels -->
   <string id="31250">Radar &amp; Forecast</string>
   <string id="31251">Forecast</string>
   <string id="31252">TWC Script</string>
+  
+    <string id="31253">Label</string>
+  <string id="31254">Style</string>
+  <string id="31255">Years Active</string>
+    <string id="31256">Filename</string>
+  <string id="31257">Show Details</string>
+  <string id="31258">Season Details</string>
+    <string id="31259">Plot</string>
+
 
   <!-- Extra labels -->
   <string id="31300">Current Temp</string>
@@ -247,7 +259,8 @@
   <string id="31313">Choose a Scraper</string>
   <string id="31314">Content Scanning Options</string>
   <string id="31315">Basic</string>
-  <string id="31316"></string>
+
+  
   <string id="31317">Set Fanart Path</string>
   <string id="31318">Small Fanart</string>
   <string id="31319">Selected Profile</string>
@@ -402,14 +415,8 @@
   <string id="31485">items</string>
   <string id="31486">Browsing</string>
   <string id="31487">Season</string>
-    <string id="31443"></string>
-    <string id="31443"></string>
-    <string id="31443"></string>
-    <string id="31443"></string>
-    <string id="31443"></string>
-    <string id="31443"></string>
-    <string id="31443"></string>
-    <string id="31443"></string>
+    <string id="31488">Watched</string>
+
   
   
   
