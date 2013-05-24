@@ -67,7 +67,7 @@
 							<textcolor>grey2</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
-							<label>Go To Root...</label>
+							<label>$LOCALIZE[31244]</label>
 							<visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						</control>	
 						<control type="label">
@@ -120,7 +120,7 @@
 							<textcolor>yellow</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
-							<label>Go To Root...</label>
+							<label>$LOCALIZE[31244]</label>
 							<visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						</control>	
 						<control type="label">
@@ -229,7 +229,7 @@
 					<scroll>false</scroll>
 					<scrollspeed>0</scrollspeed>
 					<align>left</align>
-					<label>Year:  [COLOR=grey2]$INFO[ListItem.Premiered][/COLOR]</label>
+					<label>$LOCALIZE[31162]:  [COLOR=grey2]$INFO[ListItem.Premiered][/COLOR]</label>
 				</control>-->
 				<control type="image">
 					<posx>390</posx>
@@ -453,7 +453,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>System:  [COLOR=white]$INFO[ListItem.Writer][/COLOR]</label>
+					<label>$LOCALIZE[31245]:  [COLOR=white]$INFO[ListItem.Writer][/COLOR]</label>
 				</control>
 				<control type="textbox">
 					<posx>90</posx>
@@ -704,7 +704,7 @@
 			<shadowcolor>black</shadowcolor>
 			<scroll>false</scroll>
 			<align>left</align>
-			<label>[COLOR=yellow]Year:[/COLOR]  $INFO[ListItem.Premiered]   [COLOR=yellow]Studio:[/COLOR]  $INFO[ListItem.Studio]</label>
+			<label>[COLOR=yellow]$LOCALIZE[31162]:[/COLOR]  $INFO[ListItem.Premiered]   [COLOR=yellow]$LOCALIZE[31246]:[/COLOR]  $INFO[ListItem.Studio]</label>
 		</control>
 		<control type="textbox">
 			<description>Description Value The Movie</description>
@@ -948,7 +948,7 @@
 			<shadowcolor>black</shadowcolor>
 			<scroll>false</scroll>
 			<align>left</align>
-			<label>[COLOR=yellow]Year:[/COLOR]  $INFO[ListItem.Premiered]   [COLOR=yellow]Studio:[/COLOR]  $INFO[ListItem.Studio]</label>
+			<label>[COLOR=yellow]$LOCALIZE[31162]:[/COLOR]  $INFO[ListItem.Premiered]   [COLOR=yellow]$LOCALIZE[31246]:[/COLOR]  $INFO[ListItem.Studio]</label>
 		</control>
 		<control type="textbox">
 			<description>Description Value The Movie</description>
@@ -1119,7 +1119,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Premiered:  [COLOR=white]$INFO[ListItem.Premiered][/COLOR]</label>
+					<label>$LOCALIZE[31071]:  [COLOR=white]$INFO[ListItem.Premiered][/COLOR]</label>
 				</control>
 				<control type="label">
 					<posx>90</posx>
@@ -1132,7 +1132,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>System:  [COLOR=white]$INFO[ListItem.Writer][/COLOR]</label>
+					<label>$LOCALIZE[31245]:  [COLOR=white]$INFO[ListItem.Writer][/COLOR]</label>
 				</control>
 				<control type="textbox">
 					<posx>90</posx>
@@ -1329,7 +1329,7 @@
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
 						<align>left</align>
-						<label>[COLOR=yellow]Year:[/COLOR] $INFO[ListItem.Premiered]      [COLOR=yellow]System:[/COLOR] $INFO[ListItem.Writer]</label>
+						<label>[COLOR=yellow]$LOCALIZE[31162]:[/COLOR] $INFO[ListItem.Premiered]      [COLOR=yellow]$LOCALIZE[31245]:[/COLOR] $INFO[ListItem.Writer]</label>
 					</control>
 					<control type="textbox">
 						<description>Description Value The Movie</description>
