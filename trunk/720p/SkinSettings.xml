@@ -4930,7 +4930,7 @@
 							<width>750</width>
 							<height>45</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>$LOC»LIZE[31236]</label>
+							<label>$LOCALIZE[31236]</label>
 							<textcolor>yellow</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
