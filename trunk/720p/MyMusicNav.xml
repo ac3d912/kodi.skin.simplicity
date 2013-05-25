@@ -47,7 +47,7 @@
 			<!-- view id = 58 -->
 			<include>Addon-Slide</include>
 			<!-- view id = 66 -->
-			<include>Logo-Slide-Music</include>
+<!-- 			<include>Logo-Slide-Music</include> -->
 			<!-- view id = 519 -->
 		</control>
 

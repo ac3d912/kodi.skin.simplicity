@@ -192,7 +192,7 @@
 		<!-- view id = 560-->
 		<include>Fanart-Slide-2</include>
 		<!-- view id = 561-->
-		<include>Episode-List-2</include>
+<!-- 		<include>Episode-List-2</include> -->
 		<!-- view id = 562-->
 		<include>Shade-View</include>
 		<!-- view id = 563-->

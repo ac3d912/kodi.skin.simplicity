@@ -69,7 +69,7 @@
 			<include>CommonRootView</include>
 			<!-- view id = 50 -->
 		</control>
-		<include>CommonPageCount</include>
+		<!-- <include>CommonPageCount</include> -->
 		<include>BehindDialogFadeOut</include>
 		<include>ScrollOffsetLabel</include>
 		<control type="group">
