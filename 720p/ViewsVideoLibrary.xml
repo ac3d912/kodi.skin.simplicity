@@ -10721,10 +10721,9 @@
 			</control>
 			<control type="group">
 				<include>Zoom</include>
-				<include>Animation_ZoomInZoomOut</include>
+				
 				<include>Animation_WallPosterRowFloat</include>
-				<include>Animation_ZoomedByMenu</include>
-				<include>Animation_HiddenByInfo</include>
+			
 				<control type="panel" id="565">
 					<viewtype label="Alaska">icon</viewtype>
 					<posx>0</posx>
@@ -10928,10 +10927,8 @@
 					<posy>320</posy>
 					<width>30</width>
 					<height>30</height>
-					<texture flipx="true">pics/picsarrow.png</texture>
-					<include>Animation_ZoomInZoomOut</include>
-					<include>Animation_ZoomedByMenu</include>
-					<include>Animation_HiddenByInfo</include>
+					<texture flipx="true">pics/picsarrow.png</texture>					
+					
 					<visible>Control.IsVisible(565) + [!Container(565).Column(0) | Container(565).HasPrevious]</visible>
 				</control>
 				<control type="image">
@@ -10940,13 +10937,11 @@
 					<width>30</width>
 					<height>30</height>
 					<texture>pics/picsarrow.png</texture>
-					<include>Animation_ZoomInZoomOut</include>
-					<include>Animation_ZoomedByMenu</include>
-					<include>Animation_HiddenByInfo</include>
+			
 					<visible>Control.IsVisible(565) + [!Container(565).Column(6) | Container(565).HasNext]</visible>
 				</control>
 			</control>
-			<include>ScrollBar_Horizontal</include>
+
 		</control>
 	</include>
 <include name="Character-Slide-Kids">

@@ -3,9 +3,7 @@
 		<control type="group">
 			<visible>Control.IsVisible(566)</visible>
 				<include>Zoom</include>
-			<include>Animation_ZoomInZoomOut</include>
-			<include>Animation_ZoomedByMenu</include>
-			<include>Animation_HiddenByInfo</include>
+
 			<control type="image">
 				<posx>-0</posx>
 				<posy>0</posy>
@@ -2785,9 +2783,8 @@
 				<control type="group">
 					<posx>30</posx>
 					<posy>522</posy>
-					<include>Animation_SlideUpFadeOut</include>
-					<include>Animation_ZoomedByMenu</include>
-					<include>Animation_HiddenByInfo</include>
+
+
 					<control type="fadelabel">
 						<posx>0</posx>
 						<posy>0</posy>
@@ -2929,7 +2926,7 @@
 						<focusedlayout height="10" width="10"/>
 					</control>
 				</control>
-				<include>ScrollBar_Horizontal</include>
+
 			</control>
 			<include>UpOptions</include>
 			<include >MovieBreadCrumbs</include>
