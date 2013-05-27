@@ -2833,7 +2833,6 @@
 	<include name="Clock-Solo">
 		<control type="group">
 			<visible>!Skin.HasSetting(DisableClock)</visible>
-			<visible>!Control.IsVisible(528)</visible>
 			<visible>!Control.IsVisible(56)</visible>
 			<include condition="!Skin.HasSetting(NowPlayingClock)">MusicNowPlaying</include>
 			<posx>0</posx>
@@ -2901,7 +2900,6 @@
 <include name="Clock">
 	<control type="group">
 		<visible>!Skin.HasSetting(DisableClock)</visible>
-		<visible>!Control.IsVisible(528)</visible>
 		<visible>!Control.IsVisible(56)</visible>
 		<include condition="!Skin.HasSetting(NowPlayingClock)">MusicNowPlaying</include>
 		<posx>0</posx>
