@@ -238,7 +238,7 @@
 							<label>- $INFO[Container().ListItem(2).Label]</label>
 							<visible>StringCompare(ListItem.label,* All albums)</visible>
 							<visible>!StringCompare(Container().ListItem(2).Label,* All albums)</visible>
-							<visible>!StringCompare(Container().ListItem(2).Label,Container().ListItem(1).Label)]</visible>
+							<visible>!StringCompare(Container().ListItem(2).Label,Container().ListItem(1).Label)</visible>
 						</control>
 						<control type="label">
 							<posx>252</posx>
@@ -253,7 +253,7 @@
 							<label>- $INFO[Container().ListItem(3).Label]</label>
 							<visible>StringCompare(ListItem.label,* All albums)</visible>
 							<visible>!StringCompare(Container().ListItem(3).Label,* All albums)</visible>
-							<visible>!StringCompare(Container().ListItem(3).Label,Container().ListItem(1).Label)]</visible>
+							<visible>!StringCompare(Container().ListItem(3).Label,Container().ListItem(1).Label)</visible>
 						</control>
 						<control type="label">
 							<posx>252</posx>
@@ -267,8 +267,8 @@
 							<align>left</align>
 							<label>- $INFO[Container().ListItem(4).Label]</label>
 							<visible>StringCompare(ListItem.label,* All albums)</visible>
-							<visible>!StringCompare(Container().ListItem(4).Label,* All albums)]</visible>
-							<visible>!StringCompare(Container().ListItem(4).Label,Container().ListItem(1).Label)]</visible>
+							<visible>!StringCompare(Container().ListItem(4).Label,* All albums)</visible>
+							<visible>!StringCompare(Container().ListItem(4).Label,Container().ListItem(1).Label)</visible>
 						</control>
 						<control type="label">
 							<posx>252</posx>
@@ -886,11 +886,11 @@
 					<label>- $INFO[Container().ListItem(3).Label]</label>
 					<visible>StringCompare(ListItem.label,* All albums)</visible>
 					<visible>!StringCompare(Container().ListItem(3).Label,* All albums)</visible>
-					<visible>!StringCompare(Container().ListItem(3).Label,Container().ListItem(1).Label)]</visible>
-					<visible>!StringCompare(Container().ListItem(3).Label,Container().ListItem(2).Label)]</visible>
-					<visible>!StringCompare(Container().ListItem(3).Label,Container().ListItem(4).Label)]</visible>
-					<visible>!StringCompare(Container().ListItem(3).Label,Container().ListItem(5).Label)]</visible>
-					<visible>!StringCompare(Container().ListItem(3).Label,Container().ListItem(6).Label)]</visible>
+					<visible>!StringCompare(Container().ListItem(3).Label,Container().ListItem(1).Label)</visible>
+					<visible>!StringCompare(Container().ListItem(3).Label,Container().ListItem(2).Label)</visible>
+					<visible>!StringCompare(Container().ListItem(3).Label,Container().ListItem(4).Label)</visible>
+					<visible>!StringCompare(Container().ListItem(3).Label,Container().ListItem(5).Label)</visible>
+					<visible>!StringCompare(Container().ListItem(3).Label,Container().ListItem(6).Label)</visible>
 				</control>		
 				<control type="label">
 					<posx>90</posx>
@@ -906,10 +906,10 @@
 					<label>- $INFO[Container().ListItem(4).Label]</label>
 					<visible>StringCompare(ListItem.label,* All albums)</visible>
 					<visible>!StringCompare(Container().ListItem(4).Label,* All albums)</visible>
-					<visible>!StringCompare(Container().ListItem(4).Label,Container().ListItem(1).Label)]</visible>
-					<visible>!StringCompare(Container().ListItem(4).Label,Container().ListItem(2).Label)]</visible>
-					<visible>!StringCompare(Container().ListItem(4).Label,Container().ListItem(3).Label)]</visible>
-					<visible>!StringCompare(Container().ListItem(4).Label,Container().ListItem(5).Label)]</visible>
+					<visible>!StringCompare(Container().ListItem(4).Label,Container().ListItem(1).Label)</visible>
+					<visible>!StringCompare(Container().ListItem(4).Label,Container().ListItem(2).Label)</visible>
+					<visible>!StringCompare(Container().ListItem(4).Label,Container().ListItem(3).Label)</visible>
+					<visible>!StringCompare(Container().ListItem(4).Label,Container().ListItem(5).Label)</visible>
 				</control>		
 				<control type="label">
 					<posx>90</posx>
@@ -925,10 +925,10 @@
 					<label>- $INFO[Container().ListItem(5).Label]</label>
 					<visible>StringCompare(ListItem.label,* All albums)</visible>
 					<visible>!StringCompare(Container().ListItem(5).Label,* All albums)</visible>
-					<visible>!StringCompare(Container().ListItem(5).Label,Container().ListItem(1).Label)]</visible>
-					<visible>!StringCompare(Container().ListItem(5).Label,Container().ListItem(2).Label)]</visible>
-					<visible>!StringCompare(Container().ListItem(5).Label,Container().ListItem(3).Label)]</visible>
-					<visible>!StringCompare(Container().ListItem(5).Label,Container().ListItem(4).Label)]</visible>
+					<visible>!StringCompare(Container().ListItem(5).Label,Container().ListItem(1).Label)</visible>
+					<visible>!StringCompare(Container().ListItem(5).Label,Container().ListItem(2).Label)</visible>
+					<visible>!StringCompare(Container().ListItem(5).Label,Container().ListItem(3).Label)</visible>
+					<visible>!StringCompare(Container().ListItem(5).Label,Container().ListItem(4).Label)</visible>
 				</control>		
 				<control type="label">
 					<posx>90</posx>
@@ -944,11 +944,11 @@
 					<label>- $INFO[Container().ListItem(6).Label]</label>
 					<visible>StringCompare(ListItem.label,* All albums)</visible>
 					<visible>!StringCompare(Container().ListItem(6).Label,* All albums)</visible>
-					<visible>!StringCompare(Container().ListItem(6).Label,Container().ListItem(1).Label)]</visible>
-					<visible>!StringCompare(Container().ListItem(6).Label,Container().ListItem(2).Label)]</visible>
-					<visible>!StringCompare(Container().ListItem(6).Label,Container().ListItem(3).Label)]</visible>
-					<visible>!StringCompare(Container().ListItem(6).Label,Container().ListItem(4).Label)]</visible>
-					<visible>!StringCompare(Container().ListItem(6).Label,Container().ListItem(5).Label)]</visible>
+					<visible>!StringCompare(Container().ListItem(6).Label,Container().ListItem(1).Label)</visible>
+					<visible>!StringCompare(Container().ListItem(6).Label,Container().ListItem(2).Label)</visible>
+					<visible>!StringCompare(Container().ListItem(6).Label,Container().ListItem(3).Label)</visible>
+					<visible>!StringCompare(Container().ListItem(6).Label,Container().ListItem(4).Label)</visible>
+					<visible>!StringCompare(Container().ListItem(6).Label,Container().ListItem(5).Label)</visible>
 				</control>		
 				<control type="label">
 					<posx>100</posx>

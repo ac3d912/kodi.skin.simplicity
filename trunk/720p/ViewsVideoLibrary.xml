@@ -1207,7 +1207,7 @@
 						<posy>167</posy>
 						<width>1395</width>
 						<height>557</height>		
-						<ondown>-</ondown>
+						<ondown>noop</ondown>
 						<onup>508</onup>
 						<onleft>2</onleft>
 				<include condition="Skin.HasSetting(VideoUseGuide)">OpenGuideRight</include>

@@ -407,7 +407,7 @@
 					<onleft>54</onleft>
 					<onright>54</onright>
 					<onup>2</onup>
-					<ondown>-</ondown>
+					<ondown>noop</ondown>
 					<viewtype label="Trailers">list</viewtype>
 					<pagecontrol>60</pagecontrol>
 					<scrolltime>300</scrolltime>

@@ -64,7 +64,7 @@
 						<height>500</height>
 						<onleft>8005</onleft>
 						<onright>8006</onright>
-						<onup>-</onup>
+						<onup>noop</onup>
 						<ondown>9000</ondown>
 						<viewtype label="535">list</viewtype>
 						<orientation>horizontal</orientation>
@@ -355,7 +355,7 @@
 						<height>500</height>
 						<onleft>8005</onleft>
 						<onright>8006</onright>
-						<onup>-</onup>
+						<onup>noop</onup>
 						<ondown>9000</ondown>
 						<viewtype label="535">list</viewtype>
 						<orientation>horizontal</orientation>
@@ -551,7 +551,7 @@
 						<height>500</height>
 						<onleft>8007</onleft>
 						<onright>8008</onright>
-						<onup>-</onup>
+						<onup>noop</onup>
 						<ondown>9000</ondown>
 						<viewtype label="535">list</viewtype>
 						<orientation>horizontal</orientation>
@@ -870,7 +870,7 @@
 						<height>500</height>
 						<onleft>8007</onleft>
 						<onright>8008</onright>
-						<onup>-</onup>
+						<onup>noop</onup>
 						<ondown>9000</ondown>
 						<viewtype label="535">list</viewtype>
 						<orientation>horizontal</orientation>
@@ -1109,7 +1109,7 @@
 					<height>500</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<onup>-</onup>
+					<onup>noop</onup>
 					<ondown>9000</ondown>
 					<orientation>horizontal</orientation>
 					<viewtype label="535">list</viewtype>
@@ -1283,7 +1283,7 @@
 						<height>500</height>
 						<onleft>8011</onleft>
 						<onright>8011</onright>
-						<onup>-</onup>
+						<onup>noop</onup>
 						<ondown>9000</ondown>
 						<orientation>horizontal</orientation>
 						<viewtype label="535">list</viewtype>
@@ -1741,7 +1741,7 @@
 						<height>500</height>
 						<onleft>8009</onleft>
 						<onright>8010</onright>
-						<onup>-</onup>
+						<onup>noop</onup>
 						<ondown>9000</ondown>
 						<viewtype label="535">list</viewtype>
 						<orientation>horizontal</orientation>
@@ -1939,7 +1939,7 @@
 						<height>500</height>
 						<onleft>8009</onleft>
 						<onright>8010</onright>
-						<onup>-</onup>
+						<onup>noop</onup>
 						<ondown>9000</ondown>
 						<viewtype label="535">list</viewtype>
 						<orientation>horizontal</orientation>
@@ -2096,7 +2096,7 @@
 						<height>500</height>
 						<onleft>8009</onleft>
 						<onright>8009</onright>
-						<onup>-</onup>
+						<onup>noop</onup>
 						<ondown>9000</ondown>
 						<orientation>horizontal</orientation>
 						<viewtype label="535">list</viewtype>
@@ -2222,7 +2222,7 @@
 						<height>500</height>
 						<onleft>8009</onleft>
 						<onright>8009</onright>
-						<onup>-</onup>
+						<onup>noop</onup>
 						<ondown>9000</ondown>
 						<orientation>horizontal</orientation>
 						<viewtype label="535">list</viewtype>
@@ -2348,7 +2348,7 @@
 						<height>500</height>
 						<onleft>8011</onleft>
 						<onright>8011</onright>
-						<onup>-</onup>
+						<onup>noop</onup>
 						<ondown>9000</ondown>
 						<orientation>horizontal</orientation>
 						<viewtype label="535">list</viewtype>
@@ -2479,7 +2479,7 @@
 						<height>500</height>
 						<onleft>8010</onleft>
 						<onright>8010</onright>
-						<onup>-</onup>
+						<onup>noop</onup>
 						<ondown>9000</ondown>
 						<orientation>horizontal</orientation>
 						<viewtype label="535">list</viewtype>
@@ -2605,7 +2605,7 @@
 						<height>500</height>
 						<onleft>8010</onleft>
 						<onright>8010</onright>
-						<onup>-</onup>
+						<onup>noop</onup>
 						<ondown>9000</ondown>
 						<orientation>horizontal</orientation>
 						<viewtype label="535">list</viewtype>

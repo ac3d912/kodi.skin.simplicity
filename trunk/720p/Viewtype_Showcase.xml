@@ -2798,7 +2798,7 @@
 						<font>Font_ShowcaseTitle</font>
 						<textcolor>LandscapeTitle</textcolor>
 						<label>[B]$INFO[ListItem.Label][/B]</label>
-						<visible>[Container.Content(movies) + Skin.HasSetting(HideMovieWatchedOverlays)] | [!Container.Content(movies) + Skin.HasSetting(HideTVWatchedOverlays)] | !stringcompare(ListItem.Overlay,OverlayWatched.png)]</visible>
+						<visible>[Container.Content(movies) + Skin.HasSetting(HideMovieWatchedOverlays)] | [!Container.Content(movies) + Skin.HasSetting(HideTVWatchedOverlays)] | !stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
 					</control>
 					<control type="fadelabel">
 						<posx>0</posx>

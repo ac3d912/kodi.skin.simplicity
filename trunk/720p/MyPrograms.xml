@@ -83,7 +83,7 @@
 					<onleft>50</onleft>
 					<onright>4</onright>
 					<onup>2</onup>
-					<ondown>-</ondown>
+					<ondown>noop</ondown>
 				</control>
 				<control type="togglebutton" id="4">
 					<description>Sort asc</description>
@@ -93,7 +93,7 @@
 					<onleft>3</onleft>
 					<onright>50</onright>
 					<onup>2</onup>
-					<ondown>-</ondown>
+					<ondown>noop</ondown>
 					<width>83</width>
 					<height>67</height>
 					<texturefocus>simplicity/settings-toggle-on.png</texturefocus>
