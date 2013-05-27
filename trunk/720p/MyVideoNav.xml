@@ -59,7 +59,6 @@
 			<fadetime>FanartCrossfadeTime</fadetime>
 			<visible>![Skin.HasSetting(VideoLibraryMovieFanart) | Control.IsVisible(513)]</visible>
 			<visible>Container.Content(Movies)+!Control.IsVisible(521)</visible>
-			<visible>Container.Content(Movies)+!Control.IsVisible(549)</visible>
 			<visible>Container.Content(Movies)+!Control.IsVisible(552)</visible>
 			<visible>Container.Content(Movies)+!Control.IsVisible(539)</visible>
 			<visible>Container.Content(Movies)+!Control.IsVisible(508)</visible>

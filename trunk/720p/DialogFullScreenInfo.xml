@@ -897,7 +897,7 @@
 			<posy>40</posy>
 <control type="group">
 				<visible>VideoPlayer.Content(episodes)</visible>
-				<visible>!Window.IsVisible(115) + !Skin.HasSetting(TimeOnInfoScreen)]</visible>
+				<visible>!Window.IsVisible(115) + !Skin.HasSetting(TimeOnInfoScreen)</visible>
 				<posx>60</posx>
 				<posy>-51</posy>
 				<!--<control type="image">
