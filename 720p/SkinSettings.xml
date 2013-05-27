@@ -91,62 +91,62 @@
 					<item id="1">
 						<label>$LOCALIZE[128]</label>
 						<label2>$LOCALIZE[5]</label2>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 					</item>
 					<item id="2">
 						<label>$LOCALIZE[31378]</label>
 						<label2>$LOCALIZE[31112]</label2>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 					</item>
 					<item id="3">
 						<label>$LOCALIZE[31102]</label>
 						<label2>$LOCALIZE[31115]</label2>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 					</item>
 					<!--<item id="4">
 						<label>31116</label>
 						<label2>31200</label2>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 					</item>-->
 					<item id="5">
 						<label>$LOCALIZE[31379]</label>
 						<label2>-</label2>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 					</item>
 					<item id="6">
 						<label>$LOCALIZE[31380]</label>
 						<label2>-</label2>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 					</item>
 					<item id="7">
 						<label>$LOCALIZE[31084]</label>
 						<label2>-</label2>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 					</item>
 					<item id="8">
 						<label>$LOCALIZE[31085]</label>
 						<label2>-</label2>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 					</item>
 					<item id="9">
 						<label>$LOCALIZE[31200]</label>
 						<label2>-</label2>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 					</item>
 					<item id="11">
 						<label>$LOCALIZE[31086]</label>
 						<label2>-</label2>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 					</item>
 					<item id="20">
 						<label>$LOCALIZE[31381]</label>
 						<label2>-</label2>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 					</item>
 					<item id="21">
 						<label>$LOCALIZE[31040]</label>
 						<label2>-</label2>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 					</item>
 				</content>
 			</control>
@@ -1142,85 +1142,85 @@
 						<content>
 							<item id="1">
 								<label>$LOCALIZE[31170]</label>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/Home.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Home_Folder)]</thumb>
 							</item>
 							<item id="2">
 								<label>$LOCALIZE[31087]</label>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/Movies.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Movies_Folder)]</thumb>
 							</item>
 							<item id="3">
 								<label>$LOCALIZE[31088]</label>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/tvshows.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_TVShows_Folder)]</thumb>
 							</item>
 							<item id="4">
 								<label>$LOCALIZE[31375]</label>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/videos.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Video_Folder)]</thumb>
 							</item>
 							<item id="5">
 								<label>$LOCALIZE[31207]</label>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/Music.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Music_Folder)]</thumb>
 							</item>
 							<item id="6">
 								<label>$LOCALIZE[31086]</label>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/pictures.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Pictures_Folder)]</thumb>
 							</item>
 							<item id="7">
 								<label>$LOCALIZE[31208]</label>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/weather.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Weather_Folder)]</thumb>
 							</item>
 							<item id="10">
 								<label>$LOCALIZE[31084]</label>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/addons.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Addons_Folder)]</thumb>
 							</item>
 							<item id="11">
 								<label>$LOCALIZE[31380]</label>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/programs.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Programs_Folder)]</thumb>
 							</item>
 							<item id="12">
 								<label>$LOCALIZE[31093]</label>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/tvguide.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_TVGuide_Folder)]</thumb>
 							</item>
 							<item id="13">
 								<label>$LOCALIZE[31399]</label>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/search.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Search_Folder)]</thumb>
 							</item>
 							<item id="14">
 								<label>$LOCALIZE[31169]</label>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/settings.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Settings_Folder)]</thumb>
 							</item>
 							<item id="15">
 								<label>$LOCALIZE[31206]</label>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/shutdown.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Back_Shutdown_Folder)]</thumb>
 							</item>
 							<item id="16">
 								<label>$LOCALIZE[31483]</label>
-								<onclick>-</onclick>
+								<onclick>noop</onclick>
 								<icon>special://skin/backgrounds/kids.jpg</icon>
 								<thumb>$INFO[Skin.String(Home_Custom_Kids_Folder)]</thumb>
 							</item>
@@ -4923,7 +4923,7 @@
 						<itemgap>-1</itemgap>
 						<pagecontrol>60</pagecontrol>
 						<onleft>9000</onleft>
-						<onright>-</onright>
+						<onright>noop</onright>
 						<onup>9009</onup>
 						<ondown>9009</ondown>
 						<control type="label" id="500">

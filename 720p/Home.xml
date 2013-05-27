@@ -1801,10 +1801,10 @@
 				<posy>30</posy>
 				<width>1270</width>
 				<height>500</height>
-				<onleft>-</onleft>
-				<onright>-</onright>
-				<onup>-</onup>
-				<ondown>-</ondown>
+				<onleft>noop</onleft>
+				<onright>noop</onright>
+				<onup>noop</onup>
+				<ondown>noop</ondown>
 				<orientation>horizontal</orientation>
 				<viewtype label="535">list</viewtype>
 				<pagecontrol>-</pagecontrol>
@@ -1883,21 +1883,21 @@
 					<item id="1">
 						<label>$LOCALIZE[31087]: [COLOR=white]$INFO[Window.Property(Movies.Count)][/COLOR]</label>
 						<label2>$LOCALIZE[31484]: [COLOR=white]$INFO[Window.Property(Movies.UnWatched)][/COLOR]</label2>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 						<icon>-</icon>
 						<thumb>simplicity/icons/Movie information.png</thumb>
 					</item>
 					<item id="2">
 						<label>$LOCALIZE[31151]: [COLOR=white]$INFO[Window.Property(Episodes.Count)][/COLOR]</label>
 						<label2>$LOCALIZE[31484]: [COLOR=white]$INFO[Window.Property(Episodes.UnWatched)][/COLOR]</label2>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 						<icon>-</icon>
 						<thumb>simplicity/icons/TV information.png</thumb>
 					</item>
 					<item id="3">
 						<label>$LOCALIZE[31089]: [COLOR=white]$INFO[Window.Property(Music.AlbumsCount)][/COLOR]</label>
 						<label2>$LOCALIZE[31090]: [COLOR=white]$INFO[Window.Property(Music.SongsCount)][/COLOR]</label2>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 						<icon>-</icon>
 						<thumb>simplicity/icons/Album information.png</thumb>
 					</item>

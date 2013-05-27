@@ -54,9 +54,9 @@
 				<posy>650</posy>
 				<width>150</width>
 				<height>40</height>
-				<onup>-</onup>
+				<onup>noop</onup>
 				<onright>513</onright>
-				<onleft>-</onleft>
+				<onleft>noop</onleft>
 				<label>$LOCALIZE[31445]</label>
 				<textcolor>black</textcolor>
 				<focusedcolor>black</focusedcolor>
@@ -73,9 +73,9 @@
 				<posy>650</posy>
 				<width>150</width>
 				<height>40</height>
-				<onup>-</onup>
+				<onup>noop</onup>
 				<onright>514</onright>
-				<onleft>-</onleft>
+				<onleft>noop</onleft>
 				<label>$LOCALIZE[31446]</label>
 				<textcolor>black</textcolor>
 				<focusedcolor>black</focusedcolor>
@@ -92,9 +92,9 @@
 				<posy>650</posy>
 				<width>150</width>
 				<height>40</height>
-				<onup>-</onup>
+				<onup>noop</onup>
 				<onright>515</onright>
-				<onleft>-</onleft>
+				<onleft>noop</onleft>
 				<label>$LOCALIZE[31447]</label>
 				<textcolor>black</textcolor>
 				<focusedcolor>black</focusedcolor>
@@ -111,9 +111,9 @@
 				<posy>650</posy>
 				<width>150</width>
 				<height>40</height>
-				<onup>-</onup>
+				<onup>noop</onup>
 				<onright>516</onright>
-				<onleft>-</onleft>
+				<onleft>noop</onleft>
 				<label>$LOCALIZE[31448]</label>
 				<textcolor>black</textcolor>
 				<focusedcolor>black</focusedcolor>
@@ -130,9 +130,9 @@
 				<posy>650</posy>
 				<width>150</width>
 				<height>40</height>
-				<onup>-</onup>
+				<onup>noop</onup>
 				<onright>517</onright>
-				<onleft>-</onleft>
+				<onleft>noop</onleft>
 				<label>$LOCALIZE[31449]</label>
 				<textcolor>black</textcolor>
 				<focusedcolor>black</focusedcolor>
@@ -149,9 +149,9 @@
 				<posy>650</posy>
 				<width>150</width>
 				<height>40</height>
-				<onup>-</onup>
+				<onup>noop</onup>
 				<onright>518</onright>
-				<onleft>-</onleft>
+				<onleft>noop</onleft>
 				<label>$LOCALIZE[31450]</label>
 				<textcolor>black</textcolor>
 				<focusedcolor>black</focusedcolor>
@@ -168,9 +168,9 @@
 				<posy>650</posy>
 				<width>150</width>
 				<height>40</height>
-				<onup>-</onup>
+				<onup>noop</onup>
 				<onright>XBMC.ReloadSkin</onright>
-				<onleft>-</onleft>
+				<onleft>noop</onleft>
 				<label>$LOCALIZE[31451]</label>
 				<altlabel>$LOCALIZE[31452]</altlabel>
 				<textcolor>black</textcolor>

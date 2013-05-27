@@ -526,7 +526,7 @@
 					<onleft>71</onleft>
 					<onright>71</onright>
 					<onup>2</onup>
-					<ondown>-</ondown>
+					<ondown>noop</ondown>
 					<viewtype label="Arcade Posters">list</viewtype>
 					<pagecontrol>60</pagecontrol>
 					<scrolltime>300</scrolltime>
@@ -767,7 +767,7 @@
 					<onleft>72</onleft>
 					<onright>72</onright>
 					<onup>2</onup>
-					<ondown>-</ondown>
+					<ondown>noop</ondown>
 					<viewtype label="Arcade 3D Cases">list</viewtype>
 					<pagecontrol>60</pagecontrol>
 					<scrolltime>300</scrolltime>

@@ -9,10 +9,6 @@
 	<include file="IncludesCodecFlagging.xml" />
 	<include file="IncludesHomeRecentlyAdded.xml" />
 	<include file="DialogTrailer.xml"/>
-	<include file="IncludeDock.xml" />
-	<include file="IncludeDockIcons.xml" />
-	<include file="IncludeMenu.xml" />
-	<include file="IncludeAnims.xml" />
 	<include file="IncludesNextAiredInfo.xml" />
 	<include file="custom_HomeDialogPopup_1115.xml" />
 	<include file="custom_SearchDialogPopup_1118.xml" />
