@@ -426,7 +426,7 @@
 			<colordiffuse>DDFFFFFF</colordiffuse>
 			<texturefocus>btnFocus.png</texturefocus>
 			<texturenofocus>btn.png</texturenofocus>
-			<label>Make Favorite</label>			
+			<label>$LOCALIZE[31181]</label>			
 			<textcolor>DDFFFFFF</textcolor>
 			<disabledcolor>80FFFFFF</disabledcolor>
 			<align>center</align>
@@ -449,7 +449,7 @@
 			<colordiffuse>DDFFFFFF</colordiffuse>
 			<texturefocus>btnFocus.png</texturefocus>
 			<texturenofocus>btn.png</texturenofocus>
-			<label>Edit Game</label>			
+			<label>$LOCALIZE[31182]</label>			
 			<textcolor>DDFFFFFF</textcolor>
 			<disabledcolor>80FFFFFF</disabledcolor>
 			<align>center</align>

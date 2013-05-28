@@ -173,7 +173,19 @@
   <string id="31171">Refresh</string>
   <string id="31172">Return</string>  
   <string id="31173">Videos icon on Home screen goes to Files</string>
-  
+  <string id="31174">Mon</string>
+  <string id="31175">Tue</string>
+  <string id="31176">Wed</string>
+  <string id="31177">Thu</string>
+  <string id="31178">Fri</string>
+  <string id="31179">Sat</string>
+  <string id="31180">Sun</string>
+  <string id="31181">Make Favorite</string>
+  <string id="31182">Edit Game</string>
+  <string id="31183">Path</string>
+  <string id="31184">Icon</string>
+  <string id="31185">Episode</string>
+
 
   <!-- Script labels -->
   <string id="31200">Shortcuts</string>
@@ -454,11 +466,7 @@
   <string id="31485">items</string>
   <string id="31486">Browsing</string>
   <string id="31487">Season</string>
-    <string id="31488">Watched</string>
-
-  
-  
-  
+    <string id="31488">Watched</string> 
   
   
   

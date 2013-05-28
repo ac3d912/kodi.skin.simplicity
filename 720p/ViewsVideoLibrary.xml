@@ -4052,7 +4052,7 @@
 				<posy>100</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Title</label>
+				<label>$LOCALIZE[31069]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>Simplicity_18</font>
@@ -4076,7 +4076,7 @@
 				<posy>100</posy>
 				<height>20</height>
 				<width>275</width>
-				<label>Rating</label>
+				<label>$LOCALIZE[31361]</label>
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>Simplicity_18</font>
@@ -6421,7 +6421,7 @@
 							<textcolor>grey4</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
-							<label>Go To Root...</label>
+							<label>$LOCALIZE[31244]</label>
 							<visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						</control>	
 						<control type="label">

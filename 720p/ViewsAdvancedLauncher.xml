@@ -205,19 +205,7 @@
 					<label>$INFO[ListItem.Plot]</label>
 					<autoscroll time="2000" delay="3000" repeat="5270">Skin.HasSetting(AutoScroll)</autoscroll>
 				</control>
-				<!--<control type="label">
-					<posx>90</posx>
-					<posy>546</posy>
-					<width>300</width>
-					<height>20</height>
-					<font>Simplicity_20</font>
-					<textcolor>yellow</textcolor>
-					<shadowcolor>black</shadowcolor>
-					<scroll>false</scroll>
-					<scrollspeed>0</scrollspeed>
-					<align>left</align>
-					<label>Genre:  [COLOR=grey2]$INFO[ListItem.Genre][/COLOR]</label>
-				</control>
+		
 				<control type="label">
 					<posx>90</posx>
 					<posy>576</posy>
