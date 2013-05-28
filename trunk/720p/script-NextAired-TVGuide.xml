@@ -121,7 +121,7 @@
 				<font>Simplicity_24</font>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>Mon</label>
+				<label>$LOCALIZE[31174]</label>
 				<ondown>512</ondown>
 				<onright>516</onright>
 				<onleft>521</onleft>
@@ -142,7 +142,7 @@
 				<font>Simplicity_24</font>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>Tue</label>
+				<label>$LOCALIZE[31175]</label>
 				<ondown>512</ondown>
 				<onright>517</onright>
 				<onleft>515</onleft>
@@ -163,7 +163,7 @@
 				<font>Simplicity_24</font>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>Wed</label>
+				<label>$LOCALIZE[31176]</label>
 				<ondown>512</ondown>
 				<onright>518</onright>
 				<onleft>516</onleft>
@@ -184,7 +184,7 @@
 				<font>Simplicity_24</font>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>Thu</label>
+				<label>$LOCALIZE[31177]</label>
 				<ondown>512</ondown>
 				<onright>519</onright>
 				<onleft>517</onleft>
@@ -205,7 +205,7 @@
 				<font>Simplicity_24</font>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>Fri</label>
+				<label>$LOCALIZE[31178]</label>
 				<ondown>512</ondown>
 				<onright>520</onright>
 				<onleft>518</onleft>
@@ -226,7 +226,7 @@
 				<font>Simplicity_24</font>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>Sat</label>
+				<label>$LOCALIZE[31179]</label>
 				<ondown>512</ondown>
 				<onright>521</onright>
 				<onleft>519</onleft>
@@ -247,7 +247,7 @@
 				<font>Simplicity_24</font>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>Sun</label>
+				<label>$LOCALIZE[31180]</label>
 				<ondown>512</ondown>
 				<onright>515</onright>
 				<onleft>520</onleft>

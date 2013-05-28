@@ -289,20 +289,7 @@
 						<selected>Skin.HasSetting(SmokeEffectOn)</selected>
 					</control>
 
-					<!--	<control type="radiobutton" id="133">
-						<posx>0</posx>
-						<posy>0</posy>
-						<width>900</width>
-						<height>40</height>
-						<font>Simplicity_20</font>
-						<textcolor>white</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>Use DVD/Blu-Ray Cases</label>
-						<onclick>Skin.ToggleSetting(UseCases)</onclick>
-						<selected>Skin.HasSetting(UseCases)</selected>
-					</control>-->
+			
 					<!--<control type="radiobutton" id="112">
 						<posx>0</posx>
 						<posy>0</posy>
@@ -1662,7 +1649,7 @@
 								<posy>0</posy>
 								<width>180</width>
 								<height>40</height>
-								<label>None</label>
+								<label>$LOCALIZE[31210]</label>
 								<textcolor>black</textcolor>
 								<focusedcolor>black</focusedcolor>
 								<shadowcolor>grey2</shadowcolor>
@@ -4962,7 +4949,7 @@
 							<focusedcolor>white</focusedcolor>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<label>- LABEL (Use All Caps)</label>
+							<label>- [UPPERCASE]$LOCALIZE[31253][/UPPERCASE]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom2_Label)][/COLOR]</label2>
 							<onclick>Skin.SetString(Menu_Custom2_Label)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom2)</visible>
@@ -4975,7 +4962,7 @@
 							<focusedcolor>white</focusedcolor>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<label>- PATH</label>
+							<label>- [UPPERCASE]$LOCALIZE[31183][/UPPERCASE]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom2_Path)][/COLOR]</label2>
 							<onclick>Skin.SetString(Menu_Sub_Custom_Favourites_Path,Menu_Custom2_Path)</onclick>
 							<onclick>ActivateWindow(1114)</onclick>
@@ -4989,7 +4976,7 @@
 							<focusedcolor>white</focusedcolor>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<label>- FANART</label>
+							<label>- [UPPERCASE]$LOCALIZE[31029][/UPPERCASE]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom2_Folder)][/COLOR]</label2>
 							<onclick>Skin.SetImage(Menu_Custom2_Folder)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom2)</visible>
@@ -5002,7 +4989,7 @@
 							<focusedcolor>white</focusedcolor>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<label>- Icon</label>
+							<label>- [UPPERCASE]$LOCALIZE[31184][/UPPERCASE]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom2_Icon)][/COLOR]</label2>
 							<onclick>Skin.SetImage(Menu_Custom2_Icon)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom2)</visible>
@@ -5033,7 +5020,7 @@
 							<focusedcolor>white</focusedcolor>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<label>- LABEL (Use All Caps)</label>
+							<label>- [UPPERCASE]$LOCALIZE[31253][/UPPERCASE]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom3_Label)][/COLOR]</label2>
 							<onclick>Skin.SetString(Menu_Custom3_Label)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom3)</visible>
@@ -5046,7 +5033,7 @@
 							<focusedcolor>white</focusedcolor>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<label>- PATH</label>
+							<label>- [UPPERCASE]$LOCALIZE[31183][/UPPERCASE]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom3_Path)][/COLOR]</label2>
 							<onclick>Skin.SetString(Menu_Sub_Custom_Favourites_Path,Menu_Custom3_Path)</onclick>
 							<onclick>ActivateWindow(1114)</onclick>
@@ -5060,7 +5047,7 @@
 							<focusedcolor>white</focusedcolor>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<label>- FANART</label>
+							<label>- [UPPERCASE]$LOCALIZE[31029][/UPPERCASE]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom3_Folder)][/COLOR]</label2>
 							<onclick>Skin.SetImage(Menu_Custom3_Folder)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom3)</visible>
@@ -5073,7 +5060,7 @@
 							<focusedcolor>white</focusedcolor>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<label>- Icon</label>
+							<label>- [UPPERCASE]$LOCALIZE[31184][/UPPERCASE]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom3_Icon)][/COLOR]</label2>
 							<onclick>Skin.SetImage(Menu_Custom3_Icon)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom3)</visible>
@@ -5104,7 +5091,7 @@
 							<focusedcolor>white</focusedcolor>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<label>- LABEL (Use All Caps)</label>
+							<label>- [UPPERCASE]$LOCALIZE[31253][/UPPERCASE]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom4_Label)][/COLOR]</label2>
 							<onclick>Skin.SetString(Menu_Custom4_Label)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom4)</visible>
@@ -5117,7 +5104,7 @@
 							<focusedcolor>white</focusedcolor>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<label>- PATH</label>
+							<label>- [UPPERCASE]$LOCALIZE[31183][/UPPERCASE]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom4_Path)][/COLOR]</label2>
 							<onclick>Skin.SetString(Menu_Sub_Custom_Favourites_Path,Menu_Custom4_Path)</onclick>
 							<onclick>ActivateWindow(1114)</onclick>
@@ -5131,7 +5118,7 @@
 							<focusedcolor>white</focusedcolor>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<label>- FANART</label>
+							<label>- [UPPERCASE]$LOCALIZE[31029][/UPPERCASE]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom4_Folder)][/COLOR]</label2>
 							<onclick>Skin.SetImage(Menu_Custom4_Folder)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom4)</visible>
@@ -5144,7 +5131,7 @@
 							<focusedcolor>white</focusedcolor>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<label>- Icon</label>
+							<label>- [UPPERCASE]$LOCALIZE[31184][/UPPERCASE]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(Menu_Custom4_Icon)][/COLOR]</label2>
 							<onclick>Skin.SetImage(Menu_Custom4_Icon)</onclick>
 							<visible>Skin.HasSetting(Menu_Custom4)</visible>
@@ -5493,24 +5480,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 						</control>
-						<!--<control type="radiobutton" id="2001">
-							<posx>0</posx>
-							<posy>0</posy>
-							<width>900</width>
-							<height>40</height>
-							<font>Simplicity_20</font>
-							<textcolor>white</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<radiowidth>83</radiowidth>
-							<radioheight>67</radioheight>
-							<textureradiofocus>simplicity/settings-radiobutton-on.png</textureradiofocus>
-							<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
-							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<label>Enable "Poster.jpg" Support</label>	
-							<onclick>Skin.ToggleSetting(UsePosterJPG)</onclick>
-							<selected>Skin.HasSetting(UsePosterJPG)</selected>
-						</control>-->
+				
 						<control type="radiobutton" id="2002">
 							<width>900</width>
 							<height>40</height>

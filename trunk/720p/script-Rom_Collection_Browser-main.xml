@@ -387,7 +387,7 @@
 						<posy>110</posy>
 						<width>180</width>
 						<height>25</height>
-						<label>Genre: [COLOR=grey2]$INFO[ListItem.Property(Genre)][/COLOR]</label>
+						<label>$LOCALIZE[31070]: [COLOR=grey2]$INFO[ListItem.Property(Genre)][/COLOR]</label>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>Simplicity_20</font>
@@ -742,7 +742,7 @@
 							<posy>40</posy>
 							<width>80</width>
 							<height>25</height>
-							<label>Genre:</label>
+							<label>$LOCALIZE[31070]:</label>
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>Simplicity_20</font>
@@ -912,7 +912,7 @@
 					<posy>583</posy>
 					<width>720</width>
 					<height>20</height>
-					<label fallback="416">[COLOR=white]Genre:[/COLOR]  $INFO[ListItem.Property(genre)]</label>
+					<label fallback="416">[COLOR=white]$LOCALIZE[31070]:[/COLOR]  $INFO[ListItem.Property(genre)]</label>
 							<font>Simplicity_20</font>
 							<textcolor>grey2</textcolor>
 							<align>left</align>
@@ -1191,7 +1191,7 @@
 				<posx>517</posx>
 				<posy>20</posy>
 					<textcolor>DDFFFFFF</textcolor>
-					<label>Publisher</label>
+					<label>$LOCALIZE[31356]</label>
 			</control>		
 			<control type="wraplist" id="800">
 				<posx>500</posx>

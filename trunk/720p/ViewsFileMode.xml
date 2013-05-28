@@ -1855,7 +1855,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Season: [COLOR=white]$INFO[ListItem.Season][/COLOR] Episode: [COLOR=white]$INFO[ListItem.Episode][/COLOR]</label>
+					<label>$LOCALIZE[31487]: [COLOR=white]$INFO[ListItem.Season][/COLOR] $LOCALIZE[31185]: [COLOR=white]$INFO[ListItem.Episode][/COLOR]</label>
 				</control>
 				<control type="textbox">
 					<posx>165</posx>
@@ -1960,7 +1960,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Season: [COLOR=white]$INFO[ListItem.Season][/COLOR] Episode: [COLOR=white]$INFO[ListItem.Episode][/COLOR]</label>
+					<label>$LOCALIZE[31487]: [COLOR=white]$INFO[ListItem.Season][/COLOR] $LOCALIZE[31185]: [COLOR=white]$INFO[ListItem.Episode][/COLOR]</label>
 				</control>
 				<control type="textbox">
 					<posx>165</posx>
@@ -2014,7 +2014,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Season: [COLOR=white]$INFO[ListItem.Season][/COLOR] Episode: [COLOR=white]$INFO[ListItem.Episode][/COLOR]</label>
+					<label>$LOCALIZE[31487]: [COLOR=white]$INFO[ListItem.Season][/COLOR] $LOCALIZE[31185]: [COLOR=white]$INFO[ListItem.Episode][/COLOR]</label>
 				</control>
 				<control type="textbox">
 					<posx>165</posx>
@@ -2080,7 +2080,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Season: [COLOR=white]$INFO[ListItem.Season][/COLOR] Episode: [COLOR=white]$INFO[ListItem.Episode][/COLOR]</label>
+					<label>$LOCALIZE[31487]: [COLOR=white]$INFO[ListItem.Season][/COLOR] $LOCALIZE[31185]: [COLOR=white]$INFO[ListItem.Episode][/COLOR]</label>
 				</control>
 				<control type="textbox">
 					<posx>165</posx>
@@ -2145,7 +2145,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Season: [COLOR=white]$INFO[ListItem.Season][/COLOR]</label>
+					<label>$LOCALIZE[31487]: [COLOR=white]$INFO[ListItem.Season][/COLOR]</label>
 				</control>
 				<control type="textbox">
 					<posx>165</posx>
@@ -2186,7 +2186,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>Season: [COLOR=white]$INFO[ListItem.Season][/COLOR] Episode: [COLOR=white]$INFO[ListItem.Episode][/COLOR]</label>
+					<label>$LOCALIZE[31487]: [COLOR=white]$INFO[ListItem.Season][/COLOR] $LOCALIZE[31185]: [COLOR=white]$INFO[ListItem.Episode][/COLOR]</label>
 				</control>
 				<control type="textbox">
 					<posx>165</posx>
@@ -2394,7 +2394,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>Created by: [COLOR=grey2]$INFO[ListItem.Property(Addon.Creator)][/COLOR]</label>
+							<label>$LOCALIZE[31097]: [COLOR=grey2]$INFO[ListItem.Property(Addon.Creator)][/COLOR]</label>
 						</control>
 						<control type="label">
 							<posx>252</posx>
@@ -2406,7 +2406,7 @@
 							<shadowcolor>black</shadowcolor>
 							<scroll>false</scroll>
 							<align>left</align>
-							<label>Version: [COLOR=grey2]$INFO[ListItem.Property(Addon.Version)][/COLOR]  Type: [COLOR=grey2]$INFO[ListItem.Property(Addon.Type)][/COLOR]</label>
+							<label>$LOCALIZE[31098]: [COLOR=grey2]$INFO[ListItem.Property(Addon.Version)][/COLOR]  $LOCALIZE[31099]: [COLOR=grey2]$INFO[ListItem.Property(Addon.Type)][/COLOR]</label>
 						</control>
 						<control type="textbox">
 							<posx>252</posx>
