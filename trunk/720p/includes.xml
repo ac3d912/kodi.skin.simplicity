@@ -11,7 +11,6 @@
 	<include file="DialogTrailer.xml"/>
 	<include file="IncludesNextAiredInfo.xml" />
 	<include file="custom_HomeDialogPopup_1115.xml" />
-	<include file="custom_SearchDialogPopup_1118.xml" />
 	<include file="custom_Welcome_Screen_1125.xml" />
 	<include file="Custom_Welcome_Screen_Close_Popup.xml" />
 	<include file="custom_TVDelete_1127.xml" />

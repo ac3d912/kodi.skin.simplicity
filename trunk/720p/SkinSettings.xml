@@ -4237,7 +4237,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Action</label>
+							<label>$LOCALIZE[31261]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4254,7 +4254,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Adult</label>
+							<label>$LOCALIZE[31262]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4271,7 +4271,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Adventure</label>
+							<label>$LOCALIZE[31263]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4288,7 +4288,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Animation</label>
+							<label>$LOCALIZE[31264]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4305,7 +4305,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Anime</label>
+							<label>$LOCALIZE[31265]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4322,7 +4322,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Biography</label>
+							<label>$LOCALIZE[31266]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4339,7 +4339,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Bollywood</label>
+							<label>$LOCALIZE[31267]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4356,7 +4356,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Children</label>
+							<label>$LOCALIZE[31268]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4373,7 +4373,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Christmas</label>
+							<label>$LOCALIZE[31269]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4390,7 +4390,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Comedy</label>
+							<label>$LOCALIZE[31270]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4407,7 +4407,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Concert</label>
+							<label>$LOCALIZE[31271]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4424,7 +4424,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Crime</label>
+							<label>$LOCALIZE[31272]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4441,7 +4441,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Disaster</label>
+							<label>$LOCALIZE[31273]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4458,7 +4458,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Documentary</label>
+							<label>$LOCALIZE[31274]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4475,7 +4475,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Drama</label>
+							<label>$LOCALIZE[31275]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4492,7 +4492,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Family</label>
+							<label>$LOCALIZE[31276]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4509,7 +4509,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Fantasy</label>
+							<label>$LOCALIZE[31277]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4526,7 +4526,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Halloween</label>
+							<label>$LOCALIZE[31278]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4543,7 +4543,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Hentai</label>
+							<label>$LOCALIZE[31279]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4560,7 +4560,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>History</label>
+							<label>$LOCALIZE[31280]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4577,7 +4577,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Horror</label>
+							<label>$LOCALIZE[31281]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4594,7 +4594,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Independent</label>
+							<label>$LOCALIZE[31282]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4611,7 +4611,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Monster</label>
+							<label>$LOCALIZE[31283]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4628,7 +4628,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Music</label>
+							<label>$LOCALIZE[31284]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4645,7 +4645,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Musical</label>
+							<label>$LOCALIZE[31285]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4662,7 +4662,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Mystery</label>
+							<label>$LOCALIZE[31286]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4679,7 +4679,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Nature</label>
+							<label>$LOCALIZE[31287]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4696,7 +4696,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Religion</label>
+							<label>$LOCALIZE[31288]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4713,7 +4713,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Romance</label>
+							<label>$LOCALIZE[31289]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4730,7 +4730,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Sci-Fi</label>
+							<label>$LOCALIZE[31290]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4747,7 +4747,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Short</label>
+							<label>$LOCALIZE[31291]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4764,7 +4764,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Sports</label>
+							<label>$LOCALIZE[31292]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4781,7 +4781,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Superhero</label>
+							<label>$LOCALIZE[31293]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4815,7 +4815,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Thriller</label>
+							<label>$LOCALIZE[31294]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4832,7 +4832,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>War</label>
+							<label>$LOCALIZE[31295]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>1
 							<radiowidth>83</radiowidth>
@@ -4849,7 +4849,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Western</label>
+							<label>$LOCALIZE[31296]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
@@ -4866,7 +4866,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Wrestling</label>
+							<label>$LOCALIZE[31297]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>

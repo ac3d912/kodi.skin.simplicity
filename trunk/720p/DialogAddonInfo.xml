@@ -445,24 +445,7 @@
 					<onup>8</onup>
 					<ondown>11</ondown>
 				</control>
-				<!--<control type="button" id="11">
-					<visible>stringcompare(ListItem.Property(Addon.Type),Skin)</visible>  
-					<description>Preview button</description>
-					<posx>15</posx>
-					<posy>250</posy>
-					<width>257</width>
-					<height>51</height>
-					<textoffsetx>20</textoffsetx>
-					<label>Preview</label>
-					<font>Simplicity_18_Bold</font>
-					<align>right</align>
-					<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
-					<texturefocus border="5">simplicity/list-selector.png</texturefocus>
-					<onleft>60</onleft>
-					<onright>60</onright>
-					<onup>10</onup>
-					<ondown>6</ondown>
-				</control>-->
+				
 			</control>
 		</control>
 	</controls>

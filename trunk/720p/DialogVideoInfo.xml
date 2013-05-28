@@ -1199,11 +1199,7 @@
 						<include>ButtonInfoDialogsCommonValuesInfo</include>
 						<label>$LOCALIZE[13511]</label>
 					</control>
-					<!--<control type = "button" id = "12">
-						<description>Get Fanart</description>
-						<include>ButtonInfoDialogsCommonValuesInfo</include>
-						<label>Fanart</label>
-					</control>-->
+				
 					<control type = "button" id = "11">
 						<description>Play Trailer</description>
 						<include>ButtonInfoDialogsCommonValuesInfo</include>
@@ -1239,7 +1235,7 @@
 						<description>Get Theme</description>
 						<include>ButtonInfoDialogsCommonValuesInfo</include>
 						<onclick>ActivateWindow(1127)</onclick>
-						<label>Expert*</label>
+						<label>$LOCALIZE[31260]</label>
 						<visible>Container.Content(TVShows) + Skin.HasSetting(DeleteEps)</visible>
 					</control>
 				</control>

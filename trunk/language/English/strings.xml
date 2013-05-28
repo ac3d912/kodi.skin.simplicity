@@ -240,6 +240,45 @@
   <string id="31257">Show Details</string>
   <string id="31258">Season Details</string>
     <string id="31259">Plot</string>
+	<string id="31260">Expert*</string>
+	<string id="31261">Action</string>
+	<string id="31262">Adult</string>
+	<string id="31263">Adventure</string>
+	<string id="31264">Animation</string>
+	<string id="31265">Anime</string>
+	<string id="31266">Biography</string>
+	<string id="31267">Bollywood</string>
+	<string id="31268">Children</string>
+	<string id="31269">Christmas</string>
+	<string id="31270">Comedy</string>
+	<string id="31271">Concert</string>
+	<string id="31272">Crime</string>
+	<string id="31273">Disaster</string>
+	<string id="31274">Documentary</string>
+	<string id="31275">Drama</string>
+	<string id="31276">Family</string>
+	<string id="31277">Fantasy</string>
+	<string id="31278">Halloween</string>
+	<string id="31279">Hentai</string>
+	<string id="31280">History</string>
+	<string id="31281">Horror</string>
+	<string id="31282">Independent</string>
+	<string id="31283">Monster</string>
+	<string id="31284">Music</string>
+	<string id="31285">Musical</string>
+	<string id="31286">Mystery</string>
+	<string id="31287">Nature</string>
+	<string id="31288">Religion</string>
+	<string id="31289">Romance</string>
+	<string id="31290">Sci-Fi</string>
+	<string id="31291">Short</string>
+	<string id="31292">Sport</string>
+	<string id="31293">Superhero</string>
+	<string id="31294">Thriller</string>
+	<string id="31295">War</string>
+	<string id="31296">Western</string>
+	<string id="31297">Wrestling</string>
+
 
 
   <!-- Extra labels -->
