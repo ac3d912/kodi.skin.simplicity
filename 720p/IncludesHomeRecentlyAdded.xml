@@ -1378,7 +1378,7 @@
 						</focusedlayout>
 						<content>
 							<item id="1">
-								<label>Action</label>
+								<label>$LOCALIZE[31261]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreAction.xsp)</onclick> 
 								<icon>-</icon>
@@ -1386,7 +1386,7 @@
 								<visible>Skin.HasSetting(HomeGenreButtonAction)</visible>
 							</item>
 							<item id="2">
-								<label>Adult</label>
+								<label>$LOCALIZE[31262]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreAdult.xsp)</onclick> 
 								<icon>-</icon>
@@ -1394,7 +1394,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton2)</visible>
 							</item>
 							<item id="3">
-								<label>Adventure</label>
+								<label>$LOCALIZE[31263]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreAdventure.xsp)</onclick> 
 								<icon>-</icon>
@@ -1402,7 +1402,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton3)</visible>
 							</item>
 							<item id="4">
-								<label>Animation</label>
+								<label>$LOCALIZE[31264]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreAnimation.xsp)</onclick> 
 								<icon>-</icon>
@@ -1410,7 +1410,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton4)</visible>
 							</item>
 							<item id="5">
-								<label>Anime</label>
+								<label>$LOCALIZE[31265]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreAnime.xsp)</onclick> 
 								<icon>-</icon>
@@ -1418,7 +1418,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton5)</visible>
 							</item>
 							<item id="6">
-								<label>Biography</label>
+								<label>$LOCALIZE[31266]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreBiography.xsp)</onclick> 
 								<icon>-</icon>
@@ -1426,7 +1426,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton6)</visible>
 							</item>
 							<item id="8">
-								<label>Bollywood</label>
+								<label>$LOCALIZE[31267]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreBollywood.xsp)</onclick> 
 								<icon>-</icon>
@@ -1434,7 +1434,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton8)</visible>
 							</item>
 							<item id="9">
-								<label>Children</label>
+								<label>$LOCALIZE[31268]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreChildren.xsp)</onclick> 
 								<icon>-</icon>
@@ -1442,7 +1442,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton9)</visible>
 							</item>
 							<item id="10">
-								<label>Christmas</label>
+								<label>$LOCALIZE[31269]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreChristmas.xsp)</onclick> 
 								<icon>-</icon>
@@ -1450,7 +1450,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton10)</visible>
 							</item>
 							<item id="11">
-								<label>Comedy</label>
+								<label>$LOCALIZE[31270]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreComedy.xsp)</onclick> 
 								<icon>-</icon>
@@ -1458,7 +1458,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton11)</visible>
 							</item>
 							<item id="12">
-								<label>Concert</label>
+								<label>$LOCALIZE[31271]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreConcert.xsp)</onclick> 
 								<icon>-</icon>
@@ -1466,7 +1466,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton12)</visible>
 							</item>
 							<item id="13">
-								<label>Crime</label>
+								<label>$LOCALIZE[31272]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreCrime.xsp)</onclick> 
 								<icon>-</icon>
@@ -1474,7 +1474,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton13)</visible>
 							</item>
 							<item id="14">
-								<label>Disaster</label>
+								<label>$LOCALIZE[31273]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreDisaster.xsp)</onclick> 
 								<icon>-</icon>
@@ -1482,7 +1482,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton14)</visible>
 							</item>
 							<item id="15">
-								<label>Documentary</label>
+								<label>$LOCALIZE[31274]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreDocumentary.xsp)</onclick> 
 								<icon>-</icon>
@@ -1490,7 +1490,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton15)</visible>
 							</item>
 							<item id="16">
-								<label>Drama</label>
+								<label>$LOCALIZE[31275]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreDrama.xsp)</onclick> 
 								<icon>-</icon>
@@ -1498,7 +1498,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton16)</visible>
 							</item>
 							<item id="17">
-								<label>Family</label>
+								<label>$LOCALIZE[31276]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreFamily.xsp)</onclick> 
 								<icon>-</icon>
@@ -1506,7 +1506,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton17)</visible>
 							</item>
 							<item id="18">
-								<label>Fantasy</label>
+								<label>$LOCALIZE[31277]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreFantasy.xsp)</onclick> 
 								<icon>-</icon>
@@ -1514,7 +1514,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton18)</visible>
 							</item>
 							<item id="19">
-								<label>Halloween</label>
+								<label>$LOCALIZE[31278]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreHalloween.xsp)</onclick> 
 								<icon>-</icon>
@@ -1522,7 +1522,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton19)</visible>
 							</item>
 							<item id="20">
-								<label>Hentai</label>
+								<label>$LOCALIZE[31279]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreHentai.xsp)</onclick> 
 								<icon>-</icon>
@@ -1530,7 +1530,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton20)</visible>
 							</item>
 							<item id="21">
-								<label>History</label>
+								<label>$LOCALIZE[31280]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreHistory.xsp)</onclick> 
 								<icon>-</icon>
@@ -1538,7 +1538,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton21)</visible>
 							</item>
 							<item id="22">
-								<label>Horror</label>
+								<label>$LOCALIZE[31281]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreHorror.xsp)</onclick> 
 								<icon>-</icon>
@@ -1546,7 +1546,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton22)</visible>
 							</item>
 							<item id="23">
-								<label>Independent</label>
+								<label>$LOCALIZE[31282]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreIndependent.xsp)</onclick> 
 								<icon>-</icon>
@@ -1554,7 +1554,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton23)</visible>
 							</item>
 							<item id="24">
-								<label>Monster</label>
+								<label>$LOCALIZE[31283]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreMonster.xsp)</onclick> 
 								<icon>-</icon>
@@ -1562,7 +1562,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton24)</visible>
 							</item>
 							<item id="25">
-								<label>Music</label>
+								<label>$LOCALIZE[31284]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreMusic.xsp)</onclick> 
 								<icon>-</icon>
@@ -1570,7 +1570,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton25)</visible>
 							</item>
 							<item id="26">
-								<label>Musical</label>
+								<label>$LOCALIZE[31285]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreMusical.xsp)</onclick> 
 								<icon>-</icon>
@@ -1578,7 +1578,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton26)</visible>
 							</item>
 							<item id="27">
-								<label>Mystery</label>
+								<label>$LOCALIZE[31286]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreMystery.xsp)</onclick> 
 								<icon>-</icon>
@@ -1586,7 +1586,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton27)</visible>
 							</item>
 							<item id="28">
-								<label>Nature</label>
+								<label>$LOCALIZE[31287]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreNature.xsp)</onclick> 
 								<icon>-</icon>
@@ -1594,7 +1594,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton28)</visible>
 							</item>
 							<item id="29">
-								<label>Religion</label>
+								<label>$LOCALIZE[31288]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreReligion.xsp)</onclick> 
 								<icon>-</icon>
@@ -1602,7 +1602,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton29)</visible>
 							</item>
 							<item id="30">
-								<label>Romance</label>
+								<label>$LOCALIZE[31289]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreRomance.xsp)</onclick> 
 								<icon>-</icon>
@@ -1610,7 +1610,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton30)</visible>
 							</item>
 							<item id="31">
-								<label>Sci-fi</label>
+								<label>$LOCALIZE[31290]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreSciFi.xsp)</onclick> 
 								<icon>-</icon>
@@ -1618,7 +1618,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton31)</visible>
 							</item>
 							<item id="32">
-								<label>Short</label>
+								<label>$LOCALIZE[31291]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreShort.xsp)</onclick> 
 								<icon>-</icon>
@@ -1626,7 +1626,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton32)</visible>
 							</item>
 							<item id="33">
-								<label>Sport</label>
+								<label>$LOCALIZE[31292]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreSports.xsp)</onclick> 
 								<icon>-</icon>
@@ -1634,7 +1634,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton33)</visible>
 							</item>
 							<item id="34">
-								<label>Superhero</label>
+								<label>$LOCALIZE[31293]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreSuperhero.xsp)</onclick> 
 								<icon>-</icon>
@@ -1650,7 +1650,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton35)</visible>
 							</item>
 							<item id="36">
-								<label>Thriller</label>
+								<label>$LOCALIZE[31294]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreThriller.xsp)</onclick> 
 								<icon>-</icon>
@@ -1658,7 +1658,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton36)</visible>
 							</item>
 							<item id="37">
-								<label>War</label>
+								<label>$LOCALIZE[31295]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreWar.xsp)</onclick> 
 								<icon>-</icon>
@@ -1666,7 +1666,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton37)</visible>
 							</item>
 							<item id="38">
-								<label>Western</label>
+								<label>$LOCALIZE[31296]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreWestern.xsp)</onclick> 
 								<icon>-</icon>
@@ -1674,7 +1674,7 @@
 								<visible>Skin.HasSetting(HomeGenreButton38)</visible>
 							</item>
 							<item id="39">
-								<label>Wrestling</label>
+								<label>$LOCALIZE[31297]</label>
 								<label2>-</label2>
 								<onclick>ActivateWindow(MyVideoLibrary,special://skin/extras/playlists/GenreWrestling.xsp)</onclick> 
 								<icon>-</icon>
