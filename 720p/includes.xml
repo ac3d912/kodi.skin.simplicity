@@ -10,15 +10,9 @@
 	<include file="IncludesHomeRecentlyAdded.xml" />
 	<include file="DialogTrailer.xml"/>
 	<include file="IncludesNextAiredInfo.xml" />
-	<include file="custom_HomeDialogPopup_1115.xml" />
-	<include file="custom_Welcome_Screen_1125.xml" />
-	<include file="Custom_Welcome_Screen_Close_Popup.xml" />
-	<include file="custom_TVDelete_1127.xml" />
 	<include file="MusicNowPlaying.xml" />
 	<include file="ViewsAdvancedLauncher.xml" />
 	<include file="Viewtype_Showcase.xml" />
-
-
 
 
 	<constant name="FanartCrossfadeTime">500</constant>
