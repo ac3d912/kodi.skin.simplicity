@@ -1206,13 +1206,14 @@
 						<label>$LOCALIZE[20410]</label>
 						<visible>!IsEmpty(ListItem.Trailer)</visible>
 					</control>
-					<control type="button" id="13">
+					<control type="button" id="17">
 						<description>Home Cinema Experience</description>
 						<include>ButtonInfoDialogsCommonValuesInfo</include>
 						<label>$LOCALIZE[31473]</label>
 						<onclick>Dialog.Close(MovieInformation)</onclick>
 						<onclick>Playlist.Clear</onclick>
-						<onclick>RunScript(special://home/addons/script.cinema.experience/addon.py)</onclick>
+						<onclick>XBMC.RunScript(script.cinema.experience,movieid=$INFO[ListItem.DBID])</onclick>
+<!-- 						<onclick>RunScript(special://home/addons/script.cinema.experience/addon.py)</onclick> -->
 						<visible>Container.Content(Movies) + Skin.HasSetting(CinemaExperienceButton)</visible>
 					</control>
 					<control type = "button" id = "14">
