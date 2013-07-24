@@ -666,7 +666,7 @@
 					    <height>139</height>
 					    <aspect>keep</aspect>
 					    <texture fallback="blank.png">$INFO[Player.Art(tvshow.clearart)]</texture>
-					    <bordertexture border="3">simplicity/folder-focus.png</bordertexture>
+<!--  					    <bordertexture border="3">simplicity/folder-focus.png</bordertexture> -->
 					    <bordersize>3</bordersize>
 				    </control>
 				<control type="image">				  
