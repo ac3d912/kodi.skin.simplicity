@@ -449,10 +449,10 @@
 						<aligny>center</aligny>
 						<label>$LOCALIZE[31164]: [COLOR=white]$INFO[Player.FinishTime][/COLOR]</label>
 					</control>			
-			<!-- <control type="progress" id="404">
+			<control type="progress" id="404">
 				<description>progress control</description>
 				<posx>60</posx>
-				<posy>97</posy>
+				<posy>197</posy>
 				<width>850</width>
 				<height>12</height>
 				<info>Player.Progress</info>
@@ -460,7 +460,7 @@
 				<texturebg border="6,0,6,0">simplicity/progress-back.png</texturebg>
 				<lefttexture border="6,0,0,0">simplicity/progress-left.png</lefttexture>
 				<midtexture border="6,0,6,0">simplicity/osd-front.png</midtexture>
-			</control>	 -->
+			</control>
 				<control type="image">
 					<posx>-130</posx>
 					<posy>22</posy>
@@ -658,7 +658,7 @@
 					<textcolor>grey</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
-<!-- 				 - [COLOR=grey]"$INFO[VideoPlayer.Title]"[/COLOR] -->
+
 				<control type="label">
 					<posx>110</posx>
 					<posy>15</posy>
@@ -767,10 +767,10 @@
 						<aligny>center</aligny>
 						<label>$LOCALIZE[31164]: [COLOR=white]$INFO[Player.FinishTime][/COLOR]</label>
 					</control>
-					<!-- <control type="progress" id="404">
+					<control type="progress" id="404">
 						<description>progress control</description>
 						<posx>110</posx>
-						<posy>115</posy>
+						<posy>197</posy>
 						<width>850</width>
 						<height>12</height>
 						<info>Player.Progress</info>
@@ -778,7 +778,7 @@
 						<texturebg border="6,0,6,0">simplicity/progress-back.png</texturebg>
 						<lefttexture border="6,0,0,0">simplicity/progress-left.png</lefttexture>
 						<midtexture border="6,0,6,0">simplicity/osd-front.png</midtexture>
-					</control>	 -->
+					</control>
 
 				<control type="grouplist">
 					<description>Media Codec Flagging Images</description>
