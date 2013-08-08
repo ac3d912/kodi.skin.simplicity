@@ -316,7 +316,7 @@
 						<width>400</width>
 						<height>155</height>
 						<aligny>center</aligny>
-						<texture background = "true" fallback = "logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
+						<texture background = "true">$INFO[ListItem.Art(clearlogo)]</texture>
 						<aspectratio>keep</aspectratio>
 						<visible>Skin.HasSetting(EnableClearartViews)</visible>
 					</control>
