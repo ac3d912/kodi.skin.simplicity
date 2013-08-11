@@ -3307,6 +3307,22 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
+							<label>$LOCALIZE[31186]</label>
+							<textcolor>white</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<radiowidth>83</radiowidth>
+							<radioheight>67</radioheight>
+							<textureradiofocus>simplicity/settings-radiobutton-on.png</textureradiofocus>
+							<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
+							<texturefocus>simplicity/button-focus.png</texturefocus>
+							<texturenofocus>simplicity/menuitemnf.png</texturenofocus>
+							<onclick>Skin.ToggleSetting(HideProgressBar)</onclick>
+							<selected>Skin.HasSetting(HideProgressBar)</selected>
+						</control>
+						<control type="radiobutton" id="511">
+							<width>900</width>
+							<height>40</height>
+							<font>Simplicity_20</font>
 							<label>$LOCALIZE[31222]</label>
 							<textcolor>white</textcolor>
 							<focusedcolor>white</focusedcolor>
@@ -3319,7 +3335,7 @@
 							<onclick>Skin.ToggleSetting(UseThumbsOnInfo)</onclick>
 							<selected>Skin.HasSetting(UseThumbsOnInfo)</selected>
 						</control>
-						<control type="radiobutton" id="511">
+						<control type="radiobutton" id="512">
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
@@ -3335,7 +3351,7 @@
 							<onclick>Skin.ToggleSetting(CinemaExperienceButton)</onclick>
 							<selected>Skin.HasSetting(CinemaExperienceButton)</selected>
 						</control>
-						<control type="radiobutton" id="512">
+						<control type="radiobutton" id="513">
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
@@ -3351,7 +3367,7 @@
 							<onclick>Skin.ToggleSetting(EnableWatchedIconMovies)</onclick>
 							<selected>Skin.HasSetting(EnableWatchedIconMovies)</selected>
 						</control>
-						<control type="radiobutton" id="513">
+						<control type="radiobutton" id="514">
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
@@ -3367,7 +3383,7 @@
 							<onclick>Skin.ToggleSetting(NoTotals)</onclick>
 							<selected>Skin.HasSetting(NoTotals)</selected>
 						</control>
-						<control type="radiobutton" id="514">
+						<control type="radiobutton" id="515">
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
@@ -3383,7 +3399,7 @@
 							<onclick>Skin.ToggleSetting(CleanVisScreen)</onclick>
 							<selected>Skin.HasSetting(CleanVisScreen)</selected>
 						</control>
-						<control type="button" id="515">
+						<control type="button" id="516">
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
@@ -3395,7 +3411,7 @@
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<onclick>Skin.SetPath(Music_Folder_Path)</onclick>
 						</control>
-						<control type="radiobutton" id="516">
+						<control type="radiobutton" id="517">
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
@@ -3411,7 +3427,7 @@
 							<onclick>Skin.ToggleSetting(NoStarNewEps)</onclick>
 							<selected>Skin.HasSetting(NoStarNewEps)</selected>
 						</control>
-						<control type="radiobutton" id="517">
+						<control type="radiobutton" id="518">
 							<posx>0</posx>
 							<posy>0</posy>
 							<width>900</width>
@@ -3429,7 +3445,7 @@
 							<onclick>Skin.ToggleSetting(LyricScript_Enable)</onclick>
 							<selected>Skin.HasSetting(LyricScript_Enable)</selected>
 						</control>
-						<control type="button" id="518">
+						<control type="button" id="519">
 							<posx>0</posx>
 							<posy>0</posy>
 							<width>900</width>
@@ -3444,7 +3460,7 @@
 							<onclick>Skin.SetAddon(LyricScript_Path,xbmc.python.lyrics)</onclick>
 							<visible>Skin.HasSetting(LyricScript_Enable)</visible>
 						</control>
-						<control type="radiobutton" id="519">
+						<control type="radiobutton" id="520">
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
@@ -3460,7 +3476,7 @@
 							<onclick>Skin.ToggleSetting(SubtitleDownload_Enable)</onclick>
 							<selected>Skin.HasSetting(SubtitleDownload_Enable)</selected>
 						</control>
-						<control type="button" id="520">
+						<control type="button" id="521">
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_18</font>
