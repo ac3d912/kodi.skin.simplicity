@@ -306,15 +306,16 @@
 				<label2>$LOCALIZE[31487]: [COLOR=white]$INFO[Window.Property(RecommendedEpisode.1.Season)][/COLOR] - Episode: [COLOR=white]$INFO[Window.Property(RecommendedEpisode.1.Episode)][/COLOR]</label2>
 				<onclick>$INFO[Window.Property(RecommendedEpisode.1.Play)]</onclick>
 				<icon>$INFO[Window.Property(RecommendedEpisode.1.Art(thumb))]</icon>
-				<thumb>$INFO[Window.Property(RecommendedEpisode.1.RunningTime)]</thumb>		
-				<visible>!IsEmpty(Window.Property(RecommendedEpisode.1.Title))</visible>				
+				<thumb>$INFO[Window.Property(RecommendedEpisode.1.Art(tvshow.fanart))]</thumb>		
+				<visible>!IsEmpty(Window.Property(RecommendedEpisode.1.Title))</visible>	
+				<!-- <visible>Skin.HasSetting(UseRandomItems)</visible>				 -->
 			</item>
 			<item id="2">
 				<label>$INFO[Window.Property(RecommendedEpisode.2.TVshowTitle)]</label>
 				<label2>$LOCALIZE[31487]: [COLOR=white]$INFO[Window.Property(RecommendedEpisode.2.Season)][/COLOR] - Episode: [COLOR=white]$INFO[Window.Property(RecommendedEpisode.2.Episode)][/COLOR]</label2>
 				<onclick>$INFO[Window.Property(RecommendedEpisode.2.Play)]</onclick>
 				<icon>$INFO[Window.Property(RecommendedEpisode.2.Art(thumb))]</icon>
-				<thumb>$INFO[Window.Property(RecommendedEpisode.2.RunningTime)]</thumb>
+				<thumb>$INFO[Window.Property(RecommendedEpisode.2.Art(tvshow.fanart))]</thumb>
 				<visible>!IsEmpty(Window.Property(RecommendedEpisode.2.Title))</visible>
 			</item>
 			<item id="3">
@@ -322,7 +323,7 @@
 				<label2>$LOCALIZE[31487]: [COLOR=white]$INFO[Window.Property(RecommendedEpisode.3.Season)][/COLOR] - Episode: [COLOR=white]$INFO[Window.Property(RecommendedEpisode.3.Episode)][/COLOR]</label2>
 				<onclick>$INFO[Window.Property(RecommendedEpisode.3.Play)]</onclick>
 				<icon>$INFO[Window.Property(RecommendedEpisode.3.Art(thumb))]</icon>
-				<thumb>$INFO[Window.Property(RecommendedEpisode.3.RunningTime)]</thumb>		
+				<thumb>$INFO[Window.Property(RecommendedEpisode.3.Art(tvshow.fanart))]</thumb>		
 				<visible>!IsEmpty(Window.Property(RecommendedEpisode.3.Title))</visible>				
 			</item>
 			<item id="4">
@@ -330,7 +331,7 @@
 				<label2>$LOCALIZE[31487]: [COLOR=white]$INFO[Window.Property(RecommendedEpisode.4.Season)][/COLOR] - Episode: [COLOR=white]$INFO[Window.Property(RecommendedEpisode.4.Episode)][/COLOR]</label2>
 				<onclick>$INFO[Window.Property(RecommendedEpisode.4.Play)]</onclick>
 				<icon>$INFO[Window.Property(RecommendedEpisode.4.Art(thumb))]</icon>
-				<thumb>$INFO[Window.Property(RecommendedEpisode.4.RunningTime)]</thumb>		
+				<thumb>$INFO[Window.Property(RecommendedEpisode.4.Art(tvshow.fanart))]</thumb>		
 				<visible>!IsEmpty(Window.Property(RecommendedEpisode.4.Title))</visible>				
 			</item>
 			<item id="5">
@@ -338,7 +339,7 @@
 				<label2>$LOCALIZE[31487]: [COLOR=white]$INFO[Window.Property(RecommendedEpisode.5.Season)][/COLOR] - Episode: [COLOR=white]$INFO[Window.Property(RecommendedEpisode.5.Episode)][/COLOR]</label2>
 				<onclick>$INFO[Window.Property(RecommendedEpisode.5.Play)]</onclick>
 				<icon>$INFO[Window.Property(RecommendedEpisode.5.Art(thumb))]</icon>
-				<thumb>$INFO[Window.Property(RecommendedEpisode.5.RunningTime)]</thumb>	
+				<thumb>$INFO[Window.Property(RecommendedEpisode.5.Art(tvshow.fanart))]</thumb>	
 				<visible>!IsEmpty(Window.Property(RecommendedEpisode.5.Title))</visible>				
 			</item>
 			<item id="6">
@@ -346,7 +347,7 @@
 				<label2>$LOCALIZE[31487]: [COLOR=white]$INFO[Window.Property(RecommendedEpisode.6.Season)][/COLOR] - Episode: [COLOR=white]$INFO[Window.Property(RecommendedEpisode.6.Episode)][/COLOR]</label2>
 				<onclick>$INFO[Window.Property(RecommendedEpisode.6.Play)]</onclick>
 				<icon>$INFO[Window.Property(RecommendedEpisode.6.Art(thumb))]</icon>
-				<thumb>$INFO[Window.Property(RecommendedEpisode.6.RunningTime)]</thumb>	
+				<thumb>$INFO[Window.Property(RecommendedEpisode.6.Art(tvshow.fanart))]</thumb>	
 				<visible>!IsEmpty(Window.Property(RecommendedEpisode.6.Title))</visible>				
 			</item>
 			<item id="7">
@@ -354,7 +355,7 @@
 				<label2>$LOCALIZE[31487]: [COLOR=white]$INFO[Window.Property(RecommendedEpisode.7.Season)][/COLOR] - Episode: [COLOR=white]$INFO[Window.Property(RecommendedEpisode.7.Episode)][/COLOR]</label2>
 				<onclick>$INFO[Window.Property(RecommendedEpisode.7.Play)]</onclick>
 				<icon>$INFO[Window.Property(RecommendedEpisode.7.Art(thumb))]</icon>
-				<thumb>$INFO[Window.Property(RecommendedEpisode.7.RunningTime)]</thumb>	
+				<thumb>$INFO[Window.Property(RecommendedEpisode.7.Art(tvshow.fanart))]</thumb>	
 				<visible>!IsEmpty(Window.Property(RecommendedEpisode.7.Title))</visible>				
 			</item>
 	
