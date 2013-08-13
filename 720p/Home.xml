@@ -863,12 +863,12 @@
 <!-- 					<onclick>Container.SetViewMode(506)</onclick> -->
 					<visible>!Skin.HasSetting(HomeMenuNoKidsButton)</visible>
 				</item>
-				<!--<item id="11">
+				<!-- <item id="22">
 					<description>Play Disc</description>
-					<label>$LOCALIZE[341]</label>
+					<label>[UPPERCASE]$LOCALIZE[341][/UPPERCASE]</label>
 					<icon>homeicons/playdiscicon.png</icon>
 					<onclick>PlayDVD</onclick>
-				</item>-->
+				</item> -->
 			</content>
 		</control>
 
@@ -1888,25 +1888,59 @@
 
 		<!--TV Feed-->
 
+				
 		<control type="group">
-			<posy>50r</posy>
-			<animation effect="slide" start="0,0" end="0,300" delay="0" time="300">WindowClose</animation>
-			<animation effect="slide" start="0,300" end="0,0" delay="0" time="300">WindowOpen</animation>
-			<control type="label">
-				<description>RSS feed</description>
-				<posx>0</posx>
-				<posy>16</posy>
-				<height>35</height>
-				<width>2500</width>
-				<font>Simplicity_18</font>
-				<label>[B][COLOR=yellow]$LOCALIZE[31476][/COLOR][/B] -- $INFO[Window(Home).Property(NextAired.1.Label)], $INFO[Window(Home).Property(NextAired.1.AirDay)] on $INFO[Window(Home).Property(NextAired.1.Network)] -- [B][COLOR=yellow]$LOCALIZE[31476][/COLOR][/B] -- $INFO[Window(Home).Property(NextAired.2.Label)], $INFO[Window(Home).Property(NextAired.2.AirTime)] on $INFO[Window(Home).Property(NextAired.2.Network)] -- [B][COLOR=yellow]$LOCALIZE[31476][/COLOR][/B] -- $INFO[Window(Home).Property(NextAired.3.Label)], $INFO[Window(Home).Property(NextAired.3.AirTime)] on $INFO[Window(Home).Property(NextAired.3.Network)]</label>
+				<posy>52r</posy>
+				<animation effect="slide" start="0,0" end="0,300" delay="0" time="300">WindowClose</animation>
+				<animation effect="slide" start="0,300" end="0,0" delay="0" time="300">WindowOpen</animation>
+				<control type="label">
+				  <visible>IsEmpty(Window(Home).Property(NextAired.2.Label))+IsEmpty(Window(Home).Property(NextAired.3.Label))+!IsEmpty(Window(Home).Property(NextAired.1.Label))</visible>
+					<description>RSS feed</description>
+					<posx>0</posx>
+					<posy>16</posy>
+					<height>35</height>
+					<width>2500</width>
+					<font>Simplicity_18</font>
+					<label>[B][COLOR=yellow]$LOCALIZE[31476][/COLOR][/B] -- $INFO[Window(Home).Property(NextAired.1.Label)], $INFO[Window(Home).Property(NextAired.1.AirDay)] on $INFO[Window(Home).Property(NextAired.1.Network)]</label>
 				<fontcolor>grey3</fontcolor>
 				<titlecolor>white</titlecolor>
 				<headlinecolor>grey3</headlinecolor>
-				<animation effect="slide" start="1300,0" end="-2500,0" delay="0" time="60000" loop="true" condition="Skin.HasSetting(UseTVShowRSSFeed)">conditional</animation>
-				<visible>Skin.HasSetting(UseTVShowRSSFeed) + !system.getbool(lookandfeel.enablerssfeeds)</visible>
+					<animation effect="slide" start="1300,0" end="-2500,0" delay="0" time="60000" loop="true" condition="Skin.HasSetting(UseTVShowRSSFeed)">conditional</animation>
+					<visible>Skin.HasSetting(UseTVShowRSSFeed) + !system.getbool(lookandfeel.enablerssfeeds)</visible>
+				</control>
+				
+				<control type="label">
+				  <visible>IsEmpty(Window(Home).Property(NextAired.3.Label))+!IsEmpty(Window(Home).Property(NextAired.2.Label))</visible>
+					<description>RSS feed</description>
+					<posx>0</posx>
+					<posy>16</posy>
+					<height>35</height>
+					<width>2500</width>
+					<font>Simplicity_18</font>
+					<label>[B][COLOR=yellow]$LOCALIZE[31476][/COLOR][/B] -- $INFO[Window(Home).Property(NextAired.1.Label)], $INFO[Window(Home).Property(NextAired.1.AirDay)] on $INFO[Window(Home).Property(NextAired.1.Network)] -- [B][COLOR=yellow]$LOCALIZE[31476][/COLOR][/B] -- $INFO[Window(Home).Property(NextAired.2.Label)], $INFO[Window(Home).Property(NextAired.2.AirTime)] on $INFO[Window(Home).Property(NextAired.2.Network)]</label>
+				<fontcolor>grey3</fontcolor>
+				<titlecolor>white</titlecolor>
+				<headlinecolor>grey3</headlinecolor>
+					<animation effect="slide" start="1300,0" end="-2500,0" delay="0" time="60000" loop="true" condition="Skin.HasSetting(UseTVShowRSSFeed)">conditional</animation>
+					<visible>Skin.HasSetting(UseTVShowRSSFeed) + !system.getbool(lookandfeel.enablerssfeeds)</visible>
+				</control>
+				
+				<control type="label">
+				  <visible>!IsEmpty(Window(Home).Property(NextAired.3.Label))+!IsEmpty(Window(Home).Property(NextAired.2.Label))+!IsEmpty(Window(Home).Property(NextAired.1.Label))</visible>
+					<description>RSS feed</description>
+					<posx>0</posx>
+					<posy>16</posy>
+					<height>35</height>
+					<width>2500</width>
+					<font>Simplicity_18</font>
+					<label>[B][COLOR=yellow]$LOCALIZE[31476][/COLOR][/B] -- $INFO[Window(Home).Property(NextAired.1.Label)], $INFO[Window(Home).Property(NextAired.1.AirDay)] on $INFO[Window(Home).Property(NextAired.1.Network)] -- [B][COLOR=yellow]$LOCALIZE[31476][/COLOR][/B] -- $INFO[Window(Home).Property(NextAired.2.Label)], $INFO[Window(Home).Property(NextAired.2.AirTime)] on $INFO[Window(Home).Property(NextAired.2.Network)] -- [B][COLOR=yellow]$LOCALIZE[31476][/COLOR][/B] -- $INFO[Window(Home).Property(NextAired.3.Label)], $INFO[Window(Home).Property(NextAired.3.AirTime)] on $INFO[Window(Home).Property(NextAired.3.Network)]</label>
+				<fontcolor>grey3</fontcolor>
+				<titlecolor>white</titlecolor>
+				<headlinecolor>grey3</headlinecolor>
+					<animation effect="slide" start="1300,0" end="-2500,0" delay="0" time="60000" loop="true" condition="Skin.HasSetting(UseTVShowRSSFeed)">conditional</animation>
+					<visible>Skin.HasSetting(UseTVShowRSSFeed) + !system.getbool(lookandfeel.enablerssfeeds)</visible>
+				</control>
 			</control>
-		</control>
 
 		<!--Settings-->
 
