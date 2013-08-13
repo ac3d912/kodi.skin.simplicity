@@ -362,6 +362,178 @@
 
 			<!--Episode Fanart-->
 			<control type="group">
+				<visible>!Skin.HasSetting(UseWatchlist)</visible>
+				<visible>!SubString(System.BuildVersion,10.1,Left)</visible>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[Window.Property(RecentEpisode.1.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8007) + !Skin.HasSetting(UseRandomItems)</visible>
+					<fadetime>1000</fadetime>
+					<include>VisibleFadeEffect</include>
+				</control>
+			
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[Window.Property(RandomEpisode.1.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8007) + Skin.HasSetting(UseRandomItems)</visible>
+					<fadetime>1000</fadetime>
+					<include>VisibleFadeEffect</include>
+				</control>
+			
+			
+		
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[Window.Property(RecentEpisode.2.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(2) + !Skin.HasSetting(UseRandomItems)</visible>
+					<fadetime>1000</fadetime>
+					<include>VisibleFadeEffect</include>
+				</control>
+		
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[Window.Property(RecentEpisode.3.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(3) + !Skin.HasSetting(UseRandomItems)</visible>
+					<fadetime>1000</fadetime>
+					<include>VisibleFadeEffect</include>
+				</control>
+			
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[Window.Property(RecentEpisode.4.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(4) + !Skin.HasSetting(UseRandomItems)</visible>
+					<fadetime>1000</fadetime>
+					<include>VisibleFadeEffect</include>
+				</control>
+			
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[Window.Property(RecentEpisode.5.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(5) + !Skin.HasSetting(UseRandomItems)</visible>
+					<fadetime>1000</fadetime>
+					<include>VisibleFadeEffect</include>
+				</control>
+		
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[Window.Property(RecentEpisode.6.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(6) + !Skin.HasSetting(UseRandomItems)</visible>
+					<fadetime>1000</fadetime>
+					<include>VisibleFadeEffect</include>
+				</control>
+				
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[Window.Property(RecentEpisode.7.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(7) + !Skin.HasSetting(UseRandomItems)</visible>
+					<fadetime>1000</fadetime>
+					<include>VisibleFadeEffect</include>
+				</control>
+			
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[Window.Property(RecentEpisode.1.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(1) + Skin.HasSetting(UseRandomItems)</visible>
+					<fadetime>1000</fadetime>
+					<include>VisibleFadeEffect</include>
+				</control>				
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[Window.Property(RecentEpisode.2.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(2) + Skin.HasSetting(UseRandomItems)</visible>
+					<fadetime>1000</fadetime>
+					<include>VisibleFadeEffect</include>
+				</control>
+			
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[Window.Property(RecentEpisode.3.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(3) + Skin.HasSetting(UseRandomItems)</visible>
+					<fadetime>1000</fadetime>
+					<include>VisibleFadeEffect</include>
+				</control>
+				
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[Window.Property(RecentEpisode.4.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(4) + Skin.HasSetting(UseRandomItems)</visible>
+					<fadetime>1000</fadetime>
+					<include>VisibleFadeEffect</include>
+				</control>
+				
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[Window.Property(RecentEpisode.5.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(5) + Skin.HasSetting(UseRandomItems)</visible>
+					<fadetime>1000</fadetime>
+					<include>VisibleFadeEffect</include>
+				</control>
+				
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[Window.Property(RecentEpisode.6.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(6) + Skin.HasSetting(UseRandomItems)</visible>
+					<fadetime>1000</fadetime>
+					<include>VisibleFadeEffect</include>
+				</control>
+				
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[Window.Property(RecentEpisode.7.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(7) + Skin.HasSetting(UseRandomItems)</visible>
+					<fadetime>1000</fadetime>
+					<include>VisibleFadeEffect</include>
+				</control>
+				
+			</control>
+			
+			<control type="group">
+				<visible>Skin.HasSetting(UseWatchlist)</visible>
 				<visible>!SubString(System.BuildVersion,10.1,Left)</visible>
 				<control type="image">
 					<posx>0</posx>
@@ -390,8 +562,8 @@
 					<posy>0</posy>
 					<width>1280</width>
 					<height>720</height>
-					<texture>$INFO[Window.Property(RecentEpisode.2.Art(tvshow.fanart))]</texture>						
-					<visible>Control.HasFocus(8008) + Container(8008).Position(0) + !Skin.HasSetting(UseRandomItems)</visible>
+					<texture>$INFO[Window.Property(RecommendedEpisode.1.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(1)</visible>
 					<fadetime>1000</fadetime>
 					<include>VisibleFadeEffect</include>
 				</control>
@@ -401,8 +573,8 @@
 					<posy>0</posy>
 					<width>1280</width>
 					<height>720</height>
-					<texture>$INFO[Window.Property(RecentEpisode.3.Art(tvshow.fanart))]</texture>						
-					<visible>Control.HasFocus(8008) + Container(8008).Position(1) + !Skin.HasSetting(UseRandomItems)</visible>
+					<texture>$INFO[Window.Property(RecommendedEpisode.2.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(2)</visible>
 					<fadetime>1000</fadetime>
 					<include>VisibleFadeEffect</include>
 				</control>
@@ -412,8 +584,8 @@
 					<posy>0</posy>
 					<width>1280</width>
 					<height>720</height>
-					<texture>$INFO[Window.Property(RecentEpisode.4.Art(tvshow.fanart))]</texture>						
-					<visible>Control.HasFocus(8008) + Container(8008).Position(2) + !Skin.HasSetting(UseRandomItems)</visible>
+					<texture>$INFO[Window.Property(RecommendedEpisode.3.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(3)</visible>
 					<fadetime>1000</fadetime>
 					<include>VisibleFadeEffect</include>
 				</control>
@@ -423,8 +595,8 @@
 					<posy>0</posy>
 					<width>1280</width>
 					<height>720</height>
-					<texture>$INFO[Window.Property(RecentEpisode.5.Art(tvshow.fanart))]</texture>						
-					<visible>Control.HasFocus(8008) + Container(8008).Position(3) + !Skin.HasSetting(UseRandomItems)</visible>
+					<texture>$INFO[Window.Property(RecommendedEpisode.4.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(4)</visible>
 					<fadetime>1000</fadetime>
 					<include>VisibleFadeEffect</include>
 				</control>
@@ -434,40 +606,8 @@
 					<posy>0</posy>
 					<width>1280</width>
 					<height>720</height>
-					<texture>$INFO[Window.Property(RecentEpisode.6.Art(tvshow.fanart))]</texture>						
-					<visible>Control.HasFocus(8008) + Container(8008).Position(4) + !Skin.HasSetting(UseRandomItems)</visible>
-					<fadetime>1000</fadetime>
-					<include>VisibleFadeEffect</include>
-				</control>
-			
-				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>1280</width>
-					<height>720</height>
-					<texture>$INFO[Window.Property(RecentEpisode.1.Art(tvshow.fanart))]</texture>						
-					<visible>Control.HasFocus(8008) + Container(8008).Position(0) + Skin.HasSetting(UseRandomItems)</visible>
-					<fadetime>1000</fadetime>
-					<include>VisibleFadeEffect</include>
-				</control>				
-				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>1280</width>
-					<height>720</height>
-					<texture>$INFO[Window.Property(RecentEpisode.2.Art(tvshow.fanart))]</texture>						
-					<visible>Control.HasFocus(8008) + Container(8008).Position(1) + Skin.HasSetting(UseRandomItems)</visible>
-					<fadetime>1000</fadetime>
-					<include>VisibleFadeEffect</include>
-				</control>
-			
-				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>1280</width>
-					<height>720</height>
-					<texture>$INFO[Window.Property(RecentEpisode.3.Art(tvshow.fanart))]</texture>						
-					<visible>Control.HasFocus(8008) + Container(8008).Position(2) + Skin.HasSetting(UseRandomItems)</visible>
+					<texture>$INFO[Window.Property(RecommendedEpisode.5.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(5)</visible>
 					<fadetime>1000</fadetime>
 					<include>VisibleFadeEffect</include>
 				</control>
@@ -477,8 +617,8 @@
 					<posy>0</posy>
 					<width>1280</width>
 					<height>720</height>
-					<texture>$INFO[Window.Property(RecentEpisode.4.Art(tvshow.fanart))]</texture>						
-					<visible>Control.HasFocus(8008) + Container(8008).Position(3) + Skin.HasSetting(UseRandomItems)</visible>
+					<texture>$INFO[Window.Property(RecommendedEpisode.6.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(6)</visible>
 					<fadetime>1000</fadetime>
 					<include>VisibleFadeEffect</include>
 				</control>
@@ -488,11 +628,13 @@
 					<posy>0</posy>
 					<width>1280</width>
 					<height>720</height>
-					<texture>$INFO[Window.Property(RecentEpisode.5.Art(tvshow.fanart))]</texture>						
-					<visible>Control.HasFocus(8008) + Container(8008).Position(4) + Skin.HasSetting(UseRandomItems)</visible>
+					<texture>$INFO[Window.Property(RecommendedEpisode.7.Art(tvshow.fanart))]</texture>						
+					<visible>Control.HasFocus(8008) + Container(8008).HasFocus(7)</visible>
 					<fadetime>1000</fadetime>
 					<include>VisibleFadeEffect</include>
 				</control>
+			
+				
 				
 			</control>
 		</control>
