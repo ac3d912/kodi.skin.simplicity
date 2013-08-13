@@ -3167,7 +3167,7 @@
 						<onright>60</onright>
 						<onup>9005</onup>
 						<ondown>9005</ondown>
-						<control type="label" id="500">
+						<control type="label" id="499">
 							<width>750</width>
 							<height>45</height>
 							<font>Simplicity_20_Bold_title</font>
@@ -3176,6 +3176,22 @@
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 							<aligny>center</aligny>
+						</control>
+						<control type="radiobutton" id="500">
+							<width>900</width>
+							<height>40</height>
+							<font>Simplicity_20</font>
+							<label>$LOCALIZE[31188]</label>
+							<textcolor>white</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<radiowidth>83</radiowidth>
+							<radioheight>67</radioheight>
+							<textureradiofocus>simplicity/settings-radiobutton-on.png</textureradiofocus>
+							<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
+							<texturefocus>simplicity/button-focus.png</texturefocus>
+							<texturenofocus>simplicity/menuitemnf.png</texturenofocus>
+							<onclick>Skin.ToggleSetting(ExtraFanart)</onclick>
+							<selected>Skin.HasSetting(ExtraFanart)</selected>
 						</control>
 						<control type="radiobutton" id="501">
 							<width>900</width>
