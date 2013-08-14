@@ -70,7 +70,7 @@
 			<visible>!Control.IsVisible(560)</visible>
 			<visible>!Control.IsVisible(565)</visible>
 			<visible>!Control.IsVisible(567)</visible>
-			<visible>!Skin.HasSetting(ExtraFanart)</visible>
+			<!-- <visible>!Skin.HasSetting(ExtraFanart)</visible> -->
 		</control>
 		<control type="multiimage">
 			<posx>0</posx>
@@ -114,7 +114,8 @@
 			<visible>!Control.IsVisible(560)</visible>
 			<visible>!Control.IsVisible(565)</visible>
 			<visible>!Control.IsVisible(567)</visible>
-			<visible>!Skin.HasSetting(ExtraFanart)</visible>
+			<!-- <visible>!Skin.HasSetting(ExtraFanart)</visible> -->
+			<visible>!stringcompare(ListItem.Label,..)</visible>
 		</control>
 		<control type="multiimage">
 			<posx>0</posx>
@@ -135,8 +136,9 @@
 			<visible>!Control.IsVisible(565)</visible>
 			<visible>!Control.IsVisible(567)</visible>
 			<visible>Skin.HasSetting(ExtraFanart)</visible>
+			<visible>!stringcompare(ListItem.Label,..)</visible>
 		</control>
-			<control type="multiimage">
+		<control type="multiimage">
 			<posx>0</posx>
 			<posy>0</posy>
 			<width>1280</width>
@@ -155,7 +157,30 @@
 			<visible>!Control.IsVisible(565)</visible>
 			<visible>!Control.IsVisible(567)</visible>
 			<visible>Skin.HasSetting(ExtraFanart)</visible>
+			<visible>!stringcompare(ListItem.Label,..)</visible>
 		</control>
+		<control type="multiimage">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>720</height>
+			<timeperimage>8000</timeperimage>
+			<randomize>true</randomize>
+			<fadetime>1000</fadetime>
+			<imagepath background="true">$INFO[ListItem.Path,,extrafanart/]</imagepath>			
+			<include>backgroundfade</include>			
+			<visible>!Skin.HasSetting(VideoLibraryTVFanart)</visible>
+			<visible>!Skin.HasSetting(Multiple_TV_Fanart)</visible>
+			<visible>Container.Content(Episodes) + !IsEmpty(ListItem.Path) + ![substring(ListItem.Path,plugin://) | substring(ListItem.Path,special://videoplaylists/) | substring(Container.FolderPath,plugin://) | substring(Container.FolderPath,addons://)] + ![Player.HasVideo]</visible>
+			<visible>!Control.IsVisible(557)</visible>
+			<visible>!Control.IsVisible(558)</visible>
+			<visible>!Control.IsVisible(560)</visible>
+			<visible>!Control.IsVisible(565)</visible>
+			<visible>!Control.IsVisible(567)</visible>
+			<visible>Skin.HasSetting(ExtraFanart)</visible>
+			<visible>!stringcompare(ListItem.Label,..)</visible>
+		</control>
+		
 		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
@@ -164,7 +189,7 @@
 			<info>Fanart.Image</info>
 			<texture background="true">$INFO[Fanart.Image]</texture>
 			<include>backgroundfade</include>
-			<fadetime>FanartCrossfadeTime</fadetime>
+			<fadetime>1000</fadetime>
 			<visible>!Skin.HasSetting(VideoLibraryTVFanart)</visible>
 			<visible>!Skin.HasSetting(Multiple_TV_Fanart)</visible>
 			<visible>Container.Content(Seasons) | [Container.Content(Episodes) + !substring(Container.FolderPath,videodb://5/)]</visible>
@@ -174,7 +199,21 @@
 			<visible>!Control.IsVisible(565)</visible>
 			<visible>!Control.IsVisible(567)</visible>
 			<visible>!Skin.HasSetting(ExtraFanart)</visible>
+			<visible>!stringcompare(ListItem.Label,..)</visible>
 		</control>
+		<control type="image">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1280</width>
+				<height>720</height>
+				<texture background="true">$INFO[Fanart.Image]</texture>
+				<aspectratio>scale</aspectratio>
+				<include>backgroundfade</include>
+				<fadetime>1000</fadetime>
+<!-- 				<include>VisibleFadeEffect</include> -->
+				<include condition="Skin.HasSetting(AnimateFanart)">backgroundanimation</include>
+				<visible>[[Container.Content(Seasons) | Container.Content(Episodes)] + stringcompare(ListItem.Label,..)] + ![Container.Content(Seasons) + Skin.HasSetting(TVShowsExtraFanart) + !IsEmpty(Control.GetLabel(6105)) + !stringcompare(ListItem.Label,..)] + ![Container.Content(Episodes) + Skin.HasSetting(TVShowsExtraFanart) + !IsEmpty(Control.GetLabel(6106)) + !stringcompare(ListItem.Label,..)] + !IsEmpty(Fanart.Image) + ![[Control.IsVisible(592) | Control.IsVisible(598)] + !Window.IsVisible(MovieInformation)]] + ![Player.HasVideo + Skin.HasSetting(VideoBackgrounds)]</visible>
+			</control>
 		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
