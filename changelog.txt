@@ -1,4 +1,4 @@
-[B]3.2.10[/B]
+[B]3.3.0[/B]
 - Added support for Watchlist items
 
 [B]3.2.9[/B]
