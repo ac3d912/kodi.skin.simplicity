@@ -1331,11 +1331,11 @@
 								<align>center</align>
 								<onclick>Skin.Reset(Home_Custom_Back_Home_Folder)</onclick>
 								<onleft>301</onleft>
-								<onright>303</onright>
+								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
 							</control>
-							<control type="button" id="303">
+							<!-- <control type="button" id="303">
 								<description>Video Fanart button</description>
 								<posx>560</posx>
 								<posy>0</posy>
@@ -1354,7 +1354,7 @@
 								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
-							</control>
+							</control> -->
 							<control type="button" id="311">
 								<description>No Fanart button</description>
 								<posx>745</posx>
@@ -1370,7 +1370,7 @@
 								<font>Simplicity_20_Bold_title</font>
 								<align>center</align>
 								<onclick>Skin.SetString(Home_Custom_Back_Home_Folder,simplicity/background-solid.png)</onclick>
-								<onleft>303</onleft>
+								<onleft>302</onleft>
 								<onright>300</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
@@ -1434,11 +1434,11 @@
 								<align>center</align>
 								<onclick>Skin.Reset(Home_Custom_Back_Movies_Folder)</onclick>
 								<onleft>301</onleft>
-								<onright>303</onright>
+								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
 							</control>
-							<control type="button" id="303">
+							<!-- <control type="button" id="303">
 								<description>Video Fanart button</description>
 								<posx>560</posx>
 								<posy>0</posy>
@@ -1457,7 +1457,7 @@
 								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
-							</control>
+							</control> -->
 							<control type="button" id="311">
 								<description>No Fanart button</description>
 								<posx>745</posx>
@@ -1473,7 +1473,7 @@
 								<font>Simplicity_20_Bold_title</font>
 								<align>center</align>
 								<onclick>Skin.SetString(Home_Custom_Back_Movies_Folder,simplicity/background-solid.png)</onclick>
-								<onleft>303</onleft>
+								<onleft>302</onleft>
 								<onright>300</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
@@ -1537,11 +1537,11 @@
 								<align>center</align>
 								<onclick>Skin.Reset(Home_Custom_Back_TVShows_Folder)</onclick>
 								<onleft>301</onleft>
-								<onright>303</onright>
+								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
 							</control>
-							<control type="button" id="303">
+						<!-- 	<control type="button" id="303">
 								<description>Video Fanart button</description>
 								<posx>560</posx>
 								<posy>0</posy>
@@ -1560,7 +1560,7 @@
 								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
-							</control>
+							</control> -->
 							<control type="button" id="311">
 								<description>No Fanart button</description>
 								<posx>745</posx>
@@ -1576,7 +1576,7 @@
 								<font>Simplicity_20_Bold_title</font>
 								<align>center</align>
 								<onclick>Skin.SetString(Home_Custom_Back_TVShows_Folder,simplicity/background-solid.png)</onclick>
-								<onleft>303</onleft>
+								<onleft>302</onleft>
 								<onright>300</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
@@ -1640,11 +1640,11 @@
 								<align>center</align>
 								<onclick>Skin.Reset(Home_Custom_Back_Video_Folder)</onclick>
 								<onleft>301</onleft>
-								<onright>303</onright>
+								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
 							</control>
-							<control type="button" id="303">
+						<!-- 	<control type="button" id="303">
 								<description>Video Fanart button</description>
 								<posx>560</posx>
 								<posy>0</posy>
@@ -1663,7 +1663,7 @@
 								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
-							</control>
+							</control> -->
 							<control type="button" id="311">
 								<description>No Fanart button</description>
 								<posx>745</posx>
@@ -1679,7 +1679,7 @@
 								<font>Simplicity_20_Bold_title</font>
 								<align>center</align>
 								<onclick>Skin.SetString(Home_Custom_Back_Video_Folder,simplicity/background-solid.png)</onclick>
-								<onleft>303</onleft>
+								<onleft>302</onleft>
 								<onright>300</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
@@ -1743,11 +1743,11 @@
 								<align>center</align>
 								<onclick>Skin.Reset(Home_Custom_Back_Music_Folder)</onclick>
 								<onleft>301</onleft>
-								<onright>303</onright>
+								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
 							</control>
-							<control type="button" id="303">
+							<!-- <control type="button" id="303">
 								<description>Video Fanart button</description>
 								<posx>560</posx>
 								<posy>0</posy>
@@ -1766,7 +1766,7 @@
 								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
-							</control>
+							</control> -->
 							<control type="button" id="311">
 								<description>No Fanart button</description>
 								<posx>745</posx>
@@ -1782,7 +1782,7 @@
 								<font>Simplicity_20_Bold_title</font>
 								<align>center</align>
 								<onclick>Skin.SetString(Home_Custom_Back_Music_Folder,simplicity/background-solid.png)</onclick>
-								<onleft>303</onleft>
+								<onleft>302</onleft>
 								<onright>300</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
@@ -1846,11 +1846,11 @@
 								<align>center</align>
 								<onclick>Skin.Reset(Home_Custom_Back_Pictures_Folder)</onclick>
 								<onleft>301</onleft>
-								<onright>303</onright>
+								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
 							</control>
-							<control type="button" id="303">
+							<!-- <control type="button" id="303">
 								<description>Video Fanart button</description>
 								<posx>560</posx>
 								<posy>0</posy>
@@ -1869,7 +1869,7 @@
 								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
-							</control>
+							</control> -->
 							<control type="button" id="311">
 								<description>No Fanart button</description>
 								<posx>745</posx>
@@ -1885,7 +1885,7 @@
 								<font>Simplicity_20_Bold_title</font>
 								<align>center</align>
 								<onclick>Skin.SetString(Home_Custom_Back_Pictures_Folder,simplicity/background-solid.png)</onclick>
-								<onleft>303</onleft>
+								<onleft>302</onleft>
 								<onright>300</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
@@ -1949,11 +1949,11 @@
 								<align>center</align>
 								<onclick>Skin.Reset(Home_Custom_Back_Weather_Folder)</onclick>
 								<onleft>301</onleft>
-								<onright>303</onright>
+								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
 							</control>
-							<control type="button" id="303">
+					<!-- 		<control type="button" id="303">
 								<description>Video Fanart button</description>
 								<posx>560</posx>
 								<posy>0</posy>
@@ -1972,7 +1972,7 @@
 								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
-							</control>
+							</control> -->
 							<control type="button" id="311">
 								<description>No Fanart button</description>
 								<posx>745</posx>
@@ -1988,7 +1988,7 @@
 								<font>Simplicity_20_Bold_title</font>
 								<align>center</align>
 								<onclick>Skin.SetString(Home_Custom_Back_Weather_Folder,simplicity/background-solid.png)</onclick>
-								<onleft>303</onleft>
+								<onleft>302</onleft>
 								<onright>300</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
@@ -2052,11 +2052,11 @@
 								<align>center</align>
 								<onclick>Skin.Reset(Home_Custom_Back_Addons_Folder)</onclick>
 								<onleft>301</onleft>
-								<onright>303</onright>
+								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
 							</control>
-							<control type="button" id="303">
+						<!-- 	<control type="button" id="303">
 								<description>Video Fanart button</description>
 								<posx>560</posx>
 								<posy>0</posy>
@@ -2075,7 +2075,7 @@
 								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
-							</control>
+							</control> -->
 							<control type="button" id="311">
 								<description>No Fanart button</description>
 								<posx>745</posx>
@@ -2091,7 +2091,7 @@
 								<font>Simplicity_20_Bold_title</font>
 								<align>center</align>
 								<onclick>Skin.SetString(Home_Custom_Back_Addons_Folder,simplicity/background-solid.png)</onclick>
-								<onleft>303</onleft>
+								<onleft>302</onleft>
 								<onright>300</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
@@ -2155,11 +2155,11 @@
 								<align>center</align>
 								<onclick>Skin.Reset(Home_Custom_Back_Programs_Folder)</onclick>
 								<onleft>301</onleft>
-								<onright>303</onright>
+								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
 							</control>
-							<control type="button" id="303">
+							<!-- <control type="button" id="303">
 								<description>Video Fanart button</description>
 								<posx>560</posx>
 								<posy>0</posy>
@@ -2178,7 +2178,7 @@
 								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
-							</control>
+							</control> -->
 							<control type="button" id="311">
 								<description>No Fanart button</description>
 								<posx>745</posx>
@@ -2194,7 +2194,7 @@
 								<font>Simplicity_20_Bold_title</font>
 								<align>center</align>
 								<onclick>Skin.SetString(Home_Custom_Back_Programs_Folder,simplicity/background-solid.png)</onclick>
-								<onleft>303</onleft>
+								<onleft>302</onleft>
 								<onright>300</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
@@ -2258,11 +2258,11 @@
 								<align>center</align>
 								<onclick>Skin.Reset(Home_Custom_Back_TVGuide_Folder)</onclick>
 								<onleft>301</onleft>
-								<onright>303</onright>
+								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
 							</control>
-							<control type="button" id="303">
+						<!-- 	<control type="button" id="303">
 								<description>Video Fanart button</description>
 								<posx>560</posx>
 								<posy>0</posy>
@@ -2281,7 +2281,7 @@
 								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
-							</control>
+							</control> -->
 							<control type="button" id="311">
 								<description>No Fanart button</description>
 								<posx>745</posx>
@@ -2297,7 +2297,7 @@
 								<font>Simplicity_20_Bold_title</font>
 								<align>center</align>
 								<onclick>Skin.SetString(Home_Custom_Back_TVGuide_Folder,simplicity/background-solid.png)</onclick>
-								<onleft>303</onleft>
+								<onleft>302</onleft>
 								<onright>300</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
@@ -2361,11 +2361,11 @@
 								<align>center</align>
 								<onclick>Skin.Reset(Home_Custom_Back_Search_Folder)</onclick>
 								<onleft>301</onleft>
-								<onright>303</onright>
+								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
 							</control>
-							<control type="button" id="303">
+						<!-- 	<control type="button" id="303">
 								<description>Video Fanart button</description>
 								<posx>560</posx>
 								<posy>0</posy>
@@ -2384,7 +2384,7 @@
 								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
-							</control>
+							</control> -->
 							<control type="button" id="311">
 								<description>No Fanart button</description>
 								<posx>745</posx>
@@ -2400,7 +2400,7 @@
 								<font>Simplicity_20_Bold_title</font>
 								<align>center</align>
 								<onclick>Skin.SetString(Home_Custom_Back_Search_Folder,simplicity/background-solid.png)</onclick>
-								<onleft>303</onleft>
+								<onleft>302</onleft>
 								<onright>300</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
@@ -2464,11 +2464,11 @@
 								<align>center</align>
 								<onclick>Skin.Reset(Home_Custom_Back_Settings_Folder)</onclick>
 								<onleft>301</onleft>
-								<onright>303</onright>
+								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
 							</control>
-							<control type="button" id="303">
+						<!-- 	<control type="button" id="303">
 								<description>Video Fanart button</description>
 								<posx>560</posx>
 								<posy>0</posy>
@@ -2487,7 +2487,7 @@
 								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
-							</control>
+							</control> -->
 							<control type="button" id="311">
 								<description>No Fanart button</description>
 								<posx>745</posx>
@@ -2503,7 +2503,7 @@
 								<font>Simplicity_20_Bold_title</font>
 								<align>center</align>
 								<onclick>Skin.SetString(Home_Custom_Back_Settings_Folder,simplicity/background-solid.png)</onclick>
-								<onleft>303</onleft>
+								<onleft>302</onleft>
 								<onright>300</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
@@ -2567,11 +2567,11 @@
 								<align>center</align>
 								<onclick>Skin.Reset(Home_Custom_Back_Shutdown_Folder)</onclick>
 								<onleft>301</onleft>
-								<onright>303</onright>
+								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
 							</control>
-							<control type="button" id="303">
+							<!-- <control type="button" id="303">
 								<description>Video Fanart button</description>
 								<posx>560</posx>
 								<posy>0</posy>
@@ -2590,7 +2590,7 @@
 								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
-							</control>
+							</control> -->
 							<control type="button" id="311">
 								<description>No Fanart button</description>
 								<posx>745</posx>
@@ -2606,7 +2606,7 @@
 								<font>Simplicity_20_Bold_title</font>
 								<align>center</align>
 								<onclick>Skin.SetString(Home_Custom_Back_Shutdown_Folder,simplicity/background-solid.png)</onclick>
-								<onleft>303</onleft>
+								<onleft>302</onleft>
 								<onright>300</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
@@ -2670,11 +2670,11 @@
 								<align>center</align>
 								<onclick>Skin.Reset(Home_Custom_Kids_Folder)</onclick>
 								<onleft>301</onleft>
-								<onright>303</onright>
+								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
 							</control>
-							<control type="button" id="303">
+						<!-- 	<control type="button" id="303">
 								<description>Video Fanart button</description>
 								<posx>560</posx>
 								<posy>0</posy>
@@ -2693,7 +2693,7 @@
 								<onright>311</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
-							</control>
+							</control> -->
 							<control type="button" id="311">
 								<description>No Fanart button</description>
 								<posx>745</posx>
@@ -2709,7 +2709,7 @@
 								<font>Simplicity_20_Bold_title</font>
 								<align>center</align>
 								<onclick>Skin.SetString(Home_Custom_Kids_Folder,simplicity/background-solid.png)</onclick>
-								<onleft>303</onleft>
+								<onleft>302</onleft>
 								<onright>300</onright>
 								<onup>304</onup>
 								<ondown>304</ondown>
