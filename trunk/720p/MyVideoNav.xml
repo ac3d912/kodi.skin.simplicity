@@ -55,6 +55,7 @@
 			<width>1280</width>
 			<height>720</height>
 			<texture background="true">$INFO[ListItem.Art(fanart)]</texture>
+			<aspectratio>scale</aspectratio>
 			<include>backgroundfade</include>
 			<fadetime>FanartCrossfadeTime</fadetime>
 			<visible>![Skin.HasSetting(VideoLibraryMovieFanart) | Control.IsVisible(513)]</visible>
@@ -81,6 +82,7 @@
 			<randomize>true</randomize>
 			<fadetime>1000</fadetime>
 			<imagepath background="true">$INFO[ListItem.Path]extrafanart/</imagepath>
+			<aspectratio>scale</aspectratio>
 			<!-- <texture background="true">$INFO[ListItem.Art(fanart)]</texture> -->
 			<include>backgroundfade</include>			
 			<visible>![Skin.HasSetting(VideoLibraryMovieFanart) | Control.IsVisible(513)]</visible>
@@ -104,11 +106,12 @@
 			<width>1280</width>
 			<height>720</height>
 			<texture background="true">$INFO[ListItem.Art(fanart)]</texture>
+			<aspectratio>scale</aspectratio>
 			<include>backgroundfade</include>
 			<fadetime>FanartCrossfadeTime</fadetime>
 			<visible>!Skin.HasSetting(VideoLibraryTVFanart)</visible>
 			<visible>!Skin.HasSetting(Multiple_TV_Fanart)</visible>
-			<visible>Container.Content(TVShows) | [Container.Content(Episodes) + substring(Container.FolderPath,videodb://5/)]</visible>
+			<visible>Container.Content(TVShows) | Container.Content(Episodes)| Container.Content(Seasons)</visible>
 			<visible>!Control.IsVisible(557)</visible>
 			<visible>!Control.IsVisible(558)</visible>
 			<visible>!Control.IsVisible(560)</visible>
@@ -125,7 +128,8 @@
 			<timeperimage>8000</timeperimage>
 			<randomize>true</randomize>
 			<fadetime>1000</fadetime>
-			<imagepath background="true">$INFO[ListItem.Path,,extrafanart/]</imagepath>			
+			<imagepath background="true">$INFO[ListItem.Path,,extrafanart/]</imagepath>		
+			<aspectratio>scale</aspectratio>			
 			<include>backgroundfade</include>			
 			<visible>!Skin.HasSetting(VideoLibraryTVFanart)</visible>
 			<visible>!Skin.HasSetting(Multiple_TV_Fanart)</visible>
@@ -146,7 +150,8 @@
 			<timeperimage>8000</timeperimage>
 			<randomize>true</randomize>
 			<fadetime>1000</fadetime>
-			<imagepath background="true">$INFO[ListItem.Path,,../extrafanart/]</imagepath>			
+			<imagepath background="true">$INFO[ListItem.Path,,../extrafanart/]</imagepath>	
+			<aspectratio>scale</aspectratio>			
 			<include>backgroundfade</include>			
 			<visible>!Skin.HasSetting(VideoLibraryTVFanart)</visible>
 			<visible>!Skin.HasSetting(Multiple_TV_Fanart)</visible>
@@ -167,7 +172,8 @@
 			<timeperimage>8000</timeperimage>
 			<randomize>true</randomize>
 			<fadetime>1000</fadetime>
-			<imagepath background="true">$INFO[ListItem.Path,,extrafanart/]</imagepath>			
+			<imagepath background="true">$INFO[ListItem.Path,,extrafanart/]</imagepath>	
+			<aspectratio>scale</aspectratio>			
 			<include>backgroundfade</include>			
 			<visible>!Skin.HasSetting(VideoLibraryTVFanart)</visible>
 			<visible>!Skin.HasSetting(Multiple_TV_Fanart)</visible>
@@ -188,6 +194,7 @@
 			<height>720</height>
 			<info>Fanart.Image</info>
 			<texture background="true">$INFO[Fanart.Image]</texture>
+			<aspectratio>scale</aspectratio>
 			<include>backgroundfade</include>
 			<fadetime>1000</fadetime>
 			<visible>!Skin.HasSetting(VideoLibraryTVFanart)</visible>
