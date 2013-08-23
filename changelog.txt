@@ -1,5 +1,6 @@
 [B]3.3.0[/B]
 - Added support for Watchlist items
+- Support for Extrafanart
 
 [B]3.2.9[/B]
 - Modified default Home screen to Icons instead of Text
