@@ -1894,7 +1894,7 @@
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<align>Left</align>
-					<label>Director: [COLOR=grey2]$INFO[ListItem.Director][/COLOR]</label>
+					<label>$LOCALIZE[31096]: [COLOR=grey2]$INFO[ListItem.Director][/COLOR]</label>
 					<visible>!IsEmpty(ListItem.Director)</visible>
 				</control>
 				<control type="textbox">
