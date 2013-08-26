@@ -4856,7 +4856,7 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20_Bold_title</font>
-							<label>Supernatural</label>
+							<label>$LOCALIZE[31190]</label>
 							<textcolor>grey2</textcolor>
 							<focusedcolor>white</focusedcolor>
 							<radiowidth>83</radiowidth>
