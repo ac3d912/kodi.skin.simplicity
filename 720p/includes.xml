@@ -1421,6 +1421,7 @@
 		<control type="group">
 			<include>BottomSlide</include>
 			<visible>!Skin.HasSetting(KioskMode)</visible>
+			<visible>!Skin.HasSetting(HideOptionShortcut)</visible>
 			<control type="image">
 				<posx>140</posx>
 				<posy>679</posy>
@@ -1447,6 +1448,7 @@
 		<control type="group">
 			<include>BottomSlide</include>
 			<visible>!Skin.HasSetting(KioskMode)</visible>
+			<visible>!Skin.HasSetting(HideOptionShortcut)</visible>
 			<control type="image">
 				<posx>130</posx>
 				<posy>679</posy>
