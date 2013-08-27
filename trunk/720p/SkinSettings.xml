@@ -260,6 +260,22 @@
 						<width>900</width>
 						<height>40</height>
 						<font>Simplicity_20</font>
+						<label>$LOCALIZE[31192]</label>
+						<textcolor>white</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<radiowidth>83</radiowidth>
+						<radioheight>67</radioheight>
+						<textureradiofocus>simplicity/settings-radiobutton-on.png</textureradiofocus>
+						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
+						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(HideOptionShortcut)</onclick>
+						<selected>Skin.HasSetting(HideOptionShortcut)</selected>
+					</control>
+					<control type="radiobutton" id="106">
+						<width>900</width>
+						<height>40</height>
+						<font>Simplicity_20</font>
 						<label>$LOCALIZE[31384]</label>
 						<textcolor>white</textcolor>
 						<focusedcolor>white</focusedcolor>
@@ -272,7 +288,7 @@
 						<onclick>Skin.ToggleSetting(DisableViewPreview)</onclick>
 						<selected>Skin.HasSetting(DisableViewPreview)</selected>
 					</control>
-					<control type="radiobutton" id="106">
+					<control type="radiobutton" id="107">
 						<width>900</width>
 						<height>40</height>
 						<font>Simplicity_20</font>
@@ -304,7 +320,7 @@
 						<onclick>Skin.ToggleSetting(WindowedTrailer)</onclick>
 						<selected>Skin.HasSetting(WindowedTrailer)</selected>
 					</control>-->
-					<control type="label" id="107">
+					<control type="label" id="108">
 						<width>750</width>
 						<height>45</height>
 						<font>Simplicity_20_Bold_title</font>
@@ -314,7 +330,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="108">
+					<control type="radiobutton" id="109">
 						<posx>0</posx>
 						<posy>0</posy>
 						<width>900</width>
@@ -332,7 +348,7 @@
 						<onclick>Skin.ToggleSetting(TVShowsUsePosters)</onclick>
 						<selected>Skin.HasSetting(TVShowsUsePosters)</selected>
 					</control>
-					<control type="radiobutton" id="109">
+					<control type="radiobutton" id="110">
 						<posx>0</posx>
 						<posy>0</posy>
 						<width>900</width>
@@ -350,7 +366,7 @@
 						<onclick>Skin.ToggleSetting(UseLandscapes)</onclick>
 						<selected>Skin.HasSetting(UseLandscapes)</selected>
 					</control>
-					<control type="radiobutton" id="110">
+					<control type="radiobutton" id="111">
 						<posx>0</posx>
 						<posy>0</posy>
 						<width>900</width>
@@ -368,7 +384,7 @@
 						<onclick>Skin.ToggleSetting(EnableClearartViews)</onclick>
 						<selected>Skin.HasSetting(EnableClearartViews)</selected>
 					</control>
-					<control type="label" id="111">
+					<control type="label" id="112">
 						<width>750</width>
 						<height>45</height>
 						<font>Simplicity_20_Bold_title</font>
@@ -378,7 +394,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="112">
+					<control type="radiobutton" id="113">
 						<posx>0</posx>
 						<posy>0</posy>
 						<width>900</width>
@@ -396,7 +412,7 @@
 						<onclick>Skin.ToggleSetting(Use_Startup_Playlist)</onclick>
 						<selected>Skin.HasSetting(Use_Startup_Playlist)</selected>
 					</control>
-					<control type="button" id="113">
+					<control type="button" id="114">
 						<description>Startup Playlist Path</description>
 						<posx>0</posx>
 						<posy>0</posy>
@@ -412,7 +428,7 @@
 						<onclick>Skin.SetFile(Startup_Playlist_Path,.m3u,t:\playlists\music\)</onclick>
 						<enable>Skin.HasSetting(Use_Startup_Playlist)</enable>
 					</control>
-					<control type="label" id="114">
+					<control type="label" id="115">
 						<width>750</width>
 						<height>45</height>
 						<font>Simplicity_20_Bold_title</font>
@@ -422,7 +438,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="115">
+					<control type="radiobutton" id="116">
 						<posx>0</posx>
 						<posy>0</posy>
 						<width>900</width>
@@ -440,7 +456,7 @@
 						<onclick>Skin.ToggleSetting(ShowBackgroundVideo)</onclick>
 						<selected>!Skin.HasSetting(ShowBackgroundVideo)</selected>
 					</control>
-					<control type="radiobutton" id="116">
+					<control type="radiobutton" id="117">
 						<posx>0</posx>
 						<posy>0</posy>
 						<height>40</height>
