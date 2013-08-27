@@ -2435,7 +2435,7 @@
 		<control type="group">
 			<posx>0</posx>
 			<posy>0</posy>
-			<visible>Control.IsVisible(536) + Container.Content(TVShows) + Skin.HasSetting(EnableClearartViews)</visible>
+			<visible>Control.IsVisible(536) + [Container.Content(TVShows)|Container.Content(Movies)] + Skin.HasSetting(EnableClearartViews)</visible>
 			<include>VisibleFadeEffect</include>
 			<include>Overlay</include>
 			<include>UpOptions</include>
@@ -2446,7 +2446,7 @@
 			<control type="group">
 				<control type="wraplist" id="536">
 					<include>Zoom</include>
-					<visible>Container.Content(TVShows) + Skin.HasSetting(EnableClearartViews)</visible>
+					<visible>[Container.Content(TVShows)|Container.Content(Movies)] + Skin.HasSetting(EnableClearartViews)</visible>
 					<viewtype label="Logo Slide">Wraplist of Posters</viewtype>
 					<posx>-200</posx>
 					<posy>320</posy>
@@ -2502,6 +2502,19 @@
 							<animation effect="zoom" end="140" center="auto" time="200">Focus</animation> 
 							<aspectratio>keep</aspectratio>
 							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
+							<visible>!Skin.HasSetting(LogoSlideLessInfo)</visible>
+						</control>
+						<control type="largeimage">
+							<posx>0</posx>
+							<posy>10</posy> 
+							<width>310</width>
+							<height>145</height>
+							<aligny>center</aligny>
+							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
+							<animation effect="zoom" end="150" center="auto" time="200">Focus</animation> 
+							<aspectratio>keep</aspectratio>
+							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
+							<visible>Skin.HasSetting(LogoSlideLessInfo)</visible>
 						</control>
 						<control type="largeimage">
 							<posx>0</posx>
@@ -2538,6 +2551,7 @@
 						<height>30</height>
 						<align>left</align>
 						<texture>$INFO[ListItem.Rating,flags/stars/,.png]</texture>	
+						<visible>!Skin.HasSetting(LogoSlideLessInfo)</visible>
 					</control>
 					<control type="label">
 						<posx>250</posx>
@@ -2549,7 +2563,8 @@
 						<scroll>false</scroll>
 						<align>left</align>
 						<label>$INFO[ListItem.Year]   |   $INFO[ListItem.Genre]</label>
-						<visible>container.content(TVShows)</visible>
+						<visible>[Container.Content(TVShows)|Container.Content(Movies)]</visible>
+						<visible>!Skin.HasSetting(LogoSlideLessInfo)</visible>
 					</control>
 					<control type="label">
 						<posx>250</posx>
@@ -2573,6 +2588,7 @@
 						<orientation>horizontal</orientation>
 						<include>StudioFlaggingConditionsBig</include>
 						<visible>!Skin.HasSetting(UseColoredFlags)</visible>		
+						<visible>!Skin.HasSetting(LogoSlideLessInfo)</visible>
 					</control>
 					<control type="grouplist">
 						<description>Studio Codec Flagging Images</description>
@@ -2584,6 +2600,7 @@
 						<orientation>horizontal</orientation>
 						<include>StudioFlaggingConditionsBigColor</include>
 						<visible>Skin.HasSetting(UseColoredFlags)</visible>		
+						<visible>!Skin.HasSetting(LogoSlideLessInfo)</visible>
 					</control>
 					<control type="textbox">
 						<description>Description Value The Movie</description>
@@ -2596,6 +2613,7 @@
 						<textcolor>white</textcolor>
 						<label>$INFO[ListItem.Plot]</label>
 						<autoscroll time="2000" delay="3000" repeat="5270">Skin.HasSetting(AutoScroll)</autoscroll>
+						<visible>!Skin.HasSetting(LogoSlideLessInfo)</visible>
 					</control>
 				</control>
 			</control>

@@ -512,13 +512,22 @@
 				</control>
 				<control type="radiobutton" id="210">
 					<textwidth>170</textwidth>
+					<description>Toggle Flags Instead of Plot</description>
+					<include>ButtonCommonValuesSub</include>
+					<label>$LOCALIZE[31191]</label>
+					<onclick>Skin.ToggleSetting(LogoSlideLessInfo)</onclick>
+					<selected>Skin.HasSetting(LogoSlideLessInfo)</selected>
+					<visible>Control.IsVisible(536)</visible>
+				</control>
+				<control type="radiobutton" id="211">
+					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
 					<label>$LOCALIZE[31346]</label>
 					<onclick>Skin.ToggleSetting(NoGridFade)</onclick>
 					<selected>Skin.HasSetting(NoGridFade)</selected>
 					<visible>Control.IsVisible(560)</visible>
 				</control>
-				<control type="radiobutton" id="211">
+				<control type="radiobutton" id="212">
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
 					<label>$LOCALIZE[31336]</label>
@@ -528,7 +537,7 @@
 					<onclick>XBMC.ReloadSkin</onclick>
 					<selected>Skin.HasSetting(VideoUseRecent)</selected>
 				</control>
-				<control type="radiobutton" id="212">
+				<control type="radiobutton" id="213">
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
 					<label>$LOCALIZE[31337]</label>
@@ -538,7 +547,7 @@
 					<onclick>XBMC.ReloadSkin</onclick>
 					<selected>Skin.HasSetting(VideoUseGuide)</selected>
 				</control>
-				<control type="radiobutton" id="213">
+				<control type="radiobutton" id="214">
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
 					<label>$LOCALIZE[31338]</label>
