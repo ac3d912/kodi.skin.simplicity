@@ -120,6 +120,7 @@
 						<include>ButtonCommonValuesSub</include>
 						<label>$LOCALIZE[587]</label>
 					</control>
+					
 					<control type="label" id="200">
 						<width>220</width>
 						<height>45</height>
@@ -469,7 +470,7 @@
 					<label>-</label>
 					<onleft>50</onleft>
 					<onright>9011</onright>
-					<onup>611</onup>
+					<onup>20</onup>
 					<ondown>3</ondown>
 				</control>
 				<control type="button" id="3">
@@ -537,11 +538,27 @@
 					<onleft>50</onleft>
 					<onright>9010</onright>
 					<onup>16</onup>
-					<ondown>610</ondown>
+					<ondown>20</ondown>
+				</control>
+				<control type="togglebutton" id="20">
+					<description>Update library button</description>
+					<hitrect x="0" y="160" w="265" h="40" />
+					<posx>0</posx>
+					<posy>200</posy>
+					<include>ButtonCommonValuesSub</include>				
+					<label>$LOCALIZE[653]</label>
+					<altlabel>$LOCALIZE[13353]</altlabel> 
+					<alttexturefocus border="0,2,0,2">simplicity/view-options-button.png</alttexturefocus>
+					<alttexturenofocus border="0,2,0,2">simplicity/menuitemnf.png</alttexturenofocus>
+					<usealttexture>library.isscanningvideo</usealttexture> 
+					<onleft>50</onleft>
+					<onright>50</onright>
+					<onup>98</onup>
+					<ondown>2</ondown>
 				</control>
 				<control type="label">
 					<posx>-25</posx>
-					<posy>220</posy>
+					<posy>260</posy>
 					<width>260</width>
 					<height>545</height>
 					<font>Simplicity_18</font>
@@ -552,7 +569,7 @@
 				</control>
 				<control type="image">
 					<posx>30</posx>
-					<posy>255</posy>
+					<posy>295</posy>
 					<width>150</width>
 					<height>85</height>
 					<texture>simplicity/views/$INFO[Container.ViewMode]/previewimage.png</texture>

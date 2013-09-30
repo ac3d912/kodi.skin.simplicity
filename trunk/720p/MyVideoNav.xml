@@ -621,7 +621,7 @@
 					<visible>Container.Content(Actors)</visible>
 				</control>
 
-				<control type="button" id="20">
+				<control type="button" id="21">
 					<description>Banner List</description>
 					<width>174</width>
 					<height>95</height>
@@ -635,7 +635,7 @@
 					<visible>Container.Content(TVShows) + !Skin.HasSetting(TVShowsUsePosters)</visible>
 				</control>
 
-				<control type="button" id="21">
+				<control type="button" id="22">
 					<description>Banner Slide</description>
 					<width>174</width>
 					<height>95</height>
@@ -648,7 +648,7 @@
 					<onclick>Container.SetViewMode(507)</onclick>
 					<visible>Container.Content(TVShows) + !Skin.HasSetting(TVShowsUsePosters)</visible>
 				</control>
-				<control type="button" id="22">
+				<control type="button" id="23">
 					<description>Side List</description>
 					<width>174</width>
 					<height>95</height>
@@ -661,7 +661,7 @@
 					<onclick>Container.SetViewMode(559)</onclick>
 					<visible>Container.Content(TVShows) + Skin.HasSetting(EnableClearartViews)</visible>
 				</control>
-				<control type="button" id="23">
+				<control type="button" id="24">
 					<description>Side List</description>
 					<width>174</width>
 					<height>95</height>
@@ -674,7 +674,7 @@
 					<onclick>Container.SetViewMode(564)</onclick>
 					<visible>Container.Content(Movies) | Container.Content(Seasons) | [Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters)]</visible>
 				</control>
-				<control type="button" id="24">
+				<control type="button" id="25">
 					<description>Carousel</description>
 					<width>174</width>
 					<height>95</height>
@@ -687,7 +687,7 @@
 					<onclick>Container.SetViewMode(552)</onclick>
 					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters)]</visible>
 				</control>
-				<control type="button" id="25">
+				<control type="button" id="26">
 					<description>Clear Showcase</description>
 					<width>174</width>
 					<height>95</height>
@@ -701,7 +701,7 @@
 					<visible>Container.Content(TVShows) + Skin.HasSetting(EnableClearartViews)</visible>
 				</control>
 
-				<control type="button" id="26">
+				<control type="button" id="27">
 					<description>Episode List</description>
 					<width>174</width>
 					<height>95</height>
@@ -714,7 +714,7 @@
 					<onclick>Container.SetViewMode(532)</onclick>
 					<visible>Container.Content(Episodes)</visible>
 				</control>
-				<control type="button" id="27">
+				<control type="button" id="28">
 					<description>Episode Slide</description>
 					<width>174</width>
 					<height>95</height>
@@ -727,7 +727,7 @@
 					<onclick>Container.SetViewMode(505)</onclick>
 					<visible>Container.Content(Episodes)</visible>
 				</control>
-				<control type="button" id="28">
+				<control type="button" id="29">
 					<description>Episode Slide</description>
 					<width>174</width>
 					<height>95</height>
@@ -740,7 +740,7 @@
 					<onclick>Container.SetViewMode(560)</onclick>
 					<visible>Container.Content(TVShows)</visible>
 				</control>
-				<control type="button" id="29">
+				<control type="button" id="30">
 					<description>Episode Slide</description>
 					<width>174</width>
 					<height>95</height>
@@ -753,7 +753,7 @@
 					<onclick>Container.SetViewMode(561)</onclick>
 					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TvShowsUsePosters)]</visible>
 				</control>
-				<control type="button" id="30">
+				<control type="button" id="31">
 					<description>Fanart List</description>
 					<width>174</width>
 					<height>95</height>
@@ -766,7 +766,7 @@
 					<onclick>Container.SetViewMode(539)</onclick>
 					<visible>Container.Content(Movies)</visible>
 				</control>
-				<control type="button" id="31">
+				<control type="button" id="32">
 					<description>Fanart Slide</description>
 					<width>174</width>
 					<height>95</height>
@@ -779,7 +779,7 @@
 					<onclick>Container.SetViewMode(504)</onclick>
 					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TvShowsUsePosters)]</visible>
 				</control>
-				<control type="button" id="32">
+				<control type="button" id="33">
 					<description>Landscape Grid</description>
 					<width>174</width>
 					<height>95</height>
@@ -792,7 +792,7 @@
 					<onclick>Container.SetViewMode(557)</onclick>
 					<visible>Container.Content(TVShows) + Skin.HasSetting(UseLandscapes)</visible>
 				</control>
-				<control type="button" id="33">
+				<control type="button" id="34">
 					<description>Info Slide</description>
 					<width>174</width>
 					<height>95</height>
@@ -805,7 +805,7 @@
 					<onclick>Container.SetViewMode(509)</onclick>
 					<visible>Container.Content(Movies)</visible>
 				</control>
-				<control type="button" id="34">
+				<control type="button" id="35">
 					<description>Landscape Panel</description>
 					<width>174</width>
 					<height>95</height>
@@ -818,7 +818,7 @@
 					<onclick>Container.SetViewMode(558)</onclick>
 					<visible>Container.Content(TVShows) + Skin.HasSetting(UseLandscapes)</visible>
 				</control>
-				<control type="button" id="35">
+				<control type="button" id="36">
 					<description>Landscape Slide</description>
 					<width>174</width>
 					<height>95</height>
@@ -832,7 +832,7 @@
 					<visible>Container.Content(TVShows) + Skin.HasSetting(UseLandscapes)</visible>
 				</control>
 
-				<control type="button" id="36">
+				<control type="button" id="37">
 					<description>List</description>
 					<width>174</width>
 					<height>95</height>
@@ -847,7 +847,7 @@
 				</control>
 
 
-				<control type="button" id="37">
+				<control type="button" id="38">
 					<description>Logo Slide</description>
 					<width>174</width>
 					<height>95</height>
@@ -862,7 +862,7 @@
 				</control>
 
 
-				<control type="button" id="38">
+				<control type="button" id="39">
 					<description>Poster Popup</description>
 					<width>174</width>
 					<height>95</height>
@@ -875,7 +875,7 @@
 					<onclick>Container.SetViewMode(540)</onclick>
 					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters) | Container.Content(Seasons)]</visible>
 				</control>
-				<control type="button" id="39">
+				<control type="button" id="40">
 					<description>Poster Slide</description>
 					<width>174</width>
 					<height>95</height>
@@ -889,7 +889,7 @@
 					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters) | Container.Content(Seasons)]</visible>
 				</control>
 
-				<control type="button" id="40">
+				<control type="button" id="41">
 					<description>Screens</description>
 					<width>174</width>
 					<height>95</height>
@@ -903,7 +903,7 @@
 					<visible>Container.Content(Movies)</visible>
 				</control>
 
-				<control type="button" id="41">
+				<control type="button" id="42">
 					<description>Season List</description>
 					<width>174</width>
 					<height>95</height>
@@ -917,7 +917,7 @@
 					<visible>Container.Content(Seasons)</visible>
 				</control>
 
-				<control type="button" id="42">
+				<control type="button" id="43">
 					<description>Thumbnail</description>
 					<width>174</width>
 					<height>95</height>
@@ -932,7 +932,7 @@
 					<visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible> 				
 				</control>
 
-				<control type="button" id="43">
+				<control type="button" id="44">
 					<description>Trailers</description>
 					<width>174</width>
 					<height>95</height>
@@ -946,7 +946,7 @@
 					<visible>substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)</visible> 
 				</control>
 
-				<control type="button" id="44">
+				<control type="button" id="45">
 					<description>Wall</description>
 					<width>174</width>
 					<height>95</height>
@@ -960,7 +960,7 @@
 					<visible>Container.Content(Movies)</visible>
 				</control>
 
-				<control type="button" id="45">
+				<control type="button" id="46">
 					<description>Addons</description>
 					<width>174</width>
 					<height>95</height>
@@ -973,7 +973,7 @@
 					<onclick>Container.SetViewMode(55)</onclick>
 					<visible>SubString(Container.FolderPath,addons)</visible>
 				</control>
-				<control type="button" id="46">
+				<control type="button" id="47">
 					<description>Netflix</description>
 					<width>174</width>
 					<height>95</height>
@@ -986,7 +986,7 @@
 					<onclick>Container.SetViewMode(57)</onclick>
 					<visible>substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible> 			
 				</control>
-				<control type="button" id="47">
+				<control type="button" id="48">
 					<description>Apps</description>
 					<width>174</width>
 					<height>95</height>
@@ -999,7 +999,7 @@
 					<onclick>Container.SetViewMode(58)</onclick>		
 					<visible>SubString(Container.FolderPath,addons) | Window.IsVisible(addonbrowser)</visible>
 				</control>
-				<control type="button" id="48">
+				<control type="button" id="49">
 					<description>Genres</description>
 					<width>174</width>
 					<height>95</height>
@@ -1012,7 +1012,7 @@
 					<onclick>Container.SetViewMode(59)</onclick>		
 					<visible>Container.Content(Genres)</visible>
 				</control>
-				<control type="button" id="49">
+				<control type="button" id="50">
 					<description>Addon Slide</description>
 					<width>174</width>
 					<height>95</height>
@@ -1136,7 +1136,7 @@
 				<label>-</label>
 				<onleft>50</onleft>
 				<onright>9011</onright>
-				<onup>611</onup>
+				<onup>20</onup>
 				<ondown>3</ondown>
 			</control>
 			<control type="button" id="3">
@@ -1204,11 +1204,27 @@
 				<onleft>50</onleft>
 				<onright>9010</onright>
 				<onup>16</onup>
-				<ondown>610</ondown>
+				<ondown>20</ondown>
+			</control>
+			<control type="togglebutton" id="20">
+				<description>Update library button</description>
+				<hitrect x="0" y="160" w="265" h="40" />
+				<posx>0</posx>
+				<posy>200</posy>
+				<include>ButtonCommonValuesSub</include>				
+				<label>$LOCALIZE[653]</label>
+				<altlabel>$LOCALIZE[13353]</altlabel> 
+				<alttexturefocus border="0,2,0,2">simplicity/view-options-button.png</alttexturefocus>
+				<alttexturenofocus border="0,2,0,2">simplicity/menuitemnf.png</alttexturenofocus>
+                <usealttexture>library.isscanningvideo</usealttexture> 
+				<onleft>50</onleft>
+				<onright>50</onright>
+				<onup>98</onup>
+				<ondown>2</ondown>
 			</control>
 			<control type="label">
 				<posx>-25</posx>
-				<posy>220</posy>
+				<posy>260</posy>
 				<width>260</width>
 				<height>545</height>
 				<font>Simplicity_18</font>
@@ -1219,7 +1235,7 @@
 			</control>
 			<control type="image">
 				<posx>30</posx>
-				<posy>255</posy>
+				<posy>295</posy>
 				<width>150</width>
 				<height>85</height>
 				<texture>simplicity/views/$INFO[Container.ViewMode]/previewimage.png</texture>
