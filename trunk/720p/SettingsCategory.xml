@@ -44,7 +44,7 @@
 				<width>260</width>
 				<height>600</height>
 				<itemgap>0</itemgap>
-				<onleft>5</onleft>
+				<onleft>9000</onleft>
 				<onright>5</onright>
 				<onup>3</onup>
 				<ondown>3</ondown>
@@ -77,7 +77,63 @@
 			</control>			
 		</control>
 		<include>BehindDialogFadeOut</include>		
-
+		<control type="group">
+			 <posx>-250</posx>
+			 <animation effect="slide" start="0,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus | ControlGroup(9001).HasFocus | Control.HasFocus(8999) | ControlGroup(9002).HasFocus">Conditional</animation>
+		<animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus | ControlGroup(9001).HasFocus | ControlGroup(9002).HasFocus">WindowClose</animation>
+			 <control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>230</width>
+			<height>720</height>
+			<texture>simplicity/setting-popup.png</texture>
+			<animation effect="slide" start="-26,0" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="-26,0" time="200" delay="200" tween="quadratic" easing="out">WindowClose</animation>
+		</control>
+			<control type="image">
+				<description>LOGO</description>
+				<posx>0</posx>
+				<posy>50</posy>
+				<width>192</width>
+				<height>64</height>
+				<aspectratio>keep</aspectratio>
+				<texture>simplicity/simplicity-logo.png</texture>
+			</control>
+			<control type="grouplist" id="9000">
+				   <posx>0</posx>
+				   <posy>110</posy>
+				   <width>250</width>
+				   <height>600</height>
+				   <onleft>9000</onleft>
+				   <onright>3</onright>
+				   <onup>9000</onup>
+				   <ondown>9000</ondown>
+				   <onback>3</onback>
+				   <itemgap>10</itemgap>
+			   <control type="label" id="200">
+					 <width>250</width>
+					 <height>35</height>
+					 <font>Simplicity_22</font>
+					 <label>$LOCALIZE[31193]</label>
+					 <textcolor>yellow</textcolor>
+					 <align>center</align>
+					 <aligny>center</aligny>
+				</control>
+			   <control type="button" id="20">
+					 <description>Setting level button</description>
+					 <textwidth>235</textwidth>
+					 <include>ButtonCommonValuesSub</include>
+					 <label>$LOCALIZE[10037]</label>
+					 <onclick>SettingsLevelChange</onclick>
+				</control>
+			   <control type="button" id="21">
+					 <description>Reset button</description>
+					 <include>ButtonCommonValuesSub</include>
+					 <label>$LOCALIZE[10035]</label>
+					 <onclick>SettingsReset</onclick>
+				</control>
+			 </control>
+		</control> 
 		<control type="button" id="10">
 			<description>Default Category Button</description>
 			<height>60</height>
