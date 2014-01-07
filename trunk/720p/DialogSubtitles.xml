@@ -123,11 +123,11 @@
 							<texture border="5">simplicity/menuitemnf.png</texture>
 						</control>
 						<control type="image">
-							<posx>15</posx>
-							<posy>11</posy>
+							<left>5</left>
+							<top>11</top>
 							<width>26</width>
 							<height>17</height>
-							<info>Listitem.Thumb</info>
+							<texture>flags/$INFO[ListItem.Thumb]</texture>
 						</control>
 						<control type="label">
 							<posx>50</posx>
@@ -146,7 +146,7 @@
 							<posy>13</posy>
 							<width>20</width>
 							<height>12</height>
-							<texture>icon_close_caption.png</texture>
+							<texture>flags/icon_close_caption.png</texture>
 							<visible>ListItem.property(hearing_imp)</visible>
 						</control>
 						<control type="image">
@@ -154,7 +154,7 @@
 							<posy>13</posy>
 							<width>40</width>
 							<height>12</height>
-							<texture>icon_sync.png</texture>
+							<texture>flags/icon_sync.png</texture>
 							<visible>ListItem.property(sync)</visible>
 						</control>
 						<control type="label">
@@ -194,11 +194,11 @@
 							<visible>Control.HasFocus(120)</visible>
 						</control>
 						<control type="image">
-							<posx>15</posx>
-							<posy>11</posy>
+							<left>5</left>
+							<top>11</top>
 							<width>26</width>
 							<height>17</height>
-							<info>Listitem.Thumb</info>
+							<texture>flags/$INFO[ListItem.Thumb]</texture>
 						</control>
 						<control type="label">
 							<posx>50</posx>
@@ -217,7 +217,7 @@
 							<posy>13</posy>
 							<width>20</width>
 							<height>12</height>
-							<texture>icon_close_caption.png</texture>
+							<texture>flags/icon_close_caption.png</texture>
 							<visible>ListItem.property(hearing_imp)</visible>
 						</control>
 						<control type="image">
@@ -225,7 +225,7 @@
 							<posy>13</posy>
 							<width>40</width>
 							<height>12</height>
-							<texture>icon_sync.png</texture>
+							<texture>flags/icon_sync.png</texture>
 							<visible>ListItem.property(sync)</visible>
 						</control>
 						<control type="label">
