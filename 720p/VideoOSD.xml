@@ -74,9 +74,7 @@
 					<onup>703</onup>
 					<ondown>703</ondown>
 					<onclick>Close</onclick>
-					<onclick>XBMC.RunScript($INFO[Skin.String(SubtitleScript_Path)])</onclick>
-					<enable>Skin.HasSetting(SubtitleDownload_Enable) + !IsEmpty(Skin.String(SubtitleScript_Path))</enable>
-					<animation effect="fade" start="100" end="50" time="100" condition="![Skin.HasSetting(SubtitleDownload_Enable) + !IsEmpty(Skin.String(SubtitleScript_Path))]">Conditional</animation>
+					<onclick>ActivateWindow(SubtitleSearch)</onclick>										
 				</control>
 				<control type="group" id="100">
 					<posx>200</posx>
