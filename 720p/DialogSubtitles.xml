@@ -123,11 +123,11 @@
 							<texture border="5">simplicity/menuitemnf.png</texture>
 						</control>
 						<control type="image">
-							<left>5</left>
+							<left>12</left>
 							<top>11</top>
 							<width>26</width>
 							<height>17</height>
-							<texture>flags/$INFO[ListItem.Thumb]</texture>
+							<texture>flags/$INFO[ListItem.Thumb].gif</texture>
 						</control>
 						<control type="label">
 							<posx>50</posx>
@@ -194,11 +194,11 @@
 							<visible>Control.HasFocus(120)</visible>
 						</control>
 						<control type="image">
-							<left>5</left>
+							<left>12</left>
 							<top>11</top>
 							<width>26</width>
 							<height>17</height>
-							<texture>flags/$INFO[ListItem.Thumb]</texture>
+							<texture>flags/$INFO[ListItem.Thumb].gif</texture>
 						</control>
 						<control type="label">
 							<posx>50</posx>
@@ -288,13 +288,13 @@
 						</control>
 						<control type="label">
 							<description>notification</description>
-							<width min="10" max="260">auto</width>
+							<width min="10" max="360">auto</width>
 							<height>40</height>
-							<font>Simplicity_18</font>
+							<font>Simplicity_22</font>
 							<textcolor>FFFFFFFF</textcolor>
-							<label>$LOCALIZE[SCRIPT655]</label>
+							<label>$LOCALIZE[31004]</label>
 							<aligny>center</aligny>
-							<wrapmultiline>true</wrapmultiline>
+							<wrapmultiline>false</wrapmultiline>
 						</control>
 					</control>
 				</control>
@@ -322,7 +322,7 @@
 					<posy>150</posy>
 					<width>240</width>
 					<height>26</height>
-					<label>[B]$LOCALIZE[SCRIPT760][/B]</label>
+					<label>[B]$LOCALIZE[31005][/B]</label>
 					<font>Simplicity_18</font>
 					<align>center</align>
 					<aligny>top</aligny>
