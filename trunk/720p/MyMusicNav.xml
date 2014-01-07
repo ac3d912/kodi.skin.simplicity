@@ -551,7 +551,7 @@
 					<altlabel>$LOCALIZE[13353]</altlabel> 
 					<alttexturefocus border="0,2,0,2">simplicity/view-options-button.png</alttexturefocus>
 					<alttexturenofocus border="0,2,0,2">simplicity/menuitemnf.png</alttexturenofocus>
-					<usealttexture>library.isscanningvideo</usealttexture> 
+					<usealttexture>library.isscanningmusic</usealttexture> 
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>98</onup>
