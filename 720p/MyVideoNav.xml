@@ -403,13 +403,7 @@
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValuesSub</include>
 					<label>$LOCALIZE[587]</label>
-				</control>
-				<control type="radiobutton" id="17">
-					<description>Flatten</description>
-					<textwidth>170</textwidth>
-					<include>ButtonCommonValuesSub</include>
-					<label>$LOCALIZE[20411]</label>
-				</control>
+				</control>				
 				<control type="radiobutton" id="11">
 					<description>Unlock Shares</description>
 					<textwidth>170</textwidth>
