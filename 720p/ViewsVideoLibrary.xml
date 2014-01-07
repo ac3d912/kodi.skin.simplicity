@@ -2577,11 +2577,12 @@
 						<align>left</align>
 						<label>$INFO[ListItem.Episode] $LOCALIZE[31151], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
 						<visible>container.content(TVShows)</visible>
+						<visible>!Skin.HasSetting(LogoSlideLessInfo)</visible>
 					</control>
 					<control type="grouplist">
 						<description>Studio Codec Flagging Images</description>
 						<posx>246</posx>
-						<posy>190</posy>
+						<posy>-310</posy>
 						<width>150</width>
 						<align>left</align>
 						<itemgap>0</itemgap>
