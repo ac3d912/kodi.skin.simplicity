@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <window type="dialog" id="2901">
 	<onload condition="Skin.HasSetting(FocusSubtitleButton)">SetFocus(703)</onload>
 	<defaultcontrol always="true">603</defaultcontrol>

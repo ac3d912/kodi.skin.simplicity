@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <window id="2002">
 	<defaultcontrol always="true">10</defaultcontrol>
 	<coordinates>
@@ -33,8 +34,7 @@
 			<posy>60</posy>
 			<width>560</width>
 			<height>90</height>
-			<align>left</align>
-			<aligny>center</aligny>
+			<align>left</align>			
 			<label>-</label>
 			<font>Simplicity_24</font>
 			<autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
