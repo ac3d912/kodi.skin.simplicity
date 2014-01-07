@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <window id="2006">
 	<defaultcontrol>-</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
@@ -1029,7 +1030,7 @@
 						<!-- -143 -->
 						<texture>$INFO[Player.FolderPath]/cdart.png</texture>
 					</control>
-					<control type="image">
+		<!-- 			<control type="image">
 						<description>Cd overlay</description>
 						<animation effect="slide" start="-518" end="0" time="1000" tween="cubic" easing="out" delay="600">WindowOpen</animation>
 						<animation type="WindowClose">
@@ -1040,12 +1041,10 @@
 						<animation effect="rotate" end="-360" center="auto" time="2800" loop="true" reversible="false" condition="!Player.Paused">Conditional</animation>
 						<width>250</width>
 						<height>250</height>
-						<posx>59</posx>
-						<!-- 112 -->
-						<posy>427</posy>
-						<!-- -143 -->
+						<posx>59</posx>				
+						<posy>427</posy>				
 						<texture>cd/record-grain.png</texture>
-					</control>
+					</control> -->
 					<control type="image">
 						<description>Cd overlay</description>
 						<animation effect="slide" start="-518" end="0" time="1000" tween="cubic" easing="out" delay="600">WindowOpen</animation>
@@ -1054,12 +1053,12 @@
 							<effect type="fade" start="100" end="0" time="1300"/>
 							<condition type="!Player.Playing"/>
 						</animation>
-						<animation effect="rotate" end="-360" center="auto" time="2000" loop="true" reversible="false" condition="!Player.Paused">Conditional</animation>
-						<width>250</width>
-						<height>250</height>
-						<posx>59</posx>
+						<animation effect="rotate" end="-360" center="auto" time="3000" loop="true" reversible="false" condition="!Player.Paused">Conditional</animation>
+						<width>252</width>
+						<height>252</height>
+						<posx>58</posx>
 						<!-- 112 -->
-						<posy>427</posy>
+						<posy>426</posy>
 						<!-- -143 -->
 						<texture>cd/default.png</texture>
 						<visible>IsEmpty(Control.GetLabel(7656))</visible>
@@ -1089,6 +1088,7 @@
 					<visible>Player.ShowInfo</visible>
 					<animation effect="slide" start="0,0" end="-500,0" delay="0" time="300">hidden</animation>
 					<animation effect="slide" start="-500,0" end="0,0" delay="0" time="300">visible</animation>
+					
 					<control type="image" id="7658">
 						<description>Cd overlay</description>
 						<animation effect="slide" start="-518" end="0" time="900" tween="cubic" easing="out" delay="1000">WindowOpen</animation>
@@ -1107,6 +1107,7 @@
 						<texture>$INFO[Player.FolderPath]/cdart.png</texture>
 						<aspectratio align="bottom">keep</aspectratio>
 					</control>
+					
 					<control type="image">
 						<description>Cd overlay</description>
 						<animation effect="slide" start="-518" end="0" time="900" tween="cubic" easing="out" delay="1000">WindowOpen</animation>
@@ -1126,6 +1127,7 @@
 						<aspectratio align="bottom">keep</aspectratio>
 						<visible>IsEmpty(Control.GetLabel(7658))</visible>
 					</control>
+					
 					<control type="group">
 						<animation type="WindowClose">
 							<effect type="slide" start="0" end="-514" time="800" tween="cubic" easing="in" delay="0"/>
