@@ -636,7 +636,8 @@
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 						<label>$LOCALIZE[31396]</label>
 						<onclick>Skin.ToggleSetting(RemoveWelcome)</onclick>
-						<visible>Skin.HasSetting(RemoveWelcome)</visible>
+						<selected>!Skin.HasSetting(RemoveWelcome)</selected>
+						<!-- <visible>Skin.HasSetting(RemoveWelcome)</visible> -->
 					</control>
 					<control type="radiobutton" id="204">
 						<description>enable weather info</description>
