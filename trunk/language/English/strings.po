@@ -46,6 +46,14 @@ msgstr ""
 
 #empty strings from id 31004 to 31006
 
+msgctxt "#31004"
+msgid "Local Subtitles Available"
+msgstr ""
+
+msgctxt "#31005"
+msgid "Services"
+msgstr ""
+
 msgctxt "#31007"
 msgid "Plugins"
 msgstr ""
