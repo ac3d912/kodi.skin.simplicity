@@ -1960,9 +1960,22 @@
 							<font>Simplicity_20</font>
 							<textcolor>grey2</textcolor>
 							<align>left</align>
-							<label>$LOCALIZE[31150]: $INFO[ListItem.Date]</label>
+							<label>$LOCALIZE[31322]: $INFO[ListItem.Date]</label>
+							<visible>!integergreaterthan(ListItem.LastPlayed,0)</visible>
 						</control>					
-					</control>	
+						<!-- Show Watched Date -->
+						<control type="label">
+							<posx>135</posx>
+							<posy>35</posy>
+							<width>350</width>
+							<height>20</height>
+							<font>Simplicity_20</font>
+							<textcolor>grey2</textcolor>
+							<align>left</align>
+							<label>$LOCALIZE[31488]: $INFO[ListItem.LastPlayed]</label>
+							<visible>integergreaterthan(ListItem.LastPlayed,0)</visible>
+						</control>
+					</control>
 				</itemlayout>
 				<focusedlayout height="210" width="800">
 					<control type="label">
