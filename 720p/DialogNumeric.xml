@@ -141,6 +141,7 @@
 				<aligny>center</aligny>
 				<texturenofocus flipx="true" border="5,25,25,5">KeyboardCornerTopNF.png</texturenofocus>
 				<texturefocus flipx="true" border="5,35,25,5">KeyboardCornerTop.png</texturefocus>
+				<textwidth>120</textwidth>
 				<label>$LOCALIZE[20181]</label>
 				<focusedcolor>black</focusedcolor>
 				<angle>270</angle>
