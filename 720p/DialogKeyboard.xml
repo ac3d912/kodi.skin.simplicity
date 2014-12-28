@@ -27,7 +27,7 @@
 				<aspectratio>stretch</aspectratio>
 				<texture border="20">KeyboardEditArea.png</texture>
 			</control>
-			<control type="label" id="310">
+			<control type="edit" id="312">
 				<description>Edit Text</description>
 				<posx>55</posx>
 				<posy>60</posy>
