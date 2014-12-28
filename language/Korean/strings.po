@@ -1,14 +1,14 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Simplicity
 # Addon id: skin.simplicity
 # Addon Provider: igotdvds|Balinus
 msgid ""
 msgstr ""
-"Project-Id-Version: XBMC Skins\n"
+"Project-Id-Version: Kodi Skins\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/xbmc-skins/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -353,8 +353,8 @@ msgid "Show Background \"Now Playing\" Visualization"
 msgstr "배경에 \"지금 재생중\" 시각화 보기"
 
 msgctxt "#31128"
-msgid "XBMC Lyrics"
-msgstr "XBMC Lyrics"
+msgid "Kodi Lyrics"
+msgstr "Kodi Lyrics"
 
 msgctxt "#31138"
 msgid "SEARCH"
@@ -837,12 +837,12 @@ msgid "Search"
 msgstr "찾기"
 
 msgctxt "#31420"
-msgid "[B][COLOR=white]XBMC has not detected a Disc.[/COLOR][/B][CR][CR]Please Insert a disc into your drive and try again or Cancel"
-msgstr "[B][COLOR=white]XBMC가 디스크를 감지할 수 없습니다.[/COLOR][/B][CR][CR]드라이브에 디스크를 넣고 다시 시도하거나 취소하세요."
+msgid "[B][COLOR=white]Kodi has not detected a Disc.[/COLOR][/B][CR][CR]Please Insert a disc into your drive and try again or Cancel"
+msgstr "[B][COLOR=white]Kodi가 디스크를 감지할 수 없습니다.[/COLOR][/B][CR][CR]드라이브에 디스크를 넣고 다시 시도하거나 취소하세요."
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "로그인할 XBMC 사용자 프로파일을[CR]선택하고 계속하세요"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "로그인할 Kodi 사용자 프로파일을[CR]선택하고 계속하세요"
 
 msgctxt "#31425"
 msgid "Logos"
@@ -929,8 +929,8 @@ msgid "Cinema"
 msgstr "Cinema"
 
 msgctxt "#31477"
-msgid "Restart XBMC"
-msgstr "XBMC 재시작"
+msgid "Restart Kodi"
+msgstr "Kodi 재시작"
 
 msgctxt "#31478"
 msgid "Favorites"

@@ -1,14 +1,14 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Simplicity
 # Addon id: skin.simplicity
 # Addon Provider: igotdvds|Balinus
 msgid ""
 msgstr ""
-"Project-Id-Version: XBMC Skins\n"
+"Project-Id-Version: Kodi Skins\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/xbmc-skins/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -357,8 +357,8 @@ msgid "PATH TO LYRICS SCRIPT"
 msgstr "LYRICS BETİK YOLU"
 
 msgctxt "#31128"
-msgid "XBMC Lyrics"
-msgstr "XBMC Lyrics"
+msgid "Kodi Lyrics"
+msgstr "Kodi Lyrics"
 
 msgctxt "#31146"
 msgid "episodes"
@@ -746,15 +746,15 @@ msgstr "[B]MÜZİK AYARLARINI DÜZENLE, İÇERİK.[/B][CR][CR]Görsel Öge Seç 
 
 msgctxt "#31403"
 msgid "[B][COLOR=yellow]CONFIGURE PICTURE SETTINGS[/COLOR][/B][CR][CR]Set picture listing options · Configure slideshows"
-msgstr "[B]RESİM AYARLARINI DÜZENLE, İÇERİK.[/B][CR][CR]Otomatik Küçük Resim Oluşturmayı ve EXIF etiket okumasını etkinleştir · Slayt Gösterisi Geçiş Efektlerini Ayarla · XBMC ekran görüntüsü klasörünü ayarla"
+msgstr "[B]RESİM AYARLARINI DÜZENLE, İÇERİK.[/B][CR][CR]Otomatik Küçük Resim Oluşturmayı ve EXIF etiket okumasını etkinleştir · Slayt Gösterisi Geçiş Efektlerini Ayarla · Kodi ekran görüntüsü klasörünü ayarla"
 
 msgctxt "#31404"
 msgid "[B][COLOR=yellow]CONFIGURE WEATHER SETTINGS[/COLOR][/B][CR][CR]Set three cities to collect weather information"
-msgstr "[B]HAVA DURUMU AYARLARINI DÜZENLEE, İÇERİK.[/B][CR][CR]XBMC'nin Hava Durumu ekranında göstermek için üç şehir seçin · Bölgesel ayarları değiştir, Sıcaklık birimleri dahil"
+msgstr "[B]HAVA DURUMU AYARLARINI DÜZENLEE, İÇERİK.[/B][CR][CR]Kodi'nin Hava Durumu ekranında göstermek için üç şehir seçin · Bölgesel ayarları değiştir, Sıcaklık birimleri dahil"
 
 msgctxt "#31405"
-msgid "[B][COLOR=yellow]CONFIGURE NETWORK SETTINGS[/COLOR][/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing · Set internet access options"
-msgstr "[B]AĞ AYARLARINI DÜZENLE, İÇERİK.[/B][CR][CR]XBMC Dahili Web Sunucusunu Etkinleştir · Samba Ayarları · UPNP Sunucusu ve İstemcisini Etkinleştir/Yapılandır · Olay Sunucusunu Yapılandır"
+msgid "[B][COLOR=yellow]CONFIGURE NETWORK SETTINGS[/COLOR][/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing · Set internet access options"
+msgstr "[B]AĞ AYARLARINI DÜZENLE, İÇERİK.[/B][CR][CR]Kodi Dahili Web Sunucusunu Etkinleştir · Samba Ayarları · UPNP Sunucusu ve İstemcisini Etkinleştir/Yapılandır · Olay Sunucusunu Yapılandır"
 
 msgctxt "#31406"
 msgid "[B][COLOR=yellow]CONFIGURE SYSTEM SETTINGS[/COLOR][/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls · Set power saving options · [CR]Enable debugging · Setup master lock"
@@ -765,12 +765,12 @@ msgid "[B][COLOR=yellow]CONFIGURE SKIN SETTINGS[/COLOR][/B][CR][CR]Setup the Sim
 msgstr "[B]ARAYÜZ AYARLARINI DEĞİŞTİR, İÇERİK.[/B][CR][CR]Ana menü Tuşlarını Ekle ve Kaldır · Bütün bölümlerin Arkaplanlarını değiştir · Arayüz için betik kısayolları oluştur"
 
 msgctxt "#31420"
-msgid "[B][COLOR=white]XBMC has not detected a Disc.[/COLOR][/B][CR][CR]Please Insert a disc into your drive and try again or Cancel"
-msgstr "[B][COLOR=white]XBMC takılı bir Disk algılayamadı.[/COLOR][/B][CR][CR]Lütfen sürücüye Disk takıp tekrar deneyin veya İptal edin"
+msgid "[B][COLOR=white]Kodi has not detected a Disc.[/COLOR][/B][CR][CR]Please Insert a disc into your drive and try again or Cancel"
+msgstr "[B][COLOR=white]Kodi takılı bir Disk algılayamadı.[/COLOR][/B][CR][CR]Lütfen sürücüye Disk takıp tekrar deneyin veya İptal edin"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "Oturum açıp devam etmek için[CR]XBMC kullanıcı profilinizi seçin"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Oturum açıp devam etmek için[CR]Kodi kullanıcı profilinizi seçin"
 
 msgctxt "#31426"
 msgid "Live TV"

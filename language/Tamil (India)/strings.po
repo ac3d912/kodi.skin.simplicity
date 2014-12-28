@@ -1,14 +1,14 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Simplicity
 # Addon id: skin.simplicity
 # Addon Provider: igotdvds|Balinus
 msgid ""
 msgstr ""
-"Project-Id-Version: XBMC Skins\n"
+"Project-Id-Version: Kodi Skins\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Tamil (India) (http://www.transifex.com/projects/p/xbmc-skins/language/ta_IN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -569,8 +569,8 @@ msgid "Search"
 msgstr "தேடல்"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "உங்கள் XBMC பயனர் விவரங்களை தேர்வுசெய்து[CR]உள்நுழைய தொடரச்செய்யவும்"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "உங்கள் Kodi பயனர் விவரங்களை தேர்வுசெய்து[CR]உள்நுழைய தொடரச்செய்யவும்"
 
 msgctxt "#31426"
 msgid "Live TV"

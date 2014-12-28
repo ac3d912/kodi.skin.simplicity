@@ -1,14 +1,14 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Simplicity
 # Addon id: skin.simplicity
 # Addon Provider: igotdvds|Balinus
 msgid ""
 msgstr ""
-"Project-Id-Version: XBMC Skins\n"
+"Project-Id-Version: Kodi Skins\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/xbmc-skins/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -337,7 +337,7 @@ msgid "Show Background \"Now Playing\" Visualization"
 msgstr "Mostra nello Sfondo Visualizzazioni il nome del file \"In Riproduzione\""
 
 msgctxt "#31128"
-msgid "XBMC Lyrics"
+msgid "Kodi Lyrics"
 msgstr "Testi Xbmc"
 
 msgctxt "#31146"
@@ -837,8 +837,8 @@ msgid "Search"
 msgstr "Cerca"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "Scegli il tuo profilo utente di XBMC[CR]per fare il login e continuare"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Scegli il tuo profilo utente di Kodi[CR]per fare il login e continuare"
 
 msgctxt "#31425"
 msgid "Logos"
@@ -913,8 +913,8 @@ msgid "Theme"
 msgstr "Tema"
 
 msgctxt "#31477"
-msgid "Restart XBMC"
-msgstr "Riavvia XBMC"
+msgid "Restart Kodi"
+msgstr "Riavvia Kodi"
 
 msgctxt "#31478"
 msgid "Favorites"

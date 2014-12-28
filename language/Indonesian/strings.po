@@ -1,14 +1,14 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Simplicity
 # Addon id: skin.simplicity
 # Addon Provider: igotdvds|Balinus
 msgid ""
 msgstr ""
-"Project-Id-Version: XBMC Skins\n"
+"Project-Id-Version: Kodi Skins\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/xbmc-skins/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -237,8 +237,8 @@ msgid "Options"
 msgstr "Opsi"
 
 msgctxt "#31128"
-msgid "XBMC Lyrics"
-msgstr "Lirik XBMC"
+msgid "Kodi Lyrics"
+msgstr "Lirik Kodi"
 
 msgctxt "#31146"
 msgid "episodes"
@@ -477,8 +477,8 @@ msgid "Wednesday"
 msgstr "Rabu"
 
 msgctxt "#31477"
-msgid "Restart XBMC"
-msgstr "Jalankan Ulang XBMC"
+msgid "Restart Kodi"
+msgstr "Jalankan Ulang Kodi"
 
 msgctxt "#31479"
 msgid "Credits"

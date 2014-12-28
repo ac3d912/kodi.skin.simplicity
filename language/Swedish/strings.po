@@ -1,14 +1,14 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Simplicity
 # Addon id: skin.simplicity
 # Addon Provider: igotdvds|Balinus
 msgid ""
 msgstr ""
-"Project-Id-Version: XBMC Skins\n"
+"Project-Id-Version: Kodi Skins\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/xbmc-skins/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -389,8 +389,8 @@ msgid "PATH TO LYRICS SCRIPT"
 msgstr "SÖKVÄG TILL SÅNGTEXTSKRIPT"
 
 msgctxt "#31128"
-msgid "XBMC Lyrics"
-msgstr "XBMC Sångtexter"
+msgid "Kodi Lyrics"
+msgstr "Kodi Sångtexter"
 
 msgctxt "#31146"
 msgid "episodes"
@@ -922,15 +922,15 @@ msgstr "[B]ÄNDRA DINA MUSIKINSTÄLLNINGAR, SOM.[/B][CR][CR] Välja visualiserin
 
 msgctxt "#31403"
 msgid "[B][COLOR=yellow]CONFIGURE PICTURE SETTINGS[/COLOR][/B][CR][CR]Set picture listing options · Configure slideshows"
-msgstr "[B]ÄNDRA DINA BILDINSTÄLLNINGAR, SOM.[/B][CR][CR]Aktivera automatisk minatyrskapning och EXIF taggläsning · Justera bildspelsövergångseffekter · Ange din XBMC skärmdumpsmapp"
+msgstr "[B]ÄNDRA DINA BILDINSTÄLLNINGAR, SOM.[/B][CR][CR]Aktivera automatisk minatyrskapning och EXIF taggläsning · Justera bildspelsövergångseffekter · Ange din Kodi skärmdumpsmapp"
 
 msgctxt "#31404"
 msgid "[B][COLOR=yellow]CONFIGURE WEATHER SETTINGS[/COLOR][/B][CR][CR]Set three cities to collect weather information"
-msgstr "[B]ÄNDRA DINA VÄDERINSTÄLLNINGAR, SOM.[/B][CR][CR]Ange dom tre städer som XBMC visar på väderskärmen · Ändra dina regionala inställningar, inklusive temperaturenheter"
+msgstr "[B]ÄNDRA DINA VÄDERINSTÄLLNINGAR, SOM.[/B][CR][CR]Ange dom tre städer som Kodi visar på väderskärmen · Ändra dina regionala inställningar, inklusive temperaturenheter"
 
 msgctxt "#31405"
-msgid "[B][COLOR=yellow]CONFIGURE NETWORK SETTINGS[/COLOR][/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing · Set internet access options"
-msgstr "[B]ÄNDRA DINA NÄTVERKSINSTÄLLNINGAR, SOM.[/B][CR][CR]Aktivera XBMC interna webbserver · Ange Sambainställningar · Aktivera/Konfigurera UPNP server och klient · Konfigurera händelseservern"
+msgid "[B][COLOR=yellow]CONFIGURE NETWORK SETTINGS[/COLOR][/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing · Set internet access options"
+msgstr "[B]ÄNDRA DINA NÄTVERKSINSTÄLLNINGAR, SOM.[/B][CR][CR]Aktivera Kodi interna webbserver · Ange Sambainställningar · Aktivera/Konfigurera UPNP server och klient · Konfigurera händelseservern"
 
 msgctxt "#31406"
 msgid "[B][COLOR=yellow]CONFIGURE SYSTEM SETTINGS[/COLOR][/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls · Set power saving options · [CR]Enable debugging · Setup master lock"
@@ -941,12 +941,12 @@ msgid "[B][COLOR=yellow]CONFIGURE SKIN SETTINGS[/COLOR][/B][CR][CR]Setup the Sim
 msgstr "[B]ÄNDRA SKALINSTÄLLNINGAR, SOM.[/B][CR][CR]Lägga till och ta bort hemmenyknappar · Ändra bakgrunder för varje sektion · Skapa genvägar till skript i hela skalet"
 
 msgctxt "#31420"
-msgid "[B][COLOR=white]XBMC has not detected a Disc.[/COLOR][/B][CR][CR]Please Insert a disc into your drive and try again or Cancel"
-msgstr "[B][COLOR=white]XBMC har inte upptäckt en disk.[/COLOR][/B][CR][CR]Vänligen sätt i en disk i din läsare och försök igen eller avbryt"
+msgid "[B][COLOR=white]Kodi has not detected a Disc.[/COLOR][/B][CR][CR]Please Insert a disc into your drive and try again or Cancel"
+msgstr "[B][COLOR=white]Kodi har inte upptäckt en disk.[/COLOR][/B][CR][CR]Vänligen sätt i en disk i din läsare och försök igen eller avbryt"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "Välj din XBMC användarprofil[CR]för att logga in  och fortsätta"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Välj din Kodi användarprofil[CR]för att logga in  och fortsätta"
 
 msgctxt "#31425"
 msgid "Logos"
@@ -1037,8 +1037,8 @@ msgid "Theme"
 msgstr "Tema"
 
 msgctxt "#31477"
-msgid "Restart XBMC"
-msgstr "Starta om XBMC"
+msgid "Restart Kodi"
+msgstr "Starta om Kodi"
 
 msgctxt "#31478"
 msgid "Favorites"
