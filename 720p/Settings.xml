@@ -94,9 +94,9 @@
 					</control>
 					<control type="label">
 						<description>header label</description>
-						<posx>145</posx>
+						<posx>70</posx>
 						<posy>210</posy>
-						<width>220</width>
+						<width>150</width>
 						<height>30</height>
 						<font>Simplicity_26</font>
 						<label>$INFO[ListItem.label]</label>
@@ -138,9 +138,9 @@
 					</control>
 					<control type="label">
 						<description>header label</description>
-						<posx>145</posx>
+						<posx>0</posx>
 						<posy>210</posy>
-						<width>250</width>
+						<width>300</width>
 						<height>30</height>
 						<font>Simplicity_30</font>
 						<label>$INFO[ListItem.label]</label>

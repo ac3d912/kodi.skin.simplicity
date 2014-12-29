@@ -705,7 +705,7 @@
 							<posy>110</posy>
 							<height>20</height>
 							<width>210</width>
-							<label>$LOCALIZE[31487]: [COLOR=white]$INFO[Window.Property(RecentEpisode.1.Season)][/COLOR] - Episode: [COLOR=white]$INFO[Window.Property(RecentEpisode.1.Episode)][/COLOR]</label>
+							<label>$LOCALIZE[31487]: [COLOR=white]$INFO[Window.Property(RecentEpisode.1.Season)][/COLOR] - $LOCALIZE[20359]: [COLOR=white]$INFO[Window.Property(RecentEpisode.1.Episode)][/COLOR]</label>
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>Simplicity_18</font>
@@ -950,10 +950,10 @@
 							</control>	
 							<control type="label">
 								<description>Title label</description>
-								<posx>100</posx>
+								<posx>0</posx>
 								<posy>2</posy>
 								<height>20</height>
-								<width>170</width>
+								<width>200</width>
 								<label>$INFO[ListItem.label]</label>
 								<align>center</align>
 								<aligny>center</aligny>
@@ -962,10 +962,10 @@
 							</control>		
 							<control type="label">
 								<description>Title label</description>
-								<posx>100</posx>
+								<posx>0</posx>
 								<posy>96</posy>
 								<height>20</height>
-								<width>170</width>
+								<width>200</width>
 								<label>$INFO[ListItem.label2]</label>
 								<align>center</align>
 								<aligny>center</aligny>
@@ -1025,10 +1025,10 @@
 							</control>	
 							<control type="label">
 								<description>Title label</description>
-								<posx>100</posx>
+								<posx>0</posx>
 								<posy>2</posy>
 								<height>20</height>
-								<width>170</width>
+								<width>200</width>
 								<label>$INFO[ListItem.label]</label>
 								<align>center</align>
 								<aligny>center</aligny>
@@ -1037,10 +1037,10 @@
 							</control>		
 							<control type="label">
 								<description>Title label</description>
-								<posx>100</posx>
+								<posx>0</posx>
 								<posy>96</posy>
 								<height>20</height>
-								<width>170</width>
+								<width>200</width>
 								<label>$INFO[ListItem.label2]</label>
 								<align>center</align>
 								<aligny>center</aligny>

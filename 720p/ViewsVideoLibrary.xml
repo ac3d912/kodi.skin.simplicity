@@ -1933,7 +1933,7 @@
 							<texture>simplicity/banners/$INFO[ListItem.Overlay]</texture>
 						</control>
 						<control type="label">
-							<posx>110</posx>
+							<posx>40</posx>
 							<posy>0</posy>
 							<width>80</width>
 							<height>20</height>
@@ -6729,9 +6729,9 @@
 								<aspectratio>stretch</aspectratio>
 							</control>
 							<control type="label">
-								<posx>220</posx>
+								<posx>20</posx>
 								<posy>230</posy>
-								<width>360</width>
+								<width>400</width>
 								<height>30</height>
 								<font>Simplicity_20</font>
 								<textcolor>grey2</textcolor>
@@ -6967,9 +6967,9 @@
 								<visible>Skin.HasSetting(NoGridFade)</visible>
 							</control>
 							<control type="label">
-								<posx>220</posx>
+								<posx>20</posx>
 								<posy>230</posy>
-								<width>360</width>
+								<width>400</width>
 								<height>30</height>
 								<font>Simplicity_20</font>
 								<textcolor>white</textcolor>

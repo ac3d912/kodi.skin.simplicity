@@ -53,7 +53,7 @@
 						<texture border="5">simplicity/menuitemnf.png</texture>
 					</control>
 					<control type="label">
-						<posx>130</posx>
+						<posx>0</posx>
 						<posy>0</posy>
 						<width>260</width>
 						<height>60</height>
@@ -76,7 +76,7 @@
 						<animation effect="fade" start="100" end="50" time="0">UnFocus</animation>
 					</control>
 					<control type="label">
-						<posx>130</posx>
+						<posx>0</posx>
 						<posy>0</posy>
 						<width>260</width>
 						<height>60</height>
