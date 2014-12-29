@@ -1,3 +1,10 @@
+[B]4.0.0[/B]
+- Updated code for Kodi 14 ("Helix")
+- Added "Watched Date" to TV Episode List
+- Fixed Weather labels
+- Fixed context menu
+- Updated Keyboard with Helix support
+
 [B]3.3.0[/B]
 - Added support for Watchlist items
 - Support for Extrafanart
