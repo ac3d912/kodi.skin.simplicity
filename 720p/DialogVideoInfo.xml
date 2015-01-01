@@ -77,7 +77,6 @@
 					<width>105</width>
 					<align>left</align>
 					<itemgap>0</itemgap>
-					<orientation>horizontal</orientation>
 					<include>StudioFlaggingConditions</include>
 					<visible>!Skin.HasSetting(UseColoredFlags)</visible>		
 				</control>
@@ -88,7 +87,6 @@
 					<width>105</width>
 					<align>left</align>
 					<itemgap>0</itemgap>
-					<orientation>horizontal</orientation>
 					<include>StudioFlaggingConditionsColor</include>
 					<visible>Skin.HasSetting(UseColoredFlags)</visible>		
 				</control>
@@ -99,7 +97,6 @@
 					<width>600</width>
 					<align>left</align>
 					<itemgap>20</itemgap>
-					<orientation>horizontal</orientation>
 					<include>VisibleFadeEffect</include>
 					<include>VideoTypeHackFlaggingConditions</include>
 					<include>VideoCodecFlaggingConditions</include>
@@ -129,13 +126,13 @@
 					<include>VisibleFadeEffect</include>
 					
 					<control type="image">
-							<description>Star</description>
-							<posx>510</posx>
-							<posy>50</posy>
-							<width>150</width>
-							<height>30</height>
-							<texture>$INFO[ListItem.Rating,flags/stars/,.png]</texture>
-						</control>
+                        <description>Star</description>
+                        <posx>510</posx>
+                        <posy>50</posy>
+                        <width>150</width>
+                        <height>30</height>
+                        <texture>$INFO[ListItem.Rating,flags/stars/,.png]</texture>
+                    </control>
 					<control type = "fadelabel">
 						<posx>840</posx>
 						<posy>50</posy>
@@ -172,7 +169,6 @@
 						<align>left</align>
 						<itemgap>0</itemgap>
 						<colordiffuse>80FFFFFF</colordiffuse>
-						<orientation>horizontal</orientation>
 						<include>MPAAFlaggingConditionsShade</include>
 					</control>
 					<control type = "textbox" id = "400">
@@ -331,7 +327,6 @@
 						<align>left</align>
 						<itemgap>0</itemgap>
 						<colordiffuse>80FFFFFF</colordiffuse>
-						<orientation>horizontal</orientation>
 						<include>TVMPAAFlaggingConditions</include>
 					</control>
 					<control type = "textbox" id = "400">
@@ -441,7 +436,6 @@
 						<align>left</align>
 						<itemgap>0</itemgap>
 						<colordiffuse>80FFFFFF</colordiffuse>
-						<orientation>horizontal</orientation>
 						<include>TVMPAAFlaggingConditions</include>
 					</control>
 					<control type = "textbox" id = "400">
@@ -554,7 +548,6 @@
 						<align>left</align>
 						<itemgap>0</itemgap>
 						<colordiffuse>80FFFFFF</colordiffuse>
-						<orientation>horizontal</orientation>
 						<include>TVMPAAFlaggingConditions</include>
 					</control>
 					<control type = "textbox" id = "400">
@@ -664,7 +657,6 @@
 						<align>left</align>
 						<itemgap>0</itemgap>
 						<colordiffuse>80FFFFFF</colordiffuse>
-						<orientation>horizontal</orientation>
 						<include>TVMPAAFlaggingConditions</include>
 					</control>
 					<!-- <control type = "textbox" id = "400">
@@ -775,7 +767,6 @@
 						<align>left</align>
 						<itemgap>0</itemgap>
 						<colordiffuse>80FFFFFF</colordiffuse>
-						<orientation>horizontal</orientation>
 						<include>TVMPAAFlaggingConditions</include>
 					</control>
 					<control type = "textbox" id = "400">
@@ -873,7 +864,6 @@
 						<align>left</align>
 						<itemgap>0</itemgap>
 						<colordiffuse>80FFFFFF</colordiffuse>
-						<orientation>horizontal</orientation>
 						<include>TVMPAAFlaggingConditions</include>
 					</control>
 					<control type = "textbox" id = "400">
