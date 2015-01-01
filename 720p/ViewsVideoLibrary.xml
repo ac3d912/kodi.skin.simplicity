@@ -11681,7 +11681,7 @@
 					<width>350</width>
 					<height>350</height>
 					<aligny>bottom</aligny>
-					<texture background="true" fallback="no-character.png">$INFO[ListItem.Path,,Character.png]</texture>
+					<texture background="true" fallback="no-character.png">$INFO[ListItem.Art(characterart)]</texture>
 					<aspectratio>keep</aspectratio>
 					<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					<fadetime>IconCrossfadeTime</fadetime>
