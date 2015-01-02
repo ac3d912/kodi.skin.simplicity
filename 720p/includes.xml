@@ -3466,11 +3466,10 @@
 		<control type="grouplist">
 			<description>Studio Codec Flagging Images</description>
 			<posx>87</posx>
-			<posy>301</posy>
+			<posy>250</posy>
 			<width>150</width>
 			<align>left</align>
 			<itemgap>0</itemgap>
-			<orientation>horizontal</orientation>
 			<include>StudioFlaggingConditionsBig</include>
 			<include>Zoom</include>		
 			<visible>!Skin.HasSetting(UseColoredFlags)</visible>		
@@ -3478,11 +3477,10 @@
 		<control type="grouplist">
 			<description>Studio Codec Flagging Images</description>
 			<posx>87</posx>
-			<posy>301</posy>
+			<posy>250</posy>
 			<width>150</width>
 			<align>left</align>
 			<itemgap>0</itemgap>
-			<orientation>horizontal</orientation>
 			<include>StudioFlaggingConditionsBigColor</include>
 			<include>Zoom</include>		
 			<visible>Skin.HasSetting(UseColoredFlags)</visible>		
@@ -3503,9 +3501,9 @@
 		</control>
 		<control type="textbox">
 			<posx>90</posx>
-			<posy>400</posy>
+			<posy>350</posy>
 			<width>384</width>
-			<height>168</height>
+			<height>218</height>
 			<font>Simplicity_20</font>
 			<textcolor>white</textcolor>
 			<align>justify</align>

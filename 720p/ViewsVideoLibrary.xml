@@ -8,7 +8,7 @@
 			<posy>0</posy>
 			<include>Overlay</include>
 			<include>UpOptions</include>
-			<include >MovieBreadCrumbs</include>
+			<include>MovieBreadCrumbs</include>
 			<include condition="Skin.HasSetting(VideoUseGuide)">DownOpenTVGuide</include>
 			<include condition="Skin.HasSetting(VideoUseRecent)">DownOpenRecent</include>
 			<include condition="Skin.HasSetting(VideoUseCustom)">DownOpenCustom</include>
@@ -1588,9 +1588,9 @@
 					<control type="group">
 						<posy>30</posy>
 						<include>LeftOptions</include>
-			<include condition="Skin.HasSetting(VideoUseGuide)">RightOpenTVGuide</include>
-			<include condition="Skin.HasSetting(VideoUseRecent)">RightOpenRecent</include>
-			<include condition="Skin.HasSetting(VideoUseCustom)">RightOpenCustom</include>
+			            <include condition="Skin.HasSetting(VideoUseGuide)">RightOpenTVGuide</include>
+            			<include condition="Skin.HasSetting(VideoUseRecent)">RightOpenRecent</include>
+            			<include condition="Skin.HasSetting(VideoUseCustom)">RightOpenCustom</include>
 					</control>
 					<control type="group">
 						<include>Zoom</include>
@@ -4081,6 +4081,7 @@
 				<aspect>scale</aspect>
 				<texture background="true" diffuse="simplicity/list-fanart-diffuse.png" fallback="nothumb.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
 				<fadetime>FanartCrossfadeTime</fadetime>
+				<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 			</control>
 			<control type="label">
 				<description>Title label</description>
@@ -4134,6 +4135,7 @@
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>250</scrolltime>
 				<visible>Container.Content(Movies) | Container.Content(TVShows)</visible>
+				<!--<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>-->
 				<itemlayout height="30" width="150">
 					<control type="label">
 						<description>Title</description>
@@ -4148,6 +4150,22 @@
 						<textcolor>grey2</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
+						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
+					</control>
+					<control type="label">
+						<description>Title</description>
+						<posx>20</posx>
+						<posy>12</posy>
+						<width>250</width>
+						<height>15</height>
+						<label fallback="416">Go To Root ...</label>
+						<align>left</align>
+						<aligny>center</aligny>
+						<font>Simplicity_18</font>
+						<textcolor>grey2</textcolor>
+						<shadowcolor>black</shadowcolor>
+						<scroll>false</scroll>
+						<visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>
 					<control type="image">
 						<posx>313</posx>
@@ -4158,7 +4176,7 @@
 					</control>
 					<control type="label">
 						<description>Title</description>
-						<posx>417</posx>
+						<posx>350</posx>
 						<posy>12</posy>
 						<width>150</width>
 						<height>15</height>
@@ -4201,6 +4219,23 @@
 						<selectedcolor>white</selectedcolor>
 						<shadowcolor>black</shadowcolor>
 						<scroll>true</scroll>
+						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
+					</control>
+					<control type="label">
+						<description>Title</description>
+						<posx>20</posx>
+						<posy>14</posy>
+						<width>250</width>
+						<height>25</height>
+						<label fallback="416">Go To Root ...</label>
+						<align>left</align>
+						<aligny>center</aligny>
+						<font>Simplicity_18</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>white</selectedcolor>
+						<shadowcolor>black</shadowcolor>
+						<scroll>false</scroll>
+						<visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>
 					<control type="textbox" id="400">
 						<description>Description Value for Movies</description>
@@ -4213,9 +4248,10 @@
 						<textcolor>grey2</textcolor>
 						<selectedcolor>grey2</selectedcolor>
 						<shadowcolor>black</shadowcolor>
-						<label>Outline: [COLOR=white]$INFO[ListItem.PlotOutline][/COLOR]</label>
+						<label>$LOCALIZE[207]: [COLOR=white]$INFO[ListItem.PlotOutline][/COLOR]</label>
 						<autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
 						<visible>Container.Content(Movies)</visible>
+						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>
 					<control type="label">
 						<description>Description Value for Movies</description>
@@ -4231,8 +4267,9 @@
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Property(TotalEpisodes)] $LOCALIZE[31146], $INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[31147]</label>
-						<label>Outline: [COLOR=white]$INFO[ListItem.PlotOutline][/COLOR]</label>
+						<label>$LOCALIZE[207]: [COLOR=white]$INFO[ListItem.PlotOutline][/COLOR]</label>
 						<visible>Container.Content(TVShows)</visible>
+						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>
 					<control type="label">
 						<posx>20</posx>
@@ -4247,8 +4284,9 @@
 						<scrollspeed>0</scrollspeed>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Released: [COLOR=white]$INFO[ListItem.Year][/COLOR] | Runtime:  [COLOR=white]$INFO[ListItem.Duration] $LOCALIZE[31149][/COLOR]</label>
+						<label>$LOCALIZE[31249]: [COLOR=white]$INFO[ListItem.Year][/COLOR] | $LOCALIZE[2050]:  [COLOR=white]$INFO[ListItem.Duration] $LOCALIZE[31149][/COLOR]</label>
 						<visible>Container.Content(Movies) + !Skin.HasSetting(NoMinutes)</visible>
+						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>
 					<control type="label">
 						<posx>20</posx>
@@ -4263,8 +4301,9 @@
 						<scrollspeed>0</scrollspeed>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>Released: [COLOR=white]$INFO[ListItem.Year][/COLOR] | Runtime:  [COLOR=white]$INFO[ListItem.Duration][/COLOR]</label>
+						<label>$LOCALIZE[31249]: [COLOR=white]$INFO[ListItem.Year][/COLOR] | $LOCALIZE[2050]:  [COLOR=white]$INFO[ListItem.Duration][/COLOR]</label>
 						<visible>Container.Content(Movies) + Skin.HasSetting(NoMinutes)</visible>
+						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>
 					<control type="label">
 						<posx>20</posx>
@@ -4281,6 +4320,7 @@
 						<aligny>center</aligny>
 						<label>$LOCALIZE[31071]: [COLOR=white]$INFO[ListItem.Year][/COLOR] | $LOCALIZE[31070]:  [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
 						<visible>Container.Content(TVShows)</visible>
+						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>
 					<control type="image">
 						<posx>313</posx>
@@ -4288,10 +4328,11 @@
 						<width>30</width>
 						<height>30</height>
 						<texture background="true">simplicity/banners/$INFO[ListItem.Overlay]</texture> 
+						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>
 					<control type="label">
-						<description>Title</description>
-						<posx>417</posx>
+						<description>Rating</description>
+						<posx>350</posx>
 						<posy>19</posy>
 						<width>150</width>
 						<height>15</height>
@@ -4302,6 +4343,7 @@
 						<textcolor>grey2</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<scroll>false</scroll>
+						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>
 				</focusedlayout>
 			</control>
@@ -4309,6 +4351,7 @@
 			<control type="group">
 				<posx>400</posx>
 				<posy>-170</posy>
+				<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 				<!--<control type="image">
 					<description>Rating value</description>
 					<posx>587</posx>
