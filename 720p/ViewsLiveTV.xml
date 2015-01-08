@@ -4,7 +4,7 @@
 		<control type="group">
 			<visible>Control.IsVisible(560)</visible>
 			<include>VisibleFadeEffect</include>
-			<control type="list" id="560">
+			<control type="list" id="562">
 				<posx>70</posx>
 				<posy>75</posy>
 				<width>760</width>
