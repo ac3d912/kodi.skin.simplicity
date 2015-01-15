@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <fonts>
-	<fontset id="Default" unicode="true">
+	<fontset id="Default">
 		<font>
 			<name>font10</name>
 			<filename>Default.ttf</filename>

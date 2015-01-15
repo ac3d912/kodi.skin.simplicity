@@ -8,7 +8,7 @@
 			<posx>0</posx>
 			<posy>30</posy>
 			<width>1280</width>
-			<height>130</height>
+			<height>145</height>
 			<texture>simplicity/black-back.png</texture>
 		</control>
 		<control type="label" id="10">

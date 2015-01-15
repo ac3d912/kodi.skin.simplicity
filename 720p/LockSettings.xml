@@ -16,7 +16,7 @@
 			<height>570</height>
 			<texture border="40">simplicity/dialog-bg-source.png</texture>
 		</control>
-		<control type="label">
+		<control type="label" id="2">
 			<description>header label</description>
 			<posx>20</posx>
 			<posy>18</posy>

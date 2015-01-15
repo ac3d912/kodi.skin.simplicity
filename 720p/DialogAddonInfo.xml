@@ -361,10 +361,27 @@
 			<control type="group" id="9200">
 				<posx>-13</posx>
 				<posy>280</posy>
+                <control type="button" id="12">
+                    <description>Launch Addon button</description>
+					<posx>15</posx>
+					<posy>0</posy>
+                    <width>257</width>
+                    <height>51</height>
+					<textoffsetx>20</textoffsetx>
+                    <label>518</label>
+                    <align>right</align>
+                    <font>Simplicity_18_Bold</font>
+					<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
+					<texturefocus border="5">simplicity/list-selector.png</texturefocus>
+					<onleft>60</onleft>
+					<onright>60</onright>
+					<onup>10</onup>
+					<ondown>6</ondown>
+                </control>
 				<control type="button" id ="6">
 					<description>Enable Addon button</description>
 					<posx>15</posx>
-					<posy>0</posy>
+					<posy>50</posy>
 					<width>257</width>
 					<height>51</height>
 					<textoffsetx>20</textoffsetx>
@@ -375,13 +392,13 @@
 					<texturefocus border="5">simplicity/list-selector.png</texturefocus>
 					<onleft>60</onleft>
 					<onright>60</onright>
-					<onup>10</onup>
+					<onup>12</onup>
 					<ondown>7</ondown>
 				</control>
 				<control type="button" id="7">
 					<description>Disable Addon button</description>
 					<posx>15</posx>
-					<posy>50</posy>
+					<posy>100</posy>
 					<width>257</width>
 					<height>51</height>
 					<textoffsetx>20</textoffsetx>
@@ -398,7 +415,7 @@
 				<control type="button" id="9">
 					<description>Addon Settings</description>
 					<posx>15</posx>
-					<posy>100</posy>
+					<posy>150</posy>
 					<width>257</width>
 					<height>51</height>
 					<textoffsetx>20</textoffsetx>
@@ -415,7 +432,7 @@
 				<control type="button" id="8">
 					<description>Update Addon button</description>
 					<posx>15</posx>
-					<posy>150</posy>
+					<posy>200</posy>
 					<width>257</width>
 					<height>51</height>
 					<textoffsetx>20</textoffsetx>
@@ -432,7 +449,7 @@
 				<control type="button" id="10">
 					<description>Changelog button</description>
 					<posx>15</posx>
-					<posy>200</posy>
+					<posy>250</posy>
 					<width>257</width>
 					<height>51</height>
 					<textoffsetx>20</textoffsetx>
