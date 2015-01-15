@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <window>
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<controls>
@@ -6,12 +6,12 @@
 		<control type="group">
 			<include>Window_OpenClose_Animation</include>
 			<animation type="WindowOpen" reversible="false">
-				<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" />
-				<effect type="fade" start="0" end="100" time="300" />
+				<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300"/>
+				<effect type="fade" start="0" end="100" time="300"/>
 			</animation>
 			<animation type="WindowClose" reversible="false">
-				<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" />
-				<effect type="fade" start="100" end="0" time="300" />
+				<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300"/>
+				<effect type="fade" start="100" end="0" time="300"/>
 			</animation>
 			<control type="image">
 				<description>Line</description>
@@ -1086,7 +1086,7 @@
 						<ondown>300</ondown>
 					</control>
 					<control type="list" id="9003">
-						<hitrect x="0" y="0" w="0" h="0" />
+						<hitrect x="0" y="0" w="0" h="0"/>
 						<posx>0</posx>
 						<posy>45</posy>
 						<width>900</width>
@@ -3617,19 +3617,6 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label> - $LOCALIZE[31120]</label>
-							<label2>[COLOR=selected]$INFO[Skin.String(HomeScriptButton1_label)][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<onclick>Skin.SetString(HomeScriptButton1_label)</onclick>
-							<visible>Skin.HasSetting(HomeScriptButton1)</visible>
-						</control>
-						<control type="button" id="603">
-							<width>900</width>
-							<height>40</height>
-							<font>Simplicity_20</font>
 							<label> - $LOCALIZE[31121]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(HomeScriptButton1_Path)][/COLOR]</label2>
 							<textcolor>grey2</textcolor>
@@ -3637,6 +3624,21 @@
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<onclick>Skin.SetAddon(HomeScriptButton1_Path,xbmc.python.script)</onclick>
+							<onclick>Skin.SetString(HomeScriptButton1_Image,$INFO[System.AddonIcon($INFO[Skin.String(HomeScriptButton1_Path)])])</onclick>
+							<onclick>Skin.SetString(HomeScriptButton1_label,$INFO[System.AddonTitle($INFO[Skin.String(HomeScriptButton1_Path)])])</onclick>
+							<visible>Skin.HasSetting(HomeScriptButton1)</visible>
+						</control>
+						<control type="button" id="603">
+							<width>900</width>
+							<height>40</height>
+							<font>Simplicity_20</font>
+							<label> - $LOCALIZE[31120]</label>
+							<label2>[COLOR=selected]$INFO[Skin.String(HomeScriptButton1_label)][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+							<onclick>Skin.SetString(HomeScriptButton1_label)</onclick>
 							<visible>Skin.HasSetting(HomeScriptButton1)</visible>
 						</control>
 						<control type="button" id="604">
@@ -3673,19 +3675,6 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label> - $LOCALIZE[31120]</label>
-							<label2>[COLOR=selected]$INFO[Skin.String(HomeScriptButton2_label)][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<onclick>Skin.SetString(HomeScriptButton2_label)</onclick>
-							<visible>Skin.HasSetting(HomeScriptButton2)</visible>
-						</control>
-						<control type="button" id="607">
-							<width>900</width>
-							<height>40</height>
-							<font>Simplicity_20</font>
 							<label> - $LOCALIZE[31121]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(HomeScriptButton2_Path)][/COLOR]</label2>
 							<textcolor>grey2</textcolor>
@@ -3693,6 +3682,21 @@
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<onclick>Skin.SetAddon(HomeScriptButton2_Path,xbmc.python.script)</onclick>
+							<onclick>Skin.SetString(HomeScriptButton2_Image,$INFO[System.AddonIcon($INFO[Skin.String(HomeScriptButton2_Path)])])</onclick>
+							<onclick>Skin.SetString(HomeScriptButton2_label,$INFO[System.AddonTitle($INFO[Skin.String(HomeScriptButton2_Path)])])</onclick>
+							<visible>Skin.HasSetting(HomeScriptButton2)</visible>
+						</control>
+						<control type="button" id="607">
+							<width>900</width>
+							<height>40</height>
+							<font>Simplicity_20</font>
+							<label> - $LOCALIZE[31120]</label>
+							<label2>[COLOR=selected]$INFO[Skin.String(HomeScriptButton2_label)][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+							<onclick>Skin.SetString(HomeScriptButton2_label)</onclick>
 							<visible>Skin.HasSetting(HomeScriptButton2)</visible>
 						</control>
 						<control type="button" id="608">
@@ -3729,19 +3733,6 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label> - $LOCALIZE[31120]</label>
-							<label2>[COLOR=selected]$INFO[Skin.String(HomeScriptButton3_label)][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<onclick>Skin.SetString(HomeScriptButton3_label)</onclick>
-							<visible>Skin.HasSetting(HomeScriptButton3)</visible>
-						</control>
-						<control type="button" id="611">
-							<width>900</width>
-							<height>40</height>
-							<font>Simplicity_20</font>
 							<label> - $LOCALIZE[31121]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(HomeScriptButton3_Path)][/COLOR]</label2>
 							<textcolor>grey2</textcolor>
@@ -3749,6 +3740,21 @@
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<onclick>Skin.SetAddon(HomeScriptButton3_Path,xbmc.python.script)</onclick>
+							<onclick>Skin.SetString(HomeScriptButton3_Image,$INFO[System.AddonIcon($INFO[Skin.String(HomeScriptButton3_Path)])])</onclick>
+							<onclick>Skin.SetString(HomeScriptButton3_label,$INFO[System.AddonTitle($INFO[Skin.String(HomeScriptButton3_Path)])])</onclick>
+							<visible>Skin.HasSetting(HomeScriptButton3)</visible>
+						</control>
+						<control type="button" id="611">
+							<width>900</width>
+							<height>40</height>
+							<font>Simplicity_20</font>
+							<label> - $LOCALIZE[31120]</label>
+							<label2>[COLOR=selected]$INFO[Skin.String(HomeScriptButton3_label)][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+							<onclick>Skin.SetString(HomeScriptButton3_label)</onclick>
 							<visible>Skin.HasSetting(HomeScriptButton3)</visible>
 						</control>
 						<control type="button" id="612">
@@ -3785,19 +3791,6 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label> - $LOCALIZE[31120]</label>
-							<label2>[COLOR=selected]$INFO[Skin.String(HomeScriptButton4_label)][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<onclick>Skin.SetString(HomeScriptButton4_label)</onclick>
-							<visible>Skin.HasSetting(HomeScriptButton4)</visible>
-						</control>
-						<control type="button" id="615">
-							<width>900</width>
-							<height>40</height>
-							<font>Simplicity_20</font>
 							<label> - $LOCALIZE[31121]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(HomeScriptButton4_Path)][/COLOR]</label2>
 							<textcolor>grey2</textcolor>
@@ -3805,6 +3798,21 @@
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<onclick>Skin.SetAddon(HomeScriptButton4_Path,xbmc.python.script)</onclick>
+							<onclick>Skin.SetString(HomeScriptButton4_Image,$INFO[System.AddonIcon($INFO[Skin.String(HomeScriptButton4_Path)])])</onclick>
+							<onclick>Skin.SetString(HomeScriptButton4_label,$INFO[System.AddonTitle($INFO[Skin.String(HomeScriptButton4_Path)])])</onclick>
+							<visible>Skin.HasSetting(HomeScriptButton4)</visible>
+						</control>
+						<control type="button" id="615">
+							<width>900</width>
+							<height>40</height>
+							<font>Simplicity_20</font>
+							<label> - $LOCALIZE[31120]</label>
+							<label2>[COLOR=selected]$INFO[Skin.String(HomeScriptButton4_label)][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+							<onclick>Skin.SetString(HomeScriptButton4_label)</onclick>
 							<visible>Skin.HasSetting(HomeScriptButton4)</visible>
 						</control>
 						<control type="button" id="616">
@@ -3841,19 +3849,6 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label> - $LOCALIZE[31120]</label>
-							<label2>[COLOR=selected]$INFO[Skin.String(HomeScriptButton5_label)][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<onclick>Skin.SetString(HomeScriptButton5_label)</onclick>
-							<visible>Skin.HasSetting(HomeScriptButton5)</visible>
-						</control>
-						<control type="button" id="619">
-							<width>900</width>
-							<height>40</height>
-							<font>Simplicity_20</font>
 							<label> - $LOCALIZE[31121]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(HomeScriptButton5_Path)][/COLOR]</label2>
 							<textcolor>grey2</textcolor>
@@ -3861,6 +3856,21 @@
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<onclick>Skin.SetAddon(HomeScriptButton5_Path,xbmc.python.script)</onclick>
+							<onclick>Skin.SetString(HomeScriptButton5_Image,$INFO[System.AddonIcon($INFO[Skin.String(HomeScriptButton5_Path)])])</onclick>
+							<onclick>Skin.SetString(HomeScriptButton5_label,$INFO[System.AddonTitle($INFO[Skin.String(HomeScriptButton5_Path)])])</onclick>
+							<visible>Skin.HasSetting(HomeScriptButton5)</visible>
+						</control>
+						<control type="button" id="619">
+							<width>900</width>
+							<height>40</height>
+							<font>Simplicity_20</font>
+							<label> - $LOCALIZE[31120]</label>
+							<label2>[COLOR=selected]$INFO[Skin.String(HomeScriptButton5_label)][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+							<onclick>Skin.SetString(HomeScriptButton5_label)</onclick>
 							<visible>Skin.HasSetting(HomeScriptButton5)</visible>
 						</control>
 						<control type="button" id="620">
@@ -3960,19 +3970,6 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label> - $LOCALIZE[31120]</label>
-							<label2>[COLOR=selected]$INFO[Skin.String(HomeAddonButton1_label)][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<onclick>Skin.SetString(HomeAddonButton1_label)</onclick>
-							<visible>Skin.HasSetting(HomeAddonButton1)</visible>
-						</control>
-						<control type="button" id="703">
-							<width>900</width>
-							<height>40</height>
-							<font>Simplicity_20</font>
 							<label> - $LOCALIZE[31133]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(VideoButtonPathScript_1)][/COLOR]</label2>
 							<textcolor>grey2</textcolor>
@@ -3981,6 +3978,21 @@
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<onclick>Skin.SetAddon(VideoButtonPathScript_1,xbmc.python.pluginsource)</onclick>
 							<onclick>Skin.SetString(VideoButtonPath_1,ActivateWindow(videofiles,plugin://$INFO[Skin.String(VideoButtonPathScript_1)]))</onclick>
+							<onclick>Skin.SetString(HomeAddonButton1_Image,$INFO[System.AddonIcon($INFO[Skin.String(VideoButtonPathScript_1)])])</onclick>
+							<onclick>Skin.SetString(HomeAddonButton1_label,$INFO[System.AddonTitle($INFO[Skin.String(VideoButtonPathScript_1)])])</onclick>
+							<visible>Skin.HasSetting(HomeAddonButton1)</visible>
+						</control>
+						<control type="button" id="703">
+							<width>900</width>
+							<height>40</height>
+							<font>Simplicity_20</font>
+							<label> - $LOCALIZE[31120]</label>
+							<label2>[COLOR=selected]$INFO[Skin.String(HomeAddonButton1_label)][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+							<onclick>Skin.SetString(HomeAddonButton1_label)</onclick>
 							<visible>Skin.HasSetting(HomeAddonButton1)</visible>
 						</control>
 						<control type="button" id="704">
@@ -4017,19 +4029,6 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label> - $LOCALIZE[31120]</label>
-							<label2>[COLOR=selected]$INFO[Skin.String(HomeAddonButton2_label)][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<onclick>Skin.SetString(HomeAddonButton2_label)</onclick>
-							<visible>Skin.HasSetting(HomeAddonButton2)</visible>
-						</control>
-						<control type="button" id="707">
-							<width>900</width>
-							<height>40</height>
-							<font>Simplicity_20</font>
 							<label> - $LOCALIZE[31133]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(VideoButtonPathScript_2)][/COLOR]</label2>
 							<textcolor>grey2</textcolor>
@@ -4038,6 +4037,21 @@
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<onclick>Skin.SetAddon(VideoButtonPathScript_2,xbmc.python.pluginsource)</onclick>
 							<onclick>Skin.SetString(VideoButtonPath_2,ActivateWindow(videofiles,plugin://$INFO[Skin.String(VideoButtonPathScript_2)]))</onclick>
+							<onclick>Skin.SetString(HomeAddonButton2_Image,$INFO[System.AddonIcon($INFO[Skin.String(VideoButtonPathScript_2)])])</onclick>
+							<onclick>Skin.SetString(HomeAddonButton2_label,$INFO[System.AddonTitle($INFO[Skin.String(VideoButtonPathScript_2)])])</onclick>
+							<visible>Skin.HasSetting(HomeAddonButton2)</visible>
+						</control>
+						<control type="button" id="707">
+							<width>900</width>
+							<height>40</height>
+							<font>Simplicity_20</font>
+							<label> - $LOCALIZE[31120]</label>
+							<label2>[COLOR=selected]$INFO[Skin.String(HomeAddonButton2_label)][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+							<onclick>Skin.SetString(HomeAddonButton2_label)</onclick>
 							<visible>Skin.HasSetting(HomeAddonButton2)</visible>
 						</control>
 						<control type="button" id="708">
@@ -4074,19 +4088,6 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label> - $LOCALIZE[31120]</label>
-							<label2>[COLOR=selected]$INFO[Skin.String(HomeAddonButton3_label)][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<onclick>Skin.SetString(HomeAddonButton3_label)</onclick>
-							<visible>Skin.HasSetting(HomeAddonButton3)</visible>
-						</control>
-						<control type="button" id="711">
-							<width>900</width>
-							<height>40</height>
-							<font>Simplicity_20</font>
 							<label> - $LOCALIZE[31133]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(VideoButtonPathScript_3)][/COLOR]</label2>
 							<textcolor>grey2</textcolor>
@@ -4095,6 +4096,21 @@
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<onclick>Skin.SetAddon(VideoButtonPathScript_3,xbmc.python.pluginsource)</onclick>
 							<onclick>Skin.SetString(VideoButtonPath_3,ActivateWindow(videofiles,plugin://$INFO[Skin.String(VideoButtonPathScript_3)]))</onclick>
+							<onclick>Skin.SetString(HomeAddonButton3_Image,$INFO[System.AddonIcon($INFO[Skin.String(VideoButtonPathScript_3)])])</onclick>
+							<onclick>Skin.SetString(HomeAddonButton3_label,$INFO[System.AddonTitle($INFO[Skin.String(VideoButtonPathScript_3)])])</onclick>
+							<visible>Skin.HasSetting(HomeAddonButton3)</visible>
+						</control>
+						<control type="button" id="711">
+							<width>900</width>
+							<height>40</height>
+							<font>Simplicity_20</font>
+							<label> - $LOCALIZE[31120]</label>
+							<label2>[COLOR=selected]$INFO[Skin.String(HomeAddonButton3_label)][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+							<onclick>Skin.SetString(HomeAddonButton3_label)</onclick>
 							<visible>Skin.HasSetting(HomeAddonButton3)</visible>
 						</control>
 						<control type="button" id="712">
@@ -4131,19 +4147,6 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label> - $LOCALIZE[31120]</label>
-							<label2>[COLOR=selected]$INFO[Skin.String(HomeAddonButton4_label)][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<onclick>Skin.SetString(HomeAddonButton4_label)</onclick>
-							<visible>Skin.HasSetting(HomeAddonButton4)</visible>
-						</control>
-						<control type="button" id="715">
-							<width>900</width>
-							<height>40</height>
-							<font>Simplicity_20</font>
 							<label> - $LOCALIZE[31133]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(VideoButtonPathScript_4)][/COLOR]</label2>
 							<textcolor>grey2</textcolor>
@@ -4152,6 +4155,21 @@
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<onclick>Skin.SetAddon(VideoButtonPathScript_4,xbmc.python.pluginsource)</onclick>
 							<onclick>Skin.SetString(VideoButtonPath_4,ActivateWindow(videofiles,plugin://$INFO[Skin.String(VideoButtonPathScript_4)]))</onclick>
+							<onclick>Skin.SetString(HomeAddonButton4_Image,$INFO[System.AddonIcon($INFO[Skin.String(VideoButtonPathScript_4)])])</onclick>
+							<onclick>Skin.SetString(HomeAddonButton4_label,$INFO[System.AddonTitle($INFO[Skin.String(VideoButtonPathScript_4)])])</onclick>
+							<visible>Skin.HasSetting(HomeAddonButton4)</visible>
+						</control>
+						<control type="button" id="715">
+							<width>900</width>
+							<height>40</height>
+							<font>Simplicity_20</font>
+							<label> - $LOCALIZE[31120]</label>
+							<label2>[COLOR=selected]$INFO[Skin.String(HomeAddonButton4_label)][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+							<onclick>Skin.SetString(HomeAddonButton4_label)</onclick>
 							<visible>Skin.HasSetting(HomeAddonButton4)</visible>
 						</control>
 						<control type="button" id="716">
@@ -4188,19 +4206,6 @@
 							<width>900</width>
 							<height>40</height>
 							<font>Simplicity_20</font>
-							<label> - $LOCALIZE[31120]</label>
-							<label2>[COLOR=selected]$INFO[Skin.String(HomeAddonButton5_label)][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-							<onclick>Skin.SetString(HomeAddonButton5_label)</onclick>
-							<visible>Skin.HasSetting(HomeAddonButton5)</visible>
-						</control>
-						<control type="button" id="719">
-							<width>900</width>
-							<height>40</height>
-							<font>Simplicity_20</font>
 							<label> - $LOCALIZE[31133]</label>
 							<label2>[COLOR=selected]$INFO[Skin.String(VideoButtonPathScript_5)][/COLOR]</label2>
 							<textcolor>grey2</textcolor>
@@ -4209,6 +4214,21 @@
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<onclick>Skin.SetAddon(VideoButtonPathScript_5,xbmc.python.pluginsource)</onclick>
 							<onclick>Skin.SetString(VideoButtonPath_5,ActivateWindow(videofiles,plugin://$INFO[Skin.String(VideoButtonPathScript_5)]))</onclick>
+							<onclick>Skin.SetString(HomeAddonButton5_Image,$INFO[System.AddonIcon($INFO[Skin.String(VideoButtonPathScript_5)])])</onclick>
+							<onclick>Skin.SetString(HomeAddonButton5_label,$INFO[System.AddonTitle($INFO[Skin.String(VideoButtonPathScript_5)])])</onclick>
+							<visible>Skin.HasSetting(HomeAddonButton5)</visible>
+						</control>
+						<control type="button" id="719">
+							<width>900</width>
+							<height>40</height>
+							<font>Simplicity_20</font>
+							<label> - $LOCALIZE[31120]</label>
+							<label2>[COLOR=selected]$INFO[Skin.String(HomeAddonButton5_label)][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+							<onclick>Skin.SetString(HomeAddonButton5_label)</onclick>
 							<visible>Skin.HasSetting(HomeAddonButton5)</visible>
 						</control>
 						<control type="button" id="720">
@@ -5241,19 +5261,6 @@
 								<width>900</width>
 								<height>40</height>
 								<font>Simplicity_20</font>
-								<label> - $LOCALIZE[31120]</label>
-								<label2>[COLOR=selected]$INFO[Skin.String(HomePictureButton1_label)][/COLOR]</label2>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
-								<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-								<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-								<onclick>Skin.SetString(HomePictureButton1_label)</onclick>
-								<visible>Skin.HasSetting(HomePictureButton1)</visible>
-							</control>
-							<control type="button" id="1103">
-								<width>900</width>
-								<height>40</height>
-								<font>Simplicity_20</font>
 								<label> - $LOCALIZE[31133]</label>
 								<label2>[COLOR=selected]$INFO[Skin.String(PictureButtonPathScript_1)][/COLOR]</label2>
 								<textcolor>grey2</textcolor>
@@ -5262,6 +5269,21 @@
 								<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 								<onclick>Skin.SetAddon(PictureButtonPathScript_1,xbmc.python.pluginsource)</onclick>
 								<onclick>Skin.SetString(PictureButtonPath_1,ActivateWindow(videofiles,plugin://$INFO[Skin.String(PictureButtonPathScript_1)]))</onclick>
+							    <onclick>Skin.SetString(HomePictureButton1_Image,$INFO[System.AddonIcon($INFO[Skin.String(PictureButtonPathScript_1)])])</onclick>
+							    <onclick>Skin.SetString(HomePictureButton1_label,$INFO[System.AddonTitle($INFO[Skin.String(PictureButtonPathScript_1)])])</onclick>
+								<visible>Skin.HasSetting(HomePictureButton1)</visible>
+							</control>
+							<control type="button" id="1103">
+								<width>900</width>
+								<height>40</height>
+								<font>Simplicity_20</font>
+								<label> - $LOCALIZE[31120]</label>
+								<label2>[COLOR=selected]$INFO[Skin.String(HomePictureButton1_label)][/COLOR]</label2>
+								<textcolor>grey2</textcolor>
+								<focusedcolor>white</focusedcolor>
+								<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+								<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+								<onclick>Skin.SetString(HomePictureButton1_label)</onclick>
 								<visible>Skin.HasSetting(HomePictureButton1)</visible>
 							</control>
 							<control type="button" id="1104">
@@ -5297,19 +5319,6 @@
 								<width>900</width>
 								<height>40</height>
 								<font>Simplicity_20</font>
-								<label> - $LOCALIZE[31120]</label>
-								<label2>[COLOR=selected]$INFO[Skin.String(HomePictureButton2_label)][/COLOR]</label2>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
-								<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-								<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-								<onclick>Skin.SetString(HomePictureButton2_label)</onclick>
-								<visible>Skin.HasSetting(HomePictureButton2)</visible>
-							</control>
-							<control type="button" id="1107">
-								<width>900</width>
-								<height>40</height>
-								<font>Simplicity_20</font>
 								<label> - $LOCALIZE[31133]</label>
 								<label2>[COLOR=selected]$INFO[Skin.String(PictureButtonPathScript_2)][/COLOR]</label2>
 								<textcolor>grey2</textcolor>
@@ -5318,6 +5327,21 @@
 								<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 								<onclick>Skin.SetAddon(PictureButtonPathScript_2,xbmc.python.pluginsource)</onclick>
 								<onclick>Skin.SetString(PictureButtonPath_2,ActivateWindow(videofiles,plugin://$INFO[Skin.String(PictureButtonPathScript_2)]))</onclick>
+							    <onclick>Skin.SetString(HomePictureButton2_Image,$INFO[System.AddonIcon($INFO[Skin.String(PictureButtonPathScript_2)])])</onclick>
+							    <onclick>Skin.SetString(HomePictureButton2_label,$INFO[System.AddonTitle($INFO[Skin.String(PictureButtonPathScript_2)])])</onclick>
+								<visible>Skin.HasSetting(HomePictureButton2)</visible>
+							</control>
+							<control type="button" id="1107">
+								<width>900</width>
+								<height>40</height>
+								<font>Simplicity_20</font>
+								<label> - $LOCALIZE[31120]</label>
+								<label2>[COLOR=selected]$INFO[Skin.String(HomePictureButton2_label)][/COLOR]</label2>
+								<textcolor>grey2</textcolor>
+								<focusedcolor>white</focusedcolor>
+								<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+								<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+								<onclick>Skin.SetString(HomePictureButton2_label)</onclick>
 								<visible>Skin.HasSetting(HomePictureButton2)</visible>
 							</control>
 							<control type="button" id="1108">
@@ -5353,19 +5377,6 @@
 								<width>900</width>
 								<height>40</height>
 								<font>Simplicity_20</font>
-								<label> - $LOCALIZE[31120]</label>
-								<label2>[COLOR=selected]$INFO[Skin.String(HomePictureButton3_label)][/COLOR]</label2>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
-								<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-								<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-								<onclick>Skin.SetString(HomePictureButton3_label)</onclick>
-								<visible>Skin.HasSetting(HomePictureButton3)</visible>
-							</control>
-							<control type="button" id="1111">
-								<width>900</width>
-								<height>40</height>
-								<font>Simplicity_20</font>
 								<label> - $LOCALIZE[31133]</label>
 								<label2>[COLOR=selected]$INFO[Skin.String(PictureButtonPathScript_3)][/COLOR]</label2>
 								<textcolor>grey2</textcolor>
@@ -5374,6 +5385,21 @@
 								<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 								<onclick>Skin.SetAddon(PictureButtonPathScript_3,xbmc.python.pluginsource)</onclick>
 								<onclick>Skin.SetString(PictureButtonPath_3,ActivateWindow(videofiles,plugin://$INFO[Skin.String(PictureButtonPathScript_3)]))</onclick>
+							    <onclick>Skin.SetString(HomePictureButton3_Image,$INFO[System.AddonIcon($INFO[Skin.String(PictureButtonPathScript_3)])])</onclick>
+							    <onclick>Skin.SetString(HomePictureButton3_label,$INFO[System.AddonTitle($INFO[Skin.String(PictureButtonPathScript_3)])])</onclick>
+								<visible>Skin.HasSetting(HomePictureButton3)</visible>
+							</control>
+							<control type="button" id="1111">
+								<width>900</width>
+								<height>40</height>
+								<font>Simplicity_20</font>
+								<label> - $LOCALIZE[31120]</label>
+								<label2>[COLOR=selected]$INFO[Skin.String(HomePictureButton3_label)][/COLOR]</label2>
+								<textcolor>grey2</textcolor>
+								<focusedcolor>white</focusedcolor>
+								<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+								<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+								<onclick>Skin.SetString(HomePictureButton3_label)</onclick>
 								<visible>Skin.HasSetting(HomePictureButton3)</visible>
 							</control>
 							<control type="button" id="1112">
@@ -5409,19 +5435,6 @@
 								<width>900</width>
 								<height>40</height>
 								<font>Simplicity_20</font>
-								<label> - $LOCALIZE[31120]</label>
-								<label2>[COLOR=selected]$INFO[Skin.String(HomePictureButton4_label)][/COLOR]</label2>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
-								<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-								<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-								<onclick>Skin.SetString(HomePictureButton4_label)</onclick>
-								<visible>Skin.HasSetting(HomePictureButton4)</visible>
-							</control>
-							<control type="button" id="1115">
-								<width>900</width>
-								<height>40</height>
-								<font>Simplicity_20</font>
 								<label> - $LOCALIZE[31133]</label>
 								<label2>[COLOR=selected]$INFO[Skin.String(PictureButtonPathScript_4)][/COLOR]</label2>
 								<textcolor>grey2</textcolor>
@@ -5430,6 +5443,21 @@
 								<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 								<onclick>Skin.SetAddon(PictureButtonPathScript_4,xbmc.python.pluginsource)</onclick>
 								<onclick>Skin.SetString(PictureButtonPath_4,ActivateWindow(videofiles,plugin://$INFO[Skin.String(PictureButtonPathScript_4)]))</onclick>
+							    <onclick>Skin.SetString(HomePictureButton4_Image,$INFO[System.AddonIcon($INFO[Skin.String(PictureButtonPathScript_4)])])</onclick>
+							    <onclick>Skin.SetString(HomePictureButton4_label,$INFO[System.AddonTitle($INFO[Skin.String(PictureButtonPathScript_4)])])</onclick>
+								<visible>Skin.HasSetting(HomePictureButton4)</visible>
+							</control>
+							<control type="button" id="1115">
+								<width>900</width>
+								<height>40</height>
+								<font>Simplicity_20</font>
+								<label> - $LOCALIZE[31120]</label>
+								<label2>[COLOR=selected]$INFO[Skin.String(HomePictureButton4_label)][/COLOR]</label2>
+								<textcolor>grey2</textcolor>
+								<focusedcolor>white</focusedcolor>
+								<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+								<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+								<onclick>Skin.SetString(HomePictureButton4_label)</onclick>
 								<visible>Skin.HasSetting(HomePictureButton4)</visible>
 							</control>
 							<control type="button" id="1116">
@@ -5465,19 +5493,6 @@
 								<width>900</width>
 								<height>40</height>
 								<font>Simplicity_20</font>
-								<label> - $LOCALIZE[31120]</label>
-								<label2>[COLOR=selected]$INFO[Skin.String(HomePictureButton5_label)][/COLOR]</label2>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
-								<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-								<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-								<onclick>Skin.SetString(HomePictureButton5_label)</onclick>
-								<visible>Skin.HasSetting(HomePictureButton5)</visible>
-							</control>
-							<control type="button" id="1119">
-								<width>900</width>
-								<height>40</height>
-								<font>Simplicity_20</font>
 								<label> - $LOCALIZE[31133]</label>
 								<label2>[COLOR=selected]$INFO[Skin.String(PictureButtonPathScript_5)][/COLOR]</label2>
 								<textcolor>grey2</textcolor>
@@ -5486,6 +5501,21 @@
 								<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 								<onclick>Skin.SetAddon(PictureButtonPathScript_5,xbmc.python.pluginsource)</onclick>
 								<onclick>Skin.SetString(PictureButtonPath_5,ActivateWindow(videofiles,plugin://$INFO[Skin.String(PictureButtonPathScript_5)]))</onclick>
+							    <onclick>Skin.SetString(HomePictureButton5_Image,$INFO[System.AddonIcon($INFO[Skin.String(PictureButtonPathScript_5)])])</onclick>
+							    <onclick>Skin.SetString(HomePictureButton5_label,$INFO[System.AddonTitle($INFO[Skin.String(PictureButtonPathScript_5)])])</onclick>
+								<visible>Skin.HasSetting(HomePictureButton5)</visible>
+							</control>
+							<control type="button" id="1119">
+								<width>900</width>
+								<height>40</height>
+								<font>Simplicity_20</font>
+								<label> - $LOCALIZE[31120]</label>
+								<label2>[COLOR=selected]$INFO[Skin.String(HomePictureButton5_label)][/COLOR]</label2>
+								<textcolor>grey2</textcolor>
+								<focusedcolor>white</focusedcolor>
+								<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+								<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+								<onclick>Skin.SetString(HomePictureButton5_label)</onclick>
 								<visible>Skin.HasSetting(HomePictureButton5)</visible>
 							</control>
 							<control type="button" id="1120">

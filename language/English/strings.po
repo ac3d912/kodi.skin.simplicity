@@ -495,7 +495,7 @@ msgid "Enable Custom Menu Item"
 msgstr ""
 
 msgctxt "#31135"
-msgid "Enable Custom PICTURE Addon Button"
+msgid "Enable Custom Picture Addon Button"
 msgstr ""
 
 msgctxt "#31136"
