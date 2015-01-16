@@ -504,15 +504,16 @@
 				<visible>Container.Content(Songs)</visible>
 				<itemlayout height="80" width="500">
 					<control type="group">
-						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
+					    <visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						<posx>65</posx>
 						<control type="label">
-							<posx>110</posx>
+							<posx>0</posx>
 							<posy>0</posy>
 							<width>80</width>
 							<height>20</height>
 							<font>Simplicity_60</font>
 							<textcolor>grey4</textcolor>
+						    <selectedcolor>yellow</selectedcolor>
 							<align>right</align>
 							<label>$INFO[ListItem.TrackNumber]</label>
 						</control>
@@ -523,6 +524,7 @@
 							<height>30</height>
 							<font>Simplicity_24</font>
 							<textcolor>grey4</textcolor>
+						    <selectedcolor>yellow</selectedcolor>
 							<align>left</align>
 							<label>$INFO[ListItem.title]</label>
 						</control>	
@@ -533,6 +535,7 @@
 							<height>20</height>
 							<font>Simplicity_20</font>
 							<textcolor>grey2</textcolor>
+						    <selectedcolor>yellow</selectedcolor>
 							<align>left</align>
 							<label>$LOCALIZE[31249]: $INFO[ListItem.Year]</label>
 						</control>					
@@ -677,6 +680,7 @@
 					<textcolor>white</textcolor>
 					<align>left</align>
 					<label>$INFO[ListItem.Property(Album_Description)]</label>
+                    <autoscroll time="2000" delay="3000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
 				</control>
 			</control>
 		</control>
@@ -1250,17 +1254,17 @@
 					<align>left</align>
 					<label>$INFO[ListItem.Property(Artist_Description)]</label>
 				</control>
-							<control type="image">
-								<posx>90</posx>
-								<posy>490</posy> 
-								<width>400</width>
-								<height>155</height>
-								<aligny>center</aligny>
-								<texture>$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem.Artist,,\logo.png]</texture>
-								<aspectratio>keep</aspectratio>
-								<include>VisibleFadeEffect</include>
-								<fadetime>IconCrossfadeTime</fadetime>
-							</control>
+                <control type="image">
+                    <posx>90</posx>
+                    <posy>490</posy> 
+                    <width>400</width>
+                    <height>155</height>
+                    <aligny>center</aligny>
+                    <texture>$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem.Artist,,\logo.png]</texture>
+                    <aspectratio>keep</aspectratio>
+                    <include>VisibleFadeEffect</include>
+                    <fadetime>IconCrossfadeTime</fadetime>
+                </control>
 			</control>
 		</control>
 	</include>
