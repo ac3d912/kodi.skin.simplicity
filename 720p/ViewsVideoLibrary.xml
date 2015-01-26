@@ -1961,7 +1961,7 @@
 							<textcolor>grey2</textcolor>
 							<align>left</align>
 							<label>$LOCALIZE[31322]: $INFO[ListItem.Date]</label>
-							<visible>!integergreaterthan(ListItem.LastPlayed,0)</visible>
+							<visible>!stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
 						</control>					
 						<!-- Show Watched Date -->
 						<control type="label">
@@ -1973,7 +1973,7 @@
 							<textcolor>grey2</textcolor>
 							<align>left</align>
 							<label>$LOCALIZE[31488]: $INFO[ListItem.LastPlayed]</label>
-							<visible>integergreaterthan(ListItem.LastPlayed,0)</visible>
+							<visible>stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
 						</control>
 					</control>
 				</itemlayout>
