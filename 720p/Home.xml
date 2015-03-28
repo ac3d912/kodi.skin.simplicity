@@ -1943,7 +1943,7 @@
 					</control>
 					<control type="label">
 						<description>Title label</description>
-						<posx>90</posx>
+						<posx>0</posx>
 						<posy>120</posy>
 						<height>20</height>
 						<width>190</width>
@@ -1955,7 +1955,7 @@
 					</control>
 					<control type="label">
 						<description>Title label</description>
-						<posx>90</posx>
+						<posx>0</posx>
 						<posy>140</posy>
 						<height>20</height>
 						<width>190</width>
@@ -1978,7 +1978,7 @@
 						</control>
 						<control type="label">
 							<description>Title label</description>
-							<posx>90</posx>
+							<posx>0</posx>
 							<posy>120</posy>
 							<height>20</height>
 							<width>190</width>
@@ -1990,7 +1990,7 @@
 						</control>
 						<control type="label">
 							<description>Title label</description>
-							<posx>90</posx>
+							<posx>0</posx>
 							<posy>140</posy>
 							<height>20</height>
 							<width>190</width>

@@ -1273,9 +1273,9 @@
 								<texture>simplicity/weather-tab.png</texture>
 							</control>
 							<control type="label">
-								<posx>74</posx>
+								<posx>0</posx>
 								<posy>-9</posy>
-								<width>200</width>
+								<width>150</width>
 								<height>40</height>
 								<font>Simplicity_18_Bold</font>
 								<textcolor>grey2</textcolor>
@@ -1291,7 +1291,7 @@
 								<width>100</width>
 								<height>100</height>
 								<aspectratio>stretch</aspectratio>
-								<texture>$INFO[ListItem.Art(poster)]</texture>
+								<texture>$INFO[ListItem.Art(thumb)]</texture>
 								<animation effect="fade" time="0" start="100" end="30" condition="Window.IsActive(Home)">Conditional</animation>
 							</control>
 						</itemlayout>
@@ -1306,9 +1306,9 @@
 									<texture>simplicity/weather-tab.png</texture>
 								</control>
 								<control type="label">
-									<posx>74</posx>
+									<posx>0</posx>
 									<posy>-9</posy>
-									<width>200</width>
+									<width>150</width>
 									<height>40</height>
 									<font>Simplicity_18_Bold</font>
 									<textcolor>white</textcolor>
@@ -1318,9 +1318,9 @@
 									<visible>Control.HasFocus(8011)</visible>
 								</control>
 								<control type="label">
-									<posx>74</posx>
+									<posx>0</posx>
 									<posy>-9</posy>
-									<width>200</width>
+									<width>150</width>
 									<height>40</height>
 									<font>Simplicity_18_Bold</font>
 									<textcolor>grey2</textcolor>
@@ -1336,7 +1336,7 @@
 									<width>100</width>
 									<height>100</height>
 									<aspectratio>stretch</aspectratio>
-									<texture>$INFO[ListItem.Art(poster)]</texture>
+									<texture>$INFO[ListItem.Art(thumb)]</texture>
 									<animation effect="fade" time="0" start="100" end="30" condition="Window.IsActive(Home)">Conditional</animation>
 									<visible>!Control.HasFocus(8011)</visible>
 								</control>
@@ -1346,7 +1346,7 @@
 									<width>100</width>
 									<height>100</height>
 									<aspectratio>stretch</aspectratio>
-									<texture>$INFO[ListItem.Art(poster)]</texture>
+									<texture>$INFO[ListItem.Art(thumb)]</texture>
 									<visible>Control.HasFocus(8011)</visible>
 								</control>
 							</control>

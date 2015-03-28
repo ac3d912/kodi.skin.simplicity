@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<includes>
 <window id="1000">
 	<defaultcontrol always="true">72</defaultcontrol>
 	<description>Movie Trailer</description>
@@ -53,3 +54,4 @@
 		</control>		
 	</controls>	
 </window>
+</includes>
