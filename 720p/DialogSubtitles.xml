@@ -47,7 +47,7 @@
 					<width>550</width>
 					<height>30</height>
 					<font>Simplicity_35</font>
-					<label>[B]XBMC SUBTITLES[/B]</label>
+					<label>[B]KODI $LOCALIZE[287][/B]</label>
 					<align>right</align>
 					<aligny>center</aligny>
 					<textcolor>FFFFFFFF</textcolor>

@@ -246,7 +246,7 @@
 					<font>Simplicity_20</font>
 				</control>
 				<control type="label" id="52">
-					<description>XBMC XBE BUILD Version</description>
+					<description>KODI XBE BUILD Version</description>
 					<posx>0</posx>
 					<posy>400</posy>
 					<width>700</width>
