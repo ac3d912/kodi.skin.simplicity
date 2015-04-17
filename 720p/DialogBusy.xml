@@ -3,7 +3,6 @@
 	<animation effect="fade" time="100">WindowOpen</animation>
 	<animation effect="fade" time="200">WindowClose</animation>
 	<coordinates>
-		<system>1</system>
 		<posx>510</posx>
 		<posy>600</posy>
 	</coordinates>

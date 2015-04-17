@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="503">
-	<defaultcontrol allways="true">6</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
+	<defaultcontrol always="true">6</defaultcontrol>
+	<allowoverlay>false</allowoverlay>
 	<controls>
 		<include>CommonMusicBackground</include>
 		<include>CommonMediaPlayingBackground</include>
@@ -104,7 +104,6 @@
 					<align>center</align>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<pagecontrol>-</pagecontrol>
 					<label>$INFO[Container(50).ListItem.Title,[COLOR=yellow]$LOCALIZE[556]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.Artist,[COLOR=yellow]$LOCALIZE[557]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.Album,[COLOR=yellow]$LOCALIZE[558]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.Duration,[COLOR=yellow]$LOCALIZE[555]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.TrackNumber,[COLOR=yellow]$LOCALIZE[554]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.Genre,[COLOR=yellow]$LOCALIZE[515]:[/COLOR] ,[CR]]</label>
 				</control>
 			</control>
@@ -130,7 +129,6 @@
 					<align>center</align>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<pagecontrol>-</pagecontrol>
 					<label>$INFO[Container(100).ListItem.Title,[COLOR=yellow]$LOCALIZE[556]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.Artist,[COLOR=yellow]$LOCALIZE[557]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.Album,[COLOR=yellow]$LOCALIZE[558]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.Duration,[COLOR=yellow]$LOCALIZE[555]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.TrackNumber,[COLOR=yellow]$LOCALIZE[554]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.Genre,[COLOR=yellow]$LOCALIZE[515]:[/COLOR] ,[CR]]</label>
 				</control>
 			</control>

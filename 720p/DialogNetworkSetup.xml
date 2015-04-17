@@ -3,7 +3,6 @@
 	<defaultcontrol>10</defaultcontrol>
 	<zorder>5</zorder>
 	<coordinates>
-		<system>3</system>
 		<posx>240</posx>
 		<posy>155</posy>
 	</coordinates>
@@ -42,7 +41,7 @@
 			<texturefocus>simplicity/menuitem-focus.png</texturefocus>
 			<texturenofocus>simplicity/menuitemnf.png</texturenofocus>
 			<textoffsetx>12</textoffsetx>
-			<reverse>yes</reverse>
+			<reverse>true</reverse>
 			<label>$LOCALIZE[1008]</label>
 			<onup>18</onup>
 			<ondown>11</ondown>

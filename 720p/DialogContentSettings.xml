@@ -2,7 +2,6 @@
 <window id="132">
 	<defaultcontrol always="true">3</defaultcontrol>
 	<coordinates>
-		<system>1</system>
 		<posx>240</posx>
 		<posy>20</posy>
 	</coordinates>
@@ -54,7 +53,7 @@
 				<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
 				<font>-</font>
 				<label>-</label>
-				<reverse>yes</reverse>
+				<reverse>true</reverse>
 				<onup>28</onup>
 				<ondown>5</ondown>
 				<onleft>60</onleft>
@@ -273,8 +272,8 @@
 				<radioheight>67</radioheight>
 				<texturefocus>simplicity/row-small.png</texturefocus>
 				<texturenofocus>REMOVEradiobutton-nofocus.png</texturenofocus>
-				<textureradiofocus>simplicity/settings-radiobutton-on.png</textureradiofocus>
-				<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
+				<textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
+				<textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
 			</control>
 			<control type="group" id="9001">
 				<posy>615</posy>

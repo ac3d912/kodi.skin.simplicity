@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<includes>
 <window id="1000">
 	<defaultcontrol always="true">72</defaultcontrol>
 	<description>Movie Trailer</description>
-	<allowoverlay>no</allowoverlay>
+	<allowoverlay>false</allowoverlay>
 	<coordinates>
-		<system>1</system>
 		<posx>390</posx>
 		<posy>160</posy>
 	</coordinates>
 
 	<!--
 	<include>dialogeffect</include>
-	
--->
-
 
 	<fullscreenonmoviestart>false</fullscreenonmoviestart>	
+-->
 	<controls>
 		<!--
 		
@@ -54,4 +50,3 @@
 		</control>		
 	</controls>	
 </window>
-</includes>

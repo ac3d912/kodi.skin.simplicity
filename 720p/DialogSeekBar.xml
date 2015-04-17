@@ -4,7 +4,6 @@
 	<visible>!Control.HasFocus(9000) + [VideoPlayer.IsFullscreen + [Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]]</visible>
 
 	<coordinates>
-		<system>1</system>
 		<posx>0</posx>
 		<posy>650</posy>
 	</coordinates>

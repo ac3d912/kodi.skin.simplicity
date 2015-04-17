@@ -1060,7 +1060,6 @@
 						<content>
 							<include condition="Skin.HasSetting(UseWatchlist)">WatchlistEpisodes_info</include>
 							<include condition="!Skin.HasSetting(UseWatchlist)">RecentEpisodes_info</include>
-							
 						</content>
 					</control>				
 				</control>

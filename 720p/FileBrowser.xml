@@ -2,9 +2,8 @@
 <window id="126">
 	<defaultcontrol always="true">450</defaultcontrol>
 	<zorder>5</zorder>
-	<allowoverlay>no</allowoverlay>
+	<allowoverlay>false</allowoverlay>
 	<coordinates>
-		<system>1</system>
 		<posx>0</posx>
 		<posy>0</posy>
 	</coordinates>

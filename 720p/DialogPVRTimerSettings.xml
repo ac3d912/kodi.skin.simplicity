@@ -2,7 +2,6 @@
 <window>
 	<defaultcontrol>29</defaultcontrol>
 	<coordinates>
-		<system>1</system>
 		<posx>275</posx>
 		<posy>30</posy>
 	</coordinates>
@@ -131,7 +130,7 @@
 			<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
 			<font>font13</font>
 			<aligny>center</aligny>
-			<reverse>yes</reverse>
+			<reverse>true</reverse>
 		</control>
 		<control type="sliderex" id="13">
 			<description>Default Slider</description>

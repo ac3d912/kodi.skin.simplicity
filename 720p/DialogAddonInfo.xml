@@ -2,7 +2,6 @@
 <window id="146">
 	<defaultcontrol always="true">9200</defaultcontrol>
 	<coordinates>
-		<system>1</system>
 		<posx>185</posx>
 		<posy>60</posy>
 	</coordinates>

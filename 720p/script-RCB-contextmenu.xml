@@ -3,7 +3,6 @@
 	<defaultcontrol>5110</defaultcontrol>
 	<include>dialogeffect</include>
 	<coordinates>
-		<system>1</system>
 		<posx>0</posx>
 		<posy>0</posy>
 		<origin x="485" y="120" />
@@ -51,7 +50,6 @@
 		<control type="button" id="5110">
 			<description>button import games</description>
 			<posx>34</posx>
-			<posy>-</posy>
 			<width>247</width>
 			<height>38</height>
 			<font>fontContextMenu</font>

@@ -4,7 +4,6 @@
 	<animation effect="slide" start="0,-80" end="0,110" time="200">WindowOpen</animation>
 	<animation effect="slide" start="0,110" end="0,-80" time="200">WindowClose</animation>
 	<coordinates>
-		<system>1</system>
 		<posx>430</posx>
 		<posy>-80</posy>
 	</coordinates>
@@ -45,8 +44,6 @@
 			<width>350</width>
 			<height>20</height>
 			<aligny>center</aligny>
-			<texturefocus>-</texturefocus>
-			<texturenofocus>-</texturenofocus>
 			<texturesliderbar>osd_slider_bg_2.png</texturesliderbar>
 			<textureslidernib>osd_slider.png</textureslidernib>
 			<textureslidernibfocus>osd_slider.png</textureslidernibfocus>

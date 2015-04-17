@@ -219,7 +219,7 @@
 					<scrollspeed>0</scrollspeed>
 					<align>left</align>
 					<label>$LOCALIZE[31162]:  [COLOR=grey2]$INFO[ListItem.Premiered][/COLOR]</label>
-				</control>-->
+				</control>
 				<control type="image">
 					<posx>390</posx>
 					<posy>516</posy>
@@ -378,7 +378,7 @@
 						<width>252</width>
 						<height>139</height>
 						<align>right</align>
-						<aspect>stretch</aspect>
+						<aspectratio>stretch</aspectratio>
 						<texture background="true" fallback="nothumb.png">optional/advanced launcher/$INFO[ListItem.Writer]/titles/$INFO[ListItem.label].png</texture>
 						<fadetime>IconCrossfadeTime</fadetime>		
 						<bordertexture border="6">simplicity/thumbborder-thin.png</bordertexture>
@@ -391,7 +391,7 @@
 						<width>252</width>
 						<height>139</height>
 						<align>right</align>
-						<aspect>stretch</aspect>
+						<aspectratio>stretch</aspectratio>
 						<texture background="true">root-wide.png</texture>
 						<bordertexture border="6">simplicity/thumbborder-thin.png</bordertexture>
 						<bordersize>6</bordersize>
@@ -491,7 +491,7 @@
 				<posy>630</posy>	
 				<width>1280</width>
 				<height>230</height>
-				<aspect>stretch</aspect>
+				<aspectratio>stretch</aspectratio>
 				<texture>simplicity/black.png</texture>
 			</control>
 			<control type="image">
@@ -499,7 +499,7 @@
 				<posy>630</posy>	
 				<width>1280</width>
 				<height>2</height>
-				<aspect>stretch</aspect>
+				<aspectratio>stretch</aspectratio>
 				<texture>simplicity/grey2.png</texture>
 			</control>
 			<include>UpOptions</include>
@@ -732,7 +732,7 @@
 				<posy>630</posy>	
 				<width>1280</width>
 				<height>230</height>
-				<aspect>stretch</aspect>
+				<aspectratio>stretch</aspectratio>
 				<texture>simplicity/black.png</texture>
 			</control>
 			<control type="image">
@@ -740,7 +740,7 @@
 				<posy>630</posy>	
 				<width>1280</width>
 				<height>2</height>
-				<aspect>stretch</aspect>
+				<aspectratio>stretch</aspectratio>
 				<texture>simplicity/grey2.png</texture>
 			</control>
 			<include>UpOptions</include>
@@ -1057,7 +1057,7 @@
 						<width>252</width>
 						<height>139</height>
 						<align>right</align>
-						<aspect>stretch</aspect>
+						<aspectratio>stretch</aspectratio>
 						<texture background="true" fallback="nothumb.png">optional/advanced launcher/$INFO[ListItem.Writer]/titles/$INFO[ListItem.label].png</texture>
 						<fadetime>IconCrossfadeTime</fadetime>		
 						<bordertexture border="6">simplicity/thumbborder-thin.png</bordertexture>
@@ -1070,7 +1070,7 @@
 						<width>252</width>
 						<height>139</height>
 						<align>right</align>
-						<aspect>stretch</aspect>
+						<aspectratio>stretch</aspectratio>
 						<texture background="true">root-wide.png</texture>
 						<bordertexture border="6">simplicity/thumbborder-thin.png</bordertexture>
 						<bordersize>6</bordersize>
@@ -1169,7 +1169,7 @@
 				<posy>430</posy>	
 				<width>1280</width>
 				<height>430</height>
-				<aspect>stretch</aspect>
+				<aspectratio>stretch</aspectratio>
 				<texture>simplicity/grey2.png</texture>
 			</control>
 			<control type="image">
@@ -1177,7 +1177,7 @@
 				<posy>430</posy>	
 				<width>1280</width>
 				<height>2</height>
-				<aspect>stretch</aspect>
+				<aspectratio>stretch</aspectratio>
 				<texture>simplicity/black.png</texture>
 			</control>
 			<include>AddonBreadCrumbs</include>
@@ -1198,7 +1198,6 @@
 					<viewtype label="Title Grid">list</viewtype>
 					<pagecontrol>60</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<focusposition>0</focusposition>
 					<preloaditems>200</preloaditems>
 					<orientation>vertical</orientation>
 					<visible>substring(container.folderpath,plugin://plugin.program.advanced.launcher)</visible>					
@@ -1440,7 +1439,6 @@
 					<viewtype label="Poster Grid">list</viewtype>
 					<pagecontrol>60</pagecontrol>
 					<scrolltime>300</scrolltime>
-					<focusposition>0</focusposition>
 					<preloaditems>200</preloaditems>
 					<orientation>vertical</orientation>
 					<visible>substring(container.folderpath,plugin://plugin.program.advanced.launcher)</visible>			

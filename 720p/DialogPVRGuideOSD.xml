@@ -2,7 +2,6 @@
 <window>
 	<defaultcontrol always="true">11</defaultcontrol>
 	<coordinates>
-		<system>1</system>
 		<posx>780</posx>
 		<posy>30</posy>
 	</coordinates>

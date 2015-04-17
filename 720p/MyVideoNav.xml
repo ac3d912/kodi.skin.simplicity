@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="25">
 	<defaultcontrol always="true">9999</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
+	<allowoverlay>false</allowoverlay>
 	<views>50,54,55,57,58,59,65,66,67,68,500,504,505,506,507,508,509,511,532,534,535,536,537,538,539,540,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570</views>
 	<visible>!Skin.HasSetting(KioskMode)</visible>
 	<controls>
@@ -363,10 +363,10 @@
 		<control type="group" id="9001">
 			<posx>-220</posx>
 			<posy>0</posy>
-			<animation effect="fade" start="100" end="0" time="0" condition="!ControlGroup(9001).HasFocus + !Control.HasFocus(98)">conditional</animation>
-			<animation effect="fade" start="0" end="100" delay="300" time="200" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus">conditional</animation>
+			<animation effect="fade" start="100" end="0" time="0" condition="!ControlGroup(9001).HasFocus + !Control.HasFocus(98)">Conditional</animation>
+			<animation effect="fade" start="0" end="100" delay="300" time="200" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus">Conditional</animation>
 			<animation effect="fade" start="100" end="0" time="0" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus">WindowClose</animation>
-			<animation effect="slide" end="220,0" time="300" tween="quadratic" easing="out" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus">conditional</animation>
+			<animation effect="slide" end="220,0" time="300" tween="quadratic" easing="out" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus">Conditional</animation>
 			<control type="button">
 				<description>Fake button for mouse control</description>
 				<posx>-15</posx>
@@ -575,8 +575,8 @@
 			<visible>!Skin.HasSetting(DisableViewPreview)</visible>
 			<posx>-220</posx>
 			<posy>0</posy>
-			<animation effect="fade" start="100" end="0" time="0" condition="!ControlGroup(9002).HasFocus + !Control.HasFocus(2)">conditional</animation>
-			<animation effect="fade" start="0" end="100" delay="300" time="200" condition="Control.HasFocus(2) | ControlGroup(9002).HasFocus">conditional</animation>
+			<animation effect="fade" start="100" end="0" time="0" condition="!ControlGroup(9002).HasFocus + !Control.HasFocus(2)">Conditional</animation>
+			<animation effect="fade" start="0" end="100" delay="300" time="200" condition="Control.HasFocus(2) | ControlGroup(9002).HasFocus">Conditional</animation>
 			<animation effect="fade" start="100" end="0" time="0" condition="Control.HasFocus(2) | ControlGroup(9002).HasFocus">WindowClose</animation>
 			<animation effect="slide" end="220,0" time="300" tween="quadratic" easing="out" condition="ControlGroup(9002).HasFocus | Control.HasFocus(2)">Conditional</animation>
 			<!-- Dont popup automatically  <animation effect="slide" end="220,0" time="300" tween="quadratic" easing="out">Focus</animation>-->
@@ -1196,8 +1196,8 @@
                 <include>ButtonCommonValuesExtra</include>
                 <radiowidth>18</radiowidth>
                 <radioheight>18</radioheight>
-                <textureradiofocus>HomeHasSub.png</textureradiofocus>
-                <textureradionofocus>HomeHasSub.png</textureradionofocus>
+                <textureradioonfocus>HomeHasSub.png</textureradioonfocus>
+                <textureradioonnofocus>HomeHasSub.png</textureradioonnofocus>
                 <label>$LOCALIZE[31026]</label>
                 <onleft>50</onleft>
                 <onright>9010</onright>

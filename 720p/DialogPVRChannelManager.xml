@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<defaultcontrol always="true">20</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
+	<allowoverlay>false</allowoverlay>
 	<coordinates>
-		<system>1</system>
 		<posx>190</posx>
 		<posy>30</posy>
 	</coordinates>
@@ -173,7 +172,7 @@
 						<width>420</width>
 						<height>60</height>
 						<texture border="5">button-focus2.png</texture>
-						<animation effect="fade" start="100" end="30" time="0" condition="!Control.HasFocus(20)">conditional</animation>
+						<animation effect="fade" start="100" end="30" time="0" condition="!Control.HasFocus(20)">Conditional</animation>
 					</control>
 					<control type="image">
 						<posx>5</posx>
@@ -285,7 +284,7 @@
 					<aligny>center</aligny>
 					<texturefocus border="5">button-focus2.png</texturefocus>
 					<texturenofocus border="5">button-nofocus.png</texturenofocus>
-					<pulseonselect>no</pulseonselect>
+					<pulseonselect>false</pulseonselect>
 					<label>19074</label>
 					<onleft>20</onleft>
 					<onright>60</onright>
@@ -348,7 +347,7 @@
 					<aligny>center</aligny>
 					<texturefocus border="5">button-focus2.png</texturefocus>
 					<texturenofocus border="5">button-nofocus.png</texturenofocus>
-					<pulseonselect>no</pulseonselect>
+					<pulseonselect>false</pulseonselect>
 					<label>19206</label>
 					<onleft>20</onleft>
 					<onright>60</onright>
@@ -384,7 +383,7 @@
 					<aligny>center</aligny>
 					<texturefocus border="5">button-focus2.png</texturefocus>
 					<texturenofocus border="5">button-nofocus.png</texturenofocus>
-					<pulseonselect>no</pulseonselect>
+					<pulseonselect>false</pulseonselect>
 					<label>19267</label>
 					<onleft>20</onleft>
 					<onright>60</onright>

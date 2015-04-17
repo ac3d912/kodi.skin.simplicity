@@ -2,7 +2,6 @@
 <window id="135">
 	<defaultcontrol always="true">10</defaultcontrol>
 	<coordinates>
-		<system>1</system>
 		<posx>185</posx>
 		<posy>125</posy>
 	</coordinates>
@@ -228,8 +227,6 @@
 					<posy>-19</posy>
 					<width>48</width>
 					<height>70</height>
-					<spinwidth>48</spinwidth>
-					<spinheight>70</spinheight>
 					<onclick>DecreaseRating</onclick>
 					<texturenofocus>simplicity/scroll-down-2.png</texturenofocus>
 					<texturefocus>simplicity/scroll-down-focus.png</texturefocus>
@@ -244,8 +241,6 @@
 					<posy>-19</posy>
 					<width>48</width>
 					<height>70</height>				
-					<spinwidth>48</spinwidth>
-					<spinheight>70</spinheight>
 					<onclick>IncreaseRating</onclick>
 					<texturenofocus>simplicity/scroll-up-2.png</texturenofocus>
 					<texturefocus>simplicity/scroll-up-focus.png</texturefocus>
@@ -274,7 +269,6 @@
 				<width>460</width>
 				<height>100</height>
 				<font>Simplicity_24</font>
-				<pagecontrol>-</pagecontrol>
 				<textcolor>grey2</textcolor>
 				<label fallback="161">$INFO[ListItem.Comment]</label>
 			</control>

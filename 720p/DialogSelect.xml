@@ -3,7 +3,6 @@
 	<defaultcontrol always="true">3</defaultcontrol>
 	<zorder>3</zorder>
 	<coordinates>
-		<system>1</system>
 		<posx>335</posx>
 		<posy>35</posy>
 	</coordinates>
@@ -159,7 +158,6 @@
 						<height>50</height>
 						<font>Simplicity_18</font>
 						<textcolor>grey</textcolor>
-						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label2]</label>
 					</control>
@@ -212,7 +210,6 @@
 						<height>50</height>
 						<font>Simplicity_18</font>
 						<textcolor>grey</textcolor>
-						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label2]</label>
 					</control>

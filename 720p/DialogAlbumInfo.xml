@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="2001">
 	<defaultcontrol always="true">999</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
+	<allowoverlay>false</allowoverlay>
 	<controls>
 		<control type="group">
 			<animation effect="slide" start="1280,0" end="0,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
@@ -594,7 +594,7 @@
 					<font>Simplicity_18</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<fontcolor>selected</fontcolor>
+					<textcolor>selected</textcolor>
 					<selectedcolor>selected</selectedcolor>
 					<label>$INFO[Control.GetLabel(4)]</label>
 				</control>

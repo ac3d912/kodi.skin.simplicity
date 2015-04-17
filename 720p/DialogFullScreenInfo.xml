@@ -20,7 +20,7 @@
 			<control type="group">
 				<visible>VideoPlayer.Content(Movies)</visible>
 				<posx>0</posx>
-				<posy>0</posy>\
+				<posy>0</posy>
 				<control type="label">
 					<posx>210</posx>
 					<posy>30</posy>
@@ -680,7 +680,7 @@
 					    <posy>23</posy>
 					    <width>240</width>
 					    <height>139</height>
-					    <aspect>keep</aspect>
+					    <aspectratio>keep</aspectratio>
 					    <texture fallback="blank.png">$INFO[Player.Art(tvshow.clearart)]</texture>
 <!--  					    <bordertexture border="3">simplicity/folder-focus.png</bordertexture> -->
 					    <bordersize>3</bordersize>
@@ -690,7 +690,7 @@
 					<posy>23</posy>
 					<width>240</width>
 					<height>139</height>
-					<aspect>keep</aspect>
+					<aspectratio>keep</aspectratio>
 					<texture>$INFO[VideoPlayer.Cover]</texture>
 					<bordertexture border="3">simplicity/folder-focus.png</bordertexture>
 					<bordersize>3</bordersize>

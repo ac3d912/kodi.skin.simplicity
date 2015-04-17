@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="12">
 	<defaultcontrol>3</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
+	<allowoverlay>false</allowoverlay>
 	<include>Window_OpenClose_Animation</include>
 	<controls>
 
@@ -50,7 +50,7 @@
 				<onup>3</onup>
 				<ondown>3</ondown>
 				<align>left</align>
-				<orientation>Vertical</orientation>
+				<orientation>vertical</orientation>
 			</control>
 			<control type="label">
 				<description>header label</description>
@@ -170,8 +170,8 @@
 			<font>Simplicity_20</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>white</focusedcolor>
-			<textureradiofocus>simplicity/settings-radiobutton-on.png</textureradiofocus>
-			<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
+			<textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
+			<textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
 			<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 			<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 		</control>
@@ -189,13 +189,12 @@
 			<textoffsetx>7</textoffsetx>
 			<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 			<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-			<texturebg>simplicity/button-focus-white.png</texturebg>
 			<textureup>simplicity/scroll-up-2.png</textureup>
 			<texturedown>simplicity/scroll-down-2.png</texturedown>
 			<textureupfocus>simplicity/scroll-up-focus.png</textureupfocus>
 			<texturedownfocus>simplicity/scroll-down-focus.png</texturedownfocus>
 			<aligny>center</aligny>
-			<reverse>yes</reverse>
+			<reverse>true</reverse>
 		</control>
         <control type="sliderex" id="13">
             <description>Default Slider</description>

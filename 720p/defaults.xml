@@ -31,7 +31,7 @@
 		<disabledcolor>grey7</disabledcolor>
 		<textoffsetx>7</textoffsetx>
 		<aligny>center</aligny>
-		<pulseonselect>no</pulseonselect>
+		<pulseonselect>false</pulseonselect>
 	</default>
 	<default type="togglebutton">
 		<posx>140</posx>
@@ -46,7 +46,7 @@
 		<label>-</label>
 		<font>font13</font>
 		<disabledcolor>grey7</disabledcolor>
-		<pulseonselect>no</pulseonselect>
+		<pulseonselect>false</pulseonselect>
 	</default>
 	<default type="textbox">
 		<posx>220</posx>
@@ -95,14 +95,14 @@
 		<width>62</width>
 		<height>98</height>
 		<font>font13</font>
-		<reverse>yes</reverse>
+		<reverse>true</reverse>
 		<textcolor>white</textcolor>
 		<disabledcolor>grey7</disabledcolor>
 		<subtype>text</subtype>
 		<textoffsetx>-5</textoffsetx>
 		<textoffsety>0</textoffsety>
 		<aligny>-</aligny>
-		<pulseonselect>no</pulseonselect>
+		<pulseonselect>false</pulseonselect>
 	</default>
 	<default type="spincontrolex">
 		<posx>530</posx>
@@ -122,8 +122,8 @@
 		<disabledcolor>grey7</disabledcolor>
 		<textoffsetx>7</textoffsetx>
 		<aligny>center</aligny>
-		<reverse>yes</reverse>
-		<pulseonselect>no</pulseonselect>
+		<reverse>true</reverse>
+		<pulseonselect>false</pulseonselect>
 	</default>
 	<default type="radiobutton">
 		<posx>300</posx>
@@ -132,8 +132,8 @@
 		<height>42</height>
 		<radiowidth>24</radiowidth>
 		<radioheight>24</radioheight>
-		<textureradiofocus>simplicity/radiobutton-focus.png</textureradiofocus>
-		<textureradionofocus>simplicity/radiobutton-nofocus.png</textureradionofocus>
+		<textureradioonfocus>simplicity/radiobutton-focus.png</textureradioonfocus>
+		<textureradioonnofocus>simplicity/radiobutton-nofocus.png</textureradioonnofocus>
 		<texturefocus>simplicity/button-focus-white.png</texturefocus>
 		<texturenofocus>simplicity/button-nofocus.png</texturenofocus>
 		<label>$LOCALIZE[215]</label>
@@ -205,6 +205,6 @@
 		<disabledcolor>grey7</disabledcolor>
 		<textoffsetx>7</textoffsetx>
 		<aligny>center</aligny>
-		<pulseonselect>no</pulseonselect>
+		<pulseonselect>false</pulseonselect>
 	</default>
 </includes>

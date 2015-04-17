@@ -3,7 +3,6 @@
 	<defaultcontrol always="true">450</defaultcontrol>
 	<include>dialogeffect</include>
 	<coordinates>
-		<system>1</system>
 		<posx>0</posx>
 		<posy>0</posy>
 	</coordinates>

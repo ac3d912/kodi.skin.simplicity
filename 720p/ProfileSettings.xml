@@ -2,7 +2,6 @@
 <window id="130">
 	<defaultcontrol>1</defaultcontrol>
 	<coordinates>
-		<system>1</system>
 		<posx>290</posx>
 		<posy>75</posy>
 	</coordinates>
@@ -125,7 +124,7 @@
 			<texturefocus>simplicity/menuitem-focus.png</texturefocus>
 			<texturenofocus>simplicity/menuitemnf.png</texturenofocus>
 			<aligny>center</aligny>
-			<reverse>yes</reverse>
+			<reverse>true</reverse>
 		</control>
 		<control type="image" id="11">
 			<description>separator image</description>

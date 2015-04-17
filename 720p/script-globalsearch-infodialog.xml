@@ -8,9 +8,7 @@
   LIST 160 : ARTISTS
   LIST 170 : ALBUMS
   LIST 180 : SONGS-->
-	<defaultcontrol>-</defaultcontrol>
 	<coordinates>
-		<system>1</system>
 		<posx>0</posx>
 		<posy>0</posy>
 	</coordinates>
@@ -210,7 +208,6 @@
 				<height>30</height>
 				<font>Simplicity_20</font>
 				<textcolor>white</textcolor>
-				<scroll>false</scroll>
 				<scrollspeed>0</scrollspeed>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -585,8 +582,8 @@
 							<label>$INFO[ListItem.Label2]</label>
 						</control>
 					</focusedlayout>
-					<content>
-						<!--<item>
+					<!--<content>
+						<item>
 							<label>$LOCALIZE[20339]:</label>
 							<label2>$INFO[Container(100).ListItem.Property(Director)]</label2>
 							<onclick>noop</onclick>
@@ -657,8 +654,8 @@
 							<label2>$INFO[Container(100).ListItem.Property(Path)]</label2>
 							<onclick>noop</onclick>
 							<visible>!IsEmpty(Container(100).ListItem.Property(Path))</visible>
-						</item>-->
-					</content>
+						</item>
+					</content>-->
 				</control>
 				<control type="list" id="120">
 					<posx>445</posx>
@@ -1608,8 +1605,8 @@
 				<posx>1152</posx>
 				<posy>598</posy>
 				<font>-</font>
-				<spinwidth>33</spinwidth>
-				<spinheight>22</spinheight>
+				<width>33</width>
+				<height>22</height>
 				<textureup>scroll-up-2.png</textureup>
 				<texturedown>scroll-down-2.png</texturedown>
 				<textureupfocus>scroll-up-focus-2.png</textureupfocus>
@@ -1620,7 +1617,6 @@
 				<ondown>190</ondown>
 				<onleft>180</onleft>
 				<onright>180</onright>
-				<textcolor>-</textcolor>
 			</control>
 			<control type="grouplist" id="190">
 				<posx>180</posx>

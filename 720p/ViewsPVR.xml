@@ -64,7 +64,6 @@
 					<align>justify</align>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<pagecontrol>-</pagecontrol>
 					<label>$INFO[Container(11).ListItem.Plot]</label>
 					<autoscroll time="2000" delay="3000" repeat="5000">true</autoscroll>
 				</control>
@@ -372,7 +371,6 @@
 					<align>justify</align>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<pagecontrol>-</pagecontrol>
 					<label>$INFO[Container(12).ListItem.Plot]</label>
 					<autoscroll time="2000" delay="3000" repeat="5000">true</autoscroll>
 				</control>
@@ -851,7 +849,6 @@
 				<posy>81</posy>
 				<width>1120</width>
 				<height>555</height>
-				<pagecontrol>10</pagecontrol>
 				<scrolltime>350</scrolltime>
 				<timeblocks>40</timeblocks>
 				<rulerunit>6</rulerunit>
@@ -880,7 +877,7 @@
 					</control>
 				</rulerlayout>
 				<channellayout height="52" width="280">
-					<animation effect="fade" start="110" time="200">UnFocus</animation>
+					<animation effect="fade" start="110" time="200">Unfocus</animation>
 					<control type="image" id="1">
 						<posx>0</posx>
 						<posy>0</posy>
@@ -921,7 +918,7 @@
 					</control>
 				</channellayout>
 				<focusedchannellayout height="52" width="280">
-					<animation effect="fade" start="110" time="200">OnFocus</animation>
+					<animation effect="fade" start="110" time="200">Focus</animation>
 					<control type="image" id="1">
 						<posx>0</posx>
 						<posy>0</posy>
@@ -1958,7 +1955,6 @@
 							<align>justify</align>
 							<textcolor>grey2</textcolor>
 							<shadowcolor>black</shadowcolor>
-							<pagecontrol>-</pagecontrol>
 							<label>$INFO[ListItem.Plot]</label>
 						</control>
 						<control type="image">
@@ -2333,7 +2329,6 @@
 							<align>justify</align>
 							<textcolor>grey2</textcolor>
 							<shadowcolor>black</shadowcolor>
-							<pagecontrol>-</pagecontrol>
 							<label>$INFO[ListItem.Plot]</label>
 						</control>
 						<control type="image">

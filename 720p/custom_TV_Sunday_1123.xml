@@ -1224,7 +1224,7 @@
 						</item>
 						<item id="16">
 							<label>-</label>
-							<label2>-</label2>>
+							<label2>-</label2>
 						<onclick>ActivateWindow(Videos,$INFO[Window(Home).Property(NextAired.16.Library)])</onclick>
 						<icon>studios/$INFO[Window(Home).Property(NextAired.16.Network),,.png]</icon>
 						<thumb>$INFO[Window(Home).Property(NextAired.16.Art(clearlogo))]</thumb>

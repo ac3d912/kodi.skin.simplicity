@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="7">
 	<defaultcontrol always="true">95</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
+	<allowoverlay>false</allowoverlay>
 	<controls>
 
 		<control type="group">
@@ -35,8 +35,7 @@
 				<onright>9010</onright>
 				<onup>9000</onup>
 				<ondown>9000</ondown>
-				<orientation>Vertical</orientation>
-				<pagecontrol>-</pagecontrol>
+				<orientation>vertical</orientation>
 				<control type="button" id="95">
 					<description>Button Basic Values</description>
 					<height>60</height>

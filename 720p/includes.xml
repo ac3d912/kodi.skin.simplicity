@@ -105,7 +105,7 @@
 		<imagepath>cerberus</imagepath>
 		<timeperimage>0</timeperimage>
 		<fadetime>0</fadetime>
-		<loop>yes</loop>
+		<loop>true</loop>
 		<randomize>false</randomize>
 		<visible>Skin.HasSetting(SmokeEffectOn)</visible>
 	</include>
@@ -1871,8 +1871,8 @@
 		<radioheight>67</radioheight>
 		<texturefocus border="0,2,0,2">simplicity/view-options-button.png</texturefocus>
 		<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-		<textureradiofocus>simplicity/settings-radiobutton-on.png</textureradiofocus>
-		<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
+		<textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
+		<textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="ButtonCommonValuesExtra">
@@ -2953,7 +2953,7 @@
 			<include condition="!Skin.HasSetting(NowPlayingClock)">MusicNowPlaying</include>
 			<posx>0</posx>
 			<posy>0</posy>
-			<animation effect="fade" start="100" end="0" time="0" condition="Container.Content(Movies) + Control.IsVisible(534) + !Skin.HasSetting(ScrollMovieLessInfo)">conditional</animation>-->
+			<animation effect="fade" start="100" end="0" time="0" condition="Container.Content(Movies) + Control.IsVisible(534) + !Skin.HasSetting(ScrollMovieLessInfo)">Conditional</animation>
 		<!--<animation effect="slide" start="0,0" end="210,0" delay="0" time="0" condition="Window.Next(Home) | Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)">WindowClose</animation>
 			<animation effect="slide" start="210,0" end="0,0" delay="0" time="0" condition="Window.Previous(Home) | Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)">WindowOpen</animation>-->
 		<include>Window_OpenClose_Animation</include>
@@ -3020,7 +3020,7 @@
 		<include condition="!Skin.HasSetting(NowPlayingClock)">MusicNowPlaying</include>
 		<posx>0</posx>
 		<posy>0</posy>
-		<animation effect="fade" start="100" end="0" time="0" condition="Container.Content(Movies) + Control.IsVisible(534) + !Skin.HasSetting(ScrollMovieLessInfo)">conditional</animation>-->
+		<animation effect="fade" start="100" end="0" time="0" condition="Container.Content(Movies) + Control.IsVisible(534) + !Skin.HasSetting(ScrollMovieLessInfo)">Conditional</animation>
 	<!--<animation effect="slide" start="0,0" end="210,0" delay="0" time="0" condition="Window.Next(Home) | Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)">WindowClose</animation>
 			<animation effect="slide" start="210,0" end="0,0" delay="0" time="0" condition="Window.Previous(Home) | Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)">WindowOpen</animation>-->
 	<include>Window_OpenClose_Animation</include>
@@ -3109,7 +3109,7 @@
 		<posx>1245</posx>
 		<posy>15</posy>
 		<align>right</align>
-		<animation effect="slide" start="0,0" end="-60,0" delay="0" time="300" condition="Window.IsVisible(MuteBug)">conditional</animation>
+		<animation effect="slide" start="0,0" end="-60,0" delay="0" time="300" condition="Window.IsVisible(MuteBug)">Conditional</animation>
 		<!--<animation effect="slide" start="0,0" end="510,0" delay="0" time="300">WindowClose</animation>
 			<animation effect="slide" start="510,0" end="0,0" delay="0" time="300">WindowOpen</animation>-->
 		<animation effect="slide" start="0,0" end="0,-300" delay="0" time="300">WindowClose</animation>

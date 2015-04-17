@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
-	<allowoverlay>yes</allowoverlay>
+	<allowoverlay>true</allowoverlay>
 	<defaultcontrol always="false">3000</defaultcontrol>
 	<coordinates>
-	        <system>1</system>
         	<posx>0</posx>
         	<posy>0</posy>
 	</coordinates>
@@ -338,7 +337,7 @@
 			<texturesliderbarfocus border="0,14,0,14">rcb-ScrollBarH_bar_focus.png</texturesliderbarfocus>
 			<textureslidernib>rcb-ScrollBarNib.png</textureslidernib>
 			<textureslidernibfocus>rcb-ScrollBarNib.png</textureslidernibfocus>
-			<pulseonselect></pulseonselect>
+			<pulseonselect>true</pulseonselect>
 			<orientation>vertical</orientation>
 			<showonepage>false</showonepage>
 			<onup>8100</onup>
@@ -411,7 +410,7 @@
 			<aligny>center</aligny>
 			<textoffsetx></textoffsetx>
 			<textoffsety></textoffsety>
-			<pulseonselect></pulseonselect>
+			<pulseonselect>true</pulseonselect>
 			<onup>1000</onup>
 			<ondown>1000</ondown>
 			<onleft>1000</onleft>

@@ -3,7 +3,6 @@
 	<defaultcontrol always="true">9</defaultcontrol>
 
 	<coordinates>
-		<system>1</system>
 		<posx>152</posx>
 		<posy>55</posy>
 	</coordinates>
@@ -194,8 +193,8 @@
 				<focusedcolor>white</focusedcolor>
 				<radiowidth>83</radiowidth>
 				<radioheight>67</radioheight>
-				<textureradiofocus>simplicity/settings-radiobutton-on.png</textureradiofocus>
-				<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
+				<textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
+				<textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
 				<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 				<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 			</control>
@@ -209,14 +208,13 @@
 				<textoffsetx>7</textoffsetx>
 				<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 				<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-				<texturebg>simplicity/button-focus-white.png</texturebg>
 				<textureup>simplicity/scroll-up-2.png</textureup>
 				<texturedown>simplicity/scroll-down-2.png</texturedown>
 				<textureupfocus>simplicity/scroll-up-focus.png</textureupfocus>
 				<texturedownfocus>simplicity/scroll-down-focus.png</texturedownfocus>
 				<font>Simplicity_18</font>
 				<aligny>center</aligny>
-				<reverse>yes</reverse>
+				<reverse>true</reverse>
 			</control>
 			<control type="label" id="7">
 				<height>45</height>

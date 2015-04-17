@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><window>
 	<defaultcontrol always="true">9</defaultcontrol>
 	<coordinates>
-		<system>1</system>
 		<posx>210</posx>
 		<posy>65</posy>
 	</coordinates>
@@ -211,7 +210,7 @@
 				<aligny>center</aligny>
 				<texturefocus border="5">simplicity/menuitemfo.png</texturefocus>
 			<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
-				<pulseonselect>no</pulseonselect>
+				<pulseonselect>false</pulseonselect>
 				<label>$LOCALIZE[19132]</label>
 				<onleft>21</onleft>
 				<onright>21</onright>
@@ -232,7 +231,7 @@
 				<aligny>center</aligny>
 				<texturefocus border="5">simplicity/menuitemfo.png</texturefocus>
 			<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
-				<pulseonselect>no</pulseonselect>
+				<pulseonselect>false</pulseonselect>
 				<label>$LOCALIZE[19123]</label>
 				<onleft>23</onleft>
 				<onright>23</onright>
@@ -253,7 +252,7 @@
 				<aligny>center</aligny>
 				<texturefocus border="5">simplicity/menuitemfo.png</texturefocus>
 			<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
-				<pulseonselect>no</pulseonselect>
+				<pulseonselect>false</pulseonselect>
 				<label>$LOCALIZE[19124]</label>
 				<onleft>27</onleft>
 				<onright>27</onright>
@@ -344,7 +343,7 @@
 				<aligny>center</aligny>
 				<texturefocus border="5">simplicity/menuitemfo.png</texturefocus>
 			<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
-				<pulseonselect>no</pulseonselect>
+				<pulseonselect>false</pulseonselect>
 				<label>$LOCALIZE[19121]</label>
 				<onright>18</onright>
 				<onleft>18</onleft>
@@ -395,7 +394,7 @@
 				<aligny>center</aligny>
 				<texturefocus border="5">simplicity/menuitemfo.png</texturefocus>
 			<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
-				<pulseonselect>no</pulseonselect>
+				<pulseonselect>false</pulseonselect>
 				<label>$LOCALIZE[19125]</label>
 				<onleft>24</onleft>
 				<onright>24</onright>

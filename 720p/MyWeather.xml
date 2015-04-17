@@ -1,6 +1,6 @@
 <window id="2600">
 	<defaultcontrol always="true">50</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
+	<allowoverlay>false</allowoverlay>
 	<controls>
 		<include>dialogeffect</include>
 		<control type="group">
@@ -683,10 +683,10 @@
 			<control type="group" id="9001">
 				<posx>-220</posx>
 				<posy>-40</posy>
-				<animation effect="fade" start="100" end="0" time="0" condition="!ControlGroup(9001).HasFocus + !Control.HasFocus(98)">conditional</animation>
-				<animation effect="fade" start="0" end="100" delay="300" time="200" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus">conditional</animation>
+				<animation effect="fade" start="100" end="0" time="0" condition="!ControlGroup(9001).HasFocus + !Control.HasFocus(98)">Conditional</animation>
+				<animation effect="fade" start="0" end="100" delay="300" time="200" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus">Conditional</animation>
 				<animation effect="fade" start="100" end="0" time="0" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus">WindowClose</animation>
-				<animation effect="slide" end="220,0" time="300" tween="quadratic" easing="out" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus">conditional</animation>
+				<animation effect="slide" end="220,0" time="300" tween="quadratic" easing="out" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus">Conditional</animation>
 				<control type="grouplist" id="9010">
 					<posx>0</posx>
 					<posy>290</posy>
@@ -764,12 +764,12 @@
 					<description>change location button</description>
 					<posx>0</posx>
 					<posy>0</posy>
-					<font>-</font>
-					<textoffsetx>10</textoffsetx>
-					<radioposx>-20</radioposx>
-					<height>42</height>
+					<spinposx>-20</spinposx>
 					<spinwidth>62</spinwidth>
 					<spinheight>80</spinheight>
+					<font>-</font>
+					<textoffsetx>10</textoffsetx>
+					<height>42</height>
 					<include>ButtonCommonValuesSub</include>
 					<onleft>50</onleft>
 					<onright>50</onright>
@@ -818,8 +818,8 @@
 					<include>ButtonCommonValuesExtra</include>
 					<radiowidth>18</radiowidth>
 					<radioheight>18</radioheight>
-					<textureradiofocus>HomeHasSub.png</textureradiofocus>
-					<textureradionofocus>HomeHasSub.png</textureradionofocus>
+					<textureradioonfocus>HomeHasSub.png</textureradioonfocus>
+					<textureradioonnofocus>HomeHasSub.png</textureradioonnofocus>
 					<label>31026</label>
 					<onleft>50</onleft>
 					<onright>9010</onright>

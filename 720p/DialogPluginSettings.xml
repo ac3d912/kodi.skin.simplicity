@@ -2,7 +2,6 @@
 <window id="10140">
 	<defaultcontrol always="true">2</defaultcontrol>
 	<coordinates>
-		<system>1</system>
 		<posx>240</posx>
 		<posy>55</posy>
 	</coordinates>
@@ -68,7 +67,7 @@
 			<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 			<font>Simplicity_24</font>
 			<aligny>center</aligny>
-			<reverse>yes</reverse>
+			<reverse>true</reverse>
 		</control>
 		<control type="label" id="7">
 			<height>45</height>
