@@ -6,11 +6,11 @@
     <controls>
         <include>CommonMediaPlayingBackground</include>
         <control type="group">
-            <include>Window_OpenClose_Animation</include>       
+            <include>Window_OpenClose_Animation</include>
             <posx>-30</posx>
         </control>
         <control type="group">
-            <include>Window_OpenClose_Animation</include>       
+            <include>Window_OpenClose_Animation</include>
             <include>AppView</include>
             <!-- view id = 55 -->
             <include>AppView3</include>
@@ -86,8 +86,8 @@
                         <height>95</height>
                         <align>center</align>
                         <aligny>center</aligny>
-                        <animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(45)">Conditional</animation>    
-                        <animation effect="zoom" end="106" center="auto">Focus</animation>      
+                        <animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(45)">Conditional</animation>
+                        <animation effect="zoom" end="106" center="auto">Focus</animation>
                         <texturenofocus border="5">simplicity/views/Addons/previewimage.png</texturenofocus>
                         <texturefocus border="5">simplicity/views/Addons/previewimage.png</texturefocus>
                         <onclick>Container.SetViewMode(55)</onclick>
@@ -99,12 +99,12 @@
                         <height>95</height>
                         <align>center</align>
                         <aligny>center</aligny>
-                        <animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(46)">Conditional</animation>    
-                        <animation effect="zoom" end="106" center="auto">Focus</animation>      
+                        <animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(46)">Conditional</animation>
+                        <animation effect="zoom" end="106" center="auto">Focus</animation>
                         <texturenofocus border="5">simplicity/views/Netflix/previewimage.png</texturenofocus>
                         <texturefocus border="5">simplicity/views/Netflix/previewimage.png</texturefocus>
                         <onclick>Container.SetViewMode(57)</onclick>
-                        <visible>substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>             
+                        <visible>substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
                     </control>
                     <control type="button" id="47">
                         <description>Apps</description>
@@ -112,11 +112,11 @@
                         <height>95</height>
                         <align>center</align>
                         <aligny>center</aligny>
-                        <animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(47)">Conditional</animation>    
-                        <animation effect="zoom" end="106" center="auto">Focus</animation>      
+                        <animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(47)">Conditional</animation>
+                        <animation effect="zoom" end="106" center="auto">Focus</animation>
                         <texturenofocus border="5">simplicity/views/Apps/previewimage.png</texturenofocus>
                         <texturefocus border="5">simplicity/views/Apps/previewimage.png</texturefocus>
-                        <onclick>Container.SetViewMode(58)</onclick>        
+                        <onclick>Container.SetViewMode(58)</onclick>
                         <visible>SubString(Container.FolderPath,addons) | Window.IsVisible(addonbrowser)</visible>
                     </control>
                     <control type="button" id="49">
@@ -125,12 +125,12 @@
                         <height>95</height>
                         <align>center</align>
                         <aligny>center</aligny>
-                        <animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(49)">Conditional</animation>    
-                        <animation effect="zoom" end="106" center="auto">Focus</animation>      
+                        <animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(49)">Conditional</animation>
+                        <animation effect="zoom" end="106" center="auto">Focus</animation>
                         <texturenofocus border="5">simplicity/views/Addon Slide/previewimage.png</texturenofocus>
                         <texturefocus border="5">simplicity/views/Addon Slide/previewimage.png</texturefocus>
-                        <onclick>Container.SetViewMode(65)</onclick>        
-                        <visible>substring(container.folderpath,plugin://plugin.video.KidsWB) | substring(container.folderpath,plugin://plugin.video.nickelodeon) | substring(container.folderpath,plugin://plugin.video.nickjr) | substring(container.folderpath,plugin://plugin.video.adult.swim) | substring(container.folderpath,plugin://plugin.video.cartoon.network) | substring(container.folderpath,plugin://plugin.video.cbs) | substring(container.folderpath,plugin://plugin.video.tnt) | substring(container.folderpath,plugin://plugin.video.tbs)</visible> 
+                        <onclick>Container.SetViewMode(65)</onclick>
+                        <visible>substring(container.folderpath,plugin://plugin.video.KidsWB) | substring(container.folderpath,plugin://plugin.video.nickelodeon) | substring(container.folderpath,plugin://plugin.video.nickjr) | substring(container.folderpath,plugin://plugin.video.adult.swim) | substring(container.folderpath,plugin://plugin.video.cartoon.network) | substring(container.folderpath,plugin://plugin.video.cbs) | substring(container.folderpath,plugin://plugin.video.tnt) | substring(container.folderpath,plugin://plugin.video.tbs)</visible>
                     </control>
                     <control type="button" id="51">
                         <description>Addon Slide</description>
@@ -138,12 +138,12 @@
                         <height>95</height>
                         <align>center</align>
                         <aligny>center</aligny>
-                        <animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(51)">Conditional</animation>    
-                        <animation effect="zoom" end="106" center="auto">Focus</animation>      
+                        <animation effect="fade" start="100" end="40" time="0" condition="!Control.HasFocus(51)">Conditional</animation>
+                        <animation effect="zoom" end="106" center="auto">Focus</animation>
                         <texturenofocus border="5">simplicity/views/Addon Slide/previewimage.png</texturenofocus>
                         <texturefocus border="5">simplicity/views/Addon Slide/previewimage.png</texturefocus>
-                        <onclick>Container.SetViewMode(66)</onclick>        
-                        <visible>SubString(Container.FolderPath,addons)</visible>                           
+                        <onclick>Container.SetViewMode(66)</onclick>
+                        <visible>SubString(Container.FolderPath,addons)</visible>
                     </control>
                 </control>
                 <control type="image">
@@ -187,7 +187,7 @@
                 <aspectratio>keep</aspectratio>
                 <texture>simplicity/simplicity-logo.png</texture>
             </control>
-                <control type="label">
+            <control type="label">
                 <posx>-185</posx>
                 <posy>668</posy>
                 <width>260</width>
@@ -198,15 +198,15 @@
                 <shadowcolor>black</shadowcolor>
                 <align>left</align>
             </control>
-        <control type="image">
-            <description>arrow</description>
-            <posx>-55</posx>
-            <posy>670</posy>
-            <width>25</width>
-            <height>25</height>
-            <aspectratio>keep</aspectratio>
-            <texture>simplicity/right-arrow.png</texture>
-        </control>
+            <control type="image">
+                <description>arrow</description>
+                <posx>-55</posx>
+                <posy>670</posy>
+                <width>25</width>
+                <height>25</height>
+                <aspectratio>keep</aspectratio>
+                <texture>simplicity/right-arrow.png</texture>
+            </control>
             <control type="group" id="9000">
                 <posx>-220</posx>
                 <posy>130</posy>
@@ -292,7 +292,7 @@
                     <aligny>center</aligny>
                 </control>
             </control>
-        </control>      
+        </control>
         <include>BackgroundEffect</include>
         <include>Clock</include>
         <include>BehindDialogFadeOut</include>

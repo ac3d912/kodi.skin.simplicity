@@ -19,7 +19,7 @@
             <include condition="Skin.HasSetting(VideoUseRecent)">RightOpenRecent</include>
             <include condition="Skin.HasSetting(VideoUseCustom)">RightOpenCustom</include>
             <control type="fixedlist" id="50">
-                <include>Zoom</include>		
+                <include>Zoom</include>
                 <posx>494</posx>
                 <posy>80</posy>
                 <width>930</width>
@@ -34,8 +34,8 @@
                 <focusposition>4</focusposition>
                 <pagecontrol>60</pagecontrol>
                 <scrolltime>300</scrolltime>
-                <visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible> 		
-                <visible>!SubString(Container.FolderPath,addons)</visible>	
+                <visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
+                <visible>!SubString(Container.FolderPath,addons)</visible>
                 <itemlayout height="60" width="500">
                     <control type="group">
                         <posx>65</posx>
@@ -48,8 +48,8 @@
                             <textcolor>grey2</textcolor>
                             <align>left</align>
                             <label>$INFO[ListItem.label]</label>
-                        </control>					
-                    </control>	
+                        </control>
+                    </control>
                 </itemlayout>
                 <focusedlayout height="80" width="800">
                     <control type="label">
@@ -65,13 +65,13 @@
                         <align>left</align>
                         <aligny>center</aligny>
                         <label>$INFO[ListItem.label]</label>
-                    </control>					
+                    </control>
                 </focusedlayout>
             </control>
             <control type="group">
                 <posx>100</posx>
                 <posy>190</posy>
-                <include>Zoom</include>		
+                <include>Zoom</include>
                 <control type="image">
                     <posx>-10</posx>
                     <posy>-10</posy>
@@ -168,7 +168,7 @@
                 <preloaditems>2</preloaditems>
                 <orientation>horizontal</orientation>
                 <visible>![Window.IsVisible(VideoLibrary) + Container.Content(TVShows) | Window.IsVisible(VideoLibrary) + Container.Content(Episodes)]</visible>
-                <visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible> 
+                <visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
                 <visible>!SubString(Container.FolderPath,addons)</visible>
                 <itemlayout height="245" width="280">
                     <control type="image">
@@ -399,7 +399,7 @@
                     <posx>-211</posx>
                     <posy>260</posy>
                     <width>1800</width>
-                    <height>300</height>		
+                    <height>300</height>
                     <onleft>54</onleft>
                     <onright>54</onright>
                     <onup>2</onup>
@@ -410,7 +410,7 @@
                     <focusposition>3</focusposition>
                     <preloaditems>200</preloaditems>
                     <orientation>horizontal</orientation>
-                    <visible>substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)</visible> 
+                    <visible>substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)</visible>
                     <pagecontrol>70</pagecontrol>
                     <scrolltime>300</scrolltime>
                     <focusposition>3</focusposition>
@@ -418,7 +418,7 @@
                     <itemlayout height="290" width="130">
                         <control type="image">
                             <posx>0</posx>
-                            <posy>2</posy> 
+                            <posy>2</posy>
                             <width>118</width>
                             <height>173</height>
                             <aligny>center</aligny>
@@ -426,7 +426,7 @@
                         </control>
                         <control type="largeimage">
                             <posx>0</posx>
-                            <posy>2</posy> 
+                            <posy>2</posy>
                             <width>110</width>
                             <height>165</height>
                             <aligny>center</aligny>
@@ -436,7 +436,7 @@
                         </control>
                         <control type="largeimage">
                             <posx>0</posx>
-                            <posy>2</posy> 
+                            <posy>2</posy>
                             <width>110</width>
                             <height>165</height>
                             <aligny>center</aligny>
@@ -447,36 +447,36 @@
                     <focusedlayout height="390" width="210">
                         <control type="image">
                             <posx>40</posx>
-                            <posy>3</posy> 
+                            <posy>3</posy>
                             <width>118</width>
                             <height>173</height>
                             <aligny>center</aligny>
                             <texture background="true">simplicity/poster-slide-poster-shadow.png</texture>
-                            <animation reversible="false" effect="zoom" end="160" center="auto" time="300">Focus</animation> 
+                            <animation reversible="false" effect="zoom" end="160" center="auto" time="300">Focus</animation>
                             <aspectratio>stretch</aspectratio>
                         </control>
                         <control type="image">
                             <posx>40</posx>
-                            <posy>3</posy> 
+                            <posy>3</posy>
                             <width>110</width>
                             <height>165</height>
                             <aligny>center</aligny>
                             <texture diffuse="simplicity/poster-slide-poster-diffuse.png" background="true">$INFO[ListItem.Icon]</texture>
-                            <animation reversible="false" effect="zoom" end="160" center="auto" time="300">Focus</animation> 
+                            <animation reversible="false" effect="zoom" end="160" center="auto" time="300">Focus</animation>
                             <aspectratio>stretch</aspectratio>
                         </control>
                         <control type="largeimage">
                             <posx>38</posx>
-                            <posy>1</posy> 
+                            <posy>1</posy>
                             <width>114</width>
                             <height>169</height>
                             <aligny>center</aligny>
                             <texture background="true">poster-slide-cover.png</texture>
-                            <animation reversible="false" effect="zoom" end="160" center="auto" time="300">Focus</animation> 
+                            <animation reversible="false" effect="zoom" end="160" center="auto" time="300">Focus</animation>
                             <aspectratio>stretch</aspectratio>
                         </control>
                     </focusedlayout>
-                </control>	
+                </control>
                 <control type="group">
                     <include>Zoom</include>
                     <posx>-70</posx>
@@ -531,9 +531,9 @@
                         <posy>610</posy>
                         <width>480</width>
                         <height>1</height>
-                        <align>left</align>	
+                        <align>left</align>
                         <texture>simplicity/line.png</texture>
-                    </control>	
+                    </control>
                     <control type="textbox">
                         <description>Description Value The Movie</description>
                         <posx>250</posx>
@@ -549,7 +549,7 @@
                 </control>
             </control>
         </control>
-    </include>	
+    </include>
     <include name="AppView">
         <control type="group">
             <visible>Control.IsVisible(55)</visible>
@@ -737,7 +737,7 @@
                 <orientation>horizontal</orientation>
             </control>
         </control>
-    </include>	
+    </include>
     <include name="Netflix">
         <control type="group">
             <visible>Control.IsVisible(57)</visible>
@@ -769,7 +769,7 @@
                 <focusposition>3</focusposition>
                 <preloaditems>200</preloaditems>
                 <orientation>horizontal</orientation>
-                <visible>substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible> 			
+                <visible>substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
                 <itemlayout height="400" width="185">
                     <control type="group">
                         <posx>0</posx>
@@ -782,7 +782,7 @@
                             <fadetime>200</fadetime>
                             <aspectratio>stretch</aspectratio>
                             <texture background="true">simplicity/netflix-poster-shadow2.png</texture>
-                        </control>				
+                        </control>
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
@@ -793,7 +793,7 @@
                             <aspectratio scalediffuse="false">stretch</aspectratio>
                             <fadetime>200</fadetime>
                             <texture background="true" diffuse="simplicity/fanart-slide-poster-diffuse.png" >netflix/icons/$INFO[ListItem.label].png</texture>
-                        </control>	
+                        </control>
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
@@ -805,7 +805,7 @@
                             <fadetime>200</fadetime>
                             <texture background="true" diffuse="simplicity/fanart-slide-poster-diffuse.png" >$INFO[Listitem.Icon]</texture>
                             <visible>!StringCompare(ListItem.label,My Instant Queue - All) + !StringCompare(ListItem.label,My Instant Queue - Movies) + !StringCompare(ListItem.label,My Instant Queue - TV Shows) + !StringCompare(ListItem.label,Recommended (Filtered for Instant Watch)) + !StringCompare(ListItem.label,Top 25 New Movies &amp; Shows) + !StringCompare(ListItem.label,All New Movies &amp; Shows) + !StringCompare(ListItem.label,Search...)</visible>
-                        </control>	
+                        </control>
                         <control type="image">
                             <posx>0</posx>
                             <posy>0</posy>
@@ -817,15 +817,15 @@
                             <fadetime>200</fadetime>
                             <texture diffuse="simplicity/fanart-slide-poster-diffuse.png" >simplicity/black-back.png</texture>
                             <colordiffuse>AAFFFFFF</colordiffuse>
-                        </control>	
-                    </control>	
+                        </control>
+                    </control>
                 </itemlayout>
                 <focusedlayout height="400" width="275">
-                    <control type="group">	
-                        <animation effect="zoom" end="160" center="auto" time="300" reversible="false">Focus</animation> 
+                    <control type="group">
+                        <animation effect="zoom" end="160" center="auto" time="300" reversible="false">Focus</animation>
                         <posx>0</posx>
                         <posy>100</posy>
-                        <control type="group">	
+                        <control type="group">
                             <posx>50</posx>
                             <posy>0</posy>
                             <control type="image">
@@ -847,7 +847,7 @@
                                 <aspectratio scalediffuse="false">stretch</aspectratio>
                                 <fadetime>200</fadetime>
                                 <texture background="true" diffuse="simplicity/fanart-slide-poster-diffuse.png" >netflix/icons/$INFO[ListItem.label].png</texture>
-                            </control>	
+                            </control>
                             <control type="image">
                                 <posx>0</posx>
                                 <posy>0</posy>
@@ -859,10 +859,10 @@
                                 <fadetime>200</fadetime>
                                 <texture background="true" diffuse="simplicity/fanart-slide-poster-diffuse.png" >$INFO[Listitem.Icon]</texture>
                                 <visible>!StringCompare(ListItem.label,My Instant Queue - All) + !StringCompare(ListItem.label,My Instant Queue - Movies) + !StringCompare(ListItem.label,My Instant Queue - TV Shows) + !StringCompare(ListItem.label,Recommended (Filtered for Instant Watch)) + !StringCompare(ListItem.label,Top 25 New Movies &amp; Shows) + !StringCompare(ListItem.label,All New Movies &amp; Shows) + !StringCompare(ListItem.label,Search...)</visible>
-                            </control>	
-                        </control>			
+                            </control>
+                        </control>
                     </control>
-                </focusedlayout>		
+                </focusedlayout>
             </control>
             <control type="image">
                 <description>Rating value</description>
@@ -921,11 +921,11 @@
         </control>
 
         <control type="group" id="123">
-            <visible>substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible> 	
+            <visible>substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
             <animation effect="slide" end="0,-600" time="500" condition="Skin.HasSetting(netflixinfo)">Conditional</animation>
             <animation effect="slide" end="0,600" time="500" condition="Skin.HasSetting(closenetflixinfo)">Conditional</animation>
             <animation effect="fade" delay="0" start="100" end="0" time="300" condition="Skin.HasSetting(closenetflixinfo)">Conditional</animation>
-            <control type="group">	
+            <control type="group">
                 <posx>50</posx>
                 <posy>600</posy>
                 <control type="image">
@@ -1067,7 +1067,7 @@
                     <autoscroll time="2000" delay="3000" repeat="5270">Skin.HasSetting(AutoScroll)</autoscroll>
                     <include>Zoom</include>
                 </control>
-            </control>			
+            </control>
 
         </control>
     </include>
@@ -1129,7 +1129,7 @@
                         <texture fallback="nothumbalbum.png">$INFO[ListItem.Icon]</texture>
                         <visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png) + !StringCompare(ListItem.label,Available Updates) + !StringCompare(ListItem.label,Get Add-ons) + !StringCompare(ListItem.label,Enabled Add-ons) + !StringCompare(ListItem.label,Disabled Add-ons) + !StringCompare(ListItem.label,Get More...) + !StringCompare(ListItem.label,Web interface) + !StringCompare(ListItem.label,Services) + !StringCompare(ListItem.label,Album information) + !StringCompare(ListItem.label,Lyrics) + !StringCompare(ListItem.label,Artist information) + !StringCompare(ListItem.label,Movie information) + !StringCompare(ListItem.label,Music Add-ons) + !StringCompare(ListItem.label,Music video information) + !StringCompare(ListItem.label,Picture Add-ons) + !StringCompare(ListItem.label,Program Add-ons) + !StringCompare(ListItem.label,Screensaver) + !StringCompare(ListItem.label,Skin) + !StringCompare(ListItem.label,Subtitles) + !StringCompare(ListItem.label,TV information) + !StringCompare(ListItem.label,Video Add-ons) + !StringCompare(ListItem.label,Visualization) + !StringCompare(ListItem.label,Weather) + !StringCompare(ListItem.label,All Add-ons) + !StringCompare(ListItem.label,Add-on repository) + !StringCompare(ListItem.label,Install from zip file)  + !StringCompare(ListItem.label,Music)  + !StringCompare(ListItem.label,Pictures) + !StringCompare(ListItem.label,Search)</visible>
                         <bordertexture border="1">simplicity/thumbborder-thin.png</bordertexture>
-                        <bordersize>1</bordersize>					
+                        <bordersize>1</bordersize>
                     </control>
                     <control type="textbox">
                         <description>header label</description>
@@ -1162,7 +1162,7 @@
                         <aspectratio>stretch</aspectratio>
                         <texture fallback="nothumbalbum.png">$INFO[ListItem.Icon]</texture>
                         <bordertexture border="1">-</bordertexture>
-                        <bordersize>1</bordersize>		
+                        <bordersize>1</bordersize>
                         <visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png) + !StringCompare(ListItem.label,Available Updates) + !StringCompare(ListItem.label,Get Add-ons) + !StringCompare(ListItem.label,Enabled Add-ons) + !StringCompare(ListItem.label,Disabled Add-ons) + !StringCompare(ListItem.label,Get More...) + !StringCompare(ListItem.label,Web interface) + !StringCompare(ListItem.label,Services) + !StringCompare(ListItem.label,Album information) + !StringCompare(ListItem.label,Lyrics) + !StringCompare(ListItem.label,Artist information) + !StringCompare(ListItem.label,Movie information) + !StringCompare(ListItem.label,Music Add-ons) + !StringCompare(ListItem.label,Music video information) + !StringCompare(ListItem.label,Picture Add-ons) + !StringCompare(ListItem.label,Program Add-ons) + !StringCompare(ListItem.label,Screensaver) + !StringCompare(ListItem.label,Skin) + !StringCompare(ListItem.label,Subtitles) + !StringCompare(ListItem.label,TV information) + !StringCompare(ListItem.label,Video Add-ons) + !StringCompare(ListItem.label,Visualization) + !StringCompare(ListItem.label,Weather) + !StringCompare(ListItem.label,All Add-ons) + !StringCompare(ListItem.label,Add-on repository) + !StringCompare(ListItem.label,Install from zip file)  + !StringCompare(ListItem.label,Music)  + !StringCompare(ListItem.label,Pictures)+ !StringCompare(ListItem.label,Search)</visible>
                         <animation effect="zoom" end="105" center="auto" time="100" reversible="false">Focus</animation>
                     </control>
@@ -1228,7 +1228,7 @@
                 <posx>627.5</posx>
                 <posy>95</posy>
                 <width>25</width>
-                <height>25</height>				
+                <height>25</height>
                 <texture>simplicity/arrow-up.png</texture>
                 <visible>Container(58).HasPrevious</visible>
             </control>
@@ -1236,7 +1236,7 @@
                 <posx>627.5</posx>
                 <posy>650</posy>
                 <width>25</width>
-                <height>25</height>				
+                <height>25</height>
                 <texture flipy="true">simplicity/arrow-up.png</texture>
                 <visible>Container(58).HasNext</visible>
             </control>
@@ -1328,7 +1328,7 @@
                 <height>720</height>
                 <aspectratio>stretch</aspectratio>
                 <texture background="true">addons/nickfanart.jpg</texture>
-                <visible>substring(container.folderpath,plugin://plugin.video.nickjr)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.nickjr)</visible>
             </control>
             <control type="image">
                 <posx>0</posx>
@@ -1337,7 +1337,7 @@
                 <height>720</height>
                 <aspectratio>stretch</aspectratio>
                 <texture background="true">addons/nickfanart.jpg</texture>
-                <visible>substring(container.folderpath,plugin://plugin.video.nickelodeon)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.nickelodeon)</visible>
             </control>
             <control type="image">
                 <posx>0</posx>
@@ -1346,7 +1346,7 @@
                 <height>720</height>
                 <aspectratio>stretch</aspectratio>
                 <texture background="true">addons/adultswimfanart.jpg</texture>
-                <visible>substring(container.folderpath,plugin://plugin.video.adult.swim)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.adult.swim)</visible>
             </control>
             <control type="image">
                 <posx>0</posx>
@@ -1355,7 +1355,7 @@
                 <height>720</height>
                 <aspectratio>stretch</aspectratio>
                 <texture background="true">addons/cnfanart.jpg</texture>
-                <visible>substring(container.folderpath,plugin://plugin.video.cartoon.network)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.cartoon.network)</visible>
             </control>
             <control type="image">
                 <posx>0</posx>
@@ -1364,7 +1364,7 @@
                 <height>720</height>
                 <aspectratio>stretch</aspectratio>
                 <texture background="true">addons/espnfanart.jpg</texture>
-                <visible>substring(container.folderpath,plugin://plugin.video.espn3)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.espn3)</visible>
             </control>
             <control type="image">
                 <posx>0</posx>
@@ -1373,7 +1373,7 @@
                 <height>720</height>
                 <aspectratio>stretch</aspectratio>
                 <texture background="true">addons/cbsfanart.jpg</texture>
-                <visible>substring(container.folderpath,plugin://plugin.video.cbs)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.cbs)</visible>
             </control>
             <control type="image">
                 <posx>0</posx>
@@ -1382,7 +1382,7 @@
                 <height>720</height>
                 <aspectratio>stretch</aspectratio>
                 <texture background="true">addons/tntfanart.jpg</texture>
-                <visible>substring(container.folderpath,plugin://plugin.video.tnt)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.tnt)</visible>
             </control>
             <control type="image">
                 <posx>0</posx>
@@ -1391,7 +1391,7 @@
                 <height>720</height>
                 <aspectratio>stretch</aspectratio>
                 <texture background="true">addons/tbsfanart.jpg</texture>
-                <visible>substring(container.folderpath,plugin://plugin.video.tbs)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.tbs)</visible>
             </control>
             <control type="image">
                 <posx>0</posx>
@@ -1400,7 +1400,7 @@
                 <height>720</height>
                 <aspectratio>stretch</aspectratio>
                 <texture background="true">addons/wbfanart.jpg</texture>
-                <visible>substring(container.folderpath,plugin://plugin.video.KidsWB)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.KidsWB)</visible>
             </control>
             <control type="image">
                 <posx>0</posx>
@@ -1409,7 +1409,7 @@
                 <height>720</height>
                 <aspectratio>stretch</aspectratio>
                 <texture background="true">addons/cracklefanart.jpg</texture>
-                <visible>substring(container.folderpath,plugin://plugin.video.crackle)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.crackle)</visible>
             </control>
             <control type="image">
                 <posx>0</posx>
@@ -1418,7 +1418,7 @@
                 <height>720</height>
                 <aspectratio>stretch</aspectratio>
                 <texture background="true">addons/youtubefanart.jpg</texture>
-                <visible>substring(container.folderpath,plugin://plugin.video.youtube)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.youtube)</visible>
             </control>
             <include>Overlay</include>
             <include>UpOptions</include>
@@ -1444,8 +1444,8 @@
                 <scrolltime>300</scrolltime>
                 <focusposition>1</focusposition>
                 <preloaditems>400</preloaditems>
-                <visible>substring(container.folderpath,plugin://plugin.video.free.cable) | substring(container.folderpath,plugin://plugin.video.youtube) | substring(container.folderpath,plugin://plugin.video.crackle) | substring(container.folderpath,plugin://plugin.video.hgtv) | substring(container.folderpath,plugin://plugin.video.secsports) | substring(container.folderpath,plugin://plugin.video.espn3) | substring(container.folderpath,plugin://plugin.video.KidsWB) | substring(container.folderpath,plugin://plugin.video.nickelodeon) | substring(container.folderpath,plugin://plugin.video.nickjr) | substring(container.folderpath,plugin://plugin.video.adult.swim) | substring(container.folderpath,plugin://plugin.video.cartoon.network) | substring(container.folderpath,plugin://plugin.video.cbs) | substring(container.folderpath,plugin://plugin.video.tnt) | substring(container.folderpath,plugin://plugin.video.tbs)</visible> 
-                <itemlayout height="220" width="360">	
+                <visible>substring(container.folderpath,plugin://plugin.video.free.cable) | substring(container.folderpath,plugin://plugin.video.youtube) | substring(container.folderpath,plugin://plugin.video.crackle) | substring(container.folderpath,plugin://plugin.video.hgtv) | substring(container.folderpath,plugin://plugin.video.secsports) | substring(container.folderpath,plugin://plugin.video.espn3) | substring(container.folderpath,plugin://plugin.video.KidsWB) | substring(container.folderpath,plugin://plugin.video.nickelodeon) | substring(container.folderpath,plugin://plugin.video.nickjr) | substring(container.folderpath,plugin://plugin.video.adult.swim) | substring(container.folderpath,plugin://plugin.video.cartoon.network) | substring(container.folderpath,plugin://plugin.video.cbs) | substring(container.folderpath,plugin://plugin.video.tnt) | substring(container.folderpath,plugin://plugin.video.tbs)</visible>
+                <itemlayout height="220" width="360">
                     <control type="image">
                         <posx>3</posx>
                         <posy>31</posy>
@@ -1457,7 +1457,7 @@
                         <visible>![substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Movies)]</visible>
                         <visible>![substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Television)]</visible>
                         <visible>![substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Collections)]</visible>
-                        <include>NoYouTubeIcons</include>	
+                        <include>NoYouTubeIcons</include>
                     </control>
                     <control type="image">
                         <posy>28</posy>
@@ -1480,7 +1480,7 @@
                         <height>220</height>
                         <aspectratio scalediffuse="false">keep</aspectratio>
                         <texture background="true">$INFO[Listitem.Icon]</texture>
-                        <include>YouTubeIcons</include>	
+                        <include>YouTubeIcons</include>
                     </control>
                     <control type="image">
                         <posx>-35</posx>
@@ -1536,12 +1536,12 @@
                         <width>345</width>
                         <height>192</height>
                         <texture background="true">simplicity/black-back.png</texture>
-                        <aspectratio scalediffuse="false">stretch</aspectratio>		
+                        <aspectratio scalediffuse="false">stretch</aspectratio>
                         <visible>![substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Originals)]</visible>
                         <visible>![substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Movies)]</visible>
                         <visible>![substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Television)]</visible>
                         <visible>![substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Collections)]</visible>
-                        <include>NoYouTubeIcons</include>	
+                        <include>NoYouTubeIcons</include>
                     </control>
                 </itemlayout>
                 <focusedlayout height="340" width="420">
@@ -1555,12 +1555,12 @@
                             <height>200</height>
                             <aspectratio scalediffuse="false">stretch</aspectratio>
                             <texture background="true">simplicity/fanart-slide-fanart-shadow.png</texture>
-                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation> 
+                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation>
                             <visible>![substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Originals)]</visible>
                             <visible>![substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Movies)]</visible>
                             <visible>![substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Television)]</visible>
                             <visible>![substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Collections)]</visible>
-                            <include>NoYouTubeIcons</include>	
+                            <include>NoYouTubeIcons</include>
                         </control>
                         <control type="image">
                             <posy>4</posy>
@@ -1570,12 +1570,12 @@
                             <texture background="true">$INFO[Listitem.Icon]</texture>
                             <bordertexture border="2">simplicity/thumbborder-thin.png</bordertexture>
                             <bordersize>4</bordersize>
-                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation> 
+                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation>
                             <visible>![substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Originals)]</visible>
                             <visible>![substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Movies)]</visible>
                             <visible>![substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Television)]</visible>
                             <visible>![substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Collections)]</visible>
-                            <include>NoYouTubeIcons</include>	
+                            <include>NoYouTubeIcons</include>
                         </control>
                         <control type="image">
                             <posx>-35</posx>
@@ -1584,8 +1584,8 @@
                             <height>220</height>
                             <aspectratio scalediffuse="false">stretch</aspectratio>
                             <texture background="true">$INFO[Listitem.Icon]</texture>
-                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation> 
-                            <include>YouTubeIcons</include>	
+                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation>
+                            <include>YouTubeIcons</include>
                         </control>
                         <control type="image">
                             <posx>-34</posx>
@@ -1594,7 +1594,7 @@
                             <height>256</height>
                             <aspectratio scalediffuse="false">stretch</aspectratio>
                             <texture background="true">addons/crackle/$INFO[ListItem.label].png</texture>
-                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation> 
+                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation>
                             <visible>substring(container.folderpath,plugin://plugin.video.crackle)</visible>
                         </control>
                         <control type="image">
@@ -1605,7 +1605,7 @@
                             <texture background="true">addons/crackle/wide/next.jpg</texture>
                             <bordertexture border="2">simplicity/thumbborder-thin.png</bordertexture>
                             <bordersize>4</bordersize>
-                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation> 
+                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation>
                             <visible>[substring(container.folderpath,plugin://plugin.video.crackle) + SubString(ListItem.label,Next)]</visible>
                         </control>
                         <control type="image">
@@ -1616,7 +1616,7 @@
                             <texture background="true">addons/nickjr.jpg</texture>
                             <bordertexture border="2">simplicity/thumbborder-thin.png</bordertexture>
                             <bordersize>4</bordersize>
-                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation> 
+                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation>
                             <visible>[substring(container.folderpath,plugin://plugin.video.nick) + SubString(ListItem.Title,Featured)]</visible>
                         </control>
                         <control type="image">
@@ -1627,7 +1627,7 @@
                             <texture background="true">addons/cnclips.jpg</texture>
                             <bordertexture border="2">simplicity/thumbborder-thin.png</bordertexture>
                             <bordersize>4</bordersize>
-                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation> 
+                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation>
                             <visible>[substring(container.folderpath,plugin://plugin.video.cartoon.network) + SubString(ListItem.Title,Clips)]</visible>
                         </control>
                         <control type="image">
@@ -1638,7 +1638,7 @@
                             <texture background="true">addons/cbsnext.jpg</texture>
                             <bordertexture border="2">simplicity/thumbborder-thin.png</bordertexture>
                             <bordersize>4</bordersize>
-                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation> 
+                            <animation effect="zoom" end="120" center="auto" time="200" reversible="false">Focus</animation>
                             <visible>[substring(container.folderpath,plugin://plugin.video.cbs) + SubString(ListItem.Title,Next Page)]</visible>
                         </control>
                     </control>
@@ -1646,7 +1646,7 @@
             </control>
 
             <control type="group">
-                <visible>substring(container.folderpath,plugin://plugin.video.secsports)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.secsports)</visible>
                 <include>Zoom</include>
                 <control type="textbox">
                     <posx>165</posx>
@@ -1678,7 +1678,7 @@
 
 
             <control type="group">
-                <visible>substring(container.folderpath,plugin://plugin.video.nickjr)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.nickjr)</visible>
                 <include>Zoom</include>
                 <control type="textbox">
                     <posx>165</posx>
@@ -1707,7 +1707,7 @@
             </control>
 
             <control type="group">
-                <visible>substring(container.folderpath,plugin://plugin.video.KidsWB)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.KidsWB)</visible>
                 <include>Zoom</include>
                 <control type="textbox">
                     <posx>165</posx>
@@ -1723,7 +1723,7 @@
             </control>
 
             <control type="group">
-                <visible>substring(container.folderpath,plugin://plugin.video.nick)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.nick)</visible>
                 <include>Zoom</include>
                 <control type="textbox">
                     <posx>165</posx>
@@ -1739,7 +1739,7 @@
             </control>
 
             <control type="group">
-                <visible>substring(container.folderpath,plugin://plugin.video.espn3)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.espn3)</visible>
                 <include>Zoom</include>
                 <control type="textbox">
                     <posx>165</posx>
@@ -1766,7 +1766,7 @@
             </control>
 
             <control type="group">
-                <visible>substring(container.folderpath,plugin://plugin.video.youtube)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.youtube)</visible>
                 <include>Zoom</include>
                 <control type="textbox">
                     <posx>165</posx>
@@ -1791,12 +1791,12 @@
                     <align>left</align>
                     <aligny>center</aligny>
                     <label>$LOCALIZE[31154]: $INFO[ListItem.Duration]</label>
-                    <include>NoYouTubeIcons</include>	
+                    <include>NoYouTubeIcons</include>
                 </control>
             </control>
 
             <control type="group">
-                <visible>substring(container.folderpath,plugin://plugin.video.adult.swim)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.adult.swim)</visible>
                 <include>Zoom</include>
                 <control type="textbox">
                     <posx>165</posx>
@@ -1861,7 +1861,7 @@
             </control>
 
             <control type="group">
-                <visible>substring(container.folderpath,plugin://plugin.video.crackle)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.crackle)</visible>
                 <include>Zoom</include>
                 <control type="textbox">
                     <posx>165</posx>
@@ -1901,7 +1901,7 @@
             </control>
 
             <control type="group">
-                <visible>substring(container.folderpath,plugin://plugin.video.cartoon.network) + !SubString(ListItem.Title,Clips)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.cartoon.network) + !SubString(ListItem.Title,Clips)</visible>
                 <include>Zoom</include>
                 <control type="textbox">
                     <posx>165</posx>
@@ -1966,7 +1966,7 @@
             </control>
 
             <control type="group">
-                <visible>substring(container.folderpath,plugin://plugin.video.hgtv)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.hgtv)</visible>
                 <include>Zoom</include>
                 <control type="textbox">
                     <posx>165</posx>
@@ -2021,7 +2021,7 @@
 
 
             <control type="group">
-                <visible>substring(container.folderpath,plugin://plugin.video.cbs) + !SubString(ListItem.Title,Next Page)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.cbs) + !SubString(ListItem.Title,Next Page)</visible>
                 <include>Zoom</include>
                 <control type="textbox">
                     <posx>165</posx>
@@ -2086,7 +2086,7 @@
             </control>
 
             <control type="group">
-                <visible>substring(container.folderpath,plugin://plugin.video.tnt)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.tnt)</visible>
                 <include>Zoom</include>
                 <control type="textbox">
                     <posx>165</posx>
@@ -2151,7 +2151,7 @@
             </control>
 
             <control type="group">
-                <visible>substring(container.folderpath,plugin://plugin.video.tbs)</visible> 
+                <visible>substring(container.folderpath,plugin://plugin.video.tbs)</visible>
                 <include>Zoom</include>
                 <control type="textbox">
                     <posx>165</posx>
@@ -2221,7 +2221,7 @@
                         <posx>-355</posx>
                         <posy>298</posy>
                         <width>1800</width>
-                        <height>300</height>		
+                        <height>300</height>
                         <include condition="Skin.HasSetting(VideoUseGuide)">OpenGuideDown</include>
                         <include condition="Skin.HasSetting(VideoUseRecent)">OpenRecentDown</include>
                         <include condition="Skin.HasSetting(VideoUseCustom)">OpenCustomDown</include>
@@ -2236,7 +2236,7 @@
                         <itemlayout height="290" width="180">
                             <control type="largeimage">
                                 <posx>0</posx>
-                                <posy>2</posy> 
+                                <posy>2</posy>
                                 <width>168</width>
                                 <height>168</height>
                                 <aligny>center</aligny>
@@ -2244,7 +2244,7 @@
                             </control>
                             <control type="largeimage">
                                 <posx>0</posx>
-                                <posy>2</posy> 
+                                <posy>2</posy>
                                 <width>160</width>
                                 <height>160</height>
                                 <aligny>center</aligny>
@@ -2254,7 +2254,7 @@
                             </control>
                             <control type="largeimage">
                                 <posx>0</posx>
-                                <posy>2</posy> 
+                                <posy>2</posy>
                                 <width>160</width>
                                 <height>160</height>
                                 <aligny>center</aligny>
@@ -2264,7 +2264,7 @@
                             </control>
                             <control type="largeimage">
                                 <posx>0</posx>
-                                <posy>2</posy> 
+                                <posy>2</posy>
                                 <width>160</width>
                                 <height>160</height>
                                 <aligny>center</aligny>
@@ -2274,7 +2274,7 @@
                             </control>
                             <control type="largeimage">
                                 <posx>-2</posx>
-                                <posy>0</posy> 
+                                <posy>0</posy>
                                 <width>164</width>
                                 <height>164</height>
                                 <aligny>center</aligny>
@@ -2283,7 +2283,7 @@
                             </control>
                             <control type="largeimage">
                                 <posx>-2</posx>
-                                <posy>0</posy> 
+                                <posy>0</posy>
                                 <width>164</width>
                                 <height>164</height>
                                 <aligny>center</aligny>
@@ -2294,58 +2294,58 @@
                         <focusedlayout height="390" width="280">
                             <control type="largeimage">
                                 <posx>50</posx>
-                                <posy>4</posy> 
+                                <posy>4</posy>
                                 <width>169</width>
                                 <height>169</height>
                                 <aligny>center</aligny>
                                 <texture>simplicity/album-slide-shadow.png</texture>
-                                <animation  reversible="false" effect="zoom" end="160" center="auto" time="200">Focus</animation> 
+                                <animation  reversible="false" effect="zoom" end="160" center="auto" time="200">Focus</animation>
                             </control>
                             <control type="largeimage">
                                 <posx>50</posx>
-                                <posy>4</posy> 
+                                <posy>4</posy>
                                 <width>160</width>
                                 <height>160</height>
                                 <aligny>center</aligny>
                                 <texture fallback="nothumbalbum.png">$INFO[ListItem.Icon]</texture>
-                                <animation  reversible="false" effect="zoom" end="160" center="auto" time="200">Focus</animation> 
+                                <animation  reversible="false" effect="zoom" end="160" center="auto" time="200">Focus</animation>
                                 <aspectratio>stretch</aspectratio>
                                 <visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png) + !StringCompare(ListItem.label,Get More...)</visible>
                             </control>
                             <control type="largeimage">
                                 <posx>50</posx>
-                                <posy>4</posy> 
+                                <posy>4</posy>
                                 <width>160</width>
                                 <height>160</height>
                                 <aligny>center</aligny>
                                 <texture>root-album.png</texture>
-                                <animation  reversible="false" effect="zoom" end="160" center="auto" time="200">Focus</animation> 
+                                <animation  reversible="false" effect="zoom" end="160" center="auto" time="200">Focus</animation>
                                 <aspectratio>stretch</aspectratio>
                                 <visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
                             </control>
                             <control type="largeimage">
                                 <posx>50</posx>
-                                <posy>4</posy> 
+                                <posy>4</posy>
                                 <width>160</width>
                                 <height>160</height>
                                 <aligny>center</aligny>
                                 <texture>get-more.png</texture>
-                                <animation  reversible="false" effect="zoom" end="160" center="auto" time="200">Focus</animation> 
+                                <animation  reversible="false" effect="zoom" end="160" center="auto" time="200">Focus</animation>
                                 <aspectratio>stretch</aspectratio>
                                 <visible>StringCompare(ListItem.label,Get More...)</visible>
                             </control>
                             <control type="largeimage">
                                 <posx>48</posx>
-                                <posy>1</posy> 
+                                <posy>1</posy>
                                 <width>164</width>
                                 <height>164</height>
                                 <aligny>center</aligny>
                                 <texture diffuse="simplicity/poster-slide-fanart-diffuse.png" background="true">simplicity/poster-border5.png</texture>
-                                <animation reversible="false" effect="zoom" end="160" center="auto" time="200">Focus</animation> 
+                                <animation reversible="false" effect="zoom" end="160" center="auto" time="200">Focus</animation>
                                 <aspectratio>stretch</aspectratio>
                             </control>
                         </focusedlayout>
-                    </control>	
+                    </control>
                     <control type="group">
                         <visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
                         <visible>!StringCompare(ListItem.label,Get More...)</visible>
@@ -2444,7 +2444,7 @@
                 <focusposition>1</focusposition>
                 <preloaditems>400</preloaditems>
                 <visible>substring(container.folderpath,plugin://plugin.video.hgtv)</visible>
-                <itemlayout height="300" width="320">	
+                <itemlayout height="300" width="320">
                     <control type="image">
                         <posx>2</posx>
                         <posy>6</posy>
@@ -2490,7 +2490,7 @@
                         <width>303</width>
                         <height>63</height>
                         <texture background="false" diffuse="simplicity/bannerdiffuse.png">simplicity/banner-shadow7.png</texture>
-                        <animation reversible="false" effect="zoom" end="140" center="auto" time="200">Focus</animation> 
+                        <animation reversible="false" effect="zoom" end="140" center="auto" time="200">Focus</animation>
                     </control>
                     <control type="image">
                         <posx>60</posx>
@@ -2499,7 +2499,7 @@
                         <height>60</height>
                         <aspectratio scalediffuse="true">stretch</aspectratio>
                         <texture diffuse="simplicity/bannerdiffuse.png" background="true">root-banner.png</texture>
-                        <animation reversible="false" effect="zoom" end="140" center="auto" time="200">Focus</animation> 
+                        <animation reversible="false" effect="zoom" end="140" center="auto" time="200">Focus</animation>
                         <visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
                     </control>
                     <control type="image">
@@ -2509,7 +2509,7 @@
                         <height>60</height>
                         <aspectratio scalediffuse="true">stretch</aspectratio>
                         <texture diffuse="simplicity/bannerdiffuse.png" background="true">$INFO[Listitem.Icon]</texture>
-                        <animation reversible="false" effect="zoom" end="140" center="auto" time="200">Focus</animation> 
+                        <animation reversible="false" effect="zoom" end="140" center="auto" time="200">Focus</animation>
                         <visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
                     </control>
                     <control type="image">
@@ -2519,7 +2519,7 @@
                         <height>60</height>
                         <aspectratio scalediffuse="true">stretch</aspectratio>
                         <texture diffuse="simplicity/bannerdiffuse.png" background="true">simplicity/banner-gloss.png</texture>
-                        <animation  reversible="false" effect="zoom" end="140" center="auto" time="200">Focus</animation> 
+                        <animation  reversible="false" effect="zoom" end="140" center="auto" time="200">Focus</animation>
                     </control>
                     <control type="image">
                         <posx>382</posx>
@@ -2527,7 +2527,7 @@
                         <width>42</width>
                         <height>42</height>
                         <texture diffuse="simplicity/info-slide-poster-diffuse.png">$INFO[ListItem.Overlay]</texture>
-                        <animation  reversible="false" effect="fade" end="100" time="200" delay="300">Focus</animation> 
+                        <animation  reversible="false" effect="fade" end="100" time="200" delay="300">Focus</animation>
                     </control>
                 </focusedlayout>
             </control>
@@ -2566,7 +2566,7 @@
             </control>
             <include>AddonBreadCrumbs</include>
             <control type="panel" id="68">
-                <include>Zoom</include>		
+                <include>Zoom</include>
                 <posx>539</posx>
                 <posy>140</posy>
                 <width>725</width>
@@ -2593,7 +2593,7 @@
                             <aspectratio>stretch</aspectratio>
                             <texture background="true">root-album.png</texture>
                             <bordertexture border="1">simplicity/thumbborder-thin.png</bordertexture>
-                            <bordersize>1</bordersize>		
+                            <bordersize>1</bordersize>
                             <visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
                         </control>
                         <control type="image">
@@ -2604,7 +2604,7 @@
                             <aspectratio>stretch</aspectratio>
                             <texture background="true">simplicity/icons/get more....png</texture>
                             <bordertexture border="1">simplicity/thumbborder-thin.png</bordertexture>
-                            <bordersize>1</bordersize>		
+                            <bordersize>1</bordersize>
                             <visible>StringCompare(ListItem.label,Get More...)</visible>
                         </control>
                         <control type="image">
@@ -2615,10 +2615,10 @@
                             <aspectratio>stretch</aspectratio>
                             <texture background="true" fallback="nothumbalbum.png">$INFO[ListItem.Icon]</texture>
                             <bordertexture border="1">simplicity/thumbborder-thin.png</bordertexture>
-                            <bordersize>1</bordersize>		
+                            <bordersize>1</bordersize>
                             <visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png) + !StringCompare(ListItem.label,Get More...)</visible>
                         </control>
-                    </control>	
+                    </control>
                 </itemlayout>
                 <focusedlayout height="530" width="230">
                     <control type="image">
@@ -2629,7 +2629,7 @@
                         <aspectratio>stretch</aspectratio>
                         <texture background="true" fallback="nothumbalbum.png">root-album.png</texture>
                         <bordertexture border="1"/>
-                        <bordersize>1</bordersize>		
+                        <bordersize>1</bordersize>
                         <animation type="Focus" reversible="false">
                             <effect type="zoom" start="100" end="120" center="auto" time="100"/>
                         </animation>
@@ -2643,7 +2643,7 @@
                         <aspectratio>stretch</aspectratio>
                         <texture background="true">simplicity/icons/get more....png</texture>
                         <bordertexture border="1"/>
-                        <bordersize>1</bordersize>		
+                        <bordersize>1</bordersize>
                         <animation type="Focus" reversible="false">
                             <effect type="zoom" start="100" end="120" center="auto" time="100"/>
                         </animation>
@@ -2657,12 +2657,12 @@
                         <aspectratio>stretch</aspectratio>
                         <texture background="true" fallback="nothumbalbum.png">$INFO[ListItem.Icon]</texture>
                         <bordertexture border="1"/>
-                        <bordersize>1</bordersize>		
+                        <bordersize>1</bordersize>
                         <animation type="Focus" reversible="false">
                             <effect type="zoom" start="100" end="120" center="auto" time="100"/>
                         </animation>
                         <visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png) + !StringCompare(ListItem.label,Get More...)</visible>
-                    </control>			
+                    </control>
                     <control type="image">
                         <posx>0</posx>
                         <posy>0</posy>

@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
-	<defaultcontrol>1001</defaultcontrol>
-	<include>dialogeffect</include>
-	<coordinates>
-		<posx>0</posx>
-		<posy>0</posy>
-	</coordinates>
-	<controls>
-<!-- 		<control type="image" id="997">
+    <defaultcontrol>1001</defaultcontrol>
+    <include>dialogeffect</include>
+    <coordinates>
+        <posx>0</posx>
+        <posy>0</posy>
+    </coordinates>
+    <controls>
+        <!-- 		<control type="image" id="997">
 			<posx>460</posx>
 			<posy>313</posy>
 			<width>360</width>
 			<height>1</height>
 			<texture border="45,49,45,0">simplicity/dialog-context-top.png</texture>
 		</control> -->
-		<control type="image" id="999">
-			<posx>460</posx>
-			<posy>314</posy>
-			<width>360</width>
-			<height>94</height>
-			<texture border="20">simplicity/dialog-bg-source.png</texture>
-		</control>
-<!-- 		<control type="image" id="999">
+        <control type="image" id="999">
+            <posx>460</posx>
+            <posy>314</posy>
+            <width>360</width>
+            <height>94</height>
+            <texture border="20">simplicity/dialog-bg-source.png</texture>
+        </control>
+        <!-- 		<control type="image" id="999">
 			<posx>460</posx>
 			<posy>315</posy>
 			<width>360</width>
 			<height>3</height>
 			<texture border="45,0,45,49">simplicity/dialog-context-bottom.png</texture>
 		</control> -->
-		<control type="button" id="1001">
-			<posx>470</posx>
-			<posy>324</posy>
-			<width>338</width>
-			<height>38</height>
-			<font>Simplicity_24</font>
-			<align>center</align>
-			<textcolor>grey2</textcolor>
-			<focusedcolor>black</focusedcolor>
-			<texturefocus border="5">simplicity/infoscreen-popup.png</texturefocus>
-			<texturenofocus border="5">-</texturenofocus>
-			<onleft>1001</onleft>
-			<onright>1001</onright>
-			<onup>1003</onup>
-			<ondown>1002</ondown>
-		</control>
-		<control type="button" id="1002">
-			<posx>470</posx>
-			<posy>362</posy>
-			<width>338</width>
-			<height>38</height>
-			<font>Simplicity_24</font>
-			<align>center</align>
-			<textcolor>grey2</textcolor>
-			<focusedcolor>black</focusedcolor>
-			<texturefocus border="5">simplicity/infoscreen-popup.png</texturefocus>
-			<texturenofocus border="5">-</texturenofocus>
-			<onleft>1002</onleft>
-			<onright>1002</onright>
-			<onup>1001</onup>
-			<ondown>1003</ondown>
-		</control>
-		<control type="button" id="1003">
-			<posx>470</posx>
-			<posy>400</posy>
-			<width>338</width>
-			<height>38</height>
-			<font>Simplicity_24</font>
-			<align>center</align>
-			<textcolor>grey2</textcolor>
-			<focusedcolor>black</focusedcolor>
-			<texturefocus border="5">simplicity/infoscreen-popup.png</texturefocus>
-			<texturenofocus border="5">-</texturenofocus>
-			<onleft>1003</onleft>
-			<onright>1003</onright>
-			<onup>1002</onup>
-			<ondown>1001</ondown>
-		</control>
-	</controls>
+        <control type="button" id="1001">
+            <posx>470</posx>
+            <posy>324</posy>
+            <width>338</width>
+            <height>38</height>
+            <font>Simplicity_24</font>
+            <align>center</align>
+            <textcolor>grey2</textcolor>
+            <focusedcolor>black</focusedcolor>
+            <texturefocus border="5">simplicity/infoscreen-popup.png</texturefocus>
+            <texturenofocus border="5">-</texturenofocus>
+            <onleft>1001</onleft>
+            <onright>1001</onright>
+            <onup>1003</onup>
+            <ondown>1002</ondown>
+        </control>
+        <control type="button" id="1002">
+            <posx>470</posx>
+            <posy>362</posy>
+            <width>338</width>
+            <height>38</height>
+            <font>Simplicity_24</font>
+            <align>center</align>
+            <textcolor>grey2</textcolor>
+            <focusedcolor>black</focusedcolor>
+            <texturefocus border="5">simplicity/infoscreen-popup.png</texturefocus>
+            <texturenofocus border="5">-</texturenofocus>
+            <onleft>1002</onleft>
+            <onright>1002</onright>
+            <onup>1001</onup>
+            <ondown>1003</ondown>
+        </control>
+        <control type="button" id="1003">
+            <posx>470</posx>
+            <posy>400</posy>
+            <width>338</width>
+            <height>38</height>
+            <font>Simplicity_24</font>
+            <align>center</align>
+            <textcolor>grey2</textcolor>
+            <focusedcolor>black</focusedcolor>
+            <texturefocus border="5">simplicity/infoscreen-popup.png</texturefocus>
+            <texturenofocus border="5">-</texturenofocus>
+            <onleft>1003</onleft>
+            <onright>1003</onright>
+            <onup>1002</onup>
+            <ondown>1001</ondown>
+        </control>
+    </controls>
 </window>

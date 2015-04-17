@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="12">
-	<defaultcontrol>3</defaultcontrol>
-	<allowoverlay>false</allowoverlay>
-	<include>Window_OpenClose_Animation</include>
-	<controls>
+    <defaultcontrol>3</defaultcontrol>
+    <allowoverlay>false</allowoverlay>
+    <include>Window_OpenClose_Animation</include>
+    <controls>
 
-		<control type="group">
-			<animation type="WindowOpen" reversible="false">
-				<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" />
-				<effect type="fade" start="0" end="100" time="300" />
-			</animation>
-			<animation type="WindowClose" reversible="false">
-				<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" />
-				<effect type="fade" start="100" end="0" time="300" />
-			</animation>
+        <control type="group">
+            <animation type="WindowOpen" reversible="false">
+                <effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" />
+                <effect type="fade" start="0" end="100" time="300" />
+            </animation>
+            <animation type="WindowClose" reversible="false">
+                <effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" />
+                <effect type="fade" start="100" end="0" time="300" />
+            </animation>
 
-			<!--<control type="image">
+            <!--<control type="image">
 				<posx>260</posx>
 				<posy>0</posy>
 				<width>1020</width>
@@ -30,172 +30,172 @@
 				<height>720</height>
 				<texture>simplicity/list_fade.png</texture>
 			</control>-->
-			<control type="image">
-				<description>Line</description>
-				<posx>0</posx>
-				<posy>0</posy>
-				<width>1280</width>
-				<height>720</height>
-				<texture>simplicity/settings-bg.png</texture>
-			</control>
-			<control type="grouplist" id="3">
-				<description>button area</description>
-				<posx>0</posx>
-				<posy>60</posy>
-				<width>260</width>
-				<height>600</height>
-				<itemgap>0</itemgap>
-				<onleft>9000</onleft>
-				<onright>5</onright>
-				<onup>3</onup>
-				<ondown>3</ondown>
-				<align>left</align>
-				<orientation>vertical</orientation>
-			</control>
-			<control type="label">
-				<description>header label</description>
-				<posx>0</posx>
-				<posy>6</posy>
-				<width>260</width>
-				<height>80</height>
-				<font>Simplicity_40</font>
-				<label>$INFO[Control.GetLabel(2)]</label>
-				<align>center</align>
-				<textcolor>white</textcolor>
-			</control>
-			<control type="grouplist" id="5">
-				<description>control area</description>
-				<posx>310</posx>
-				<posy>50</posy>
-				<width>900</width>
-				<height>530</height>
-				<itemgap>-1</itemgap>
-				<pagecontrol>60</pagecontrol>
-				<onleft>3</onleft>
-				<onright>3</onright>
-				<onup>5</onup>
-				<ondown>5</ondown>
-			</control>			
-		</control>
-		<include>BehindDialogFadeOut</include>		
-		<control type="group">
-			 <posx>-250</posx>
-			 <animation effect="slide" start="0,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus | ControlGroup(9001).HasFocus | Control.HasFocus(8999) | ControlGroup(9002).HasFocus">Conditional</animation>
-		<animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus | ControlGroup(9001).HasFocus | ControlGroup(9002).HasFocus">WindowClose</animation>
-			 <control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>230</width>
-			<height>720</height>
-			<texture>simplicity/setting-popup.png</texture>
-			<animation effect="slide" start="-26,0" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
-			<animation effect="slide" start="0,0" end="-26,0" time="200" delay="200" tween="quadratic" easing="out">WindowClose</animation>
-		</control>
-			<control type="image">
-				<description>LOGO</description>
-				<posx>0</posx>
-				<posy>50</posy>
-				<width>192</width>
-				<height>64</height>
-				<aspectratio>keep</aspectratio>
-				<texture>simplicity/simplicity-logo.png</texture>
-			</control>
-			<control type="grouplist" id="9000">
-				   <posx>0</posx>
-				   <posy>110</posy>
-				   <width>250</width>
-				   <height>600</height>
-				   <onleft>9000</onleft>
-				   <onright>3</onright>
-				   <onup>9000</onup>
-				   <ondown>9000</ondown>
-				   <onback>3</onback>
-				   <itemgap>10</itemgap>
-			   <control type="label" id="200">
-					 <width>250</width>
-					 <height>35</height>
-					 <font>Simplicity_22</font>
-					 <label>$LOCALIZE[31193]</label>
-					 <textcolor>yellow</textcolor>
-					 <align>center</align>
-					 <aligny>center</aligny>
-				</control>
-			   <control type="button" id="20">
-					 <description>Setting level button</description>
-					 <textwidth>235</textwidth>
-					 <include>ButtonCommonValuesSub</include>
-					 <label>$LOCALIZE[10037]</label>
-					 <onclick>SettingsLevelChange</onclick>
-				</control>
-			   <control type="button" id="21">
-					 <description>Reset button</description>
-					 <include>ButtonCommonValuesSub</include>
-					 <label>$LOCALIZE[10035]</label>
-					 <onclick>SettingsReset</onclick>
-				</control>
-			 </control>
-		</control> 
-		<control type="button" id="10">
-			<description>Default Category Button</description>
-			<height>60</height>
-			<width>260</width>
-			<textoffsetx>20</textoffsetx>
-			<align>center</align>
-			<aligny>center</aligny>
-			<font>Simplicity_18_Bold</font>
-			<textcolor>grey3</textcolor>
-			<focusedcolor>white</focusedcolor>
-			<texturefocus>simplicity/list-selector.png</texturefocus>
-			<texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
-			<pulseonselect>false</pulseonselect>
-		</control>
-		<control type="button" id="7">
-			<description>Default Button</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<height>40</height>
-			<font>Simplicity_20</font>
-			<textcolor>white</textcolor>
-			<focusedcolor>white</focusedcolor>
-			<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-			<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-		</control>
-		<control type="radiobutton" id="8">
-			<description>Default RadioButton</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<height>40</height>
-			<radiowidth>83</radiowidth>
-			<radioheight>67</radioheight>
-			<font>Simplicity_20</font>
-			<textcolor>white</textcolor>
-			<focusedcolor>white</focusedcolor>
-			<textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-			<textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
-			<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-			<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-		</control>
-		<control type="spincontrolex" id="9">
-			<description>Default SpinControlex</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<font>Simplicity_20</font>
-			<textcolor>white</textcolor>
-			<focusedcolor>white</focusedcolor>
-			<width>300</width>
-			<height>40</height>
-			<spinwidth>43</spinwidth>
-			<spinheight>67</spinheight>
-			<textoffsetx>7</textoffsetx>
-			<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-			<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-			<textureup>simplicity/scroll-up-2.png</textureup>
-			<texturedown>simplicity/scroll-down-2.png</texturedown>
-			<textureupfocus>simplicity/scroll-up-focus.png</textureupfocus>
-			<texturedownfocus>simplicity/scroll-down-focus.png</texturedownfocus>
-			<aligny>center</aligny>
-			<reverse>true</reverse>
-		</control>
+            <control type="image">
+                <description>Line</description>
+                <posx>0</posx>
+                <posy>0</posy>
+                <width>1280</width>
+                <height>720</height>
+                <texture>simplicity/settings-bg.png</texture>
+            </control>
+            <control type="grouplist" id="3">
+                <description>button area</description>
+                <posx>0</posx>
+                <posy>60</posy>
+                <width>260</width>
+                <height>600</height>
+                <itemgap>0</itemgap>
+                <onleft>9000</onleft>
+                <onright>5</onright>
+                <onup>3</onup>
+                <ondown>3</ondown>
+                <align>left</align>
+                <orientation>vertical</orientation>
+            </control>
+            <control type="label">
+                <description>header label</description>
+                <posx>0</posx>
+                <posy>6</posy>
+                <width>260</width>
+                <height>80</height>
+                <font>Simplicity_40</font>
+                <label>$INFO[Control.GetLabel(2)]</label>
+                <align>center</align>
+                <textcolor>white</textcolor>
+            </control>
+            <control type="grouplist" id="5">
+                <description>control area</description>
+                <posx>310</posx>
+                <posy>50</posy>
+                <width>900</width>
+                <height>530</height>
+                <itemgap>-1</itemgap>
+                <pagecontrol>60</pagecontrol>
+                <onleft>3</onleft>
+                <onright>3</onright>
+                <onup>5</onup>
+                <ondown>5</ondown>
+            </control>
+        </control>
+        <include>BehindDialogFadeOut</include>
+        <control type="group">
+            <posx>-250</posx>
+            <animation effect="slide" start="0,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus | ControlGroup(9001).HasFocus | Control.HasFocus(8999) | ControlGroup(9002).HasFocus">Conditional</animation>
+            <animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus | ControlGroup(9001).HasFocus | ControlGroup(9002).HasFocus">WindowClose</animation>
+            <control type="image">
+                <posx>0</posx>
+                <posy>0</posy>
+                <width>230</width>
+                <height>720</height>
+                <texture>simplicity/setting-popup.png</texture>
+                <animation effect="slide" start="-26,0" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
+                <animation effect="slide" start="0,0" end="-26,0" time="200" delay="200" tween="quadratic" easing="out">WindowClose</animation>
+            </control>
+            <control type="image">
+                <description>LOGO</description>
+                <posx>0</posx>
+                <posy>50</posy>
+                <width>192</width>
+                <height>64</height>
+                <aspectratio>keep</aspectratio>
+                <texture>simplicity/simplicity-logo.png</texture>
+            </control>
+            <control type="grouplist" id="9000">
+                <posx>0</posx>
+                <posy>110</posy>
+                <width>250</width>
+                <height>600</height>
+                <onleft>9000</onleft>
+                <onright>3</onright>
+                <onup>9000</onup>
+                <ondown>9000</ondown>
+                <onback>3</onback>
+                <itemgap>10</itemgap>
+                <control type="label" id="200">
+                    <width>250</width>
+                    <height>35</height>
+                    <font>Simplicity_22</font>
+                    <label>$LOCALIZE[31193]</label>
+                    <textcolor>yellow</textcolor>
+                    <align>center</align>
+                    <aligny>center</aligny>
+                </control>
+                <control type="button" id="20">
+                    <description>Setting level button</description>
+                    <textwidth>235</textwidth>
+                    <include>ButtonCommonValuesSub</include>
+                    <label>$LOCALIZE[10037]</label>
+                    <onclick>SettingsLevelChange</onclick>
+                </control>
+                <control type="button" id="21">
+                    <description>Reset button</description>
+                    <include>ButtonCommonValuesSub</include>
+                    <label>$LOCALIZE[10035]</label>
+                    <onclick>SettingsReset</onclick>
+                </control>
+            </control>
+        </control>
+        <control type="button" id="10">
+            <description>Default Category Button</description>
+            <height>60</height>
+            <width>260</width>
+            <textoffsetx>20</textoffsetx>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>Simplicity_18_Bold</font>
+            <textcolor>grey3</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <texturefocus>simplicity/list-selector.png</texturefocus>
+            <texturenofocus border="5">simplicity/menuitemnf.png</texturenofocus>
+            <pulseonselect>false</pulseonselect>
+        </control>
+        <control type="button" id="7">
+            <description>Default Button</description>
+            <posx>0</posx>
+            <posy>0</posy>
+            <height>40</height>
+            <font>Simplicity_20</font>
+            <textcolor>white</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+            <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+        </control>
+        <control type="radiobutton" id="8">
+            <description>Default RadioButton</description>
+            <posx>0</posx>
+            <posy>0</posy>
+            <height>40</height>
+            <radiowidth>83</radiowidth>
+            <radioheight>67</radioheight>
+            <font>Simplicity_20</font>
+            <textcolor>white</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
+            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+            <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+            <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+        </control>
+        <control type="spincontrolex" id="9">
+            <description>Default SpinControlex</description>
+            <posx>0</posx>
+            <posy>0</posy>
+            <font>Simplicity_20</font>
+            <textcolor>white</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <width>300</width>
+            <height>40</height>
+            <spinwidth>43</spinwidth>
+            <spinheight>67</spinheight>
+            <textoffsetx>7</textoffsetx>
+            <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+            <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+            <textureup>simplicity/scroll-up-2.png</textureup>
+            <texturedown>simplicity/scroll-down-2.png</texturedown>
+            <textureupfocus>simplicity/scroll-up-focus.png</textureupfocus>
+            <texturedownfocus>simplicity/scroll-down-focus.png</texturedownfocus>
+            <aligny>center</aligny>
+            <reverse>true</reverse>
+        </control>
         <control type="sliderex" id="13">
             <description>Default Slider</description>
             <posx>0</posx>
@@ -204,23 +204,23 @@
             <font>Simplicity_20</font>
             <textcolor>white</textcolor>
             <focusedcolor>white</focusedcolor>
-			<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-			<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+            <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+            <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
             <aligny>center</aligny>
         </control>
-		<control type="image" id="11">
-			<description>separator image</description>
-			<height>2</height>
-			<texture>simplicity/separatorwhite_horizontal.png</texture>
-		</control>
-		<control type="label" id="2">
-			<description>Fake Label so we can pass it value down to the one below</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>0</width>
-			<height>0</height>
-			<font>-</font>
-			<visible>false</visible>
-		</control>
-	</controls>
+        <control type="image" id="11">
+            <description>separator image</description>
+            <height>2</height>
+            <texture>simplicity/separatorwhite_horizontal.png</texture>
+        </control>
+        <control type="label" id="2">
+            <description>Fake Label so we can pass it value down to the one below</description>
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>0</width>
+            <height>0</height>
+            <font>-</font>
+            <visible>false</visible>
+        </control>
+    </controls>
 </window>
