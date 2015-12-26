@@ -1006,12 +1006,14 @@
                     <!-- 					<onclick>Container.SetViewMode(506)</onclick> -->
                     <visible>!Skin.HasSetting(HomeMenuNoKidsButton)</visible>
                 </item>
-                <!-- <item id="22">
+                <item id="22">
 					<description>Play Disc</description>
 					<label>[UPPERCASE]$LOCALIZE[341][/UPPERCASE]</label>
-					<icon>homeicons/playdiscicon.png</icon>
-					<onclick>PlayDVD</onclick>
-				</item> -->
+					<icon>special://skin/backgrounds/playdisc.jpg</icon>
+                    <thumb>icons/playdiscicon.png</thumb>
+					<visible>System.HasMediaDVD</visible>
+                    <onclick>PlayDVD</onclick>
+				</item>
             </content>
         </control>
 

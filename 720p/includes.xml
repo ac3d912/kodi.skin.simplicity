@@ -1866,14 +1866,14 @@
         <font>Simplicity_15_Bold</font>
         <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
-        <radioposx>150</radioposx>
-        <radiowidth>83</radiowidth>
-        <radioheight>67</radioheight>
         <texturefocus border="0,2,0,2">simplicity/view-options-button.png</texturefocus>
         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-        <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
         <pulseonselect>false</pulseonselect>
+        <radioposx>185</radioposx>
+        <radiowidth>24</radiowidth>
+        <radioheight>24</radioheight>
+        <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
+        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
     </include>
     <include name="ButtonCommonValuesExtra">
         <height>40</height>
@@ -3466,18 +3466,18 @@
             <control type="grouplist">
                 <description>Studio Codec Flagging Images</description>
                 <posx>87</posx>
-                <posy>250</posy>
+                <posy>320</posy>
                 <width>150</width>
                 <align>left</align>
                 <itemgap>0</itemgap>
-                <include>StudioFlaggingConditionsBig</include>
+                <include>StudioFlaggingConditions</include>
                 <include>Zoom</include>
                 <visible>!Skin.HasSetting(UseColoredFlags)</visible>
             </control>
             <control type="grouplist">
                 <description>Studio Codec Flagging Images</description>
                 <posx>87</posx>
-                <posy>250</posy>
+                <posy>350</posy>
                 <width>150</width>
                 <align>left</align>
                 <itemgap>0</itemgap>
@@ -3501,7 +3501,7 @@
             </control>
             <control type="textbox">
                 <posx>90</posx>
-                <posy>350</posy>
+                <posy>400</posy>
                 <width>384</width>
                 <height>218</height>
                 <font>Simplicity_20</font>

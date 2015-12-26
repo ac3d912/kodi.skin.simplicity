@@ -269,7 +269,7 @@
                             <posy>85</posy>
                             <height>20</height>
                             <width>260</width>
-                            <label>$INFO[Window.Property(RandomMovie.1.Year)], $INFO[Window.Property(RandomMovie.1.RunningTime)] min</label>
+                            <label>$INFO[Window.Property(RandomMovie.1.Year)], $INFO[Window.Property(RandomMovie.1.Runtime)] $LOCALIZE[31247]</label>
                             <align>left</align>
                             <aligny>center</aligny>
                             <font>Simplicity_18</font>

@@ -273,7 +273,7 @@
                 <texturefocus>simplicity/row-small.png</texturefocus>
                 <texturenofocus>REMOVEradiobutton-nofocus.png</texturenofocus>
                 <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
             </control>
             <control type="group" id="9001">
                 <posy>615</posy>

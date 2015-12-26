@@ -109,7 +109,7 @@
             <radiowidth>83</radiowidth>
             <radioheight>67</radioheight>
             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
         </control>

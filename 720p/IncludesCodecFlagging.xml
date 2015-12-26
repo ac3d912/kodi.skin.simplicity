@@ -422,6 +422,14 @@
                 <aspectratio>keep</aspectratio>
                 <width>105</width>
                 <texture>studios/$INFO[ListItem.Studio,,.png]</texture>
+                <visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
+            </control>
+            <control type="image">
+                <description>Studio</description>
+                <aspectratio>keep</aspectratio>
+                <width>105</width>
+                <texture>studios/$INFO[Container().ListItem(1).Studio,,.png]</texture>
+                <visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
             </control>
         </control>
     </include>
@@ -434,6 +442,13 @@
                 <width>105</width>
                 <texture>optional/studios-color/$INFO[ListItem.Studio,,.png]</texture>
             </control>
+            <control type="image">
+                <description>Studio</description>
+                <aspectratio>keep</aspectratio>
+                <width>105</width>
+                <texture>optional/studios-color/$INFO[Container().ListItem(1).Studio,,.png]</texture>
+                <visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
+            </control>
         </control>
     </include>
     <include name="StudioFlaggingConditionsSmall">
@@ -445,6 +460,13 @@
                 <height>40</height>
                 <width>80</width>
                 <texture>studios/$INFO[ListItem.Studio,,.png]</texture>
+            </control>
+            <control type="image">
+                <description>Studio</description>
+                <aspectratio>keep</aspectratio>
+                <width>80</width>
+                <texture>studios/$INFO[Container().ListItem(1).Studio,,.png]</texture>
+                <visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
             </control>
         </control>
     </include>
@@ -474,6 +496,13 @@
                 <aspectratio>keep</aspectratio>
                 <width>150</width>
                 <texture>optional/studios-color/$INFO[ListItem.Studio,,.png]</texture>
+            </control>
+            <control type="image">
+                <description>Studio</description>
+                <aspectratio>keep</aspectratio>
+                <width>150</width>
+                <texture>optional/studios-color/$INFO[Container().ListItem(1).Studio,,.png]</texture>
+                <visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
             </control>
         </control>
     </include>

@@ -133,7 +133,7 @@
         <radiowidth>24</radiowidth>
         <radioheight>24</radioheight>
         <textureradioonfocus>simplicity/radiobutton-focus.png</textureradioonfocus>
-        <textureradioonnofocus>simplicity/radiobutton-nofocus.png</textureradioonnofocus>
+        <textureradioofffocus>simplicity/radiobutton-nofocus.png</textureradioofffocus>
         <texturefocus>simplicity/button-focus-white.png</texturefocus>
         <texturenofocus>simplicity/button-nofocus.png</texturenofocus>
         <label>$LOCALIZE[215]</label>

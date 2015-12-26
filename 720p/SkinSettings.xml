@@ -197,7 +197,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31382]</label>
@@ -215,7 +215,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31103]</label>
@@ -233,7 +233,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31105]</label>
@@ -250,7 +250,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <onclick>Skin.ToggleSetting(KioskMode)</onclick>
@@ -266,7 +266,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <onclick>Skin.ToggleSetting(HideOptionShortcut)</onclick>
@@ -282,7 +282,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <onclick>Skin.ToggleSetting(DisableViewPreview)</onclick>
@@ -298,7 +298,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <onclick>Skin.ToggleSetting(SmokeEffectOn)</onclick>
@@ -341,7 +341,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31123]</label>
@@ -359,7 +359,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31386]</label>
@@ -377,7 +377,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31387]</label>
@@ -405,7 +405,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[21398]</label>
@@ -449,7 +449,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31124]</label>
@@ -467,7 +467,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31125]</label>
@@ -525,7 +525,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31389]</label>
@@ -544,7 +544,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31390]</label>
@@ -563,7 +563,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31391]</label>
@@ -582,7 +582,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31392]</label>
@@ -602,7 +602,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31394]</label>
@@ -631,7 +631,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31396]</label>
@@ -651,7 +651,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31397]</label>
@@ -670,7 +670,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31398]</label>
@@ -688,7 +688,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31187]</label>
@@ -707,7 +707,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31393]</label>
@@ -727,7 +727,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31173]</label>
@@ -756,7 +756,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31111] - $LOCALIZE[31170]</label>
@@ -775,7 +775,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31111] - $LOCALIZE[31093]</label>
@@ -794,7 +794,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31111] - $LOCALIZE[3]</label>
@@ -813,7 +813,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31111] - $LOCALIZE[20342] [COLOR=grey3] ($LOCALIZE[20314])[/COLOR]</label>
@@ -833,7 +833,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31111] - $LOCALIZE[20343] [COLOR=grey3] ($LOCALIZE[20314])[/COLOR]</label>
@@ -853,7 +853,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31111] - $LOCALIZE[2]</label>
@@ -872,7 +872,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31111] - $LOCALIZE[1]</label>
@@ -891,7 +891,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31111] - $LOCALIZE[0]</label>
@@ -910,7 +910,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31111] - $LOCALIZE[31084]</label>
@@ -929,7 +929,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31111] - $LOCALIZE[8]</label>
@@ -948,7 +948,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31111] - $LOCALIZE[31169]</label>
@@ -967,7 +967,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31111] - $LOCALIZE[31206]</label>
@@ -986,7 +986,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31111] - $LOCALIZE[31399]</label>
@@ -1005,7 +1005,7 @@
                         <radiowidth>83</radiowidth>
                         <radioheight>67</radioheight>
                         <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                        <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                         <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                         <label>$LOCALIZE[31111] - $LOCALIZE[31483]</label>
@@ -1136,9 +1136,9 @@
                                 <visible>[Control.HasFocus(304) | Control.HasFocus(305)]</visible>
                             </control>
                             <control type="label">
-                                <posx>790</posx>
+                                <posx>700</posx>
                                 <posy>0</posy>
-                                <width>640</width>
+                                <width>100</width>
                                 <height>40</height>
                                 <font>Simplicity_20</font>
                                 <textcolor>white</textcolor>
@@ -1148,9 +1148,9 @@
                                 <visible>![Control.HasFocus(304) | Control.HasFocus(305)]</visible>
                             </control>
                             <control type="label">
-                                <posx>790</posx>
+                                <posx>700</posx>
                                 <posy>0</posy>
-                                <width>640</width>
+                                <width>100</width>
                                 <height>40</height>
                                 <font>Simplicity_20</font>
                                 <textcolor>white</textcolor>
@@ -2765,7 +2765,7 @@
 			<radiowidth>83</radiowidth>
 			<radioheight>67</radioheight>
 			<textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-			<textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+			<textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
 							<texturefocus border="0,2,0,2">simplicity/menuitem-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<label>$LOCALIZE[31119] [B]1[/B]</label>
@@ -3200,7 +3200,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(ExtraFanart)</onclick>
@@ -3216,7 +3216,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(NoMinutes)</onclick>
@@ -3232,7 +3232,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(DisableClock)</onclick>
@@ -3248,7 +3248,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(DisableBreadCrumbs)</onclick>
@@ -3258,36 +3258,19 @@
                             <width>900</width>
                             <height>40</height>
                             <font>Simplicity_20</font>
-                            <label>$LOCALIZE[31215]</label>
+                            <label>$LOCALIZE[31226]</label>
                             <textcolor>white</textcolor>
                             <focusedcolor>white</focusedcolor>
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
-                            <texturefocus>simplicity/button-focus.png</texturefocus>
-                            <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
-                            <onclick>Skin.ToggleSetting(UseTurntable)</onclick>
-                            <selected>Skin.HasSetting(UseTurntable)</selected>
-                            <visible>!Skin.HasSetting(CleanVisScreen)</visible>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
+                            <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
+                            <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
+                            <onclick>Skin.ToggleSetting(CleanVisScreen)</onclick>
+                            <selected>Skin.HasSetting(CleanVisScreen)</selected>
                         </control>
                         <control type="radiobutton" id="505">
-                            <width>900</width>
-                            <height>40</height>
-                            <font>Simplicity_20</font>
-                            <label>$LOCALIZE[31216] [COLOR=grey3] ($LOCALIZE[31217])[/COLOR]</label>
-                            <textcolor>white</textcolor>
-                            <focusedcolor>white</focusedcolor>
-                            <radiowidth>83</radiowidth>
-                            <radioheight>67</radioheight>
-                            <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
-                            <texturefocus>simplicity/button-focus.png</texturefocus>
-                            <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
-                            <onclick>Skin.ToggleSetting(UseColoredFlags)</onclick>
-                            <selected>Skin.HasSetting(UseColoredFlags)</selected>
-                        </control>
-                        <control type="radiobutton" id="506">
                             <width>900</width>
                             <height>40</height>
                             <font>Simplicity_20</font>
@@ -3297,12 +3280,29 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(NoCdClean)</onclick>
                             <selected>Skin.HasSetting(NoCdClean)</selected>
                             <visible>Skin.HasSetting(CleanVisScreen)</visible>
+                        </control>
+                        <control type="radiobutton" id="506">
+                            <width>900</width>
+                            <height>40</height>
+                            <font>Simplicity_20</font>
+                            <label>$LOCALIZE[31215]</label>
+                            <textcolor>white</textcolor>
+                            <focusedcolor>white</focusedcolor>
+                            <radiowidth>83</radiowidth>
+                            <radioheight>67</radioheight>
+                            <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
+                            <texturefocus>simplicity/button-focus.png</texturefocus>
+                            <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
+                            <onclick>Skin.ToggleSetting(UseTurntable)</onclick>
+                            <selected>Skin.HasSetting(UseTurntable)</selected>
+                            <visible>!Skin.HasSetting(CleanVisScreen)</visible>
                         </control>
                         <control type="radiobutton" id="507">
                             <width>900</width>
@@ -3314,7 +3314,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(NoUpcomingList)</onclick>
@@ -3325,19 +3325,35 @@
                             <width>900</width>
                             <height>40</height>
                             <font>Simplicity_20</font>
+                            <label>$LOCALIZE[31216] [COLOR=grey3] ($LOCALIZE[31217])[/COLOR]</label>
+                            <textcolor>white</textcolor>
+                            <focusedcolor>white</focusedcolor>
+                            <radiowidth>83</radiowidth>
+                            <radioheight>67</radioheight>
+                            <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
+                            <texturefocus>simplicity/button-focus.png</texturefocus>
+                            <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
+                            <onclick>Skin.ToggleSetting(UseColoredFlags)</onclick>
+                            <selected>Skin.HasSetting(UseColoredFlags)</selected>
+                        </control>
+                        <control type="radiobutton" id="509">
+                            <width>900</width>
+                            <height>40</height>
+                            <font>Simplicity_20</font>
                             <label>$LOCALIZE[31220]</label>
                             <textcolor>white</textcolor>
                             <focusedcolor>white</focusedcolor>
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(NoVisualizationClock)</onclick>
                             <selected>Skin.HasSetting(NoVisualizationClock)</selected>
                         </control>
-                        <control type="radiobutton" id="509">
+                        <control type="radiobutton" id="510">
                             <width>900</width>
                             <height>40</height>
                             <font>Simplicity_20</font>
@@ -3347,13 +3363,13 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(TimeOnInfoScreen)</onclick>
                             <selected>Skin.HasSetting(TimeOnInfoScreen)</selected>
                         </control>
-                        <control type="radiobutton" id="510">
+                        <control type="radiobutton" id="511">
                             <width>900</width>
                             <height>40</height>
                             <font>Simplicity_20</font>
@@ -3363,13 +3379,13 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HideProgressBar)</onclick>
                             <selected>Skin.HasSetting(HideProgressBar)</selected>
                         </control>
-                        <control type="radiobutton" id="511">
+                        <control type="radiobutton" id="512">
                             <width>900</width>
                             <height>40</height>
                             <font>Simplicity_20</font>
@@ -3379,13 +3395,13 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(UseThumbsOnInfo)</onclick>
                             <selected>Skin.HasSetting(UseThumbsOnInfo)</selected>
                         </control>
-                        <control type="radiobutton" id="512">
+                        <control type="radiobutton" id="513">
                             <width>900</width>
                             <height>40</height>
                             <font>Simplicity_20</font>
@@ -3395,13 +3411,13 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(CinemaExperienceButton)</onclick>
                             <selected>Skin.HasSetting(CinemaExperienceButton)</selected>
                         </control>
-                        <control type="radiobutton" id="513">
+                        <control type="radiobutton" id="514">
                             <width>900</width>
                             <height>40</height>
                             <font>Simplicity_20</font>
@@ -3411,13 +3427,13 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(EnableWatchedIconMovies)</onclick>
                             <selected>Skin.HasSetting(EnableWatchedIconMovies)</selected>
                         </control>
-                        <control type="radiobutton" id="514">
+                        <control type="radiobutton" id="515">
                             <width>900</width>
                             <height>40</height>
                             <font>Simplicity_20</font>
@@ -3427,27 +3443,11 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(NoTotals)</onclick>
                             <selected>Skin.HasSetting(NoTotals)</selected>
-                        </control>
-                        <control type="radiobutton" id="515">
-                            <width>900</width>
-                            <height>40</height>
-                            <font>Simplicity_20</font>
-                            <label>$LOCALIZE[31226]</label>
-                            <textcolor>white</textcolor>
-                            <focusedcolor>white</focusedcolor>
-                            <radiowidth>83</radiowidth>
-                            <radioheight>67</radioheight>
-                            <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
-                            <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
-                            <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-                            <onclick>Skin.ToggleSetting(CleanVisScreen)</onclick>
-                            <selected>Skin.HasSetting(CleanVisScreen)</selected>
                         </control>
                         <control type="button" id="516">
                             <width>900</width>
@@ -3471,7 +3471,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(NoStarNewEps)</onclick>
@@ -3488,7 +3488,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <label>$LOCALIZE[31126]</label>
@@ -3521,7 +3521,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(FocusSubtitleButton)</onclick>
@@ -3580,7 +3580,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(RandomAddons2)</onclick>
@@ -3601,7 +3601,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeScriptButton1)</onclick>
@@ -3659,7 +3659,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeScriptButton2)</onclick>
@@ -3717,7 +3717,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeScriptButton3)</onclick>
@@ -3775,7 +3775,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeScriptButton4)</onclick>
@@ -3833,7 +3833,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeScriptButton5)</onclick>
@@ -3932,7 +3932,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(RandomAddons)</onclick>
@@ -3953,7 +3953,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeAddonButton1)</onclick>
@@ -4013,7 +4013,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeAddonButton2)</onclick>
@@ -4072,7 +4072,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeAddonButton3)</onclick>
@@ -4131,7 +4131,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeAddonButton4)</onclick>
@@ -4190,7 +4190,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeAddonButton5)</onclick>
@@ -4290,7 +4290,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton)</onclick>
@@ -4306,7 +4306,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButtonAction)</onclick>
@@ -4323,7 +4323,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton2)</onclick>
@@ -4340,7 +4340,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton3)</onclick>
@@ -4357,7 +4357,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton4)</onclick>
@@ -4374,7 +4374,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton5)</onclick>
@@ -4391,7 +4391,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton6)</onclick>
@@ -4408,7 +4408,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton8)</onclick>
@@ -4425,7 +4425,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton9)</onclick>
@@ -4442,7 +4442,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton10)</onclick>
@@ -4459,7 +4459,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton11)</onclick>
@@ -4476,7 +4476,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton12)</onclick>
@@ -4493,7 +4493,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton13)</onclick>
@@ -4510,7 +4510,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton14)</onclick>
@@ -4527,7 +4527,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton15)</onclick>
@@ -4544,7 +4544,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton16)</onclick>
@@ -4561,7 +4561,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton17)</onclick>
@@ -4578,7 +4578,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton18)</onclick>
@@ -4595,7 +4595,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton19)</onclick>
@@ -4612,7 +4612,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton20)</onclick>
@@ -4629,7 +4629,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton21)</onclick>
@@ -4646,7 +4646,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton22)</onclick>
@@ -4663,7 +4663,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton23)</onclick>
@@ -4680,7 +4680,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton24)</onclick>
@@ -4697,7 +4697,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton25)</onclick>
@@ -4714,7 +4714,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton26)</onclick>
@@ -4731,7 +4731,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton27)</onclick>
@@ -4748,7 +4748,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton28)</onclick>
@@ -4765,7 +4765,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton29)</onclick>
@@ -4782,7 +4782,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton30)</onclick>
@@ -4799,7 +4799,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton31)</onclick>
@@ -4816,7 +4816,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton32)</onclick>
@@ -4833,7 +4833,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton33)</onclick>
@@ -4850,7 +4850,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton34)</onclick>
@@ -4867,7 +4867,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton35)</onclick>
@@ -4884,7 +4884,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton36)</onclick>
@@ -4901,7 +4901,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton37)</onclick>
@@ -4918,7 +4918,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton38)</onclick>
@@ -4935,7 +4935,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(HomeGenreButton39)</onclick>
@@ -5009,7 +5009,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onfocus>Skin.SetString(MoviesCustom,2)</onfocus>
@@ -5080,7 +5080,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onfocus>Skin.SetString(MoviesCustom,3)</onfocus>
@@ -5151,7 +5151,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onfocus>Skin.SetString(MoviesCustom,4)</onfocus>
@@ -5246,7 +5246,7 @@
                                 <radiowidth>83</radiowidth>
                                 <radioheight>67</radioheight>
                                 <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                                <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                                <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                                 <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                                 <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                                 <onclick>Skin.ToggleSetting(HomePictureButton1)</onclick>
@@ -5304,7 +5304,7 @@
                                 <radiowidth>83</radiowidth>
                                 <radioheight>67</radioheight>
                                 <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                                <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                                <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                                 <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                                 <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                                 <onclick>Skin.ToggleSetting(HomePictureButton2)</onclick>
@@ -5362,7 +5362,7 @@
                                 <radiowidth>83</radiowidth>
                                 <radioheight>67</radioheight>
                                 <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                                <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                                <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                                 <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                                 <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                                 <onclick>Skin.ToggleSetting(HomePictureButton3)</onclick>
@@ -5420,7 +5420,7 @@
                                 <radiowidth>83</radiowidth>
                                 <radioheight>67</radioheight>
                                 <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                                <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                                <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                                 <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                                 <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                                 <onclick>Skin.ToggleSetting(HomePictureButton4)</onclick>
@@ -5478,7 +5478,7 @@
                                 <radiowidth>83</radiowidth>
                                 <radioheight>67</radioheight>
                                 <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                                <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                                <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                                 <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                                 <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                                 <onclick>Skin.ToggleSetting(HomePictureButton5)</onclick>
@@ -5577,7 +5577,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(UseTvTunes)</onclick>
@@ -5729,7 +5729,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
                             <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
                             <onclick>Skin.ToggleSetting(DeleteEps)</onclick>
@@ -5818,7 +5818,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <label>$LOCALIZE[31239]</label>
@@ -5835,7 +5835,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <label>- $LOCALIZE[31240]</label>
@@ -5853,7 +5853,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <label>- $LOCALIZE[31241]</label>
@@ -5870,7 +5870,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <label>- $LOCALIZE[31242]</label>
@@ -5887,7 +5887,7 @@
                             <radiowidth>83</radiowidth>
                             <radioheight>67</radioheight>
                             <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-                            <textureradioonnofocus>simplicity/settings-radiobutton-off.png</textureradioonnofocus>
+                            <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
                             <texturefocus>simplicity/button-focus.png</texturefocus>
                             <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
                             <label>- $LOCALIZE[31243]</label>

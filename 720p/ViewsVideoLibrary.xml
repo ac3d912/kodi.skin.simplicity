@@ -4339,7 +4339,6 @@
                     </control>
                 </focusedlayout>
             </control>
-
             <control type="group">
                 <posx>400</posx>
                 <posy>-170</posy>
@@ -4420,11 +4419,10 @@
                 <control type="grouplist">
                     <description>Studio Codec Flagging Images</description>
                     <posx>438</posx>
-                    <posy>540</posy>
+                    <posy>575</posy>
                     <width>110</width>
                     <align>center</align>
                     <itemgap>0</itemgap>
-                    <orientation>horizontal</orientation>
                     <include>StudioFlaggingConditions</include>
                     <visible>!Skin.HasSetting(UseColoredFlags)</visible>
                 </control>
@@ -4435,7 +4433,6 @@
                     <width>110</width>
                     <align>center</align>
                     <itemgap>0</itemgap>
-                    <orientation>horizontal</orientation>
                     <include>StudioFlaggingConditionsColor</include>
                     <visible>Skin.HasSetting(UseColoredFlags)</visible>
                 </control>
@@ -11234,7 +11231,7 @@
                             <aspectratio>stretch</aspectratio>
                         </control>
                         <control type="label">
-                            <posx>55</posx>
+                            <posx>0</posx>
                             <posy>15</posy>
                             <width>110</width>
                             <height>165</height>
@@ -11248,7 +11245,7 @@
                             <visible>stringcompare(ListItem.Title,* All Seasons)</visible>
                         </control>
                         <control type="label">
-                            <posx>55</posx>
+                            <posx>0</posx>
                             <posy>0</posy>
                             <width>110</width>
                             <height>165</height>

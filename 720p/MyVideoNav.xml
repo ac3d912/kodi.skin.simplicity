@@ -658,7 +658,7 @@
                         <visible>Container.Content(TVShows) + Skin.HasSetting(EnableClearartViews)</visible>
                     </control>
                     <control type="button" id="24">
-                        <description>Side List</description>
+                        <description>Shade View 2 (Scroll)</description>
                         <width>174</width>
                         <height>95</height>
                         <align>center</align>
@@ -1196,8 +1196,8 @@
                     <include>ButtonCommonValuesExtra</include>
                     <radiowidth>18</radiowidth>
                     <radioheight>18</radioheight>
-                    <textureradioonfocus>HomeHasSub.png</textureradioonfocus>
-                    <textureradioonnofocus>HomeHasSub.png</textureradioonnofocus>
+                    <textureradioon>HomeHasSub.png</textureradioon>
+                    <textureradiooff>HomeHasSub.png</textureradiooff>
                     <label>$LOCALIZE[31026]</label>
                     <onleft>50</onleft>
                     <onright>9010</onright>
