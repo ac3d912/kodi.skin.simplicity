@@ -31,6 +31,27 @@
                 <textcolor>white</textcolor>
                 <shadowcolor>black</shadowcolor>
             </control>
+            <control type="button">
+                <description>Close Window button</description>
+                <left>760</left>
+                <top>15</top>
+                <width>64</width>
+                <height>32</height>
+                <label>-</label>
+                <font>-</font>
+                <onclick>PreviousMenu</onclick>
+                <texturefocus>DialogCloseButton-focus.png</texturefocus>
+                <texturenofocus>DialogCloseButton.png</texturenofocus>
+                <visible>system.getbool(input.enablemouse)</visible>
+            </control>
+            <control type="label" id="4">
+                <description>No Settings Label</description>
+                <left>20</left>
+                <top>120</top>
+                <width>550</width>
+                <align>center</align>
+                <font>font13</font>
+            </control>
             <control type="list" id="3">
                 <posx>20</posx>
                 <posy>60</posy>

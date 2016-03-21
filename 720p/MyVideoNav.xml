@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="25">
     <defaultcontrol always="true">9999</defaultcontrol>
-    <allowoverlay>false</allowoverlay>
     <views>50,54,55,57,58,59,65,66,67,68,500,504,505,506,507,508,509,511,532,534,535,536,537,538,539,540,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570</views>
     <visible>!Skin.HasSetting(KioskMode)</visible>
     <controls>

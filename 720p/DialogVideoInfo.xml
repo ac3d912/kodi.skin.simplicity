@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id = "2003">
     <defaultcontrol always = "true">999</defaultcontrol>
-    <allowoverlay>false</allowoverlay>
     <controls>
         <control type="button" id="999">
             <posx>-10</posx>

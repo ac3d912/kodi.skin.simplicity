@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="20">
     <defaultcontrol always="true">2</defaultcontrol>
-    <allowoverlay>false</allowoverlay>
     <controls>
         <include>CommonSettingsBackground</include>
         <include>CommonMediaPlayingBackground</include>

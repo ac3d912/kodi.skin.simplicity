@@ -2,7 +2,6 @@
 <window id="1000">
     <defaultcontrol always="true">72</defaultcontrol>
     <description>Movie Trailer</description>
-    <allowoverlay>false</allowoverlay>
     <coordinates>
         <posx>390</posx>
         <posy>160</posy>

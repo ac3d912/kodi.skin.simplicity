@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="129">
     <defaultcontrol always="true">9001</defaultcontrol>
-    <allowoverlay>false</allowoverlay>
     <coordinates>
         <posx>240</posx>
         <posy>220</posy>

@@ -2,7 +2,6 @@
 <window id="0">
 
     <defaultcontrol always="true">9000</defaultcontrol>
-    <allowoverlay>false</allowoverlay>
     <controls>
         <animation type="WindowOpen" reversible="false">
             <effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" />
