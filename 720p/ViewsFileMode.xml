@@ -1108,7 +1108,7 @@
                 <pagecontrol>60</pagecontrol>
                 <scrolltime>300</scrolltime>
                 <preloaditems>2</preloaditems>
-                <!--<visible>![Window.IsVisible(VideoLibrary) + Container.Content(TVShows) | Window.IsVisible(VideoLibrary) + Container.Content(Episodes) | Window.IsVisible(VideoFiles) | Window.IsVisible(MusicFiles) | Window.IsVisible(musiclibrary)]</visible>-->
+                <!--<visible>![Window.IsVisible(VideoLibrary) + Container.Content(TVShows) | Window.IsVisible(VideoLibrary) + Container.Content(Episodes) | Window.IsVisible(VideoFiles) | Window.IsVisible(musiclibrary)]</visible>-->
                 <visible>SubString(Container.FolderPath,addons) | Window.IsVisible(addonbrowser)</visible>
                 <orientation>vertical</orientation>
                 <itemlayout height="190" width="190">

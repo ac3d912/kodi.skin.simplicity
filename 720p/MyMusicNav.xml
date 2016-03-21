@@ -501,19 +501,6 @@
                     <alttexturefocus>simplicity/settings-toggle-on-focus.png</alttexturefocus>
                     <alttexturenofocus>simplicity/settings-toggle-off-focus.png</alttexturenofocus>
                 </control>
-                <control type="radiobutton" id="99">
-                    <description>Library button</description>
-                    <posx>0</posx>
-                    <posy>80</posy>
-                    <label>$LOCALIZE[29800]</label>
-                    <onclick>ReplaceWindow(MusicFiles)</onclick>
-                    <selected>Window.IsVisible(MusicLibrary)</selected>
-                    <include>ButtonCommonValuesSub</include>
-                    <onleft>50</onleft>
-                    <onright>50</onright>
-                    <onup>3</onup>
-                    <ondown>16</ondown>
-                </control>
                 <control type="radiobutton" id="16">
                     <description>PartyMode</description>
                     <posx>0</posx>
