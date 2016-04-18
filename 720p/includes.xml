@@ -1959,7 +1959,8 @@
     </include>
     <include name="ButtonHomeSubCommonValuesHome">
         <height>40</height>
-        <width min="50" max="250">auto</width>
+        <!--<width min="50" max="250">auto</width>-->
+        <width>250</width>
         <textoffsetx>0</textoffsetx>
         <aligny>center</aligny>
         <font>Simplicity_26_Bold</font>
