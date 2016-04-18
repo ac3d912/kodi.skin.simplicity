@@ -226,7 +226,7 @@
                     <description>Studio</description>
                     <aspectratio aligny="center">keep</aspectratio>
                     <width>90</width>
-                    <texture>studios/$INFO[ListItem.Studio,,.png]</texture>
+                    <texture>resource://resource.images.studios.white/$INFO[ListItem.Studio,,.png]</texture>
                 </control>
                 <control type="image">
                     <posx>290</posx>
@@ -361,7 +361,7 @@
                         <aspectratio>keep</aspectratio>
                         <align>left</align>
                         <width>105</width>
-                        <texture>studios/$INFO[ListItem.Studio,,.png]</texture>
+                        <texture>resource://resource.images.studios.white/$INFO[ListItem.Studio,,.png]</texture>
                     </control>
                     <control type="image">
                         <posx>270</posx>
@@ -1040,7 +1040,7 @@
                         <aspectratio>keep</aspectratio>
                         <align>left</align>
                         <width>105</width>
-                        <texture>studios/$INFO[ListItem.Studio,,.png]</texture>
+                        <texture>resource://resource.images.studios.white/$INFO[ListItem.Studio,,.png]</texture>
                     </control>
                     <control type="image">
                         <posx>270</posx>

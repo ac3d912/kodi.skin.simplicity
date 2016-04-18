@@ -3107,7 +3107,7 @@
                         <aspectratio>keep</aspectratio>
                         <align>left</align>
                         <width>105</width>
-                        <texture>studios/$INFO[ListItem.Studio,,.png]</texture>
+                        <texture>resource://resource.images.studios.white/$INFO[ListItem.Studio,,.png]</texture>
                         <visible>Container.Content(TVShows)</visible>
                         <visible>!Skin.HasSetting(UseColoredFlags)</visible>
                     </control>
@@ -3118,7 +3118,7 @@
                         <aspectratio>keep</aspectratio>
                         <align>left</align>
                         <width>105</width>
-                        <texture>optional/studios-color/$INFO[ListItem.Studio,,.png]</texture>
+                        <texture>resource://resource.images.studios.coloured/$INFO[ListItem.Studio,,.png]</texture>
                         <visible>Container.Content(TVShows)</visible>
                         <visible>Skin.HasSetting(UseColoredFlags)</visible>
                     </control>
@@ -6577,7 +6577,7 @@
                         <aspectratio>keep</aspectratio>
                         <align>left</align>
                         <width>105</width>
-                        <texture>studios/$INFO[ListItem.Studio,,.png]</texture>
+                        <texture>resource://resource.images.studios.white/$INFO[ListItem.Studio,,.png]</texture>
                         <visible>Container.Content(TVShows)</visible>
                         <visible>!Skin.HasSetting(UseColoredFlags)</visible>
                     </control>
@@ -6588,7 +6588,7 @@
                         <aspectratio>keep</aspectratio>
                         <align>left</align>
                         <width>105</width>
-                        <texture>optional/studios-color/$INFO[ListItem.Studio,,.png]</texture>
+                        <texture>resource://resource.images.studios.coloured/$INFO[ListItem.Studio,,.png]</texture>
                         <visible>Container.Content(TVShows)</visible>
                         <visible>Skin.HasSetting(UseColoredFlags)</visible>
                     </control>
@@ -6721,7 +6721,7 @@
                                 <width>70</width>
                                 <align>bottom</align>
                                 <aspectratio>keep</aspectratio>
-                                <texture>studios/$INFO[ListItem.Studio,,.png]</texture>
+                                <texture>resource://resource.images.studios.white/$INFO[ListItem.Studio,,.png]</texture>
                                 <visible>Container.Content(TVShows)</visible>
                                 <visible>!Skin.HasSetting(UseColoredFlags)</visible>
                             </control>
@@ -6731,7 +6731,7 @@
                                 <width>70</width>
                                 <align>bottom</align>
                                 <aspectratio>keep</aspectratio>
-                                <texture>optional/studios-color/$INFO[ListItem.Studio,,.png]</texture>
+                                <texture>resource://resource.images.studios.coloured/$INFO[ListItem.Studio,,.png]</texture>
                                 <visible>Container.Content(TVShows)</visible>
                                 <visible>Skin.HasSetting(UseColoredFlags)</visible>
                             </control>
@@ -6857,7 +6857,7 @@
                                 <width>70</width>
                                 <align>bottom</align>
                                 <aspectratio>keep</aspectratio>
-                                <texture>studios/$INFO[ListItem.Studio,,.png]</texture>
+                                <texture>resource://resource.images.studios.white/$INFO[ListItem.Studio,,.png]</texture>
                                 <visible>Container.Content(TVShows)</visible>
                                 <visible>!Skin.HasSetting(UseColoredFlags)</visible>
                             </control>
@@ -6867,7 +6867,7 @@
                                 <width>70</width>
                                 <align>bottom</align>
                                 <aspectratio>keep</aspectratio>
-                                <texture>optional/studios-color/$INFO[ListItem.Studio,,.png]</texture>
+                                <texture>resource://resource.images.studios.coloured/$INFO[ListItem.Studio,,.png]</texture>
                                 <visible>Container.Content(TVShows)</visible>
                                 <visible>Skin.HasSetting(UseColoredFlags)</visible>
                             </control>

@@ -11,6 +11,7 @@
     <import addon="script.favourites" version="3.2.2"/>
     <import addon="script.tv.show.next.aired" version="5.0.6"/>
     <import addon="script.globalsearch" version="1.1.1"/>
+    <import addon="resource.images.studios.white" version="0.0.1"/>
   </requires>
   <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1.0" debugging="false">
     <res width="1280" height="720" aspect="16:9" default="true" folder="720p"/>
