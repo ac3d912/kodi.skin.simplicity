@@ -28,7 +28,19 @@
         <animation effect="slide" end="0,-396" time="200" tween="cubic" easing="inout" condition="Container(565).Row(2)">Conditional</animation>
     </include>
 
-
+    <include name="WeatherMapItem">
+        <param name="item_id" />
+        <definition>
+            <item>
+                <label>$INFO[Window(weather).Property(Map.$PARAM[item_id].Heading)]</label>
+                <label2>$INFO[Window(weather).Property(Map.$PARAM[item_id].Legend)]</label2>
+                <icon>$INFO[Window(weather).Property(Map.$PARAM[item_id].Area)]</icon>
+                <property name="Layer">$INFO[Window(weather).Property(Map.$PARAM[item_id].Layer)]</property>
+                <onclick>noop</onclick>
+                <visible>Weather.IsFetched + !String.IsEmpty(Window(weather).Property(Map.$PARAM[item_id].Area)) + !String.IsEmpty(Window(weather).Property(Map.IsFetched))</visible>
+            </item>
+        </definition>
+    </include>
 
     <!--Shortcut Includes-->
 
@@ -1868,10 +1880,6 @@
         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
         <pulseonselect>false</pulseonselect>
         <radioposx>185</radioposx>
-        <radiowidth>24</radiowidth>
-        <radioheight>24</radioheight>
-        <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
     </include>
     <include name="ButtonCommonValuesExtra">
         <height>40</height>
