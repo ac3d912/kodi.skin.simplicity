@@ -40,7 +40,7 @@
             <description>trigger</description>
             <onfocus>ReplaceWindow(Home)</onfocus>
             <!--<onfocus>XBMC.RunScript(script.randomitems,limit=10&amp;unplayed=True&amp;random=True)</onfocus>-->
-            <onfocus>XBMC.RunScript(script.RandomAndLastItems,limit=10,unwatched=True,method=Random)</onfocus>
+            <onfocus>XBMC.RunScript(script.randomandlastitems,limit=10,unwatched=True,method=Random)</onfocus>
             <onfocus>XBMC.RunScript(script.tv.show.next.aired,silent=True)</onfocus>
             <onfocus>SetFocus(11)</onfocus>
             <texturenofocus>-</texturenofocus>

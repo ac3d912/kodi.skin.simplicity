@@ -483,7 +483,7 @@
                     <onleft>50</onleft>
                     <onright>4</onright>
                     <onup>2</onup>
-                    <ondown>99</ondown>
+                    <ondown>16</ondown>
                 </control>
                 <control type="togglebutton" id="4">
                     <description>Sort asc</description>
@@ -493,7 +493,7 @@
                     <onleft>3</onleft>
                     <onright>50</onright>
                     <onup>2</onup>
-                    <ondown>99</ondown>
+                    <ondown>16</ondown>
                     <width>83</width>
                     <height>67</height>
                     <texturefocus>simplicity/settings-toggle-on.png</texturefocus>
@@ -509,7 +509,7 @@
                     <include>ButtonCommonValuesSub</include>
                     <onleft>50</onleft>
                     <onright>50</onright>
-                    <onup>99</onup>
+                    <onup>4</onup>
                     <ondown>98</ondown>
                 </control>
                 <control type="radiobutton" id="98">
