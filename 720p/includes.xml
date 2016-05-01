@@ -9,12 +9,10 @@
     <include file="ViewsPVR.xml" />
     <include file="IncludesCodecFlagging.xml" />
     <include file="IncludesHomeRecentlyAdded.xml" />
-    <include file="DialogTrailer.xml"/>
     <include file="IncludesNextAiredInfo.xml" />
     <include file="MusicNowPlaying.xml" />
     <include file="ViewsAdvancedLauncher.xml" />
     <include file="Viewtype_Showcase.xml" />
-
 
     <constant name="FanartCrossfadeTime">500</constant>
     <constant name="IconCrossfadeTime">400</constant>
@@ -30,7 +28,19 @@
         <animation effect="slide" end="0,-396" time="200" tween="cubic" easing="inout" condition="Container(565).Row(2)">Conditional</animation>
     </include>
 
-
+    <include name="WeatherMapItem">
+        <param name="item_id" />
+        <definition>
+            <item>
+                <label>$INFO[Window(weather).Property(Map.$PARAM[item_id].Heading)]</label>
+                <label2>$INFO[Window(weather).Property(Map.$PARAM[item_id].Legend)]</label2>
+                <icon>$INFO[Window(weather).Property(Map.$PARAM[item_id].Area)]</icon>
+                <property name="Layer">$INFO[Window(weather).Property(Map.$PARAM[item_id].Layer)]</property>
+                <onclick>noop</onclick>
+                <visible>Weather.IsFetched + !String.IsEmpty(Window(weather).Property(Map.$PARAM[item_id].Area)) + !String.IsEmpty(Window(weather).Property(Map.IsFetched))</visible>
+            </item>
+        </definition>
+    </include>
 
     <!--Shortcut Includes-->
 
@@ -1870,10 +1880,6 @@
         <texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
         <pulseonselect>false</pulseonselect>
         <radioposx>185</radioposx>
-        <radiowidth>24</radiowidth>
-        <radioheight>24</radioheight>
-        <textureradioonfocus>simplicity/settings-radiobutton-on.png</textureradioonfocus>
-        <textureradioofffocus>simplicity/settings-radiobutton-off.png</textureradioofffocus>
     </include>
     <include name="ButtonCommonValuesExtra">
         <height>40</height>
@@ -1961,7 +1967,8 @@
     </include>
     <include name="ButtonHomeSubCommonValuesHome">
         <height>40</height>
-        <width min="50" max="250">auto</width>
+        <!--<width min="50" max="250">auto</width>-->
+        <width>250</width>
         <textoffsetx>0</textoffsetx>
         <aligny>center</aligny>
         <font>Simplicity_26_Bold</font>
@@ -4013,7 +4020,7 @@
             <texture>simplicity/black-back.png</texture>
             <animation effect="fade" time="400">Visible</animation>
             <animation effect="fade" time="200">Hidden</animation>
-            <visible>Window.IsActive(MovieInformation) | Window.IsActive(MusicInformation) | Window.IsActive(SongInformation) | Window.IsActive(FileBrowser) | Window.IsActive(AddonSettings) | Window.IsActive(ContentSettings) | Window.IsActive(SelectDialog) | Window.IsActive(FileStackingDialog) | Window.IsActive(MediaSource) | Window.IsActive(PictureInfo) | Window.IsActive(PlayerControls) | Window.IsActive(VirtualKeyboard) | Window.IsActive(NumericInput) | Window.IsActive(ProfileSettings) | Window.IsActive(LockSettings) | Window.IsActive(SmartPlaylistEditor) | Window.IsActive(SmartPlaylistRule) | Window.IsActive(script-Apple_Movie_Trailers-settings.xml) | Window.IsActive(script-Apple_Movie_Trailers-chooser.xml) | Window.IsActive(script-Apple_Movie_Trailers-search.xml) | Window.IsActive(script-Apple_Movie_Trailers-showtimes.xml) | Window.IsActive(script-XBMC_Lyrics-settings.xml) | Window.IsActive(script-RSS_Editor-rssEditor.xml) | Window.IsActive(PVRChannelManager) | Window.IsActive(script-RSS_Editor-setEditor.xml) | Window.IsVisible(146)</visible>
+            <visible>Window.IsActive(MovieInformation) | Window.IsActive(MusicInformation) | Window.IsActive(SongInformation) | Window.IsActive(FileBrowser) | Window.IsActive(AddonSettings) | Window.IsActive(ContentSettings) | Window.IsActive(SelectDialog) | Window.IsActive(MediaSource) | Window.IsActive(PictureInfo) | Window.IsActive(PlayerControls) | Window.IsActive(VirtualKeyboard) | Window.IsActive(NumericInput) | Window.IsActive(ProfileSettings) | Window.IsActive(LockSettings) | Window.IsActive(SmartPlaylistEditor) | Window.IsActive(SmartPlaylistRule) | Window.IsActive(script-Apple_Movie_Trailers-settings.xml) | Window.IsActive(script-Apple_Movie_Trailers-chooser.xml) | Window.IsActive(script-Apple_Movie_Trailers-search.xml) | Window.IsActive(script-Apple_Movie_Trailers-showtimes.xml) | Window.IsActive(script-XBMC_Lyrics-settings.xml) | Window.IsActive(script-RSS_Editor-rssEditor.xml) | Window.IsActive(PVRChannelManager) | Window.IsActive(script-RSS_Editor-setEditor.xml) | Window.IsVisible(146)</visible>
         </control>
     </include>
 

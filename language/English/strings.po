@@ -1903,3 +1903,7 @@ msgstr ""
 msgctxt "#31513"
 msgid "KIDS"
 msgstr ""
+
+msgctxt "#31514"
+msgid "Show Maps on Weather Screen"
+msgstr ""

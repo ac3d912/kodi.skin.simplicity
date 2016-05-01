@@ -113,7 +113,7 @@
                     <height>320</height>
                     <aspectratio aligny="center">keep</aspectratio>
                     <fadetime>IconCrossfadeTime</fadetime>
-                    <texture background="true">studios/$INFO[ListItem.label,,.png]</texture>
+                    <texture background="true">resource://resource.images.studios.white/$INFO[ListItem.label,,.png]</texture>
                 </control>
             </control>
         </control>
@@ -237,7 +237,7 @@
                         <height>150</height>
                         <aspectratio>keep</aspectratio>
                         <align>center</align>
-                        <texture background="true">studios/$INFO[ListItem.label,,.png]</texture>
+                        <texture background="true">resource://resource.images.studios.white/$INFO[ListItem.label,,.png]</texture>
                         <visible>Container.Content(Studios)</visible>
                     </control>
                     <control type="textbox">
@@ -330,7 +330,7 @@
                         <width>150</width>
                         <height>150</height>
                         <aspectratio>keep</aspectratio>
-                        <texture background="true">studios/$INFO[ListItem.label,,.png]</texture>
+                        <texture background="true">resource://resource.images.studios.white/$INFO[ListItem.label,,.png]</texture>
                         <visible>Container.Content(Studios)</visible>
                         <animation effect="zoom" start="100" end="105" center="auto" time="100">Focus</animation>
                     </control>
@@ -1108,7 +1108,7 @@
                 <pagecontrol>60</pagecontrol>
                 <scrolltime>300</scrolltime>
                 <preloaditems>2</preloaditems>
-                <!--<visible>![Window.IsVisible(VideoLibrary) + Container.Content(TVShows) | Window.IsVisible(VideoLibrary) + Container.Content(Episodes) | Window.IsVisible(VideoFiles) | Window.IsVisible(MusicFiles) | Window.IsVisible(musiclibrary)]</visible>-->
+                <!--<visible>![Window.IsVisible(VideoLibrary) + Container.Content(TVShows) | Window.IsVisible(VideoLibrary) + Container.Content(Episodes) | Window.IsVisible(VideoFiles) | Window.IsVisible(musiclibrary)]</visible>-->
                 <visible>SubString(Container.FolderPath,addons) | Window.IsVisible(addonbrowser)</visible>
                 <orientation>vertical</orientation>
                 <itemlayout height="190" width="190">

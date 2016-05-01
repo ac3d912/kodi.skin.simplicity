@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id = "2003">
     <defaultcontrol always = "true">999</defaultcontrol>
-    <allowoverlay>false</allowoverlay>
     <controls>
         <control type="button" id="999">
             <posx>-10</posx>
@@ -125,7 +124,9 @@
                     <posy>15</posy>
                     <posx>0</posx>
                     <include>VisibleFadeEffect</include>
-
+                    <!-- TODO: Add User ratings  
+                        http://forum.kodi.tv/showthread.php?tid=231270&pid=2135449#pid2135449
+                    -->
                     <control type="image">
                         <description>Star</description>
                         <posx>510</posx>

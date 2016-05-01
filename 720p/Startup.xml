@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
     <defaultcontrol always="true">9</defaultcontrol>
-    <allowoverlay>false</allowoverlay>
     <controls>
         <control type="button" id="9">
             <description>Trigger to Auto run the Latest media python after a 1 min delay if scan on startup is enabled</description>
@@ -40,7 +39,8 @@
         <control type="button" id="10">
             <description>trigger</description>
             <onfocus>ReplaceWindow(Home)</onfocus>
-            <onfocus>XBMC.RunScript(script.randomitems,limit=10&amp;unplayed=True&amp;random=True)</onfocus>
+            <!--<onfocus>XBMC.RunScript(script.randomitems,limit=10&amp;unplayed=True&amp;random=True)</onfocus>-->
+            <onfocus>XBMC.RunScript(script.randomandlastitems,limit=10,unwatched=True,method=Random)</onfocus>
             <onfocus>XBMC.RunScript(script.tv.show.next.aired,silent=True)</onfocus>
             <onfocus>SetFocus(11)</onfocus>
             <texturenofocus>-</texturenofocus>

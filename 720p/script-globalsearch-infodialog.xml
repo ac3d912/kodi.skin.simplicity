@@ -230,7 +230,7 @@
                     <width>130</width>
                     <height>45</height>
                     <aspectratio>keep</aspectratio>
-                    <texture>studios/mpaa_general.png</texture>
+                    <texture>ratings/mpaa_general.png</texture>
                     <visible>substring(Container(100).Listitem.Property(Mpaa),Rated G)</visible>
                 </control>
                 <control type="image">
@@ -238,7 +238,7 @@
                     <width>130</width>
                     <height>45</height>
                     <aspectratio>keep</aspectratio>
-                    <texture>studios/mpaa_pg.png</texture>
+                    <texture>ratings/mpaa_pg.png</texture>
                     <visible>substring(Container(100).Listitem.Property(Mpaa),Rated PG f)</visible>
                 </control>
                 <control type="image">
@@ -246,7 +246,7 @@
                     <width>130</width>
                     <height>45</height>
                     <aspectratio>keep</aspectratio>
-                    <texture>studios/mpaa_pg13.png</texture>
+                    <texture>ratings/mpaa_pg13.png</texture>
                     <visible>substring(Container(100).Listitem.Property(Mpaa),Rated PG-13)</visible>
                 </control>
                 <control type="image">
@@ -254,7 +254,7 @@
                     <width>130</width>
                     <height>45</height>
                     <aspectratio>keep</aspectratio>
-                    <texture>studios/mpaa_restricted.png</texture>
+                    <texture>ratings/mpaa_restricted.png</texture>
                     <visible>substring(Container(100).Listitem.Property(Mpaa),Rated R)</visible>
                 </control>
                 <control type="image">
@@ -262,7 +262,7 @@
                     <width>130</width>
                     <height>45</height>
                     <aspectratio>keep</aspectratio>
-                    <texture>studios/mpaa_nc17.png</texture>
+                    <texture>ratings/mpaa_nc17.png</texture>
                     <visible>substring(Container(100).Listitem.Property(Mpaa),Rated NC)</visible>
                 </control>
             </control>
@@ -281,7 +281,7 @@
                     <width>130</width>
                     <height>45</height>
                     <aspectratio>keep</aspectratio>
-                    <texture>tvrating/tv-g.png</texture>
+                    <texture>ratings/tv-g.png</texture>
                     <visible>substring(Container(100).Listitem.Property(Mpaa),TV-G)</visible>
                 </control>
                 <control type="image">
@@ -289,7 +289,7 @@
                     <width>130</width>
                     <height>45</height>
                     <aspectratio>keep</aspectratio>
-                    <texture>tvrating/tv-pg.png</texture>
+                    <texture>ratings/tv-pg.png</texture>
                     <visible>substring(Container(100).Listitem.Property(Mpaa),TV-PG)</visible>
                 </control>
                 <control type="image">
@@ -297,7 +297,7 @@
                     <width>130</width>
                     <height>45</height>
                     <aspectratio>keep</aspectratio>
-                    <texture>tvrating/tv-y.png</texture>
+                    <texture>ratings/tv-y.png</texture>
                     <visible>substring(Container(100).Listitem.Property(Mpaa),TV-Y)</visible>
                 </control>
                 <control type="image">
@@ -305,7 +305,7 @@
                     <width>130</width>
                     <height>45</height>
                     <aspectratio>keep</aspectratio>
-                    <texture>tvrating/tv-ma.png</texture>
+                    <texture>ratings/tv-ma.png</texture>
                     <visible>substring(Container(100).Listitem.Property(Mpaa),TV-MA)</visible>
                 </control>
                 <control type="image">
@@ -313,7 +313,7 @@
                     <width>130</width>
                     <height>45</height>
                     <aspectratio>keep</aspectratio>
-                    <texture>tvrating/tv-14.png</texture>
+                    <texture>ratings/tv-14.png</texture>
                     <visible>substring(Container(100).Listitem.Property(Mpaa),TV-14)</visible>
                 </control>
             </control>

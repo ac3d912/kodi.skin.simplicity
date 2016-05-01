@@ -221,34 +221,6 @@
                     <height>32</height>
                     <texture>$INFO[ListItem.StarRating]</texture>
                 </control>
-                <control type="button" id="14">
-                    <description>Decrease Rating</description>
-                    <posx>153</posx>
-                    <posy>-19</posy>
-                    <width>48</width>
-                    <height>70</height>
-                    <onclick>DecreaseRating</onclick>
-                    <texturenofocus>simplicity/scroll-down-2.png</texturenofocus>
-                    <texturefocus>simplicity/scroll-down-focus.png</texturefocus>
-                    <onleft>9000</onleft>
-                    <onright>15</onright>
-                    <ondown>14</ondown>
-                    <onup>14</onup>
-                </control>
-                <control type="button" id="15">
-                    <description>Increase Rating</description>
-                    <posx>201</posx>
-                    <posy>-19</posy>
-                    <width>48</width>
-                    <height>70</height>
-                    <onclick>IncreaseRating</onclick>
-                    <texturenofocus>simplicity/scroll-up-2.png</texturenofocus>
-                    <texturefocus>simplicity/scroll-up-focus.png</texturefocus>
-                    <onleft>14</onleft>
-                    <onright>15</onright>
-                    <ondown>15</ondown>
-                    <onup>15</onup>
-                </control>
             </control>
             <control type="label">
                 <description>Comment Title</description>
@@ -275,38 +247,6 @@
             <control type="group" id="9000">
                 <posx>1</posx>
                 <posy>240</posy>
-                <control type="button" id ="10">
-                    <description>Ok button</description>
-                    <posx>0</posx>
-                    <posy>0</posy>
-                    <width>240</width>
-                    <height>41</height>
-                    <label>$LOCALIZE[186]</label>
-                    <font>Simplicity_20_Bold</font>
-                    <align>right</align>
-                    <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
-                    <texturefocus>simplicity/list-selector.png</texturefocus>
-                    <onleft>10</onleft>
-                    <onright>14</onright>
-                    <onup>13</onup>
-                    <ondown>11</ondown>
-                </control>
-                <control type="button" id="11">
-                    <description>Cancel button</description>
-                    <posx>0</posx>
-                    <posy>40</posy>
-                    <width>240</width>
-                    <height>41</height>
-                    <label>$LOCALIZE[222]</label>
-                    <font>Simplicity_20_Bold</font>
-                    <align>right</align>
-                    <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
-                    <texturefocus>simplicity/list-selector.png</texturefocus>
-                    <onleft>11</onleft>
-                    <onright>14</onright>
-                    <onup>10</onup>
-                    <ondown>12</ondown>
-                </control>
                 <control type="button" id="12">
                     <description>Album Info button</description>
                     <posx>0</posx>
@@ -323,7 +263,7 @@
                     <onup>11</onup>
                     <ondown>13</ondown>
                 </control>
-                <control type="button" id ="13">
+                <control type="button" id="13">
                     <description>Get Thumb button</description>
                     <posx>0</posx>
                     <posy>120</posy>
@@ -337,6 +277,22 @@
                     <onleft>13</onleft>
                     <onright>14</onright>
                     <onup>12</onup>
+                    <ondown>7</ondown>
+                </control>
+                <control type="button" id="7">
+                    <description>Set Rating</description>
+                    <posx>0</posx>
+                    <posy>160</posy>
+                    <width>200</width>
+                    <height>41</height>
+                    <label>38023</label>
+                    <font>Simplicity_20_Bold</font>
+                    <align>right</align>
+                    <texturenofocus>simplicity/menuitemnf.png</texturenofocus>
+                    <texturefocus>simplicity/list-selector.png</texturefocus>
+                    <onleft>7</onleft>
+                    <onright>14</onright>
+                    <onup>13</onup>
                     <ondown>10</ondown>
                 </control>
             </control>

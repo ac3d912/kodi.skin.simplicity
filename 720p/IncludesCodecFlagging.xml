@@ -5,35 +5,35 @@
             <description>Rated PG</description>
             <width>76</width>
             <aspectratio>keep</aspectratio>
-            <texture>tvrating/tv-pg.png</texture>
+            <texture>ratings/tv-pg.png</texture>
             <visible>substring(listitem.mpaa,TV-PG)</visible>
         </control>
         <control type="image">
             <description>Rated Y</description>
             <width>76</width>
             <aspectratio>keep</aspectratio>
-            <texture>tvrating/tv-y.png</texture>
+            <texture>ratings/tv-y.png</texture>
             <visible>substring(listitem.mpaa,TV-Y)</visible>
         </control>
         <control type="image">
             <description>Rated MA</description>
             <width>76</width>
             <aspectratio>keep</aspectratio>
-            <texture>tvrating/tv-ma.png</texture>
+            <texture>ratings/tv-ma.png</texture>
             <visible>substring(listitem.mpaa,TV-MA)</visible>
         </control>
         <control type="image">
             <description>Rated G</description>
             <width>76</width>
             <aspectratio>keep</aspectratio>
-            <texture>tvrating/tv-g.png</texture>
+            <texture>ratings/tv-g.png</texture>
             <visible>substring(listitem.mpaa,TV-G)</visible>
         </control>
         <control type="image">
             <description>Rated 14</description>
             <width>76</width>
             <aspectratio>keep</aspectratio>
-            <texture>tvrating/tv-14.png</texture>
+            <texture>ratings/tv-14.png</texture>
             <visible>substring(listitem.mpaa,TV-14)</visible>
         </control>
     </include>
@@ -92,7 +92,7 @@
             <width>190</width>
             <height>103</height>
             <aspectratio>keep</aspectratio>
-            <texture>studios/mpaa_general.png</texture>
+            <texture>ratings/mpaa_general.png</texture>
             <visible>substring(listitem.mpaa,Rated G)</visible>
         </control>
         <control type="image">
@@ -100,7 +100,7 @@
             <width>190</width>
             <height>103</height>
             <aspectratio>keep</aspectratio>
-            <texture>studios/mpaa_pg.png</texture>
+            <texture>ratings/mpaa_pg.png</texture>
             <visible>substring(listitem.mpaa,Rated PG)</visible>
         </control>
         <control type="image">
@@ -108,7 +108,7 @@
             <width>190</width>
             <height>103</height>
             <aspectratio>keep</aspectratio>
-            <texture>studios/mpaa_pg13.png</texture>
+            <texture>ratings/mpaa_pg13.png</texture>
             <visible>substring(listitem.mpaa,Rated PG-13)</visible>
         </control>
         <control type="image">
@@ -116,7 +116,7 @@
             <width>190</width>
             <height>103</height>
             <aspectratio>keep</aspectratio>
-            <texture>studios/mpaa_restricted.png</texture>
+            <texture>ratings/mpaa_restricted.png</texture>
             <visible>substring(Listitem.mpaa,Rated R)</visible>
         </control>
         <control type="image">
@@ -124,7 +124,7 @@
             <width>190</width>
             <height>103</height>
             <aspectratio>keep</aspectratio>
-            <texture>studios/mpaa_nc17.png</texture>
+            <texture>ratings/mpaa_nc17.png</texture>
             <visible>substring(Listitem.mpaa,Rated NC)</visible>
         </control>
     </include>
@@ -199,7 +199,7 @@
             <width>190</width>
             <height>100</height>
             <aspectratio>keep</aspectratio>
-            <texture>studios/mpaa_general.png</texture>
+            <texture>ratings/mpaa_general.png</texture>
             <visible>substring(listitem.mpaa,Rated G)</visible>
         </control>
         <control type="image">
@@ -207,7 +207,7 @@
             <width>190</width>
             <height>100</height>
             <aspectratio>keep</aspectratio>
-            <texture>studios/mpaa_pg.png</texture>
+            <texture>ratings/mpaa_pg.png</texture>
             <visible>substring(listitem.mpaa,Rated PG)</visible>
         </control>
         <control type="image">
@@ -215,7 +215,7 @@
             <width>190</width>
             <height>100</height>
             <aspectratio>keep</aspectratio>
-            <texture>studios/mpaa_pg13.png</texture>
+            <texture>ratings/mpaa_pg13.png</texture>
             <visible>substring(listitem.mpaa,Rated PG-13)</visible>
         </control>
         <control type="image">
@@ -223,7 +223,7 @@
             <width>190</width>
             <height>100</height>
             <aspectratio>keep</aspectratio>
-            <texture>studios/mpaa_restricted.png</texture>
+            <texture>ratings/mpaa_restricted.png</texture>
             <visible>substring(Listitem.mpaa,Rated R)</visible>
         </control>
         <control type="image">
@@ -231,7 +231,7 @@
             <width>190</width>
             <height>100</height>
             <aspectratio>keep</aspectratio>
-            <texture>studios/mpaa_nc17.png</texture>
+            <texture>ratings/mpaa_nc17.png</texture>
             <visible>substring(Listitem.mpaa,Rated NC)</visible>
         </control>
     </include>
@@ -410,7 +410,7 @@
                 <aspectratio>keep</aspectratio>
                 <id>88</id>
                 <width>76</width>
-                <texture>studios/$INFO[ListItem.Studio,,.png]</texture>
+                <texture>resource://resource.images.studios.white/$INFO[ListItem.Studio,,.png]</texture>
             </control>
         </control>
     </include>
@@ -421,14 +421,14 @@
                 <description>Studio</description>
                 <aspectratio>keep</aspectratio>
                 <width>105</width>
-                <texture>studios/$INFO[ListItem.Studio,,.png]</texture>
+                <texture>resource://resource.images.studios.white/$INFO[ListItem.Studio,,.png]</texture>
                 <visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
             </control>
             <control type="image">
                 <description>Studio</description>
                 <aspectratio>keep</aspectratio>
                 <width>105</width>
-                <texture>studios/$INFO[Container().ListItem(1).Studio,,.png]</texture>
+                <texture>resource://resource.images.studios.white/$INFO[Container().ListItem(1).Studio,,.png]</texture>
                 <visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
             </control>
         </control>
@@ -440,13 +440,13 @@
                 <description>Studio</description>
                 <aspectratio>keep</aspectratio>
                 <width>105</width>
-                <texture>optional/studios-color/$INFO[ListItem.Studio,,.png]</texture>
+                <texture>resource://resource.images.studios.coloured/$INFO[ListItem.Studio,,.png]</texture>
             </control>
             <control type="image">
                 <description>Studio</description>
                 <aspectratio>keep</aspectratio>
                 <width>105</width>
-                <texture>optional/studios-color/$INFO[Container().ListItem(1).Studio,,.png]</texture>
+                <texture>resource://resource.images.studios.coloured/$INFO[Container().ListItem(1).Studio,,.png]</texture>
                 <visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
             </control>
         </control>
@@ -459,13 +459,13 @@
                 <aspectratio>keep</aspectratio>
                 <height>40</height>
                 <width>80</width>
-                <texture>studios/$INFO[ListItem.Studio,,.png]</texture>
+                <texture>resource://resource.images.studios.white/$INFO[ListItem.Studio,,.png]</texture>
             </control>
             <control type="image">
                 <description>Studio</description>
                 <aspectratio>keep</aspectratio>
                 <width>80</width>
-                <texture>studios/$INFO[Container().ListItem(1).Studio,,.png]</texture>
+                <texture>resource://resource.images.studios.white/$INFO[Container().ListItem(1).Studio,,.png]</texture>
                 <visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
             </control>
         </control>
@@ -477,13 +477,13 @@
                 <description>Studio</description>
                 <aspectratio>keep</aspectratio>
                 <width>150</width>
-                <texture>studios/$INFO[ListItem.Studio,,.png]</texture>
+                <texture>resource://resource.images.studios.white/$INFO[ListItem.Studio,,.png]</texture>
             </control>
             <control type="image">
                 <description>Studio</description>
                 <aspectratio>keep</aspectratio>
                 <width>150</width>
-                <texture>studios/$INFO[Container().ListItem(1).Studio,,.png]</texture>
+                <texture>resource://resource.images.studios.white/$INFO[Container().ListItem(1).Studio,,.png]</texture>
                 <visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
             </control>
         </control>
@@ -495,13 +495,13 @@
                 <description>Studio</description>
                 <aspectratio>keep</aspectratio>
                 <width>150</width>
-                <texture>optional/studios-color/$INFO[ListItem.Studio,,.png]</texture>
+                <texture>resource://resource.images.studios.coloured/$INFO[ListItem.Studio,,.png]</texture>
             </control>
             <control type="image">
                 <description>Studio</description>
                 <aspectratio>keep</aspectratio>
                 <width>150</width>
-                <texture>optional/studios-color/$INFO[Container().ListItem(1).Studio,,.png]</texture>
+                <texture>resource://resource.images.studios.coloured/$INFO[Container().ListItem(1).Studio,,.png]</texture>
                 <visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
             </control>
         </control>

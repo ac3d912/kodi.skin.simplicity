@@ -324,14 +324,6 @@
                 <animation effect="slide" start="0,0" end="0,-120" time="100">WindowClose</animation>
                 <posx>60</posx>
                 <posy>-51</posy>
-                <!--<control type="image">
-					<posx>787</posx>
-					<posy>37</posy>
-					<width>310</width>
-					<height>65</height>
-					<aspectratio>keep</aspectratio>
-					<texture>simplicity/logo-bg.png</texture>
-				</control>-->
                 <control type="image">
                     <posx>820</posx>
                     <posy>40</posy>
@@ -341,79 +333,8 @@
                     <texture background="true">$INFO[Player.Art(tvshow.clearlogo)]</texture>
                     <visible>Skin.HasSetting(EnableClearartViews)</visible>
                 </control>
-                <!--	<control type="image">
-					<posx>820</posx>
-					<posy>40</posy>
-					<width>294</width>
-					<height>114</height>
-					<aspectratio>keep</aspectratio>
-					<texture background="true">$INFO[Player.FolderPath]logo.png</texture>
-				</control>-->
-                <!--<control type="image">
-					<posx>993</posx>
-					<posy>22</posy>
-					<width>100</width>
-					<height>100</height>
-					<align>center</align>
-					<aligny>center</aligny>
-					<aspectratio>keep</aspectratio>
-					<texture>studios/$INFO[VideoPlayer.Studio,,.png]</texture>
-					<visible>!Skin.HasSetting(UseColoredFlags)</visible>
-				</control>
-				<control type="image">
-					<posx>993</posx>
-					<posy>22</posy>
-					<width>100</width>
-					<height>100</height>
-					<align>center</align>
-					<aligny>center</aligny>
-					<aspectratio>keep</aspectratio>
-					<texture>optional/studios-color/$INFO[VideoPlayer.Studio,,.png]</texture>
-					<visible>Skin.HasSetting(UseColoredFlags)</visible>
-				</control>-->
                 <control type="group">
                     <!-- Chapter Count images -->
-                    <!--	<control type="label" id="1">
-				<description>Chapter Pos No</description>
-				<posx>1070</posx>
-				<posy>47</posy>
-				<width>200</width>
-				<height>20</height>
-				<align>right</align>
-				<aligny>center</aligny>
-				<font>Simplicity_20</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<label>$LOCALIZE[21396]</label>
-			</control>
-			<control type="label" id="1">
-				<description>Chapter Pos No</description>
-				<posx>937</posx>
-				<posy>69</posy>
-				<width>200</width>
-				<height>20</height>
-				<align>center</align>
-				<aligny>center</aligny>
-				<font>Simplicity_18</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<label>$INFO[player.chapter]$INFO[player.chaptercount, / ]</label>
-				<visible>player.chaptercount</visible>
-			</control>
-			<control type="label" id="1">
-				<description>Chapter Pos No</description>
-				<posx>937</posx>
-				<posy>69</posy>
-				<width>200</width>
-				<height>20</height>
-				<align>center</align>
-				<aligny>center</aligny>
-				<font>Simplicity_18</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<label>01 / 01</label>
-				<visible>!player.chaptercount</visible>
-			</control>-->
                 </control>
             </control>
             <control type="group">
@@ -423,13 +344,6 @@
                 <animation effect="slide" start="0,0" end="0,-120" time="100">WindowClose</animation>
                 <posx>60</posx>
                 <posy>-51</posy>
-                <!--<control type="image">
-					<posx>983</posx>
-					<posy>37</posy>
-					<width>120</width>
-					<height>65</height>
-					<texture>simplicity/logo-bg.png</texture>
-				</control>-->
                 <control type="image">
                     <posx>820</posx>
                     <posy>40</posy>
@@ -439,36 +353,6 @@
                     <texture background="true">$INFO[Player.Art(clearlogo)]</texture>
                     <visible>Skin.HasSetting(EnableClearartViews)</visible>
                 </control>
-                <!--<control type="image">
-					<posx>820</posx>
-					<posy>40</posy>
-					<width>294</width>
-					<height>114</height>
-					<aspectratio>keep</aspectratio>
-					<texture background="true">$INFO[Player.FolderPath]logo.png</texture>
-				</control>-->
-                <!--<control type="image">
-					<posx>993</posx>
-					<posy>22</posy>
-					<width>100</width>
-					<height>100</height>
-					<align>center</align>
-					<aligny>center</aligny>
-					<aspectratio>keep</aspectratio>
-					<texture>studios/$INFO[VideoPlayer.Studio,,.png]</texture>
-					<visible>!Skin.HasSetting(UseColoredFlags)</visible>
-				</control>
-				<control type="image">
-					<posx>993</posx>
-					<posy>22</posy>
-					<width>100</width>
-					<height>100</height>
-					<align>center</align>
-					<aligny>center</aligny>
-					<aspectratio>keep</aspectratio>
-					<texture>optional/studios-color/$INFO[VideoPlayer.Studio,,.png]</texture>
-					<visible>Skin.HasSetting(UseColoredFlags)</visible>
-				</control>-->
             </control>
         </control>
 

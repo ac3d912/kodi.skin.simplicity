@@ -89,6 +89,8 @@
         <posy>126</posy>
         <textureup>simplicity/scroll-up-2.png</textureup>
         <texturedown>simplicity/scroll-down-2.png</texturedown>
+        <textureupdisabled>simplicity/scroll-up-2-disabled.png</textureupdisabled>
+        <texturedowndisabled>simplicity/scroll-down-2-disabled.png</texturedowndisabled>
         <textureupfocus>simplicity/scroll-up-focus.png</textureupfocus>
         <texturedownfocus>simplicity/scroll-down-focus.png</texturedownfocus>
         <align>right</align>
@@ -115,6 +117,8 @@
         <texturenofocus>-</texturenofocus>
         <textureup>simplicity/scroll-up-2.png</textureup>
         <texturedown>simplicity/scroll-down-2.png</texturedown>
+        <textureupdisabled>simplicity/scroll-up-2-disabled.png</textureupdisabled>
+        <texturedowndisabled>simplicity/scroll-down-2-disabled.png</texturedowndisabled>
         <textureupfocus>simplicity/scroll-up-focus.png</textureupfocus>
         <texturedownfocus>simplicity/scroll-down-focus.png</texturedownfocus>
         <font>font13</font>
@@ -133,7 +137,9 @@
         <radiowidth>24</radiowidth>
         <radioheight>24</radioheight>
         <textureradioonfocus>simplicity/radiobutton-focus.png</textureradioonfocus>
+        <textureradioondisabled>simplicity/radiobutton-ondisabled.png</textureradioondisabled>
         <textureradioofffocus>simplicity/radiobutton-nofocus.png</textureradioofffocus>
+        <textureradiooffdisabled>simplicity/radiobutton-offdisabled.png</textureradiooffdisabled>
         <texturefocus>simplicity/button-focus-white.png</texturefocus>
         <texturenofocus>simplicity/button-nofocus.png</texturenofocus>
         <label>$LOCALIZE[215]</label>

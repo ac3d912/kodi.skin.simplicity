@@ -2,7 +2,6 @@
 <window id="0">
 
     <defaultcontrol always="true">9000</defaultcontrol>
-    <allowoverlay>false</allowoverlay>
     <controls>
         <animation type="WindowOpen" reversible="false">
             <effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" />
@@ -659,34 +658,15 @@
             <textcolor>grey3</textcolor>
             <animation effect="fade" start="100" end="0" time="200" >WindowClose</animation>
             <animation effect="fade" start="0" end="100" time="300" delay="700">WindowOpen</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(9000)">Conditional</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(9010)">Conditional</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(8000)">Conditional</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(8002)">Conditional</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(8005)">Conditional</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(8006)">Conditional</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(8007)">Conditional</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(8008)">Conditional</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(8009)">Conditional</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(8010)">Conditional</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(8011)">Conditional</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(8012)">Conditional</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(23)">Conditional</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(24)">Conditional</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(25)">Conditional</animation>
-            <animation effect="fade" start="100" end="20" time="0" condition="ControlGroup(9001).HasFocus">Conditional</animation>
+            <animation effect="fade" start="100" end="20" time="0" condition="Control.HasFocus(9000) | Control.HasFocus(9010) | Control.HasFocus(8000) | Control.HasFocus(8002) | Control.HasFocus(8005) | Control.HasFocus(8006) | Control.HasFocus(8007) | Control.HasFocus(8008) | Control.HasFocus(8009) | Control.HasFocus(8010) | Control.HasFocus(8011) | Control.HasFocus(8012) | Control.HasFocus(23) | Control.HasFocus(24) | Control.HasFocus(25) | ControlGroup(9001).HasFocus">Conditional</animation>
             <visible>!Skin.HasSetting(HideBigHomeLabel)</visible>
         </control>
 
         <!-- END New Home List Images-->
 
-
-
         <!--NEW HOME LIST-->
 
         <control type="wraplist" id="9000">
-            <!--<animation effect="zoom" start="100" end="0" center="640,360" easing="out" tween="back" time="400" >WindowClose</animation>
-			<animation effect="zoom" start="0" end="100" center="640,360" easing="out" tween="back" time="400" >WindowOpen</animation>-->
             <animation effect="fade" end="0" time="100">WindowClose</animation>
             <animation effect="slide" end="0,-10" time="200">WindowOpen</animation>
             <animation effect="slide" end="0,20" time="200" condition="ControlGroup(9001).HasFocus">Conditional</animation>
@@ -700,7 +680,6 @@
             <onright>9000</onright>
             <viewtype>list</viewtype>
             <orientation>horizontal</orientation>
-            <!-- <movement>1</movement> -->
             <focusposition>2</focusposition>
             <scrolltime>200</scrolltime>
             <itemlayout width="200" height="200">
@@ -738,38 +717,14 @@
                     <font>Simplicity_26_Bold</font>
                     <label>$INFO[ListItem.Label]</label>
                     <textcolor>white</textcolor>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8000)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8002)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8005)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8006)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8007)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8008)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8009)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8010)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8011)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8012)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(23)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(24)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(25)">Conditional</animation>
+                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8000) | Control.HasFocus(8002) | Control.HasFocus(8005) | Control.HasFocus(8006) | Control.HasFocus(8007) | Control.HasFocus(8008) | Control.HasFocus(8009) | Control.HasFocus(8010) | Control.HasFocus(8011) | Control.HasFocus(8012) | Control.HasFocus(23) | Control.HasFocus(24) | Control.HasFocus(25)">Conditional</animation>
                     <animation effect="fade" start="100" end="30" time="0" condition="ControlGroup(9001).HasFocus">Conditional</animation>
                     <visible>Skin.HasSetting(AlternateHome)</visible>
                 </control>
                 <control type="image">
                     <animation effect="slide" start="0,0" end="0,-45" time="100" >Focus</animation>
                     <animation effect="slide" start="0,-45" end="0,0" time="100" >Unfocus</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8000)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8002)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8005)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8006)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8007)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8008)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8009)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8010)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8011)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8012)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(23)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(24)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(25)">Conditional</animation>
+                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8000) | Control.HasFocus(8002) | Control.HasFocus(8005) | Control.HasFocus(8006) | Control.HasFocus(8007) | Control.HasFocus(8008) | Control.HasFocus(8009) | Control.HasFocus(8010) | Control.HasFocus(8011) | Control.HasFocus(8012) | Control.HasFocus(23) | Control.HasFocus(24) | Control.HasFocus(25)">Conditional</animation>
                     <animation effect="fade" start="100" end="0" time="100" condition="ControlGroup(9001).HasFocus">Conditional</animation>
                     <posx>55</posx>
                     <posy>75</posy>
@@ -787,19 +742,7 @@
                     <height>110</height>
                     <visible>!Skin.HasSetting(AlternateHome)</visible>
                     <texture>lights.png</texture>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8000)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8002)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8005)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8006)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8007)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8008)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8009)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8010)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8011)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8012)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(23)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(24)">Conditional</animation>
-                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(25)">Conditional</animation>
+                    <animation effect="fade" start="100" end="30" time="0" condition="Control.HasFocus(8000) | Control.HasFocus(8002) | Control.HasFocus(8005) | Control.HasFocus(8006) | Control.HasFocus(8007) | Control.HasFocus(8008) | Control.HasFocus(8009) | Control.HasFocus(8010) | Control.HasFocus(8011) | Control.HasFocus(8012) | Control.HasFocus(23) | Control.HasFocus(24) | Control.HasFocus(25)">Conditional</animation>
                     <animation effect="fade" start="100" end="0" time="100" condition="ControlGroup(9001).HasFocus">Conditional</animation>
                 </control>
             </focusedlayout>
@@ -874,7 +817,7 @@
                     <label2>$INFO[Control.GetLabel(669)]</label2>
                     <icon>special://skin/backgrounds/music.jpg</icon>
                     <thumb>icons/musicicon.png</thumb>
-                    <onclick>ActivateWindow(MusicLibrary,Artists)</onclick>
+                    <onclick>ActivateWindow(Music,Artists)</onclick>
                     <visible>!Skin.HasSetting(HomeMenuNoMusicButton)</visible>
                 </item>
                 <item id="6">
@@ -1088,7 +1031,7 @@
                         <include>ButtonHomeSubCommonValuesHome</include>
                         <align>center</align>
                         <label>$LOCALIZE[31084]</label>
-                        <onclick>ActivateWindow(Videos,Addons,return])</onclick>
+                        <onclick>ActivateWindow(Videos,Addons,return)</onclick>
                     </control>
                 </control>
                 <control type="grouplist" id="9011">
@@ -1109,7 +1052,7 @@
                         <include>ButtonHomeSubCommonValuesHome</include>
                         <align>center</align>
                         <label>$LOCALIZE[133]</label>
-                        <onclick>ActivateWindow(MusicLibrary,Artists)</onclick>
+                        <onclick>ActivateWindow(Music,Artists,return)</onclick>
                         <visible>Library.HasContent(Music) + !Skin.HasSetting(SubMenuNoMusicArtistsButton)</visible>
                     </control>
                     <control type="button" id="90112">
@@ -1118,7 +1061,7 @@
                         <include>ButtonHomeSubCommonValuesHome</include>
                         <align>center</align>
                         <label>$LOCALIZE[132]</label>
-                        <onclick>ActivateWindow(MusicLibrary,Albums)</onclick>
+                        <onclick>ActivateWindow(Music,Albums,return)</onclick>
                         <visible>Library.HasContent(Music) + !Skin.HasSetting(SubMenuNoMusicAlbumsButton)</visible>
                     </control>
                     <control type="button" id="90113">
@@ -1127,7 +1070,7 @@
                         <include>ButtonHomeSubCommonValuesHome</include>
                         <align>center</align>
                         <label>$LOCALIZE[134]</label>
-                        <onclick>ActivateWindow(MusicLibrary,Songs)</onclick>
+                        <onclick>ActivateWindow(Music,Songs,return)</onclick>
                         <visible>Library.HasContent(Music) + !Skin.HasSetting(SubMenuNoMusicSongsButton)</visible>
                     </control>
                     <control type="button" id="90114">
@@ -1136,7 +1079,7 @@
                         <include>ButtonHomeSubCommonValuesHome</include>
                         <align>center</align>
                         <label>$LOCALIZE[744]</label>
-                        <onclick>ActivateWindow(MusicFiles)</onclick>
+                        <onclick>ActivateWindow(Music,Files,return)</onclick>
                         <visible>!Skin.HasSetting(SubMenuNoMusicFilesButton)</visible>
                     </control>
                     <control type="button" id="90115">
@@ -1145,7 +1088,7 @@
                         <include>ButtonHomeSubCommonValuesHome</include>
                         <align>center</align>
                         <label>$LOCALIZE[14022]</label>
-                        <onclick>ActivateWindow(MusicLibrary,$root)</onclick>
+                        <onclick>ActivateWindow(Music,$root)</onclick>
                         <visible>Library.HasContent(Music)</visible>
                     </control>
                     <control type="button" id="90116">
@@ -1163,7 +1106,7 @@
                         <include>ButtonHomeSubCommonValuesHome</include>
                         <align>center</align>
                         <label>$LOCALIZE[31084]</label>
-                        <onclick>ActivateWindow(MusicLibrary,Addons,return)</onclick>
+                        <onclick>ActivateWindow(Music,Addons,return)</onclick>
                         <visible>!Skin.HasSetting(SubMenuNoMusicPluginsButton)</visible>
                     </control>
                 </control>
@@ -1368,7 +1311,7 @@
                         <include>ButtonHomeSubCommonValuesHome</include>
                         <label>$LOCALIZE[31481]</label>
                         <align>center</align>
-                        <onclick>ActivateWindow(MusicLibrary,Addons,return)</onclick>
+                        <onclick>ActivateWindow(Music,Addons,return)</onclick>
                     </control>
                     <control type="button" id="90153">
                         <animation effect="slide" start="0,0" end="0,-10" time="100" >Focus</animation>

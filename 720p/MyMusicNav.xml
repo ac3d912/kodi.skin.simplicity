@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="502">
     <defaultcontrol always="true">50</defaultcontrol>
-    <allowoverlay>false</allowoverlay>
     <views>50,58,66,500,509,511,512,513,514,515,516,517,518<!--,519--></views>
     <visible>!Skin.HasSetting(KioskMode)</visible>
     <controls>
@@ -484,7 +483,7 @@
                     <onleft>50</onleft>
                     <onright>4</onright>
                     <onup>2</onup>
-                    <ondown>99</ondown>
+                    <ondown>16</ondown>
                 </control>
                 <control type="togglebutton" id="4">
                     <description>Sort asc</description>
@@ -494,26 +493,13 @@
                     <onleft>3</onleft>
                     <onright>50</onright>
                     <onup>2</onup>
-                    <ondown>99</ondown>
+                    <ondown>16</ondown>
                     <width>83</width>
                     <height>67</height>
                     <texturefocus>simplicity/settings-toggle-on.png</texturefocus>
                     <texturenofocus>simplicity/settings-toggle-off.png</texturenofocus>
                     <alttexturefocus>simplicity/settings-toggle-on-focus.png</alttexturefocus>
                     <alttexturenofocus>simplicity/settings-toggle-off-focus.png</alttexturenofocus>
-                </control>
-                <control type="radiobutton" id="99">
-                    <description>Library button</description>
-                    <posx>0</posx>
-                    <posy>80</posy>
-                    <label>$LOCALIZE[29800]</label>
-                    <onclick>ReplaceWindow(MusicFiles)</onclick>
-                    <selected>Window.IsVisible(MusicLibrary)</selected>
-                    <include>ButtonCommonValuesSub</include>
-                    <onleft>50</onleft>
-                    <onright>50</onright>
-                    <onup>3</onup>
-                    <ondown>16</ondown>
                 </control>
                 <control type="radiobutton" id="16">
                     <description>PartyMode</description>
@@ -523,7 +509,7 @@
                     <include>ButtonCommonValuesSub</include>
                     <onleft>50</onleft>
                     <onright>50</onright>
-                    <onup>99</onup>
+                    <onup>4</onup>
                     <ondown>98</ondown>
                 </control>
                 <control type="radiobutton" id="98">
