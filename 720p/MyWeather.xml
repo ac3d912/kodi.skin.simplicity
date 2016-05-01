@@ -850,7 +850,7 @@
                 <top>0</top>
                 <height>400</height>
                 <width>650</width>
-                <texture>dialogs/dialog-bg.png</texture>
+                <texture>simplicity/dialog-bg.png</texture>
             </control>
             <control type="wraplist" id="16001">
                 <animation effect="fade" end="0" time="100">WindowClose</animation>
