@@ -842,6 +842,8 @@
             </control>
         </control>
         <control type="group">
+            <animation effect="fade" end="0" time="100">WindowClose</animation>
+            <animation effect="slide" end="0,-10" time="200">WindowOpen</animation>
             <visible>Skin.HasSetting(WeatherShowMaps)</visible>
             <left>600</left>
             <top>75</top>
@@ -853,8 +855,6 @@
                 <texture>simplicity/dialog-bg.png</texture>
             </control>
             <control type="wraplist" id="16001">
-                <animation effect="fade" end="0" time="100">WindowClose</animation>
-                <animation effect="slide" end="0,-10" time="200">WindowOpen</animation>
                 <orientation>horizontal</orientation>
                 <top>20</top>
                 <left>25</left>
