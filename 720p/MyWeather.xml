@@ -846,18 +846,18 @@
             <animation effect="slide" end="0,-10" time="200">WindowOpen</animation>
             <visible>Skin.HasSetting(WeatherShowMaps)</visible>
             <left>600</left>
-            <top>75</top>
+            <top>100</top>
             <control type="image">
                 <left>0</left>
                 <top>0</top>
-                <height>400</height>
-                <width>650</width>
+                <height>390</height>
+                <width>640</width>
                 <texture>simplicity/dialog-bg.png</texture>
             </control>
             <control type="wraplist" id="16001">
                 <orientation>horizontal</orientation>
-                <top>20</top>
-                <left>25</left>
+                <top>5</top>
+                <left>20</left>
                 <height>400</height>
                 <width>600</width>
                 <onleft>16001</onleft>
