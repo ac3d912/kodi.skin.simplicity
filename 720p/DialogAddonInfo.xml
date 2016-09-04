@@ -474,8 +474,8 @@
                     <texturefocus border="5">simplicity/list-selector.png</texturefocus>
                     <onleft>60</onleft>
                     <onright>60</onright>
-                    <onup>10</onup>
-                    <ondown>11</ondown>
+                    <onup>13</onup>
+                    <ondown>12</ondown>
                </control>
             </control>
         </control>

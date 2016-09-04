@@ -134,8 +134,8 @@
         <posy>200</posy>
         <width>300</width>
         <height>42</height>
-        <radiowidth>24</radiowidth>
-        <radioheight>24</radioheight>
+        <radiowidth>20</radiowidth>
+        <radioheight>20</radioheight>
         <textureradioonfocus>simplicity/radiobutton-focus.png</textureradioonfocus>
         <textureradioondisabled>simplicity/radiobutton-ondisabled.png</textureradioondisabled>
         <textureradioofffocus>simplicity/radiobutton-nofocus.png</textureradioofffocus>
