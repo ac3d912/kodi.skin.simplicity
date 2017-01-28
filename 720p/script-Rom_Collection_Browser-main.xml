@@ -560,7 +560,7 @@
 							<align>justify</align>
 							<font>Simplicity_18</font>
 							<label>$INFO[ListItem.Property(plot)]</label>
-							<!--<autoscroll delay="3000" time="1000" repeat="10000">!Control.HasFocus(2200)</autoscroll>-->
+							<autoscroll delay="3000" time="1000" repeat="10000">!Control.HasFocus(2200)</autoscroll>
 						</control>
 					</control>
 				</control>
@@ -941,7 +941,7 @@
 							<align>justify</align>
 							<font>Simplicity_20</font>
 							<label>$INFO[ListItem.Property(plot)]</label>
-							<!--<autoscroll delay="3000" time="1000" repeat="10000">!Control.HasFocus(2201)</autoscroll>-->
+							<autoscroll delay="3000" time="1000" repeat="10000">!Control.HasFocus(2201)</autoscroll>
 						</control>
 					</control>
 				</control>
@@ -1114,12 +1114,8 @@
         <control type="group">
             <posx>-30</posx>
             <posy>0</posy>
-            <animation effect="slide" start="0,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus | ControlGroup(9001).HasFocus | ControlGroup(9002).HasFocus | 
-                                                                                                                                                                ControlGroup(9003).HasFocus | ControlGroup(9004).HasFocus | ControlGroup(9005).HasFocus |
-                                                                                                                                                                ControlGroup(9006).HasFocus | Control.HasFocus(8999)">Conditional</animation>
-            <animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus | ControlGroup(9001).HasFocus | ControlGroup(9002).HasFocus | 
-                                                                                                                                                                ControlGroup(9003).HasFocus | ControlGroup(9004).HasFocus | ControlGroup(9005).HasFocus |
-                                                                                                                                                                ControlGroup(9006).HasFocus | Control.HasFocus(8999)">WindowClose</animation>
+            <animation effect="slide" start="0,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus | ControlGroup(9001).HasFocus | ControlGroup(9002).HasFocus | ControlGroup(9003).HasFocus | ControlGroup(9004).HasFocus | ControlGroup(9005).HasFocus | ControlGroup(9006).HasFocus | Control.HasFocus(8999)">Conditional</animation>
+            <animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus | ControlGroup(9001).HasFocus | ControlGroup(9002).HasFocus | ControlGroup(9003).HasFocus | ControlGroup(9004).HasFocus | ControlGroup(9005).HasFocus | ControlGroup(9006).HasFocus | Control.HasFocus(8999)">WindowClose</animation>
             <control type="group">
                 <animation effect="slide" end="-240,0" time="300" tween="quadratic" easing="out">WindowClose</animation>
                 <animation effect="slide" start="-15,0" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
@@ -1737,8 +1733,6 @@
                     <width>200</width>
                     <height>30</height>
                     <include>ButtonCommonValuesSub</include>
-                    <radiowidth>83</radiowidth>
-                    <radioheight>67</radioheight>
                     <label>$ADDON[script.games.rom.collection.browser 32404]</label>
                     <onleft>200</onleft>
                     <onright>200</onright>
